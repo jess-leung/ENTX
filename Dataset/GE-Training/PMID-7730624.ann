@@ -1,0 +1,39 @@
+T1	Protein 42 47	NF-E1
+T2	Protein 49 52	YY1
+T3	Protein 115 123	DR alpha
+T4	Protein 245 253	DR alpha
+T5	Protein 496 504	DR alpha
+T6	Protein 606 613	DR beta
+T7	Protein 639 647	DQ alpha
+T8	Protein 748 756	DR alpha
+T9	Protein 761 769	DP alpha
+T10	Protein 808 816	DQ alpha
+T11	Protein 844 849	NF-E1
+T12	Protein 851 854	YY1
+*	Equiv T1 T2
+*	Equiv T11 T12
+T13	Binding 31 38	binding
+T14	Negative_regulation 466 475	decreased
+T15	Entity 505 513	promoter
+T16	Binding 735 740	binds
+T17	Entity 793 800	element
+T18	Binding 900 907	binding
+E1	Binding:T13 Theme:T1 Theme2:T3
+E2	Negative_regulation:T14 Theme:T5 Site:T15
+E3	Binding:T16 Theme:T10 Site:T17
+E4	Binding:T18 Theme:T11
+M1	Negation E3
+
+T19	Entity 688 714	transcriptional start site
+R1	Protein-Component  Arg1:T7 Arg2:T19
+T20	Entity 233 237	exon
+R2	Protein-Component  Arg1:T4 Arg2:T20
+T21	Entity 192 219	start site of transcription
+R3	Protein-Component  Arg1:T4 Arg2:T21
+R4	Protein-Component Arg1:T5 Arg2:T15
+R5	Protein-Component Arg1:T10 Arg2:T17
+T22	Entity 570 577	element
+R6	Protein-Component  Arg1:T6 Arg2:T22
+T23	Entity 157 164	element
+R7	Protein-Component  Arg1:T4 Arg2:T23
+R8	Protein-Component Arg1:T6 Arg2:T19

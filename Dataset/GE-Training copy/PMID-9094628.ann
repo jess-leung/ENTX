@@ -1,0 +1,9 @@
+T1	Protein 1596 1599	p50
+T2	Protein 1738 1741	p50
+T3	Protein 1744 1747	p65
+T4	Protein 1753 1758	Ets-1
+T5	Binding 1605 1610	binds
+T6	Binding 1619 1636	fails to interact
+E1	Binding:T5 Theme:T1
+E2	Binding:T6 Theme:T1
+M1	Negation E2

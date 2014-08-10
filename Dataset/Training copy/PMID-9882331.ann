@@ -1,0 +1,24 @@
+T1	Protein 35 38	tax
+T2	Protein 57 70	interleukin-2
+T3	Protein 200 203	Tax
+T4	Protein 397 400	Tax
+T5	Protein 431 444	interleukin-2
+T6	Protein 446 450	IL-2
+T7	Protein 503 506	Tax
+T8	Protein 552 556	IL-2
+T9	Protein 570 574	IL-2
+T10	Protein 588 591	Tax
+T11	Protein 726 729	Tax
+T12	Protein 824 828	IL-2
+T13	Protein 1027 1030	Tax
+T14	Protein 1054 1057	Tax
+T15	Protein 1124 1127	Tax
+T16	Protein 1152 1156	IL-2
+T17	Protein 1240 1244	IL-2
+*	Equiv T5 T6
+T18	Entity 625 634	NF-kappaB
+T19	Entity 643 709	cyclic AMP-responsive element-like sequence in the HTLV-1 promoter
+T20	Entity 643 686	cyclic AMP-responsive element-like sequence
+T21	Entity 643 653	cyclic AMP
+T22	Entity 788 797	NF-kappaB
+T23	Entity 874 877	CRE

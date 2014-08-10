@@ -1,0 +1,6 @@
+T1	Protein 415 424	TNF-alpha
+T2	Protein 709 714	IL-10
+T3	Protein 906 911	IL-10
+T4	Binding 390 397	binding
+E1	Binding:T4 Theme:T1
+M1	Speculation E1

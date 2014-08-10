@@ -1,0 +1,34 @@
+T1	Protein 134 137	p65
+T2	Protein 668 671	p50
+T3	Protein 672 675	p65
+T4	Protein 909 912	p50
+T5	Protein 917 920	p65
+T6	Protein 935 938	p65
+T7	Protein 1063 1066	p65
+T8	Protein 1166 1177	cathepsin G
+T9	Protein 1183 1195	proteinase 3
+T10	Protein 1363 1374	cathepsin G
+T11	Protein 1543 1546	p65
+T12	Protein 1584 1587	p65
+T13	Protein 1613 1624	cathepsin G
+T14	Localization 644 653	liberated
+T15	Positive_regulation 644 653	liberated
+T16	Gene_expression 1239 1248	expressed
+T17	Gene_expression 1410 1418	detected
+E1	Localization:T14 Theme:T3
+E2	Positive_regulation:T15 Theme:E1
+E3	Positive_regulation:T15 Theme:E4
+E4	Localization:T14 Theme:T2
+E5	Gene_expression:T16 Theme:T8
+E6	Gene_expression:T16 Theme:T9
+E7	Gene_expression:T17 Theme:T8
+E8	Gene_expression:T17 Theme:T9
+M1	Negation E5
+M2	Negation E6
+
+T18	Entity 676 683	complex
+R1	Subunit-Complex  Arg1:T3 Arg2:T18
+R2	Subunit-Complex Arg1:T2 Arg2:T18
+T19	Entity 863 887	faster-migrating complex
+R3	Subunit-Complex  Arg1:T5 Arg2:T19
+R4	Subunit-Complex Arg1:T4 Arg2:T19

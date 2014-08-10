@@ -1,0 +1,46 @@
+T1	Protein 22 25	Tax
+T2	Protein 372 375	Tax
+T3	Protein 493 496	Tax
+T4	Protein 575 578	Tax
+T5	Protein 667 670	Tax
+T6	Protein 842 845	Tax
+T7	Protein 1112 1127	I kappa B alpha
+T8	Protein 1359 1363	p105
+T9	Protein 1392 1395	p50
+T10	Protein 1486 1489	Tax
+T11	Protein 1638 1641	Tax
+T12	Protein 1650 1654	HsN3
+T13	Protein 1760 1764	HsN3
+T14	Protein 1796 1799	Tax
+T15	Protein 1844 1847	Tax
+T16	Protein 1860 1864	p100
+T17	Protein 1868 1871	p65
+T18	Protein 1872 1887	I kappa B alpha
+T19	Binding 0 11	Interaction
+T20	Binding 680 684	bind
+T21	Positive_regulation 1086 1090	Upon
+T22	Phosphorylation 1131 1145	phosphorylated
+T23	Protein_catabolism 1170 1178	degraded
+T24	Binding 1609 1629	physical interaction
+T25	Binding 1732 1752	physical association
+T26	Binding 1829 1840	interaction
+E1	Binding:T19 Theme:T1
+E2	Binding:T20 Theme:T5
+E3	Positive_regulation:T21 Theme:E6
+E4	Positive_regulation:T21 Theme:E5
+E5	Phosphorylation:T22 Theme:T7
+E6	Protein_catabolism:T23 Theme:T7
+E7	Binding:T24 Theme:T11 Theme2:T12
+E8	Binding:T25 Theme:T13 Theme2:T14
+E9	Binding:T26 Theme:T15 Theme2:T16 Theme3:T18
+E10	Binding:T26 Theme:T15 Theme2:T17 Theme3:T18
+M1	Negation E2
+
+T27	Entity 1676 1686	proteasome
+R1	Subunit-Complex  Arg1:T12 Arg2:T27
+T28	Entity 1765 1775	proteasome
+R2	Subunit-Complex  Arg1:T13 Arg2:T28
+T29	Entity 1670 1686	human proteasome
+R3	Subunit-Complex  Arg1:T12 Arg2:T29
+T30	Entity 1381 1391	NF-kappa B
+R4	Subunit-Complex  Arg1:T9 Arg2:T30

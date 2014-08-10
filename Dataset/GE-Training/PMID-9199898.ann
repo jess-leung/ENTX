@@ -1,0 +1,14 @@
+T1	Protein 574 601	tumor necrosis factor alpha
+T2	Protein 603 613	TNF- alpha
+T3	Protein 843 852	TNF-alpha
+T4	Protein 991 994	p65
+T5	Protein 995 998	p50
+*	Equiv T1 T2
+T6	Binding 999 1010	heterodimer
+E1	Binding:T6 Theme:T4 Theme2:T5
+R1	Subunit-Complex Arg1:T4 Arg2:T6
+
+T7	Entity 1018 1028	NF-kappa B
+R2	Subunit-Complex  Arg1:T5 Arg2:T7
+R3	Subunit-Complex Arg1:T4 Arg2:T7
+R4	Subunit-Complex Arg1:T5 Arg2:T6

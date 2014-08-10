@@ -1,0 +1,31 @@
+T1	Protein 76 81	ZEBRA
+T2	Protein 176 181	ZEBRA
+T3	Protein 301 306	ZEBRA
+T4	Protein 493 498	ZEBRA
+T5	Protein 685 690	ZEBRA
+T6	Protein 969 974	ZEBRA
+T7	Protein 1046 1051	ZEBRA
+T8	Protein 1181 1186	ZEBRA
+T9	Protein 1321 1326	ZEBRA
+T10	Protein 1395 1400	ZEBRA
+T11	Protein 1583 1588	ZEBRA
+T12	Phosphorylation 1546 1561	phosphorylation
+T13	Entity 1565 1575	serine 186
+T14	Regulation 1608 1617	influence
+T15	Binding 1629 1640	recognition
+E1	Phosphorylation:T12 Theme:T11 Site:T13
+E2	Regulation:T14 Theme:E3 Cause:E1
+E3	Binding:T15 Theme:T11
+M1	Speculation E2
+
+T16	Entity 23 29	serine
+R1	Protein-Component  Arg1:T1 Arg2:T16
+T17	Entity 37 49	basic domain
+R2	Protein-Component  Arg1:T1 Arg2:T17
+T18	Entity 1284 1291	alanine
+R3	Protein-Component  Arg1:T9 Arg2:T18
+T19	Entity 1270 1280	serine 186
+R4	Protein-Component  Arg1:T9 Arg2:T19
+R5	Protein-Component Arg1:T11 Arg2:T13
+T20	Entity 1299 1317	DNA-binding domain
+R6	Protein-Component  Arg1:T9 Arg2:T20

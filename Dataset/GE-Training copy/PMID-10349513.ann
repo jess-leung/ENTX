@@ -1,0 +1,32 @@
+T1	Protein 29 40	beta-globin
+T2	Protein 163 174	beta-globin
+T3	Protein 641 652	beta-globin
+T4	Protein 780 791	beta-globin
+T5	Protein 864 870	GATA-1
+T6	Protein 875 879	Sp-1
+T7	Protein 1055 1062	DNase 1
+T8	Protein 1209 1220	beta-globin
+T9	Protein 1347 1358	beta-globin
+T10	Protein 1417 1428	beta-globin
+T11	Protein 1596 1607	beta-globin
+T12	Positive_regulation 79 88	increased
+T13	Gene_expression 89 99	expression
+T14	Transcription 196 220	transcriptionally-active
+T15	Positive_regulation 1181 1205	increased the proportion
+T16	Entity 1221 1230	promoters
+T17	Positive_regulation 1334 1343	increases
+T18	Transcription 1364 1377	transcription
+T19	Positive_regulation 1382 1391	induction
+T20	Positive_regulation 1586 1595	increased
+T21	Gene_expression 1613 1623	expression
+E1	Positive_regulation:T12 Theme:E2
+E2	Gene_expression:T13 Theme:T1
+E3	Transcription:T14 Theme:T2
+E4	Positive_regulation:T15 Theme:T8 Site:T16
+E5	Positive_regulation:T17 Theme:E8
+E6	Positive_regulation:T17 Theme:E7
+E7	Transcription:T18 Theme:T9
+E8	Positive_regulation:T19 Theme:T9
+E9	Positive_regulation:T20 Theme:E10
+E10	Gene_expression:T21 Theme:T11
+M1	Speculation E3

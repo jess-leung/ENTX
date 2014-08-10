@@ -1,0 +1,18 @@
+T1	Protein 601 605	AML1
+T2	Protein 606 614	CBF beta
+T3	Protein 628 633	c-Myb
+T4	Protein 644 649	MZF-1
+T5	Positive_regulation 583 589	active
+T6	Gene_expression 676 685	expressed
+E1	Positive_regulation:T5 Theme:T1
+E2	Positive_regulation:T5 Theme:T2
+E3	Positive_regulation:T5 Theme:T4
+E4	Positive_regulation:T5 Theme:T3
+E5	Gene_expression:T6 Theme:T1
+E6	Gene_expression:T6 Theme:T4
+E7	Gene_expression:T6 Theme:T2
+E8	Gene_expression:T6 Theme:T3
+
+T7	Entity 601 614	AML1/CBF beta
+R1	Subunit-Complex  Arg1:T2 Arg2:T7
+R2	Subunit-Complex Arg1:T1 Arg2:T7

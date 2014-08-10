@@ -1,0 +1,71 @@
+T1	Protein 347 350	CD4
+T2	Protein 351 355	CD25
+T3	Protein 1062 1067	Foxp3
+T4	Protein 1138 1141	CD4
+T5	Protein 1142 1146	CD25
+T6	Protein 1256 1261	Foxp3
+T7	Protein 1690 1695	Foxp3
+T8	Protein 1731 1736	Foxp3
+T9	Protein 1794 1799	Foxp3
+T10	Protein 1856 1859	Tax
+T11	Protein 1950 1953	CD4
+T12	Protein 1954 1958	CD25
+T13	Protein 2005 2010	Foxp3
+T14	Protein 2127 2132	Foxp3
+T15	Protein 2179 2184	Foxp3
+T16	Protein 2317 2322	Foxp3
+T17	Protein 2533 2537	IL-2
+T18	Protein 2583 2588	Foxp3
+T19	Protein 2784 2789	Foxp3
+T20	Protein 2992 2997	Foxp3
+T21	Protein 3177 3182	Foxp3
+T22	Protein 3206 3211	Foxp3
+T23	Protein 3322 3327	Foxp3
+T24	Protein 3559 3564	Foxp3
+T25	Protein 3635 3640	Foxp3
+T26	Protein 3844 3849	Foxp3
+T27	Protein 3883 3888	Foxp3
+T28	Gene_expression 1105 1114	expressed
+T29	Entity 1478 1492	leucine zipper
+T30	Positive_regulation 1505 1514	important
+T31	Binding 1535 1547	interactions
+T32	Entity 1555 1594	carboxyl-terminal forkhead (FKH) domain
+T33	Positive_regulation 1595 1603	required
+T34	Entity 1608 1615	nuclear
+T35	Localization 1616 1628	localization
+T36	Binding 1637 1644	binding
+T37	Negative_regulation 1674 1686	inactivation
+T38	Regulation 1717 1726	affecting
+T39	Entity 1737 1750	coding region
+T40	Negative_regulation 1780 1790	repression
+T41	Gene_expression 1800 1810	expression
+T42	Negative_regulation 2329 2336	inhibit
+T43	Positive_regulation 2337 2363	transcriptional activation
+T44	Binding 2378 2389	interacting
+T45	Entity 2538 2546	promoter
+T46	Binding 2833 2840	binding
+T47	Binding 3133 3145	interactions
+T48	Binding 3195 3202	binding
+T49	Positive_regulation 3397 3406	formation
+T50	Binding 3447 3459	interactions
+E1	Gene_expression:T28 Theme:T3
+E2	Positive_regulation:T30 Theme:E3 Cause:T6 CSite:T29
+E3	Binding:T31 Theme:T6
+E4	Positive_regulation:T33 Theme:E5 Cause:T6 CSite:T32
+E6	Positive_regulation:T33 Theme:E7 Cause:T6 CSite:T32
+E5	Localization:T35 Theme:T6 ToLoc:T34
+E7	Binding:T36 Theme:T6
+E8	Negative_regulation:T37 Theme:T7 Cause:E9
+E9	Regulation:T38 Theme:T8 Site:T39
+E10	Negative_regulation:T40 Theme:E11 Cause:T10
+E11	Gene_expression:T41 Theme:T9
+E12	Negative_regulation:T42 Theme:E13 Cause:E14
+E13	Positive_regulation:T43 Theme:T17 Site:T45
+E14	Binding:T44 Theme:T16
+E15	Binding:T46 Theme:T19
+E16	Binding:T47 Theme:T21
+E17	Binding:T48 Theme:T22
+E18	Positive_regulation:T49 Theme:E19
+E19	Binding:T50 Theme:T23
+M1	Speculation E12
+M2	Speculation E18

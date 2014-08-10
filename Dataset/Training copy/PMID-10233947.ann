@@ -1,0 +1,15 @@
+T1	Protein 19 22	CD4
+T2	Protein 89 92	Tax
+T3	Protein 225 228	Tax
+T4	Protein 549 552	Tax
+T5	Protein 674 677	Tax
+T6	Protein 771 774	Tax
+T7	Protein 897 900	tax
+T8	Protein 1329 1332	Tax
+T9	Entity 384 410	viral long terminal repeat
+T10	Entity 412 415	LTR
+T11	Entity 581 608	multiple cellular promoters
+T12	Entity 621 630	NF-kappaB
+T13	Entity 813 822	NF-kappaB
+T14	Entity 983 1000	mutant ACH clones
+T15	Entity 1420 1429	NF-kappaB

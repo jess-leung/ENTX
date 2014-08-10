@@ -1,0 +1,18 @@
+T1	Protein 30 35	A-MYB
+T2	Protein 240 245	A-MYB
+T3	Protein 556 561	A-MYB
+T4	Protein 661 666	A-MYB
+T5	Protein 844 849	A-MYB
+T6	Protein 927 932	c-MYC
+T7	Protein 1185 1190	A-MYB
+T8	Protein 1449 1454	A-MYB
+T9	Protein 1579 1584	A-MYB
+T10	Entity 4 22	DNA binding domain
+T11	Entity 933 941	promoter
+T12	Entity 983 1001	functional domains
+T13	Entity 1018 1021	DNA
+T14	Entity 1258 1284	N-terminal 218 amino acids
+T15	Entity 1300 1318	DNA binding domain
+T16	Entity 1449 1472	A-MYB N-terminal domain
+R1	Protein-Component Arg1:T6 Arg2:T11
+R2	Protein-Component Arg1:T8 Arg2:T16

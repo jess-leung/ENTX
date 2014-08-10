@@ -1,0 +1,37 @@
+T1	Protein 505 518	interleukin 2
+T2	Protein 520 524	IL-2
+T3	Protein 678 683	c-Jun
+T4	Protein 775 779	IL-2
+T5	Protein 1308 1313	NFATp
+T6	Protein 1384 1389	NFATp
+T7	Protein 1547 1552	NFATp
+T8	Protein 1902 1927	c-Jun NH2-terminal kinase
+T9	Protein 1929 1932	JNK
+T10	Protein 1970 1975	NFATp
+*	Equiv T2 T1
+*	Equiv T9 T8
+T11	Negative_regulation 490 499	inhibited
+T12	Gene_expression 526 535	synthesis
+T13	Positive_regulation 664 674	activation
+T14	Gene_expression 714 724	expression
+T15	Regulation 1294 1302	targeted
+T16	Positive_regulation 1503 1511	promoted
+T17	Localization 1534 1543	shuttling
+T18	Positive_regulation 1564 1592	leading to their accelerated
+T19	Localization 1593 1599	export
+T20	Phosphorylation 1954 1969	phosphorylating
+T21	Positive_regulation 1954 1969	phosphorylating
+E1	Negative_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T2
+E3	Positive_regulation:T13 Theme:E4
+E4	Gene_expression:T14 Theme:T3
+E5	Regulation:T15 Theme:T5
+E6	Positive_regulation:T16 Theme:E7
+E7	Localization:T17 Theme:T7
+E8	Positive_regulation:T18 Theme:E9 Cause:E6
+E9	Localization:T19 Theme:T7
+E10	Phosphorylation:T20 Theme:T10
+E11	Positive_regulation:T21 Theme:E10 Cause:T9
+
+T22	Entity 780 788	promoter
+R1	Protein-Component  Arg1:T4 Arg2:T22

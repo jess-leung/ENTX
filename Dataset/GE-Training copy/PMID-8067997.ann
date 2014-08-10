@@ -1,0 +1,23 @@
+T1	Protein 57 61	CD28
+T2	Protein 181 185	CD28
+T3	Protein 241 254	interleukin 2
+T4	Protein 256 260	IL-2
+T5	Protein 290 294	IL-2
+T6	Protein 324 328	CD28
+T7	Protein 397 401	IL-2
+T8	Protein 419 423	CD28
+T9	Protein 485 489	CD28
+T10	Protein 675 679	CD28
+T11	Protein 772 776	CD28
+T12	Protein 965 969	CD28
+*	Equiv T4 T3
+T13	Positive_regulation 163 173	activation
+T14	Gene_expression 262 272	production
+T15	Positive_regulation 278 286	increase
+T16	Gene_expression 300 310	expression
+T17	Binding 680 690	engagement
+E1	Positive_regulation:T13 Theme:T2
+E2	Gene_expression:T14 Theme:T4
+E3	Positive_regulation:T15 Theme:E4 Cause:T6
+E4	Gene_expression:T16 Theme:T5
+E5	Binding:T17 Theme:T10

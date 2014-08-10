@@ -1,0 +1,97 @@
+T1	Protein 20 34	interleukin-13
+T2	Protein 39 52	interleukin-4
+T3	Protein 157 171	Interleukin-13
+T4	Protein 173 178	IL-13
+T5	Protein 184 188	IL-4
+T6	Protein 317 322	IL-13
+T7	Protein 387 392	IL-13
+T8	Protein 566 571	IL-13
+T9	Protein 613 617	IL-4
+T10	Protein 664 669	IL-13
+T11	Protein 754 758	IL-4
+T12	Protein 835 840	IL-13
+T13	Protein 878 883	IL-13
+T14	Protein 968 973	IL-13
+T15	Protein 977 981	IL-4
+T16	Protein 1101 1107	NF-ATp
+T17	Protein 1190 1194	IL-4
+T18	Protein 1196 1201	IL-13
+T19	Protein 1380 1385	IL-13
+T20	Protein 1390 1394	IL-4
+T21	Protein 1485 1491	NF-ATp
+T22	Protein 1533 1537	IL-4
+T23	Protein 1542 1547	IL-13
+*	Equiv T4 T3
+T24	Gene_expression 0 12	Coexpression
+T25	Binding 90 97	linkage
+T26	Gene_expression 203 211	produced
+T27	Regulation 303 313	regulation
+T28	Gene_expression 328 338	expression
+T29	Gene_expression 499 509	expression
+T30	Entity 736 746	P elements
+T31	Regulation 768 776	involved
+T32	Positive_regulation 780 806	transcriptional activation
+T33	Negative_regulation 870 877	reduced
+T34	Entity 884 892	promoter
+T35	Regulation 902 916	in response to
+T36	Entity 982 997	P element sites
+T37	Binding 1011 1016	bound
+T38	Transcription 1207 1217	expression
+T39	Positive_regulation 1348 1357	increases
+T40	Gene_expression 1362 1372	expression
+T41	Positive_regulation 1460 1473	higher levels
+T42	Binding 1504 1511	binding
+T43	Entity 1515 1525	P elements
+T44	Positive_regulation 1651 1658	mediate
+T45	Gene_expression 1674 1684	expression
+E1	Gene_expression:T24 Theme:T2
+E2	Gene_expression:T24 Theme:T1
+E3	Binding:T25 Theme:T1 Theme2:T2
+E4	Gene_expression:T26 Theme:T5
+E5	Gene_expression:T26 Theme:T4
+E6	Regulation:T27 Theme:E7
+E7	Gene_expression:T28 Theme:T6
+E8	Gene_expression:T29 Theme:T7
+E9	Regulation:T31 Theme:E10 Cause:T11 CSite:T30
+E10	Positive_regulation:T32 Theme:T11
+E11	Negative_regulation:T33 Theme:E12
+E12	Regulation:T35 Theme:T13 Site:T34
+E13	Binding:T37 Theme:T14 Theme2:T16 Site:T36
+E14	Binding:T37 Theme:T15 Theme2:T16 Site:T36
+E15	Transcription:T38 Theme:T17
+E16	Transcription:T38 Theme:T18
+E17	Positive_regulation:T39 Theme:E19
+E18	Positive_regulation:T39 Theme:E20
+E19	Gene_expression:T40 Theme:T19
+E20	Gene_expression:T40 Theme:T20
+E21	Positive_regulation:T41 Theme:T21
+E22	Binding:T42 Theme:T21 Theme2:T22 Site2:T43
+E23	Binding:T42 Theme:T21 Theme2:T23 Site2:T43
+E24	Positive_regulation:T44 Theme:E26
+E25	Positive_regulation:T44 Theme:E27
+E26	Gene_expression:T45 Theme:T23
+E27	Gene_expression:T45 Theme:T22
+M1	Speculation E6
+M2	Speculation E8
+M3	Speculation E24
+M4	Speculation E25
+
+T46	Entity 1548 1557	promoters
+R1	Protein-Component  Arg1:T23 Arg2:T46
+R2	Protein-Component Arg1:T13 Arg2:T34
+T47	Entity 759 767	promoter
+R3	Protein-Component  Arg1:T11 Arg2:T47
+R4	Protein-Component Arg1:T22 Arg2:T43
+T48	Entity 670 690	gene 5' flank region
+R5	Protein-Component  Arg1:T10 Arg2:T48
+T49	Entity 412 430	5'-flanking region
+R6	Protein-Component  Arg1:T7 Arg2:T49
+R7	Protein-Component Arg1:T15 Arg2:T36
+R8	Protein-Component Arg1:T11 Arg2:T30
+R9	Protein-Component Arg1:T22 Arg2:T46
+T50	Entity 841 855	P element site
+R10	Protein-Component  Arg1:T12 Arg2:T50
+T51	Entity 445 480	transcriptional activation elements
+R11	Protein-Component  Arg1:T7 Arg2:T51
+R12	Protein-Component Arg1:T14 Arg2:T36
+R13	Protein-Component Arg1:T23 Arg2:T43

@@ -1,0 +1,12 @@
+T1	Protein 346 361	I kappa B alpha
+T2	Protein 363 376	mut-I kappa B
+T3	Protein 598 602	CD44
+T4	Protein 603 607	CD25
+T5	Protein 610 613	CD4
+T6	Protein 869 883	TCR beta-chain
+*	Equiv T1 T2
+T7	Entity 87 97	NF-kappa B
+T8	Entity 325 335	NF-kappa B
+T9	Entity 429 439	NF-kappa B
+T10	Entity 614 617	CD8
+T11	Entity 1065 1075	NF-kappa B

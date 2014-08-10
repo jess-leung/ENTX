@@ -1,0 +1,18 @@
+T1	Protein 410 412	C1
+T2	Protein 436 438	C2
+T3	Protein 741 743	C1
+T4	Protein 748 750	C2
+T5	Protein 805 841	interleukin-2-receptor alpha-subunit
+T6	Protein 866 868	C1
+T7	Entity 24 68	human immunodeficiency virus type 1 enhancer
+T8	Entity 250 276	viral long terminal repeat
+T9	Entity 278 281	LTR
+T10	Entity 294 317	protein-binding regions
+T11	Entity 325 334	HIV-1 LTR
+T12	Entity 342 371	transcription-enhancer region
+T13	Entity 464 476	HIV enhancer
+T14	Entity 680 734	oligonucleotides which contain the HIV-enhancer domain
+T15	Entity 680 696	oligonucleotides
+T16	Entity 715 734	HIV-enhancer domain
+T17	Entity 842 850	enhancer
+R1	Protein-Component Arg1:T5 Arg2:T17

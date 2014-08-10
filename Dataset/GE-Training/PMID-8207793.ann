@@ -1,0 +1,53 @@
+T1	Protein 36 39	Tat
+T2	Protein 52 65	interleukin-2
+T3	Protein 276 279	Tat
+T4	Protein 283 296	interleukin-2
+T5	Protein 298 302	IL-2
+T6	Protein 324 328	IL-2
+T7	Protein 338 371	chloramphenicol acetyltransferase
+T8	Protein 387 391	IL-2
+T9	Protein 466 469	Tat
+T10	Protein 511 515	IL-2
+T11	Protein 568 586	phytohemagglutinin
+T12	Protein 618 622	IL-2
+T13	Protein 742 745	Tat
+T14	Protein 787 790	Tat
+T15	Protein 812 816	IL-2
+T16	Protein 910 914	IL-2
+T17	Protein 964 967	Tat
+T18	Protein 980 983	Tat
+T19	Protein 1005 1009	IL-2
+T20	Protein 1070 1073	tat
+T21	Protein 1147 1150	Tax
+T22	Protein 1194 1198	IL-2
+*	Equiv T5 T4
+T23	Positive_regulation 40 51	upregulates
+T24	Localization 66 75	secretion
+T25	Regulation 221 228	effects
+T26	Gene_expression 304 314	expression
+T27	Localization 392 401	secreting
+T28	Gene_expression 446 456	expression
+T29	Localization 623 632	secretion
+T30	Positive_regulation 637 646	increased
+T31	Regulation 802 808	effect
+T32	Transcription 834 849	transcriptional
+E1	Positive_regulation:T23 Theme:E2 Cause:T1
+E2	Localization:T24 Theme:T2
+E3	Regulation:T25 Theme:E4 Cause:T3
+E4	Gene_expression:T26 Theme:T5
+E5	Localization:T27 Theme:T8
+E6	Gene_expression:T28 Theme:T9
+E7	Localization:T29 Theme:T12
+E8	Positive_regulation:T30 Theme:E7
+E9	Regulation:T31 Theme:E10 Cause:T14
+E10	Transcription:T32 Theme:T15
+M1	Speculation E3
+
+T33	Entity 516 524	promoter
+R1	Protein-Component  Arg1:T10 Arg2:T33
+T34	Entity 1010 1018	promoter
+R2	Protein-Component  Arg1:T19 Arg2:T34
+T35	Entity 329 337	promoter
+R3	Protein-Component  Arg1:T6 Arg2:T35
+T36	Entity 915 923	promoter
+R4	Protein-Component  Arg1:T16 Arg2:T36

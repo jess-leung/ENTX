@@ -1,0 +1,55 @@
+T1	Protein 0 13	Interleukin-7
+T2	Protein 30 43	interleukin-2
+T3	Protein 307 320	interleukin-7
+T4	Protein 322 326	IL-7
+T5	Protein 335 339	IL-2
+T6	Protein 398 402	IL-2
+T7	Protein 467 471	IL-2
+T8	Protein 742 746	CD28
+T9	Protein 772 790	phytohemagglutinin
+T10	Protein 796 800	CD28
+T11	Protein 830 834	IL-7
+T12	Protein 863 867	IL-2
+T13	Protein 933 937	IL-2
+T14	Protein 1015 1019	IL-7
+T15	Protein 1110 1114	IL-7
+T16	Protein 1329 1333	IL-7
+T17	Protein 1480 1484	IL-7
+T18	Protein 1540 1543	fos
+T19	Protein 1548 1551	jun
+*	Equiv T4 T3
+T20	Positive_regulation 14 25	upregulates
+T21	Transcription 93 121	at the transcriptional level
+T22	Regulation 270 274	role
+T23	Regulation 345 355	regulation
+T24	Gene_expression 384 394	Production
+T25	Regulation 403 411	requires
+T26	Regulation 451 459	involved
+T27	Regulation 477 487	regulation
+T28	Positive_regulation 854 862	enhanced
+T29	Positive_regulation 873 885	accumulation
+T30	Transcription 943 956	transcription
+T31	Positive_regulation 965 974	increased
+T32	Positive_regulation 1031 1039	mediated
+T33	Regulation 1506 1514	involved
+T34	Positive_regulation 1522 1532	activation
+E1	Positive_regulation:T20 Theme:E2
+E2	Transcription:T21 Theme:T2
+E3	Regulation:T22 Theme:E4 Cause:T4
+E4	Regulation:T23 Theme:T5
+E5	Gene_expression:T24 Theme:T6
+E6	Regulation:T25 Theme:E5
+E7	Regulation:T26 Theme:E8
+E8	Regulation:T27 Theme:T7
+E9	Positive_regulation:T28 Theme:E10
+E10	Positive_regulation:T29 Theme:T12
+E11	Transcription:T30 Theme:T13
+E12	Positive_regulation:T31 Theme:E11
+E13	Positive_regulation:T32 Theme:E11 Cause:T14
+E14	Regulation:T33 Theme:E15
+E15	Positive_regulation:T34 Theme:T18
+M1	Speculation E3
+
+T35	Entity 1570 1574	AP-1
+R1	Subunit-Complex  Arg1:T18 Arg2:T35
+R2	Subunit-Complex Arg1:T19 Arg2:T35

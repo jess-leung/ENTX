@@ -1,0 +1,30 @@
+T1	Protein 33 67	interleukin-2 receptor alpha-chain
+T2	Protein 133 138	Elf-1
+T3	Protein 140 148	HMG-I(Y)
+T4	Protein 187 221	interleukin 2 receptor alpha-chain
+T5	Protein 223 234	IL-2R alpha
+T6	Protein 580 585	Elf-1
+T7	Protein 590 598	HMG-I(Y)
+T8	Protein 694 699	Elf-1
+T9	Protein 735 746	IL-2R alpha
+T10	Protein 786 791	Elf-1
+T11	Protein 799 807	HMG-I(Y)
+T12	Protein 931 936	Elf-1
+T13	Protein 964 969	HMG-I
+T14	Protein 990 993	p50
+T15	Protein 998 1003	c-Rel
+T16	Protein 1423 1434	IL-2R alpha
+T17	Protein 1507 1512	Elf-1
+*	Equiv T4 T5
+T18	Entity 333 351	inducible enhancer
+T19	Entity 360 385	nucleotides -299 and -228
+T20	Entity 420 426	motifs
+T21	Entity 490 527	essential positive regulatory element
+T22	Entity 544 568	nucleotides -137 and -64
+T23	Entity 747 755	promoter
+T24	Entity 808 820	binding site
+T25	Entity 895 914	-137 to -64 element
+T26	Entity 1132 1160	positive regulatory elements
+T27	Entity 1482 1493	other genes
+R1	Protein-Component Arg1:T9 Arg2:T23
+R2	Protein-Component Arg1:T12 Arg2:T26

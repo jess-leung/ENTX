@@ -1,0 +1,33 @@
+T1	Protein 4 28	class II trans-activator
+T2	Protein 29 34	CIITA
+T3	Protein 54 57	TBP
+T4	Protein 76 83	TAFII32
+T5	Protein 90 115	class II trans- activator
+T6	Protein 117 122	CIITA
+T7	Protein 601 606	CIITA
+T8	Protein 620 625	CIITA
+T9	Protein 757 762	CIITA
+T10	Protein 841 848	TAFII32
+T11	Protein 914 919	CIITA
+T12	Protein 973 980	TAFII32
+T13	Protein 1020 1027	TAFII32
+T14	Protein 1032 1037	CIITA
+*	Equiv T1 T2
+*	Equiv T5 T6
+T15	Entity 214 240	N-terminal 125 amino acids
+T16	Entity 256 301	independent transcriptional activation domain
+T17	Entity 319 346	primary amino acid sequence
+T18	Entity 354 371	activation domain
+T19	Entity 402 415	alpha-helices
+T20	Entity 448 463	acidic residues
+T21	Entity 535 548	alpha-helices
+T22	Entity 659 672	alpha-helices
+T23	Entity 736 753	activation domain
+T24	Entity 804 833	general transcription complex
+T25	Entity 834 839	TFIID
+T26	Entity 890 900	N-terminal
+T27	Entity 1072 1086	class II genes
+R1	Protein-Component Arg1:T8 Arg2:T22
+R2	Protein-Component Arg1:T9 Arg2:T23
+R3	Subunit-Complex Arg1:T10 Arg2:T24
+R4	Protein-Component Arg1:T11 Arg2:T26

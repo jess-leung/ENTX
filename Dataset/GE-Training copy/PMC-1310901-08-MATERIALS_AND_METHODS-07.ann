@@ -1,0 +1,15 @@
+T1	Protein 50 55	IRF-4
+T2	Protein 173 186	CpG Methylase
+T3	Protein 188 195	M.Sss I
+T4	Protein 356 366	luciferase
+T5	Protein 534 544	luciferase
+T6	Protein 722 732	luciferase
+T7	Protein 820 825	IRF-4
+*	Equiv T2 T3
+T8	Gene_expression 511 521	expressing
+T9	Gene_expression 570 579	expressed
+T10	Entity 826 834	promoter
+T11	Positive_regulation 835 845	activation
+E1	Gene_expression:T8 Theme:T5
+E2	Gene_expression:T9 Theme:T5
+E3	Positive_regulation:T11 Theme:T7 Site:T10

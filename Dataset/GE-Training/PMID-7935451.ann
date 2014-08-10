@@ -1,0 +1,62 @@
+T1	Protein 35 38	Tax
+T2	Protein 112 127	I kappa B alpha
+T3	Protein 132 136	RelA
+T4	Protein 138 141	p65
+T5	Protein 186 189	tax
+T6	Protein 399 402	Tax
+T7	Protein 716 731	I kappa B alpha
+T8	Protein 740 743	Tax
+T9	Protein 838 843	c-Rel
+T10	Protein 980 983	Tax
+T11	Protein 1056 1059	Tax
+T12	Protein 1162 1177	I kappa B alpha
+T13	Protein 1268 1283	I kappa B alpha
+T14	Protein 1493 1496	Tax
+T15	Protein 1518 1523	c-Rel
+T16	Protein 1555 1559	RelA
+T17	Protein 1561 1564	p65
+T18	Protein 1626 1631	c-rel
+T19	Protein 1740 1745	c-Rel
+*	Equiv T3 T4
+*	Equiv T17 T16
+T20	Phosphorylation 77 92	phosphorylation
+T21	Protein_catabolism 97 108	degradation
+T22	Gene_expression 744 754	expression
+T23	Positive_regulation 755 760	leads
+T24	Gene_expression 789 799	expression
+T25	Phosphorylation 1109 1124	phosphorylation
+T26	Protein_catabolism 1147 1158	degradation
+T27	Binding 1303 1313	associated
+T28	Protein_catabolism 1374 1385	degradation
+T29	Positive_regulation 1497 1506	induction
+T30	Gene_expression 1524 1534	expression
+T31	Positive_regulation 1538 1547	activated
+T32	Positive_regulation 1595 1604	activates
+T33	Transcription 1605 1618	transcription
+T34	Positive_regulation 1716 1728	accumulation
+T35	Negative_regulation 1754 1761	inhibit
+T36	Gene_expression 1780 1790	production
+E1	Phosphorylation:T20 Theme:T2
+E2	Protein_catabolism:T21 Theme:T2
+E3	Gene_expression:T22 Theme:T8
+E4	Positive_regulation:T23 Theme:E5 Cause:E3
+E5	Gene_expression:T24 Theme:T9
+E6	Phosphorylation:T25 Theme:T12
+E7	Protein_catabolism:T26 Theme:T12
+E8	Binding:T27 Theme:T13
+E9	Protein_catabolism:T28 Theme:T13
+E10	Positive_regulation:T29 Theme:E11 Cause:T14
+E11	Gene_expression:T30 Theme:T15
+E12	Positive_regulation:T31 Theme:E10 Cause:T17
+E13	Positive_regulation:T32 Theme:E14 Cause:T18
+E14	Transcription:T33 Theme:T18
+E15	Positive_regulation:T34 Theme:T19
+E16	Negative_regulation:T35 Theme:E17 Cause:E15
+E17	Gene_expression:T36 Theme:T19
+
+T37	Entity 1577 1587	NF-kappa B
+R1	Subunit-Complex  Arg1:T16 Arg2:T37
+T38	Entity 844 853	complexes
+R2	Subunit-Complex  Arg1:T9 Arg2:T38
+T39	Entity 1658 1682	kappa B enhancer element
+R3	Protein-Component  Arg1:T18 Arg2:T39

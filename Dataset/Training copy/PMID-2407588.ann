@@ -1,0 +1,17 @@
+T1	Protein 539 544	Oct-1
+T2	Protein 607 613	Oct-2A
+T3	Protein 618 624	Oct-2B
+T4	Protein 932 937	Oct-1
+T5	Protein 942 947	Oct-2
+T6	Entity 63 82	immunoglobulin gene
+T7	Entity 172 195	antibody-encoding genes
+T8	Entity 201 226	immunoglobulin (Ig) genes
+T9	Entity 217 226	Ig) genes
+T10	Entity 263 279	octamer sequence
+T11	Entity 280 288	ATGCAAAT
+T12	Entity 307 315	promoter
+T13	Entity 324 332	enhancer
+T14	Entity 336 344	Ig genes
+T15	Entity 414 428	sequence motif
+T16	Entity 786 794	Ig genes
+T17	Entity 1110 1125	Oct factor gene

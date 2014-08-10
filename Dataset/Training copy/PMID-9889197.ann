@@ -1,0 +1,10 @@
+T1	Protein 588 591	p50
+T2	Protein 696 703	Igkappa
+T3	Protein 719 727	TNFalpha
+T4	Entity 45 54	NF-kappaB
+T5	Entity 434 443	NF-kappaB
+T6	Entity 555 579	C-terminal Hsp70 peptide
+T7	Entity 603 612	NF-kappaB
+T8	Entity 664 667	DNA
+T9	Entity 859 862	DNA
+R1	Subunit-Complex Arg1:T1 Arg2:T7

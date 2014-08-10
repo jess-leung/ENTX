@@ -1,0 +1,26 @@
+T1	Protein 103 108	NFATc
+T2	Protein 760 770	NFATc.beta
+T3	Protein 803 808	NFATc
+T4	Protein 826 837	NFATc.alpha
+T5	Protein 867 877	NFATc.beta
+T6	Protein 899 910	NFATc.alpha
+T7	Protein 1163 1173	NFATc.beta
+T8	Protein 1304 1314	NFATc.beta
+T9	Protein 1344 1357	interleukin-2
+T10	Protein 1447 1457	NFATc.beta
+T11	Protein 1526 1553	tumor necrosis factor-alpha
+T12	Protein 1581 1608	tumor necrosis factor-alpha
+T13	Gene_expression 1290 1300	expression
+T14	Binding 1466 1471	bound
+T15	Entity 1479 1493	kappa3 element
+T16	Positive_regulation 1567 1576	activated
+T17	Entity 1609 1617	promoter
+E1	Gene_expression:T13 Theme:T8
+E2	Binding:T14 Theme:T10 Theme2:T11 Site2:T15
+E3	Positive_regulation:T16 Theme:T12 Cause:T10 Site:T17
+M1	Negation E2
+M2	Negation E3
+
+T18	Entity 1554 1562	promoter
+R1	Protein-Component  Arg1:T11 Arg2:T18
+R2	Protein-Component Arg1:T12 Arg2:T17

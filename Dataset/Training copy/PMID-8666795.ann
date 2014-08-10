@@ -1,0 +1,15 @@
+T1	Protein 13 18	CIITA
+T2	Protein 120 129	IFN-gamma
+T3	Protein 226 235	IFN-gamma
+T4	Protein 710 715	CIITA
+T5	Protein 968 977	IFN-gamma
+T6	Protein 1345 1354	IFN-gamma
+T7	Protein 1484 1489	CIITA
+T8	Protein 1610 1619	IFN-gamma
+T9	Entity 47 62	HLA-DR promoter
+T10	Entity 249 266	MHC class II gene
+T11	Entity 610 627	MHC class II gene
+T12	Entity 743 760	MHC class II gene
+T13	Entity 832 857	MHC class II DRA promoter
+T14	Entity 1018 1047	DRA gene regulatory sequences
+T15	Entity 1628 1645	MHC class II gene

@@ -1,0 +1,53 @@
+from collections import defaultdict
+from collections import Counter
+import os
+import random
+import ActiveLearner 
+import matplotlib.pyplot as plt
+import PassiveLearner
+from DataParser import createInstances, createLabels
+
+if __name__ == "__main__":
+	# Now create instances with gold lables and attributes 
+	STOPWORDS = []
+
+	for line in open('biomedical_stopwords.txt'):
+		STOPWORDS.append(line.strip())
+
+	createLabels('dataset/Training copy','dataset/Training',)
+	createLabels('dataset/Development copy','dataset/Development')
+
+	''' BEGIN RELATIONSHIP EXTRACTION ''' 
+	TRAINING_INSTANCES = createInstances('Dataset/Training',STOPWORDS)[0]
+	DEV = createInstances('Dataset/Development',STOPWORDS)
+
+	DEV_INSTANCES = DEV[0]
+	train_containsRel_trueLabels = [] 
+	dev_containsRel_trueLabels = [] 
+	train_relType_trueLabels = [] 
+	dev_relType_trueLabels = []
+	train_features = [] 
+	dev_features = [] 
+	label_list=['NoRel','Rel']
+	rel_list = ['None','Protein-Component','Subunit-Complex']
+
+	for inst in TRAINING_INSTANCES: 
+		train_containsRel_trueLabels.append(inst.goldContainsRel)
+		train_features.append(inst.attribs)
+		train_relType_trueLabels.append(inst.goldRelType)
+
+	for inst in DEV_INSTANCES:
+		dev_containsRel_trueLabels.append(inst.goldContainsRel)
+		dev_features.append(inst.attribs)
+		dev_relType_trueLabels.append(inst.goldRelType)
+
+	# Conduct passive learning 
+	zippedTraining = zip(train_features,train_relType_trueLabels)
+	zippedTesting = zip(dev_features,dev_relType_trueLabels)
+	random.shuffle(zippedTraining)
+	xAxis = range(2760,11260,250)
+
+	''' Comparing different types of uncertainty measures '''
+	EntropyLearner = ActiveLearner.ActiveLearner(zippedTraining,zippedTesting,'SVM','hyperplane',0.10,250)
+	clfAct = ActiveLearner.gettingClassifier()
+	results2 = ActiveLearner.getMicroPRFAllIntervals()

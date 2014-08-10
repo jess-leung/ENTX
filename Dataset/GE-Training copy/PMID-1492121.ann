@@ -1,0 +1,20 @@
+T1	Protein 963 1011	granulocyte-macrophage colony stimulating factor
+T2	Protein 1013 1019	GM-CSF
+T3	Protein 1123 1129	GM-CSF
+T4	Protein 1724 1727	Tax
+T5	Protein 1772 1774	E2
+T6	Protein 1959 1961	E2
+T7	Protein 1966 1969	Tax
+T8	Protein 2142 2145	Sp1
+*	Equiv T2 T1
+T9	Gene_expression 945 955	production
+T10	Positive_regulation 1035 1044	dependent
+T11	Binding 2088 2094	target
+T12	Positive_regulation 2088 2094	target
+E1	Gene_expression:T9 Theme:T2
+E2	Positive_regulation:T10 Theme:E1
+E3	Binding:T11 Theme:T8
+E4	Positive_regulation:T12 Theme:E3 Cause:T4
+E5	Positive_regulation:T12 Theme:E3 Cause:T5
+M1	Speculation E4
+M2	Speculation E5

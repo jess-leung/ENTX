@@ -1,0 +1,15 @@
+T1	Protein 0 3	Tax
+T2	Protein 56 59	Tax
+T3	Protein 331 334	Tax
+T4	Protein 436 439	Tax
+T5	Protein 571 574	Tax
+T6	Protein 1728 1732	CREB
+T7	Protein 1798 1801	Tax
+T8	Gene_expression 440 450	expressing
+T9	Regulation 1737 1745	involved
+T10	Regulation 1784 1793	mediating
+T11	Regulation 1802 1810	response
+E1	Gene_expression:T8 Theme:T4
+E2	Regulation:T9 Theme:E3 Cause:T6
+E3	Regulation:T10 Theme:E4 Cause:T6
+E4	Regulation:T11 Theme:T7

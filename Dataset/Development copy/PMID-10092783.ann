@@ -1,0 +1,22 @@
+T1	Protein 0 4	IL-2
+T2	Protein 159 163	IL-2
+T3	Protein 270 274	IL-2
+T4	Protein 684 688	IL-2
+T5	Protein 838 842	IL-2
+T6	Protein 859 874	I kappa B alpha
+T7	Protein 953 957	IL-2
+T8	Protein 1020 1024	IL-2
+T9	Protein 1223 1228	STAT3
+T10	Protein 1368 1372	IL-2
+T11	Entity 82 92	NF-kappa B
+T12	Entity 96 116	activating protein-1
+T13	Entity 429 439	NF-kappa B
+T14	Entity 447 467	activating protein-1
+T15	Entity 469 473	AP-1
+T16	Entity 762 772	NF-kappa B
+T17	Entity 777 781	AP-1
+T18	Entity 890 900	NF-kappa B
+T19	Entity 1061 1065	AP-1
+T20	Entity 1098 1154	o-tetradecanoylphorbol 13-acetate (TPA) response element
+T21	Entity 1321 1331	NF-kappa B
+T22	Entity 1336 1340	AP-1

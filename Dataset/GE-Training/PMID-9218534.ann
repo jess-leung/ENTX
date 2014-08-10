@@ -1,0 +1,10 @@
+T1	Protein 683 688	c-Fos
+T2	Protein 997 1002	c-Fos
+T3	Protein 1166 1171	c-Fos
+T4	Gene_expression 958 971	co-expression
+E1	Gene_expression:T4 Theme:T2
+
+T5	Entity 1144 1149	NF-X2
+R1	Subunit-Complex  Arg1:T3 Arg2:T5
+T6	Entity 666 671	NF-X2
+R2	Subunit-Complex  Arg1:T1 Arg2:T6

@@ -1,0 +1,17 @@
+T1	Protein 0 4	IL-2
+T2	Protein 55 59	CD28
+T3	Protein 134 138	CD28
+T4	Protein 252 265	interleukin-2
+T5	Protein 267 271	IL-2
+T6	Protein 335 339	CD28
+T7	Protein 455 459	CD28
+T8	Protein 498 502	CD28
+T9	Protein 526 530	IL-2
+T10	Protein 562 566	CD28
+T11	Protein 795 799	IL-2
+T12	Protein 953 957	CD28
+*	Equiv T4 T5
+T13	Entity 25 35	NF-kappa B
+T14	Entity 487 521	NF-kappa B/CD28-responsive complex
+T15	Entity 498 521	CD28-responsive complex
+T16	Entity 815 825	NF-kappa B

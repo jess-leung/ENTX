@@ -1,0 +1,20 @@
+T1	Protein 0 13	Interleukin 6
+T2	Protein 108 113	c-fos
+T3	Protein 146 151	c-fos
+T4	Protein 155 173	interleukin (IL) 6
+T5	Protein 251 255	IL 6
+T6	Protein 301 306	c-fos
+T7	Protein 450 455	c-fos
+T8	Protein 480 484	IL 6
+T9	Protein 647 652	c-fos
+T10	Protein 668 672	IL 6
+T11	Positive_regulation 286 297	stimulation
+T12	Transcription 318 328	expression
+T13	Positive_regulation 341 349	appeared
+T14	Negative_regulation 368 376	returned
+T15	Positive_regulation 633 643	activation
+E1	Positive_regulation:T11 Theme:E2
+E2	Transcription:T12 Theme:T6
+E3	Positive_regulation:T13 Theme:E1
+E4	Negative_regulation:T14 Theme:E1
+E5	Positive_regulation:T15 Theme:T9

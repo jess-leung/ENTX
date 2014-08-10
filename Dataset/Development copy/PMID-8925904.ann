@@ -1,0 +1,19 @@
+T1	Protein 220 237	androgen receptor
+T2	Protein 239 241	AR
+T3	Protein 377 379	AR
+T4	Protein 494 513	CRE binding protein
+T5	Protein 515 519	CREB
+T6	Protein 574 576	AR
+T7	Protein 637 641	CREB
+T8	Protein 667 669	AR
+*	Equiv T1 T2
+*	Equiv T4 T5
+T9	Entity 34 56	androgen receptor gene
+T10	Entity 257 278	cAMP response element
+T11	Entity 280 283	CRE
+T12	Entity 300 315	promoter region
+T13	Entity 363 375	8-bromo-cAMP
+T14	Entity 576 580	-CRE
+R1	Protein-Component Arg1:T1 Arg2:T10
+R2	Protein-Component Arg1:T1 Arg2:T12
+R3	Protein-Component Arg1:T1 Arg2:T11

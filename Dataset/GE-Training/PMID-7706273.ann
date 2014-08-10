@@ -1,0 +1,12 @@
+T1	Protein 55 57	B2
+T2	Protein 567 569	B2
+T3	Protein 689 691	B2
+T4	Protein 1265 1272	DNase I
+T5	Protein 1351 1354	Sp1
+T6	Positive_regulation 597 606	amplified
+T7	Binding 1355 1362	binding
+E1	Positive_regulation:T6 Theme:T2
+E2	Binding:T7 Theme:T5
+
+T8	Entity 692 715	subunit promoter region
+R1	Protein-Component  Arg1:T3 Arg2:T8

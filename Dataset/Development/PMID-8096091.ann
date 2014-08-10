@@ -1,0 +1,17 @@
+T1	Protein 44 59	I kappa B alpha
+T2	Protein 382 397	I kappa B alpha
+T3	Protein 417 444	tumor necrosis factor-alpha
+T4	Protein 530 545	I kappa B alpha
+T5	Protein 568 583	I kappa B alpha
+T6	Protein 640 655	I kappa B alpha
+T7	Protein 782 797	I kappa B alpha
+T8	Protein 803 806	p65
+T9	Protein 1000 1015	I kappa B alpha
+T10	Entity 0 10	NF-kappa B
+T11	Entity 148 170	nuclear factor-kappa B
+T12	Entity 172 182	NF-kappa B
+T13	Entity 302 312	NF-kappa B
+T14	Entity 466 476	NF-kappa B
+T15	Entity 733 743	NF-kappa B
+T16	Entity 844 854	NF-kappa B
+T17	Entity 962 972	NF-kappa B

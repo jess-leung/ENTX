@@ -1,0 +1,31 @@
+T1	Protein 15 30	interferon beta
+T2	Protein 117 132	interferon beta
+T3	Protein 134 142	IFN-beta
+T4	Protein 358 366	IFN-beta
+T5	Protein 1009 1014	IRF-1
+T6	Protein 1015 1020	ISGF2
+T7	Protein 1132 1140	IFN beta
+T8	Protein 1336 1344	IFN-beta
+T9	Protein 1702 1710	IFN-beta
+T10	Protein 1806 1814	IFN-beta
+*	Equiv T2 T3
+T11	Entity 71 81	NF-kappa B
+T12	Entity 144 162	regulatory element
+T13	Entity 184 200	enhanson domains
+T14	Entity 285 293	promoter
+T15	Entity 331 334	DNA
+T16	Entity 378 413	positive regulatory domain (PRD) II
+T17	Entity 659 662	DNA
+T18	Entity 911 917	AAGTGA
+T19	Entity 920 941	tetrahexamer sequence
+T20	Entity 950 961	PRDI domain
+T21	Entity 1132 1159	IFN beta promoter deletions
+T22	Entity 1141 1149	promoter
+T23	Entity 1171 1200	upstream of the PRDII element
+T24	Entity 1187 1200	PRDII element
+T25	Entity 1303 1311	promoter
+T26	Entity 1345 1353	promoter
+T27	Entity 1446 1454	elements
+R1	Protein-Component Arg1:T2 Arg2:T12
+R2	Protein-Component Arg1:T7 Arg2:T22
+R3	Protein-Component Arg1:T8 Arg2:T26

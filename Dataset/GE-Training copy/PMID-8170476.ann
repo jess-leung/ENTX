@@ -1,0 +1,45 @@
+T1	Protein 108 111	Pan
+T2	Protein 160 165	Pan-1
+T3	Protein 170 175	Pan-2
+T4	Protein 191 194	E47
+T5	Protein 199 202	E12
+T6	Protein 360 363	Pan
+T7	Protein 422 425	Pan
+T8	Protein 582 585	E2A
+T9	Protein 627 630	E2A
+T10	Protein 750 753	Pan
+T11	Protein 754 757	E2A
+T12	Protein 883 886	Pan
+T13	Protein 887 890	E2A
+T14	Protein 1050 1053	Pan
+T15	Protein 1054 1057	E2A
+T16	Protein 1099 1102	Pan
+T17	Protein 1115 1117	GH
+T18	Protein 1127 1134	insulin
+T19	Protein 1246 1253	insulin
+T20	Protein 1357 1360	Pan
+T21	Protein 1487 1490	Pan
+T22	Protein 1491 1494	E2A
+T23	Protein 1575 1578	Pan
+*	Equiv T3 T5
+*	Equiv T2 T4
+T24	Transcription 350 359	expressed
+T25	Gene_expression 639 649	expression
+T26	Gene_expression 899 909	expression
+T27	Binding 941 970	heteromeric complex formation
+T28	Gene_expression 1078 1095	comparable levels
+T29	Gene_expression 1135 1144	producing
+T30	Regulation 1237 1245	regulate
+T31	Gene_expression 1254 1264	expression
+T32	Gene_expression 1568 1574	detect
+E1	Transcription:T24 Theme:T6
+E2	Gene_expression:T25 Theme:T9
+E3	Gene_expression:T26 Theme:T12
+E4	Binding:T27 Theme:T12
+E5	Gene_expression:T28 Theme:T16
+E6	Gene_expression:T29 Theme:T17
+E7	Gene_expression:T29 Theme:T18
+E8	Regulation:T30 Theme:E9
+E9	Gene_expression:T31 Theme:T19
+E10	Gene_expression:T32 Theme:T23
+M1	Speculation E8

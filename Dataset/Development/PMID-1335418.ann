@@ -1,0 +1,26 @@
+T1	Protein 87 92	c-Fos
+T2	Protein 455 458	PKC
+T3	Protein 599 604	c-Fos
+T4	Protein 609 612	Jun
+T5	Protein 792 797	c-Fos
+T6	Protein 802 805	Jun
+T7	Protein 970 975	c-Fos
+T8	Protein 990 993	Jun
+T9	Protein 1165 1168	PKC
+T10	Protein 1271 1274	PKC
+T11	Entity 48 52	cAMP
+T12	Entity 222 252	cyclic adenosine monophosphate
+T13	Entity 254 258	cAMP
+T14	Entity 484 510	adenosine receptor agonist
+T15	Entity 511 515	NECA
+T16	Entity 517 551	5'-(N-ethyl)-carboxamido adenosine
+T17	Entity 576 580	cAMP
+T18	Entity 690 709	activator protein-1
+T19	Entity 711 715	AP-1
+T20	Entity 838 842	cAMP
+T21	Entity 916 920	NECA
+T22	Entity 1032 1036	AP-1
+T23	Entity 1080 1084	AP-1
+T24	Entity 1188 1192	cAMP
+T25	Entity 1292 1296	cAMP
+T26	Entity 1318 1322	AP-1

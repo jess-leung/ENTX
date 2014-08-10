@@ -1,0 +1,32 @@
+T1	Protein 883 897	I kappaB alpha
+T2	Protein 1012 1026	I kappaB alpha
+T3	Protein 1045 1048	p50
+T4	Protein 1052 1056	relA
+T5	Protein 1214 1228	I kappaB alpha
+T6	Protein 1496 1510	I kappaB alpha
+T7	Protein 1700 1703	Tax
+T8	Protein 1888 1901	I kappaB beta
+T9	Protein 1930 1946	I kappaB epsilon
+T10	Protein 2268 2282	I kappaB alpha
+T11	Protein 2284 2297	I kappaB beta
+T12	Protein 2303 2319	I kappaB epsilon
+T13	Entity 62 71	NF-kappaB
+T14	Entity 106 120	Numerous genes
+T15	Entity 222 243	nuclear factor kappaB
+T16	Entity 245 254	NF-kappaB
+T17	Entity 298 307	NF-kappaB
+T18	Entity 418 427	NF-kappaB
+T19	Entity 708 717	NF-kappaB
+T20	Entity 971 981	serines 32
+T21	Entity 986 988	36
+T22	Entity 1084 1093	NF-kappaB
+T23	Entity 1232 1242	serines 32
+T24	Entity 1247 1249	36
+T25	Entity 1728 1737	NF-kappaB
+T26	Entity 2168 2177	NF-kappaB
+R1	Protein-Component Arg1:T1 Arg2:T21
+R2	Protein-Component Arg1:T1 Arg2:T20
+R3	Subunit-Complex Arg1:T4 Arg2:T22
+R4	Subunit-Complex Arg1:T3 Arg2:T22
+R5	Protein-Component Arg1:T5 Arg2:T24
+R6	Protein-Component Arg1:T5 Arg2:T23

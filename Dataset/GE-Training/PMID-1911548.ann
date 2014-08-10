@@ -1,0 +1,87 @@
+T1	Protein 71 77	GM-CSF
+T2	Protein 431 479	granulocyte-macrophage colony-stimulating factor
+T3	Protein 481 487	GM-CSF
+T4	Protein 563 569	GM-CSF
+T5	Protein 907 913	GM-CSF
+T6	Protein 1111 1114	p50
+T7	Protein 1128 1131	p65
+T8	Protein 1195 1201	GM-CSF
+T9	Protein 1280 1283	p50
+T10	Protein 1342 1345	p50
+T11	Protein 1377 1380	p65
+T12	Protein 1422 1425	p65
+T13	Protein 1568 1572	KBF1
+T14	Protein 1631 1634	p50
+T15	Protein 1897 1903	GM-CSF
+T16	Protein 1992 1998	GM-CSF
+*	Equiv T3 T2
+T17	Positive_regulation 83 92	essential
+T18	Gene_expression 101 110	induction
+T19	Regulation 114 123	responses
+T20	Positive_regulation 363 368	leads
+T21	Gene_expression 376 385	induction
+T22	Positive_regulation 615 624	essential
+T23	Positive_regulation 629 655	transcriptional activation
+T24	Positive_regulation 919 929	activation
+T25	Binding 1156 1172	binding activity
+T26	Entity 1240 1249	enhancers
+T27	Binding 1313 1320	complex
+T28	Binding 1346 1356	associates
+T29	Binding 1472 1479	complex
+T30	Binding 1614 1621	reacted
+T31	Positive_regulation 1864 1873	stimulate
+T32	Transcription 1874 1887	transcription
+T33	Gene_expression 1964 1974	activation
+T34	Positive_regulation 2004 2011	through
+E1	Positive_regulation:T17 Theme:E3
+E2	Gene_expression:T18 Theme:T1
+E3	Regulation:T19 Theme:E2
+E4	Positive_regulation:T20 Theme:E5
+E5	Gene_expression:T21 Theme:T3
+E6	Positive_regulation:T22 Theme:E7
+E7	Positive_regulation:T23 Theme:T4
+E8	Positive_regulation:T24 Theme:T5
+E9	Binding:T25 Theme:T8 Site:T26
+E10	Binding:T27 Theme:T9
+E11	Binding:T28 Theme:T10 Theme2:T11
+E12	Binding:T29 Theme:T12
+E13	Binding:T30 Theme:T14
+E14	Positive_regulation:T31 Theme:E15
+E15	Transcription:T32 Theme:T15
+E16	Gene_expression:T33 Theme:T16
+E17	Positive_regulation:T34 Theme:E16
+M1	Negation E14
+
+T35	Entity 1088 1094	NF-GM2
+R1	Subunit-Complex  Arg1:T7 Arg2:T35
+T36	Entity 1460 1479	protein-DNA complex
+R2	Subunit-Complex  Arg1:T12 Arg2:T36
+T37	Entity 1393 1407	NF-GM2 complex
+R3	Subunit-Complex  Arg1:T10 Arg2:T37
+T38	Entity 2016 2035	GM2/GC-box sequence
+R4	Protein-Component  Arg1:T16 Arg2:T38
+R5	Subunit-Complex Arg1:T11 Arg2:T37
+T39	Entity 1638 1644	NF-GM2
+R6	Subunit-Complex  Arg1:T14 Arg2:T39
+T40	Entity 1301 1320	protein-DNA complex
+R7	Subunit-Complex  Arg1:T9 Arg2:T40
+R8	Subunit-Complex Arg1:T6 Arg2:T35
+T41	Entity 46 82	regulatory region of the GM-CSF gene
+R9	Protein-Component  Arg1:T1 Arg2:T41
+T42	Entity 46 63	regulatory region
+R10	Protein-Component  Arg1:T1 Arg2:T42
+T43	Entity 534 578	upstream region of the mouse GM-CSF promoter
+R11	Protein-Component  Arg1:T4 Arg2:T43
+T44	Entity 1904 1912	promoter
+R12	Protein-Component  Arg1:T15 Arg2:T44
+T45	Entity 534 549	upstream region
+R13	Protein-Component  Arg1:T4 Arg2:T45
+R14	Protein-Component Arg1:T8 Arg2:T26
+T46	Entity 1927 1939	GM2 sequence
+R15	Protein-Component  Arg1:T15 Arg2:T46
+T47	Entity 570 578	promoter
+R16	Protein-Component  Arg1:T4 Arg2:T47
+T48	Entity 1594 1604	NF-kappa B
+R17	Subunit-Complex  Arg1:T13 Arg2:T48
+T49	Entity 600 611	-95 and -73
+R18	Protein-Component  Arg1:T4 Arg2:T49

@@ -1,0 +1,8 @@
+T1	Protein 553 559	GATA-1
+T2	Protein 658 698	erythroid delta-aminolevulinate synthase
+T3	Protein 700 706	ALAS-E
+*	Equiv T3 T2
+T4	Gene_expression 498 505	express
+T5	Transcription 600 607	express
+E1	Gene_expression:T4 Theme:T1
+E2	Transcription:T5 Theme:T3

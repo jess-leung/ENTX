@@ -1,0 +1,79 @@
+T1	Protein 28 31	p40
+T2	Protein 46 50	CD40
+T3	Protein 365 369	CD40
+T4	Protein 370 381	CD40 ligand
+T5	Protein 383 388	CD40L
+T6	Protein 427 430	p40
+T7	Protein 588 591	p40
+T8	Protein 595 599	CD40
+T9	Protein 778 782	CD40
+T10	Protein 809 814	CD40L
+T11	Protein 843 846	p40
+T12	Protein 867 870	p40
+T13	Protein 913 916	p40
+T14	Protein 1223 1226	p40
+T15	Protein 1313 1317	CD40
+T16	Protein 1444 1477	chloramphenicol acetyltransferase
+T17	Protein 1479 1482	CAT
+T18	Protein 1517 1520	CAT
+T19	Protein 1755 1758	p40
+T20	Protein 1803 1806	p40
+T21	Protein 1820 1824	CD40
+*	Equiv T16 T17
+*	Equiv T5 T4
+T22	Positive_regulation 0 9	Induction
+T23	Transcription 32 42	transcript
+T24	Binding 51 59	ligation
+T25	Binding 369 370	-
+T26	Transcription 399 414	transcriptional
+T27	Positive_regulation 499 509	as stimuli
+T28	Positive_regulation 559 584	transcriptional induction
+T29	Binding 600 608	ligation
+T30	Localization 834 842	secreted
+T31	Positive_regulation 858 866	enhanced
+T32	Transcription 876 886	expression
+T33	Binding 1318 1326	ligation
+T34	Positive_regulation 1509 1516	induced
+T35	Positive_regulation 1785 1794	important
+T36	Positive_regulation 1807 1816	induction
+T37	Binding 1825 1833	ligation
+E1	Positive_regulation:T22 Theme:E2
+E2	Transcription:T23 Theme:T1
+E3	Binding:T24 Theme:T2
+E4	Binding:T25 Theme:T3 Theme2:T5
+E5	Transcription:T26 Theme:T6
+E6	Positive_regulation:T27 Theme:E5
+E7	Positive_regulation:T28 Theme:T8 Cause:E9
+E8	Positive_regulation:T28 Theme:T7 Cause:E9
+E9	Binding:T29 Theme:T8
+E10	Localization:T30 Theme:T11
+E11	Positive_regulation:T31 Theme:E12
+E12	Transcription:T32 Theme:T12
+E13	Binding:T33 Theme:T15
+E14	Positive_regulation:T34 Theme:T18
+E15	Positive_regulation:T35 Theme:E16
+E16	Positive_regulation:T36 Theme:T20
+E17	Binding:T37 Theme:T21
+M1	Speculation E5
+M2	Speculation E6
+M3	Negation E14
+M4	Speculation E15
+
+T38	Entity 1099 1125	NF-kappaB binding sequence
+R1	Protein-Component  Arg1:T14 Arg2:T38
+T39	Entity 13 27	interleukin-12
+R2	Subunit-Complex  Arg1:T1 Arg2:T39
+T40	Entity 948 998	potential nuclear factor (NF)-kappaB binding sites
+R3	Protein-Component  Arg1:T13 Arg2:T40
+T41	Entity 1173 1202	transcription initiation site
+R4	Protein-Component  Arg1:T14 Arg2:T41
+T42	Entity 917 932	promoter region
+R5	Protein-Component  Arg1:T13 Arg2:T42
+T43	Entity 1150 1165	120 bp upstream
+R6	Protein-Component  Arg1:T14 Arg2:T43
+T44	Entity 1705 1734	transcription initiation site
+R7	Protein-Component  Arg1:T19 Arg2:T44
+T45	Entity 1644 1666	NF-kappaB binding site
+R8	Protein-Component  Arg1:T19 Arg2:T45
+T46	Entity 1755 1775	p40 promoter regions
+R9	Protein-Component  Arg1:T19 Arg2:T46

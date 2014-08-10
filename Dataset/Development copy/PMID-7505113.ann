@@ -1,0 +1,35 @@
+T1	Protein 49 52	tax
+T2	Protein 139 142	tax
+T3	Protein 207 215	TNF-beta
+T4	Protein 313 316	CAT
+T5	Protein 459 462	tax
+T6	Protein 520 523	CAT
+T7	Protein 614 617	Tax
+T8	Protein 708 711	tax
+T9	Protein 796 799	Tax
+T10	Protein 889 892	CAT
+T11	Protein 905 908	fos
+T12	Protein 909 912	CAT
+T13	Protein 974 977	tax
+T14	Protein 1060 1063	CAT
+T15	Protein 1088 1091	CAT
+T16	Protein 1290 1293	tax
+T17	Entity 4 24	lymphotoxin promoter
+T18	Entity 67 77	NF-kappa B
+T19	Entity 292 303	LT promoter
+T20	Entity 305 311	LT-293
+T21	Entity 345 360	NF-kappa B site
+T22	Entity 345 355	NF-kappa B
+T23	Entity 517 523	M1-CAT
+T24	Entity 580 590	NF-kappa B
+T25	Entity 594 601	LT gene
+T26	Entity 741 751	NF-kappa B
+T27	Entity 779 794	LT-kappa B site
+T28	Entity 878 892	HTLV-I-LTR-CAT
+T29	Entity 897 912	kappa B-fos-CAT
+T30	Entity 932 938	LT-293
+T31	Entity 986 992	LT-293
+T32	Entity 1081 1087	LT-293
+T33	Entity 1229 1240	LT promoter
+T34	Entity 1352 1363	LT promoter
+T35	Entity 1404 1414	NF-kappa B

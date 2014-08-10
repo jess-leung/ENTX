@@ -1,0 +1,29 @@
+T1	Protein 218 222	phoP
+T2	Protein 223 227	phoQ
+T3	Protein 300 304	NP-1
+T4	Protein 309 313	NP-2
+T5	Protein 377 381	phoP
+T6	Protein 413 417	phoQ
+T7	Protein 525 529	PhoQ
+T8	Protein 706 710	phoP
+T9	Protein 724 728	phoQ
+T10	Protein 772 776	PhoQ
+T11	Protein 803 807	PhoP
+T12	Protein 865 869	phoQ
+T13	Protein 1016 1020	PhoQ
+T14	Protein 1029 1033	PhoP
+T15	Protein 1216 1220	NP-1
+T16	Protein 1222 1226	NP-5
+T17	Protein 1232 1237	HNP-1
+T18	Protein 1390 1394	PhoP
+T19	Protein 1395 1399	PhoQ
+T20	Protein 1429 1433	pagC
+T21	Protein 1458 1462	phoP
+T22	Protein 1717 1721	phoP
+T23	Protein 1722 1726	phoQ
+T24	Gene_expression 758 767	expressed
+T25	Gene_expression 1005 1015	expressing
+E1	Gene_expression:T24 Theme:T10
+E2	Gene_expression:T25 Theme:T14
+E3	Gene_expression:T25 Theme:T13
+M1	Negation E2

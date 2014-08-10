@@ -1,0 +1,33 @@
+T1	Protein 6 9	Vpr
+T2	Protein 147 150	Vpr
+T3	Protein 305 308	Vpr
+T4	Protein 421 424	Vpr
+T5	Protein 568 571	Vpr
+T6	Protein 615 618	Vpr
+T7	Protein 709 712	Vpr
+T8	Protein 817 820	Vpr
+T9	Protein 846 850	IL-2
+T10	Protein 852 857	IL-10
+T11	Protein 866 875	TNF alpha
+T12	Protein 880 884	IL-4
+T13	Protein 940 943	Vpr
+T14	Protein 989 992	Vpr
+T15	Protein 1126 1129	Vpr
+T16	Negative_regulation 821 831	suppresses
+T17	Gene_expression 832 842	expression
+T18	Regulation 914 923	dependent
+T19	Negative_regulation 953 961	reversed
+E1	Negative_regulation:T16 Theme:E5 Cause:T8
+E2	Negative_regulation:T16 Theme:E8 Cause:T8
+E3	Negative_regulation:T16 Theme:E6 Cause:T8
+E4	Negative_regulation:T16 Theme:E7 Cause:T8
+E5	Gene_expression:T17 Theme:T10
+E6	Gene_expression:T17 Theme:T11
+E7	Gene_expression:T17 Theme:T12
+E8	Gene_expression:T17 Theme:T9
+E9	Regulation:T18 Theme:E7
+E10	Regulation:T18 Theme:E6
+E11	Regulation:T18 Theme:E8
+E12	Regulation:T18 Theme:E5
+E13	Negative_regulation:T19 Theme:T13
+M1	Speculation E13

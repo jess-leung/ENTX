@@ -1,0 +1,10 @@
+T1	Protein 1499 1504	c-fos
+T2	Protein 1509 1514	c-jun
+T3	Protein 1664 1678	5-lipoxygenase
+T4	Protein 1789 1805	phospholipase A2
+T5	Positive_regulation 1445 1453	inducing
+T6	Transcription 1454 1467	transcription
+E1	Positive_regulation:T5 Theme:E3
+E2	Positive_regulation:T5 Theme:E4
+E3	Transcription:T6 Theme:T1
+E4	Transcription:T6 Theme:T2

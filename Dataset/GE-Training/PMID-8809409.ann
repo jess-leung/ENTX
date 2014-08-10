@@ -1,0 +1,43 @@
+T1	Protein 14 20	GM-CSF
+T2	Protein 65 71	GM-CSF
+T3	Protein 185 188	Sp1
+T4	Protein 225 231	GM-CSF
+T5	Protein 588 593	NFATp
+T6	Protein 599 605	GM-CSF
+T7	Protein 711 715	YY-1
+T8	Protein 994 998	YY-1
+T9	Protein 1077 1081	AML1
+T10	Protein 1086 1094	CBF beta
+T11	Protein 1271 1277	GM-CSF
+T12	Protein 1437 1443	GM-CSF
+T13	Regulation 0 10	Regulation
+T14	Transcription 26 39	transcription
+T15	Positive_regulation 77 87	activation
+T16	Entity 232 240	promoter
+T17	Entity 245 253	enhancer
+T18	Binding 269 276	binding
+T19	Binding 555 562	binding
+T20	Regulation 1501 1513	dysregulated
+E1	Regulation:T13 Theme:E2
+E2	Transcription:T14 Theme:T1
+E3	Positive_regulation:T15 Theme:T2
+E4	Binding:T18 Theme:T4 Site:T16
+E5	Binding:T18 Theme:T4 Site:T17
+E6	Binding:T19 Theme:T5
+E7	Regulation:T20 Theme:T12
+
+T21	Entity 1113 1116	CBF
+R1	Subunit-Complex  Arg1:T10 Arg2:T21
+R2	Protein-Component Arg1:T4 Arg2:T17
+T22	Entity 716 728	binding site
+R3	Protein-Component  Arg1:T6 Arg2:T22
+R4	Protein-Component Arg1:T4 Arg2:T16
+T23	Entity 666 690	transcription start site
+R5	Protein-Component  Arg1:T6 Arg2:T23
+T24	Entity 599 623	GM-CSF promoter CBF site
+R6	Protein-Component  Arg1:T6 Arg2:T24
+T25	Entity 624 632	TGTGGTCA
+R7	Protein-Component  Arg1:T6 Arg2:T25
+T26	Entity 644 658	51 bp upstream
+R8	Protein-Component  Arg1:T6 Arg2:T26
+R9	Subunit-Complex Arg1:T9 Arg2:T21

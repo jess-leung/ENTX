@@ -1,0 +1,22 @@
+T1	Protein 195 228	Tumor necrosis factor (TNF)-alpha
+T2	Protein 486 495	TNF-alpha
+T3	Protein 510 519	TNF-alpha
+T4	Protein 560 569	TNF-alpha
+T5	Protein 664 673	TNF-alpha
+T6	Protein 705 708	p24
+T7	Protein 739 742	CD4
+T8	Protein 791 800	TNF-alpha
+T9	Protein 1015 1019	IL-2
+T10	Protein 1034 1043	TNF-alpha
+T11	Protein 1118 1121	p24
+T12	Protein 1200 1209	TNF-alpha
+T13	Protein 1386 1389	Tat
+T14	Protein 1443 1452	TNF-alpha
+T15	Entity 159 181	nuclear factor-kappa B
+T16	Entity 816 838	nuclear factor-kappa B
+T17	Entity 840 850	NF-kappa B
+T18	Entity 1141 1151	NF-kappa B
+T19	Entity 1220 1246	HIV-1 long terminal repeat
+T20	Entity 1248 1251	LTR
+T21	Entity 1279 1292	reporter gene
+T22	Entity 1548 1558	NF-kappa B

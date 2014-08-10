@@ -1,0 +1,71 @@
+T1	Protein 315 318	p65
+T2	Protein 320 325	Rel-A
+T3	Protein 364 368	IL-2
+T4	Protein 437 442	Rel-A
+T5	Protein 518 544	T-cell receptor (TCR)-zeta
+T6	Protein 546 552	ZAP-70
+T7	Protein 557 563	p56lck
+T8	Protein 760 784	map kinase phosphatase-1
+T9	Protein 786 791	MKP-1
+T10	Protein 794 799	MKP-1
+T11	Protein 874 879	c-jun
+T12	Protein 884 889	c-fos
+T13	Protein 1306 1311	Rel-A
+T14	Protein 1364 1368	IL-2
+T15	Protein 1406 1411	Rel-B
+T16	Protein 1416 1421	c-Rel
+T17	Protein 1467 1472	Rel-A
+T18	Protein 1474 1479	Rel-B
+T19	Protein 1484 1489	c-Rel
+T20	Protein 1532 1536	IL-2
+*	Equiv T2 T1
+*	Equiv T9 T8
+T21	Negative_regulation 278 286	impaired
+T22	Localization 298 309	translocate
+T23	Positive_regulation 327 336	following
+T24	Gene_expression 423 429	levels
+T25	Negative_regulation 469 490	abnormally low levels
+T26	Positive_regulation 702 711	increased
+T27	Gene_expression 712 722	expression
+T28	Negative_regulation 841 850	interfere
+T29	Positive_regulation 860 870	activation
+T30	Negative_regulation 1289 1296	despite
+T31	Negative_regulation 1297 1305	impaired
+T32	Localization 1312 1325	translocation
+T33	Transcription 1351 1363	transcribing
+T34	Negative_regulation 1370 1381	Impairments
+T35	Localization 1389 1402	translocation
+T36	Regulation 1498 1506	required
+T37	Transcription 1515 1528	transcription
+E1	Negative_regulation:T21 Theme:E3
+E2	Negative_regulation:T21 Theme:E4
+E3	Localization:T22 Theme:T2
+E4	Positive_regulation:T23 Theme:E3
+E5	Gene_expression:T24 Theme:T4
+E6	Negative_regulation:T25 Theme:T7
+E7	Negative_regulation:T25 Theme:T6
+E8	Negative_regulation:T25 Theme:T5
+E9	Positive_regulation:T26 Theme:E10
+E10	Gene_expression:T27 Theme:T9
+E11	Negative_regulation:T28 Theme:E13
+E12	Negative_regulation:T28 Theme:E14
+E13	Positive_regulation:T29 Theme:T12
+E14	Positive_regulation:T29 Theme:T11
+E15	Negative_regulation:T30 Theme:E18 Cause:E16
+E16	Negative_regulation:T31 Theme:E17
+E17	Localization:T32 Theme:T13
+E18	Transcription:T33 Theme:T14
+E19	Negative_regulation:T34 Theme:E22
+E20	Negative_regulation:T34 Theme:E21
+E21	Localization:T35 Theme:T16
+E22	Localization:T35 Theme:T15
+E23	Regulation:T36 Theme:E26 Cause:T17
+E24	Regulation:T36 Theme:E26 Cause:T18
+E25	Regulation:T36 Theme:E26 Cause:T19
+E26	Transcription:T37 Theme:T20
+M1	Speculation E11
+M2	Speculation E12
+M3	Negation E15
+M4	Negation E23
+M5	Negation E24
+M6	Negation E25

@@ -1,0 +1,37 @@
+T1	Protein 0 5	c-Rel
+T2	Protein 10 13	p65
+T3	Protein 67 115	granulocyte macrophage-colony stimulating factor
+T4	Protein 247 253	GM-CSF
+T5	Protein 480 486	GM-CSF
+T6	Protein 546 552	GM-CSF
+T7	Protein 722 727	c-Rel
+T8	Protein 732 735	p65
+T9	Protein 858 863	c-Rel
+T10	Protein 868 871	p50
+T11	Binding 23 27	bind
+T12	Regulation 207 233	transcriptional regulation
+T13	Gene_expression 471 479	produces
+T14	Regulation 538 542	role
+T15	Transcription 553 566	transcription
+T16	Binding 669 698	heterodimeric binding complex
+T17	Binding 691 698	complex
+E1	Binding:T11 Theme:T2
+E2	Binding:T11 Theme:T1
+E3	Regulation:T12 Theme:T4
+E4	Gene_expression:T13 Theme:T5
+E5	Regulation:T14 Theme:E6
+E6	Transcription:T15 Theme:T6
+E7	Binding:T16 Theme:T9 Theme2:T10
+E8	Binding:T16 Theme:T7 Theme2:T8
+E9	Binding:T17 Theme:T8
+E10	Binding:T17 Theme:T7
+M1	Speculation E3
+
+T18	Entity 34 57	upstream NF-kappaB site
+R1	Protein-Component  Arg1:T3 Arg2:T18
+R2	Subunit-Complex Arg1:T7 Arg2:T16
+T19	Entity 34 124	upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter
+R3	Protein-Component  Arg1:T3 Arg2:T19
+T20	Entity 116 124	promoter
+R4	Protein-Component  Arg1:T3 Arg2:T20
+R5	Subunit-Complex Arg1:T8 Arg2:T16

@@ -1,0 +1,19 @@
+T1	Protein 39 48	TNF-alpha
+T2	Protein 469 478	TNF-alpha
+T3	Protein 602 611	TNF-alpha
+T4	Protein 832 841	TNF-alpha
+T5	Protein 976 985	TNF-alpha
+T6	Protein 1073 1082	TNF-alpha
+T7	Protein 1251 1260	TNF-alpha
+T8	Protein 1328 1337	TNF-alpha
+T9	Entity 21 35	growth hormone
+T10	Entity 63 84	nuclear factor-kappaB
+T11	Entity 262 264	GH
+T12	Entity 411 431	human growth hormone
+T13	Entity 433 436	hGH
+T14	Entity 526 528	GH
+T15	Entity 638 640	GH
+T16	Entity 708 710	GH
+T17	Entity 1186 1207	nuclear factor-kappaB
+T18	Entity 1225 1227	GH
+T19	Entity 1402 1404	GH

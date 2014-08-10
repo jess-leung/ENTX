@@ -1,0 +1,37 @@
+T1	Protein 15 20	Egr-1
+T2	Protein 21 25	RelA
+T3	Protein 75 102	tumor necrosis factor-alpha
+T4	Protein 111 122	NF-kappa B1
+T5	Protein 331 334	p50
+T6	Protein 434 445	NF-kappa B1
+T7	Protein 597 613	phytohemagglutin
+T8	Protein 615 618	PHA
+T9	Protein 659 670	NF-kappa B1
+T10	Protein 719 746	tumor necrosis factor-alpha
+T11	Protein 828 839	NF-kappa B1
+T12	Protein 863 868	Egr-1
+T13	Protein 923 926	PHA
+T14	Protein 1021 1025	RelA
+T15	Protein 1052 1057	Egr-1
+T16	Protein 1072 1077	Egr-1
+T17	Protein 1116 1127	NF-kappa B1
+T18	Protein 1155 1158	PHA
+T19	Protein 1204 1209	Egr-1
+T20	Protein 1260 1271	NF-kappa B1
+T21	Protein 1368 1373	Egr-1
+T22	Protein 1460 1471	NF-kappa B1
+*	Equiv T7 T8
+T23	Entity 139 149	NF-kappa B
+T24	Entity 260 276	NF-kappa B1 gene
+T25	Entity 348 358	NF-kappa B
+T26	Entity 409 419	NF-kappa B
+T27	Entity 792 802	NF-kappa B
+T28	Entity 840 848	promoter
+T29	Entity 869 873	site
+T30	Entity 923 926	PHA
+T31	Entity 1037 1047	NF-kappa B
+T32	Entity 1378 1388	NF-kappa B
+R1	Subunit-Complex Arg1:T5 Arg2:T25
+R2	Protein-Component Arg1:T11 Arg2:T29
+R3	Subunit-Complex Arg1:T14 Arg2:T31
+R4	Protein-Component Arg1:T11 Arg2:T28

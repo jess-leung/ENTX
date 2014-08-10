@@ -1,0 +1,41 @@
+T1	Protein 94 98	NF-M
+T2	Protein 148 153	c-Myb
+T3	Protein 485 489	NF-M
+T4	Protein 491 501	C/EBP-beta
+T5	Protein 503 509	NF-IL6
+T6	Protein 525 531	NF-IL6
+T7	Protein 1090 1094	CRP1
+T8	Protein 1096 1109	C/EBP-epsilon
+T9	Protein 1152 1165	C/EBP-epsilon
+T10	Protein 1435 1448	C/EBP-epsilon
+T11	Protein 2040 2053	C/EBP-epsilon
+T12	Protein 2106 2119	C/EBP-epsilon
+T13	Protein 2155 2168	C/EBP-epsilon
+T14	Protein 2215 2228	C/EBP-epsilon
+T15	Protein 2354 2367	C/EBP-epsilon
+T16	Protein 2571 2584	C/EBP-epsilon
+T17	Protein 2731 2744	C/EBP-epsilon
+T18	Protein 2816 2829	C/EBP-epsilon
+*	Equiv T3 T4 T5
+*	Equiv T7 T8
+T19	Entity 209 236	myeloid-cell-specific genes
+T20	Entity 852 859	primers
+T21	Entity 877 896	DNA-binding domains
+T22	Entity 994 1010	novel human gene
+T23	Entity 1036 1053	C/EBP gene family
+T24	Entity 1184 1240	promyelocyte-late myeloblast-derived lambda gt11 library
+T25	Entity 1322 1327	exons
+T26	Entity 1478 1502	transcription start site
+T27	Entity 1540 1551	start codon
+T28	Entity 1668 1678	TATAAA box
+T29	Entity 1699 1720	purine-rich stretches
+T30	Entity 2084 2102	N-terminal portion
+T31	Entity 2121 2141	amino acids 1 to 115
+T32	Entity 2278 2330	double-stranded DNA containing consensus C/EBP sites
+T33	Entity 2540 2549	promoters
+T34	Entity 2639 2666	myeloid-cell-specific genes
+T35	Entity 2806 2829	antisense C/EBP-epsilon
+R1	Protein-Component Arg1:T10 Arg2:T26
+R2	Protein-Component Arg1:T10 Arg2:T27
+R3	Protein-Component Arg1:T12 Arg2:T31
+R4	Protein-Component Arg1:T12 Arg2:T30

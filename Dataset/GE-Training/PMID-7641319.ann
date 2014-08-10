@@ -1,0 +1,66 @@
+T1	Protein 36 56	thromboxane receptor
+T2	Protein 186 207	thromboxane receptors
+T3	Protein 307 328	thromboxane receptors
+T4	Protein 460 480	thromboxane receptor
+T5	Protein 538 558	thromboxane receptor
+T6	Protein 694 714	thromboxane receptor
+T7	Protein 1047 1067	thromboxane receptor
+T8	Protein 1170 1190	thromboxane receptor
+T9	Protein 1229 1249	thromboxane receptor
+T10	Protein 1264 1297	chloramphenicol acetyltransferase
+T11	Protein 1299 1302	CAT
+T12	Protein 1352 1372	Thromboxane receptor
+T13	Protein 1407 1410	CAT
+T14	Protein 1656 1676	thromboxane receptor
+T15	Protein 1923 1943	thromboxane receptor
+T16	Protein 1970 1990	thromboxane receptor
+T17	Protein 2243 2264	thromboxane receptors
+T18	Protein 2312 2332	thromboxane receptor
+*	Equiv T10 T11
+T19	Regulation 140 150	regulating
+T20	Gene_expression 151 161	expression
+T21	Positive_regulation 235 246	upregulated
+T22	Regulation 333 362	under transcriptional control
+T23	Transcription 738 742	mRNA
+T24	Positive_regulation 1119 1136	Promoter function
+T25	Entity 1144 1162	5' flanking region
+T26	Entity 1373 1381	promoter
+T27	Gene_expression 1411 1421	expression
+T28	Positive_regulation 1465 1473	enhanced
+T29	Gene_expression 1996 2006	expression
+T30	Regulation 2014 2023	regulated
+T31	Positive_regulation 2183 2192	mechanism
+T32	Positive_regulation 2218 2230	upregulation
+T33	Positive_regulation 2302 2311	increased
+T34	Transcription 2338 2351	transcription
+E1	Regulation:T19 Theme:E2
+E2	Gene_expression:T20 Theme:T1
+E3	Positive_regulation:T21 Theme:T2
+E4	Regulation:T22 Theme:T3
+E5	Transcription:T23 Theme:T6
+E6	Positive_regulation:T24 Theme:T8 Site:T25
+E7	Gene_expression:T27 Theme:T13
+E8	Positive_regulation:T28 Theme:T12 Site:T26
+E9	Gene_expression:T29 Theme:T16
+E10	Regulation:T30 Theme:E9
+E11	Positive_regulation:T31 Theme:E12 Cause:E13
+E12	Positive_regulation:T32 Theme:T17
+E13	Positive_regulation:T33 Theme:E14
+E14	Transcription:T34 Theme:T18
+M1	Speculation E4
+M2	Speculation E6
+
+T35	Entity 1611 1648	major phorbol ester-responsive motifs
+R1	Protein-Component  Arg1:T14 Arg2:T35
+R2	Protein-Component Arg1:T12 Arg2:T26
+T36	Entity 1087 1091	TATA
+R3	Protein-Component  Arg1:T7 Arg2:T36
+T37	Entity 520 530	5' portion
+R4	Protein-Component  Arg1:T5 Arg2:T37
+T38	Entity 1098 1117	CAAT consensus site
+R5	Protein-Component  Arg1:T7 Arg2:T38
+T39	Entity 491 512	exon-intron structure
+R6	Protein-Component  Arg1:T5 Arg2:T39
+T40	Entity 434 452	5' flanking region
+R7	Protein-Component  Arg1:T4 Arg2:T40
+R8	Protein-Component Arg1:T8 Arg2:T25

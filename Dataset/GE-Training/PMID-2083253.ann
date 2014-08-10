@@ -1,0 +1,86 @@
+T1	Protein 16 27	TCF-1 alpha
+T2	Protein 87 110	T-cell receptor C alpha
+T3	Protein 441 452	TCF-1 alpha
+T4	Protein 563 574	TCF-1 alpha
+T5	Protein 685 694	TCR alpha
+T6	Protein 812 821	TCR alpha
+T7	Protein 834 840	p56lck
+T8	Protein 845 854	CD3 delta
+T9	Protein 882 893	TCF-1 alpha
+T10	Protein 957 966	TCR delta
+T11	Protein 981 989	TCR beta
+T12	Protein 1105 1116	TCF-1 alpha
+T13	Protein 1365 1374	TCR alpha
+T14	Protein 1408 1419	TCF-1 alpha
+T15	Protein 1568 1579	TCF-2 alpha
+T16	Protein 1808 1819	TCF-1 alpha
+T17	Protein 1944 1955	TCF-1 alpha
+T18	Protein 1991 2000	TCR alpha
+T19	Protein 2104 2115	TCF-1 alpha
+T20	Protein 2174 2185	TCF-1 alpha
+T21	Protein 2273 2282	TCR alpha
+T22	Protein 2404 2415	TCF-1 alpha
+T23	Protein 2441 2452	TCF-2 alpha
+T24	Protein 2457 2466	T alpha 1
+T25	Protein 2468 2472	CREB
+T26	Protein 2543 2552	TCR alpha
+*	Equiv T25 T24
+T27	Positive_regulation 73 82	activates
+T28	Entity 116 124	enhancer
+T29	Binding 673 677	bind
+T30	Entity 695 703	enhancer
+T31	Entity 711 720	promoters
+T32	Positive_regulation 711 720	promoters
+T33	Gene_expression 739 748	expressed
+T34	Positive_regulation 1129 1136	derived
+T35	Positive_regulation 1978 1986	required
+T36	Entity 2001 2009	enhancer
+T37	Transcription 2376 2400	transcriptional activity
+T38	Positive_regulation 2427 2433	depend
+T39	Entity 2553 2561	enhancer
+E1	Positive_regulation:T27 Theme:T2 Cause:T1 Site:T28
+E2	Binding:T29 Theme:T4 Theme2:T5 Site2:T31
+E3	Binding:T29 Theme:T4 Theme2:T5 Site2:T30
+E4	Positive_regulation:T32 Theme:E5
+E5	Gene_expression:T33 Theme:T7
+E6	Gene_expression:T33 Theme:T8
+E7	Gene_expression:T33 Theme:T6
+E8	Positive_regulation:T34 Theme:T12
+E9	Positive_regulation:T35 Theme:T18 Site:T36
+E10	Transcription:T37 Theme:T22
+E11	Positive_regulation:T38 Theme:E10 Cause:T23
+E12	Positive_regulation:T38 Theme:E10 Cause:T26 CSite:T39
+E13	Positive_regulation:T38 Theme:E10 Cause:T25
+M1	Negation E9
+M2	Speculation E11
+M3	Speculation E12
+M4	Speculation E13
+
+T40	Entity 991 1000	enhancers
+R1	Protein-Component  Arg1:T10 Arg2:T40
+R2	Protein-Component Arg1:T11 Arg2:T40
+T41	Entity 1601 1625	T-cell-specific enhancer
+R3	Protein-Component  Arg1:T13 Arg2:T41
+R4	Protein-Component Arg1:T5 Arg2:T30
+R5	Protein-Component Arg1:T26 Arg2:T39
+T42	Entity 1513 1525	binding site
+R6	Protein-Component  Arg1:T13 Arg2:T42
+T43	Entity 894 907	binding motif
+R7	Protein-Component  Arg1:T11 Arg2:T43
+T44	Entity 1498 1503	motif
+R8	Protein-Component  Arg1:T13 Arg2:T44
+T45	Entity 2241 2265	its neighboring elements
+R9	Protein-Component  Arg1:T21 Arg2:T45
+R10	Protein-Component Arg1:T10 Arg2:T43
+R11	Protein-Component Arg1:T2 Arg2:T28
+T46	Entity 2186 2201	binding element
+R12	Protein-Component  Arg1:T21 Arg2:T46
+R13	Protein-Component Arg1:T18 Arg2:T36
+T47	Entity 1343 1357	95-bp fragment
+R14	Protein-Component  Arg1:T13 Arg2:T47
+T48	Entity 1375 1389	control region
+R15	Protein-Component  Arg1:T13 Arg2:T48
+T49	Entity 1454 1475	cAMP-response element
+R16	Protein-Component  Arg1:T13 Arg2:T49
+T50	Entity 2283 2291	enhancer
+R17	Protein-Component  Arg1:T21 Arg2:T50

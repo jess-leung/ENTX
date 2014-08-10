@@ -1,0 +1,47 @@
+T1	Protein 89 93	IL-2
+T2	Protein 134 139	c-fos
+T3	Protein 441 444	PHA
+T4	Protein 464 467	CD2
+T5	Protein 468 503	lymphocyte function-associated Ag-3
+T6	Protein 588 592	IL-2
+T7	Protein 820 824	IL-2
+T8	Protein 855 859	IL-2
+T9	Protein 966 970	IL-2
+T10	Protein 996 1001	c-jun
+T11	Protein 1006 1011	c-fos
+T12	Protein 1106 1111	c-jun
+T13	Protein 1142 1147	c-jun
+T14	Protein 1171 1174	PHA
+T15	Protein 1233 1238	c-fos
+T16	Protein 1293 1296	PHA
+T17	Protein 1332 1337	c-fos
+T18	Protein 1368 1373	c-fos
+T19	Protein 1382 1385	PHA
+T20	Protein 1464 1467	CD2
+T21	Protein 1468 1503	lymphocyte function-associated Ag-3
+T22	Protein 1643 1647	IL-2
+T23	Protein 1689 1694	c-Jun
+T24	Protein 1703 1708	c-Fos
+T25	Protein 1741 1744	PHA
+T26	Protein 1770 1775	c-Jun
+T27	Protein 1794 1799	c-Fos
+T28	Protein 1889 1894	c-Fos
+T29	Protein 1956 1960	IL-2
+T30	Protein 2201 2205	IL-2
+T31	Entity 179 183	AP-1
+T32	Entity 1055 1059	AP-1
+T33	Entity 1061 1065	NFAT
+T34	Entity 1617 1635	proximal AP-1 site
+T35	Entity 1626 1630	AP-1
+T36	Entity 1648 1656	promoter
+T37	Entity 1731 1735	AP-1
+T38	Entity 1906 1910	AP-1
+T39	Entity 2005 2023	NFAT-DNA complexes
+T40	Entity 2152 2156	AP-1
+R1	Subunit-Complex Arg1:T11 Arg2:T32
+R2	Subunit-Complex Arg1:T10 Arg2:T32
+R3	Protein-Component Arg1:T22 Arg2:T34
+R4	Protein-Component Arg1:T22 Arg2:T36
+R5	Subunit-Complex Arg1:T26 Arg2:T37
+R6	Subunit-Complex Arg1:T27 Arg2:T37
+R7	Subunit-Complex Arg1:T28 Arg2:T38

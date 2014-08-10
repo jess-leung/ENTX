@@ -1,0 +1,34 @@
+T1	Protein 0 3	USF
+T2	Protein 34 41	HIV-TF1
+T3	Protein 129 136	HIV-TF1
+T4	Protein 281 288	HIV-TF1
+T5	Protein 334 341	HIV-TF1
+T6	Protein 440 447	HIV-TF1
+T7	Protein 510 537	upstream stimulatory factor
+T8	Protein 539 542	USF
+T9	Protein 609 616	HIV-TF1
+T10	Protein 632 639	HIV-TF1
+T11	Protein 673 676	USF
+T12	Protein 715 722	HIV-TF1
+T13	Protein 815 822	HIV-TF1
+T14	Protein 872 879	HIV-TF1
+T15	Protein 1004 1011	HIV-TF1
+*	Equiv T8 T7
+T16	Binding 144 149	binds
+T17	Binding 323 330	Binding
+T18	Binding 496 506	recognized
+T19	Binding 587 594	binding
+T20	Negative_regulation 746 753	reduced
+T21	Binding 762 769	binding
+T22	Phosphorylation 796 811	phosphorylation
+T23	Positive_regulation 827 836	essential
+T24	Binding 845 852	binding
+E1	Binding:T16 Theme:T3
+E2	Binding:T17 Theme:T5
+E3	Binding:T18 Theme:T8
+E4	Binding:T19 Theme:T9
+E5	Negative_regulation:T20 Theme:E6
+E6	Binding:T21 Theme:T12
+E7	Phosphorylation:T22 Theme:T13
+E8	Positive_regulation:T23 Theme:E9 Cause:E7
+E9	Binding:T24 Theme:T13

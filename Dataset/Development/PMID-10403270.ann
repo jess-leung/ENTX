@@ -1,0 +1,21 @@
+T1	Protein 839 842	IgG
+T2	Protein 990 1003	interleukin-6
+T3	Protein 1005 1009	IL-6
+T4	Protein 1015 1036	von Willebrand factor
+T5	Protein 1038 1041	vWF
+T6	Protein 1210 1243	vascular cell adhesion molecule 1
+T7	Protein 1245 1278	intercellular adhesion molecule 1
+T8	Protein 1284 1294	E-selectin
+T9	Protein 1831 1834	IgG
+T10	Protein 1929 1933	IL-6
+T11	Protein 1938 1941	vWF
+*	Equiv T2 T3
+*	Equiv T4 T5
+T12	Entity 580 649	microvascular EC (human bone marrow EC immortalized by SV40) antigens
+T13	Entity 795 805	EC epitope
+T14	Entity 1402 1423	nuclear factor kappaB
+T15	Entity 1425 1434	NF-kappaB
+T16	Entity 1454 1474	NF-kappaB oligoprobe
+T17	Entity 1454 1463	NF-kappaB
+T18	Entity 2132 2162	NF-kappaB transcription factor
+T19	Entity 2321 2330	NF-kappaB

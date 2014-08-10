@@ -1,0 +1,40 @@
+T1	Protein 2 6	CD28
+T2	Protein 171 175	CD28
+T3	Protein 470 474	CD28
+T4	Protein 662 666	CD28
+T5	Protein 819 827	p56(lck)
+T6	Protein 832 839	c-Raf-1
+T7	Protein 956 960	CD28
+T8	Protein 985 989	IL-2
+T9	Protein 1129 1137	p56(lck)
+T10	Protein 1142 1149	c-Raf-1
+T11	Protein 1220 1224	IL-2
+T12	Protein 1280 1286	BW 828
+T13	Protein 1291 1294	9.3
+T14	Protein 1421 1429	p56(lck)
+T15	Protein 1492 1496	CD28
+T16	Protein 1541 1545	CD28
+T17	Protein 1624 1628	CD28
+T18	Positive_regulation 478 486	mediated
+T19	Positive_regulation 762 795	not lead to detectable activation
+T20	Positive_regulation 1101 1125	triggered the activation
+T21	Positive_regulation 1159 1175	unable to induce
+T22	Binding 1180 1187	binding
+T23	Entity 1225 1233	promoter
+T24	Positive_regulation 1328 1337	exhibited
+T25	Positive_regulation 1430 1440	activation
+T26	Positive_regulation 1604 1615	stimulation
+E1	Positive_regulation:T18 Theme:T3
+E2	Positive_regulation:T19 Theme:T5
+E3	Positive_regulation:T19 Theme:T6
+E4	Positive_regulation:T20 Theme:T9
+E5	Positive_regulation:T20 Theme:T10
+E6	Positive_regulation:T21 Theme:E7
+E7	Binding:T22 Theme:T11 Site:T23
+E8	Positive_regulation:T24 Theme:E10 Cause:T12
+E9	Positive_regulation:T24 Theme:E10 Cause:T13
+E10	Positive_regulation:T25 Theme:T14
+E11	Positive_regulation:T26 Theme:T17
+M1	Negation E2
+M2	Negation E3
+M3	Negation E6

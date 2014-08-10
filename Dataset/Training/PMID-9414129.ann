@@ -1,0 +1,24 @@
+T1	Protein 0 5	c-Rel
+T2	Protein 10 13	p65
+T3	Protein 67 115	granulocyte macrophage-colony stimulating factor
+T4	Protein 247 253	GM-CSF
+T5	Protein 480 486	GM-CSF
+T6	Protein 546 552	GM-CSF
+T7	Protein 722 727	c-Rel
+T8	Protein 732 735	p65
+T9	Protein 858 863	c-Rel
+T10	Protein 868 871	p50
+T11	Entity 34 124	upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter
+T12	Entity 34 57	upstream NF-kappaB site
+T13	Entity 43 52	NF-kappaB
+T14	Entity 116 124	promoter
+T15	Entity 357 376	NF-kappaB like site
+T16	Entity 357 366	NF-kappaB
+T17	Entity 592 610	tumor promoter PMA
+T18	Entity 669 698	heterodimeric binding complex
+T19	Entity 786 805	HIV-LTR-kappaB site
+R1	Protein-Component Arg1:T3 Arg2:T12
+R2	Protein-Component Arg1:T3 Arg2:T11
+R3	Protein-Component Arg1:T3 Arg2:T14
+R4	Subunit-Complex Arg1:T7 Arg2:T18
+R5	Subunit-Complex Arg1:T8 Arg2:T18

@@ -1,0 +1,65 @@
+T1	Protein 144 155	CD40 ligand
+T2	Protein 160 164	IL-4
+T3	Protein 196 202	STAT-6
+T4	Protein 524 533	I gamma 3
+T5	Protein 630 639	C gamma 3
+T6	Protein 650 659	I gamma 3
+T7	Protein 691 700	I gamma 3
+T8	Protein 796 805	I gamma 1
+T9	Protein 807 816	I gamma 2
+T10	Protein 822 831	I gamma 4
+T11	Protein 1030 1034	CD40
+T12	Protein 1038 1049	CD40 ligand
+T13	Protein 1051 1056	CD40L
+T14	Protein 1074 1078	IL-4
+T15	Protein 1114 1118	CD40
+T16	Protein 1119 1124	CD40L
+T17	Protein 1152 1156	IL-4
+T18	Protein 1380 1385	CD40L
+T19	Protein 1390 1394	IL-4
+T20	Protein 1404 1410	STAT-6
+T21	Protein 1453 1457	IL-4
+T22	Protein 1522 1525	p50
+T23	Protein 1526 1529	p65
+T24	Protein 1530 1535	c-Rel
+T25	Protein 1540 1546	STAT-6
+T26	Protein 1574 1579	CD40L
+T27	Protein 1584 1588	IL-4
+T28	Protein 1680 1685	CD40L
+T29	Protein 1690 1694	IL-4
+T30	Protein 1914 1919	CD40L
+T31	Protein 1924 1928	IL-4
+*	Equiv T12 T13
+T32	Entity 4 91	evolutionarily conserved sequence upstream of the human Ig heavy chain S gamma 3 region
+T33	Entity 4 37	evolutionarily conserved sequence
+T34	Entity 54 91	human Ig heavy chain S gamma 3 region
+T35	Entity 98 116	inducible promoter
+T36	Entity 203 216	binding sites
+T37	Entity 219 240	Germline C gamma gene
+T38	Entity 534 567	evolutionarily conserved sequence
+T39	Entity 569 572	ECS
+T40	Entity 581 589	germline
+T41	Entity 660 663	ECS
+T42	Entity 701 730	transcription initiation site
+T43	Entity 832 839	regions
+T44	Entity 841 873	Reporter luciferase gene vectors
+T45	Entity 889 906	human gamma 3 ECS
+T46	Entity 976 979	Smu
+T47	Entity 982 991	S gamma 3
+T48	Entity 1181 1192	gamma 3 ECS
+T49	Entity 1203 1227	luciferase reporter gene
+T50	Entity 1296 1324	NF-kappa B/Rel binding motif
+T51	Entity 1296 1310	NF-kappa B/Rel
+T52	Entity 1345 1356	gamma 3 ECS
+T53	Entity 1410 1423	-binding site
+T54	Entity 1625 1635	DNA motifs
+T55	Entity 1647 1650	ECS
+T56	Entity 1695 1714	responsive elements
+T57	Entity 1798 1806	promoter
+T58	Entity 1829 1840	gamma 3 ECS
+T59	Entity 1877 1889	cis elements
+T60	Entity 1973 1993	human C gamma 3 gene
+R1	Protein-Component Arg1:T4 Arg2:T38
+R2	Protein-Component Arg1:T7 Arg2:T41
+R3	Protein-Component Arg1:T7 Arg2:T42
+R4	Protein-Component Arg1:T21 Arg2:T53

@@ -1,0 +1,23 @@
+T1	Protein 357 360	p50
+T2	Protein 361 364	p50
+T3	Protein 369 372	p50
+T4	Protein 373 376	p65
+T5	Protein 773 788	I kappa B-alpha
+*	Equiv T1 T2
+T6	Binding 385 395	recognized
+T7	Gene_expression 455 465	detectable
+T8	Negative_regulation 760 769	inhibitor
+T9	Protein_catabolism 789 800	degradation
+E1	Binding:T6 Theme:T4
+E2	Binding:T6 Theme:T1
+E3	Binding:T6 Theme:T3
+E4	Gene_expression:T7 Theme:T4
+E5	Gene_expression:T7 Theme:T1
+E6	Gene_expression:T7 Theme:T3
+E7	Negative_regulation:T8 Theme:E8
+E8	Protein_catabolism:T9 Theme:T5
+
+T10	Entity 377 383	dimers
+R1	Subunit-Complex  Arg1:T4 Arg2:T10
+R2	Subunit-Complex Arg1:T3 Arg2:T10
+R3	Subunit-Complex Arg1:T1 Arg2:T10

@@ -1,0 +1,18 @@
+T1	Protein 22 50	retinoic acid receptor alpha
+T2	Protein 577 586	RAR alpha
+T3	Protein 826 835	RAR alpha
+T4	Protein 906 915	RAR alpha
+T5	Protein 917 927	hRAR alpha
+T6	Protein 1198 1208	hRAR alpha
+T7	Protein 1451 1460	RAR alpha
+T8	Protein 1634 1643	RAR alpha
+T9	Protein 1708 1717	RAR alpha
+*	Equiv T4 T5
+T10	Positive_regulation 4 18	overexpression
+T11	Gene_expression 4 18	overexpression
+T12	Gene_expression 1616 1630	overexpression
+T13	Positive_regulation 1616 1630	overexpression
+E1	Positive_regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+E3	Gene_expression:T12 Theme:T8
+E4	Positive_regulation:T13 Theme:E3

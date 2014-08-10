@@ -1,0 +1,15 @@
+T1	Protein 743 783	intracellular adhesion molecule (ICAM)-1
+T2	Protein 785 825	vascular cell adhesion molecule (VCAM)-1
+T3	Protein 830 878	endothelial leukocyte adhesion molecule (ELAM)-1
+T4	Protein 1138 1144	ICAM-1
+T5	Protein 1146 1152	VCAM-1
+T6	Protein 1158 1164	ELAM-1
+T7	Entity 104 112	tyrosine
+T8	Entity 149 177	nuclear transcription factor
+T9	Entity 178 188	NF-kappa B
+T10	Entity 254 262	tyrosine
+T11	Entity 372 400	nuclear transcription factor
+T12	Entity 401 411	NF-kappa B
+T13	Entity 654 664	NF-kappa B
+T14	Entity 993 1003	NF-kappa B
+T15	Entity 1491 1501	NF-kappa B

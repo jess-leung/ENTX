@@ -1,0 +1,13 @@
+T1	Protein 52 80	tumour necrosis factor-alpha
+T2	Protein 477 505	tumour necrosis factor-alpha
+T3	Protein 507 516	TNF-alpha
+T4	Protein 635 644	TNF-alpha
+T5	Protein 729 737	IkBalpha
+T6	Protein 932 941	TNF-alpha
+T7	Protein 1095 1104	TNF-alpha
+*	Equiv T2 T3
+T8	Positive_regulation 698 705	enhance
+T9	Protein_catabolism 746 757	degradation
+E1	Positive_regulation:T8 Theme:E2
+E2	Protein_catabolism:T9 Theme:T5
+M1	Speculation E1

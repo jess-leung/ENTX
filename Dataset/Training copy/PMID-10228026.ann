@@ -1,0 +1,81 @@
+T1	Protein 0 8	Thrombin
+T2	Protein 17 20	p65
+T3	Protein 106 112	ICAM-1
+T4	Protein 216 224	thrombin
+T5	Protein 295 301	ICAM-1
+T6	Protein 303 307	CD54
+T7	Protein 368 376	thrombin
+T8	Protein 427 433	ICAM-1
+T9	Protein 474 480	ICAM-1
+T10	Protein 600 606	ICAM-1
+T11	Protein 774 782	thrombin
+T12	Protein 928 934	ICAM-1
+T13	Protein 1008 1016	thrombin
+T14	Protein 1240 1243	E1B
+T15	Protein 1285 1293	thrombin
+T16	Protein 1354 1362	thrombin
+T17	Protein 1413 1421	thrombin
+T18	Protein 1451 1454	p65
+T19	Protein 1456 1461	Rel A
+T20	Protein 1500 1506	ICAM-1
+T21	Protein 1517 1534	Thrombin receptor
+T22	Protein 1616 1652	proteolytically activated receptor-1
+T23	Protein 1663 1671	thrombin
+T24	Protein 1693 1699	ICAM-1
+T25	Protein 1737 1745	thrombin
+T26	Protein 1768 1774	ICAM-1
+T27	Protein 1840 1843	p65
+T28	Protein 1889 1895	ICAM-1
+T29	Protein 1911 1947	proteolytically activated receptor-1
+*	Equiv T5 T6
+*	Equiv T18 T19
+T30	Entity 21 30	homodimer
+T31	Entity 53 68	NF-kappa B site
+T32	Entity 53 63	NF-kappa B
+T33	Entity 607 615	promoter
+T34	Entity 691 715	upstream NF-kappa B site
+T35	Entity 700 710	NF-kappa B
+T36	Entity 717 727	-533 bases
+T37	Entity 733 755	translation start site
+T38	Entity 828 854	downstream NF-kappa B site
+T39	Entity 839 849	NF-kappa B
+T40	Entity 856 866	-223 bases
+T41	Entity 876 898	translation start site
+T42	Entity 935 943	promoter
+T43	Entity 965 991	downstream NF-kappa B site
+T44	Entity 976 986	NF-kappa B
+T45	Entity 1031 1041	NF-kappa B
+T46	Entity 1183 1208	consensus NF-kappa B site
+T47	Entity 1193 1208	NF-kappa B site
+T48	Entity 1193 1203	NF-kappa B
+T49	Entity 1244 1268	promoter-luciferase gene
+T50	Entity 1325 1335	NF-kappa B
+T51	Entity 1441 1451	NF-kappa B
+T52	Entity 1466 1492	downstream NF-kappa B site
+T53	Entity 1477 1487	NF-kappa B
+T54	Entity 1507 1515	promoter
+T55	Entity 1535 1553	activation peptide
+T56	Entity 1557 1578	14-amino-acid peptide
+T57	Entity 1600 1612	NH2 terminus
+T58	Entity 1830 1840	NF-kappa B
+T59	Entity 1859 1885	downstream NF-kappa B site
+T60	Entity 1870 1880	NF-kappa B
+T61	Entity 1896 1904	promoter
+R1	Subunit-Complex Arg1:T2 Arg2:T30
+R2	Protein-Component Arg1:T10 Arg2:T37
+R3	Protein-Component Arg1:T12 Arg2:T37
+R4	Protein-Component Arg1:T12 Arg2:T40
+R5	Protein-Component Arg1:T12 Arg2:T38
+R6	Protein-Component Arg1:T12 Arg2:T41
+R7	Protein-Component Arg1:T12 Arg2:T34
+R8	Protein-Component Arg1:T10 Arg2:T33
+R9	Protein-Component Arg1:T12 Arg2:T42
+R10	Protein-Component Arg1:T20 Arg2:T52
+R11	Subunit-Complex Arg1:T18 Arg2:T51
+R12	Protein-Component Arg1:T20 Arg2:T54
+R13	Protein-Component Arg1:T22 Arg2:T55
+R14	Protein-Component Arg1:T22 Arg2:T57
+R15	Protein-Component Arg1:T22 Arg2:T56
+R16	Protein-Component Arg1:T28 Arg2:T59
+R17	Subunit-Complex Arg1:T27 Arg2:T58
+R18	Protein-Component Arg1:T28 Arg2:T61

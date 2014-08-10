@@ -1,0 +1,26 @@
+T1	Protein 208 221	interleukin 2
+T2	Protein 223 227	IL-2
+T3	Protein 444 492	granulocyte/macrophage-colony-stimulating factor
+T4	Protein 518 522	IL-2
+T5	Protein 816 822	p56lck
+T6	Protein 827 833	p59fyn
+T7	Protein 929 935	p56lck
+T8	Protein 940 946	p59fyn
+T9	Protein 1131 1135	IL-2
+T10	Protein 1158 1164	p56lck
+T11	Protein 1169 1175	p59fyn
+T12	Protein 1253 1259	p56lck
+T13	Protein 1261 1267	p59fyn
+T14	Protein 1444 1449	c-Rel
+T15	Protein 1454 1459	Rel A
+*	Equiv T1 T2
+T16	Entity 200 203	CD3
+T17	Entity 514 517	CD3
+T18	Entity 1020 1028	tyrosine
+T19	Entity 1093 1096	CD3
+T20	Entity 1127 1130	CD3
+T21	Entity 1526 1532	kappaB
+T22	Entity 1533 1536	DNA
+T23	Entity 1570 1573	CD3
+T24	Entity 1699 1708	NF-kappaB
+T25	Entity 1806 1833	T cell receptor/CD3 complex

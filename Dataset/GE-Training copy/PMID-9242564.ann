@@ -1,0 +1,36 @@
+T1	Protein 25 29	EKLF
+T2	Protein 76 87	beta-globin
+T3	Protein 120 132	gamma-globin
+T4	Protein 179 191	EKLF alleles
+T5	Protein 252 256	EKLF
+T6	Protein 448 452	EKLF
+T7	Protein 736 750	beta h1-globin
+T8	Protein 824 835	beta-globin
+T9	Protein 836 848	alpha-globin
+T10	Protein 926 930	EKLF
+T11	Protein 1102 1131	glucose phosphate isomerase-1
+T12	Protein 1133 1138	GPI-1
+T13	Protein 1465 1469	EKLF
+T14	Protein 1559 1564	beta-
+T15	Protein 1572 1591	alpha-globin chains
+T16	Protein 1632 1644	alpha-globin
+T17	Protein 1768 1772	EKLF
+T18	Protein 1800 1812	gamma-globin
+*	Equiv T11 T12
+T19	Negative_regulation 62 72	deficiency
+T20	Regulation 703 712	regulated
+T21	Negative_regulation 758 770	continued to
+T22	Gene_expression 774 783	expressed
+T23	Positive_regulation 1593 1600	leading
+T24	Localization 1608 1621	precipitation
+T25	Positive_regulation 1625 1631	excess
+T26	Entity 1660 1672	Heinz bodies
+E1	Negative_regulation:T19 Theme:T2
+E2	Regulation:T20 Theme:T7
+E3	Negative_regulation:T21 Theme:E4
+E4	Gene_expression:T22 Theme:T7
+E5	Positive_regulation:T23 Theme:E6
+E6	Localization:T24 Theme:T16 AtLoc:T26
+E7	Positive_regulation:T25 Theme:T16
+M1	Negation E2
+M2	Negation E3

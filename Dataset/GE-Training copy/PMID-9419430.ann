@@ -1,0 +1,17 @@
+T1	Protein 24 28	CD40
+T2	Protein 178 182	CD40
+T3	Protein 222 226	CD40
+T4	Protein 325 329	CD40
+T5	Protein 363 367	CD40
+T6	Protein 410 414	CD40
+T7	Protein 508 512	CD40
+T8	Protein 555 558	IgG
+T9	Protein 606 610	CD40
+T10	Protein 661 665	gp39
+T11	Binding 216 221	bound
+T12	Binding 351 362	crosslinked
+T13	Binding 400 409	crosslink
+E1	Binding:T11 Theme:T3
+E2	Binding:T12 Theme:T5
+E3	Binding:T13 Theme:T6
+M1	Negation E3

@@ -1,0 +1,21 @@
+T1	Protein 36 39	Nef
+T2	Protein 211 226	negative factor
+T3	Protein 228 231	Nef
+T4	Protein 362 365	Nef
+T5	Protein 475 478	nef
+T6	Protein 922 925	nef
+T7	Protein 992 995	Nef
+T8	Protein 1088 1091	Nef
+*	Equiv T2 T3
+T9	Entity 85 95	NF-kappa B
+T10	Entity 100 104	AP-1
+T11	Entity 291 301	NF-kappa B
+T12	Entity 306 310	AP-1
+T13	Entity 700 708	nef gene
+T14	Entity 785 818	T-cell receptor (TCR)-CD3 complex
+T15	Entity 878 888	NF-kappa B
+T16	Entity 893 897	AP-1
+T17	Entity 1050 1065	CD3-TCR complex
+T18	Entity 1143 1153	NF-kappa B
+T19	Entity 1158 1162	AP-1
+T20	Entity 1208 1211	TCR

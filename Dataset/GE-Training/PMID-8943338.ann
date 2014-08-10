@@ -1,0 +1,50 @@
+T1	Protein 0 5	Elf-1
+T2	Protein 10 15	Stat5
+T3	Protein 74 102	interleukin-2 receptor alpha
+T4	Protein 178 212	interleukin 2 receptor alpha-chain
+T5	Protein 214 225	IL-2R alpha
+T6	Protein 280 291	IL-2R alpha
+T7	Protein 369 382	Interleukin 2
+T8	Protein 384 388	IL-2
+T9	Protein 401 412	IL-2R alpha
+T10	Protein 493 504	IL-2R alpha
+T11	Protein 854 859	Elf-1
+T12	Protein 864 872	HMG-I(Y)
+T13	Protein 952 963	IL-2R alpha
+T14	Protein 981 985	IL-2
+T15	Protein 1025 1036	IL-2R alpha
+T16	Protein 1090 1101	IL-2R alpha
+T17	Protein 1227 1231	IL-2
+T18	Protein 1317 1321	IL-2
+T19	Protein 1478 1482	IL-2
+T20	Protein 1506 1509	CAT
+T21	Protein 1531 1535	IL-2
+T22	Protein 1747 1758	IL-2R alpha
+T23	Protein 1879 1890	IL-2R alpha
+T24	Protein 1939 1944	Elf-1
+*	Equiv T7 T8
+*	Equiv T4 T5
+T25	Binding 16 20	bind
+T26	Positive_regulation 316 323	induced
+T27	Transcription 505 518	transcription
+T28	Regulation 539 549	controlled
+T29	Binding 816 821	binds
+T30	Positive_regulation 939 948	induction
+T31	Transcription 964 977	transcription
+T32	Positive_regulation 1732 1743	stimulation
+T33	Gene_expression 1759 1769	expression
+T34	Regulation 1846 1850	role
+T35	Regulation 1891 1901	regulation
+E1	Binding:T25 Theme:T2 Theme2:T3
+E2	Binding:T25 Theme:T1 Theme2:T3
+E3	Positive_regulation:T26 Theme:T6
+E4	Transcription:T27 Theme:T10
+E5	Regulation:T28 Theme:E4
+E6	Binding:T29 Theme:T12
+E7	Binding:T29 Theme:T11
+E8	Positive_regulation:T30 Theme:E9 Cause:T14
+E9	Transcription:T31 Theme:T13
+E10	Positive_regulation:T32 Theme:E11
+E11	Gene_expression:T33 Theme:T22
+E12	Regulation:T34 Theme:E13
+E13	Regulation:T35 Theme:T23

@@ -1,0 +1,33 @@
+T1	Protein 75 80	CIITA
+T2	Protein 502 507	CIITA
+T3	Protein 535 540	CIITA
+T4	Protein 818 823	CIITA
+T5	Protein 1022 1030	DR alpha
+T6	Protein 1074 1079	CIITA
+T7	Protein 1097 1102	CIITA
+T8	Protein 1202 1207	CIITA
+T9	Entity 0 23	Human MHC class II gene
+T10	Entity 54 71	carboxyl terminus
+T11	Entity 93 108	defective genes
+T12	Entity 112 123	type II MHC
+T13	Entity 153 193	Type II major histocompatibility complex
+T14	Entity 222 233	type II MHC
+T15	Entity 332 344	MHC class II
+T16	Entity 430 444	defective gene
+T17	Entity 457 468	type II MHC
+T18	Entity 547 564	MHC class II gene
+T19	Entity 656 680	N-terminal acidic domain
+T20	Entity 682 700	amino acids 26-137
+T21	Entity 747 797	heterologous viral transcription-activating domain
+T22	Entity 840 858	MHC class II genes
+T23	Entity 860 862	DR
+T24	Entity 864 866	DQ
+T25	Entity 871 873	DP
+T26	Entity 904 923	C-terminal residues
+T27	Entity 925 945	amino acids 317-1130
+T28	Entity 971 992	multiple cis elements
+T29	Entity 1005 1006	S
+T30	Entity 1011 1013	X2
+T31	Entity 1031 1048	proximal promoter
+T32	Entity 1151 1159	class II
+R1	Protein-Component Arg1:T5 Arg2:T31

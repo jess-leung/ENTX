@@ -1,0 +1,22 @@
+T1	Protein 42 48	ICAM-1
+T2	Protein 96 129	Intercellular adhesion molecule 1
+T3	Protein 131 137	ICAM-1
+T4	Protein 448 454	ICAM-1
+T5	Protein 607 613	ICAM-1
+T6	Protein 653 659	ICAM-1
+T7	Protein 736 742	ICAM-1
+T8	Protein 885 891	ICAM-1
+T9	Protein 1182 1185	p65
+T10	Protein 1187 1192	Rel A
+T11	Protein 1423 1429	ICAM-1
+*	Equiv T2 T3
+*	Equiv T9 T10
+T12	Entity 82 93	proteasomes
+T13	Entity 906 932	antisense oligonucleotides
+T14	Entity 999 1034	inhibitors of proteasome activation
+T15	Entity 1013 1023	proteasome
+T16	Entity 1081 1091	proteasome
+T17	Entity 1145 1181	nuclear transcription factor-kappa B
+T18	Entity 1208 1218	proteasome
+T19	Entity 1389 1399	proteasome
+R1	Subunit-Complex Arg1:T9 Arg2:T17

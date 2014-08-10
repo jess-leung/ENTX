@@ -1,0 +1,11 @@
+T1	Protein 879 890	NF-kappa B1
+T2	Protein 991 1000	TNF-alpha
+T3	Protein 1008 1012	IL-6
+T4	Protein 1014 1018	IL-8
+T5	Protein 1023 1038	beta-interferon
+T6	Entity 719 762	transcription factor nuclear factor kappa B
+T7	Entity 764 774	NF-kappa B
+T8	Entity 1154 1162	cysteine
+T9	Entity 1167 1186	reduced glutathione
+T10	Entity 1188 1191	GSH
+T11	Entity 1235 1245	NF-kappa B

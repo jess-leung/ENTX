@@ -1,0 +1,30 @@
+T1	Protein 39 43	IL-3
+T2	Protein 74 87	interleukin-3
+T3	Protein 89 93	IL-3
+T4	Protein 305 322	phytohemaglutinin
+T5	Protein 324 327	PHA
+T6	Protein 401 405	IL-3
+T7	Protein 566 570	IL-3
+T8	Protein 711 715	IL-3
+T9	Protein 937 941	IL-3
+T10	Protein 942 946	CK-1
+T11	Protein 947 951	CK-2
+T12	Protein 1147 1150	PHA
+*	Equiv T2 T3
+*	Equiv T4 T5
+T13	Entity 0 25	T-cell functional regions
+T14	Entity 44 61	proximal promoter
+T15	Entity 426 433	regions
+T16	Entity 633 652	regulatory elements
+T17	Entity 676 703	proximal 5' flanking region
+T18	Entity 726 741	promoter region
+T19	Entity 750 762	-173 and -60
+T20	Entity 787 806	activating elements
+T21	Entity 812 837	transcription factor AP-1
+T22	Entity 952 960	elements
+T23	Entity 986 1000	cytokine genes
+T24	Entity 1094 1115	heterologous promoter
+R1	Protein-Component Arg1:T1 Arg2:T13
+R2	Protein-Component Arg1:T1 Arg2:T14
+R3	Protein-Component Arg1:T8 Arg2:T17
+R4	Protein-Component Arg1:T8 Arg2:T16

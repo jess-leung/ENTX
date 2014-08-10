@@ -1,0 +1,35 @@
+T1	Protein 51 54	env
+T2	Protein 188 191	env
+T3	Protein 515 522	DNase I
+T4	Protein 1101 1105	SV40
+T5	Protein 1226 1230	SV40
+T6	Entity 18 43	transcriptional activator
+T7	Entity 208 233	transcriptional activator
+T8	Entity 235 239	META
+T9	Entity 288 315	long terminal repeat region
+T10	Entity 344 348	META
+T11	Entity 375 391	lymphokine genes
+T12	Entity 604 626	promoter-proximal site
+T13	Entity 628 635	META(P)
+T14	Entity 643 663	promoter-distal site
+T15	Entity 665 673	META(D+)
+T16	Entity 686 711	400-base pair META region
+T17	Entity 792 800	META(D-)
+T18	Entity 814 822	META(D+)
+T19	Entity 824 832	META(D+)
+T20	Entity 868 883	luciferase gene
+T21	Entity 1037 1044	targets
+T22	Entity 1069 1077	META(D+)
+T23	Entity 1106 1119	core sequence
+T24	Entity 1133 1141	META(D+)
+T25	Entity 1163 1171	META(D+)
+T26	Entity 1198 1236	complexes obtained with the SV40 probe
+T27	Entity 1231 1236	probe
+T28	Entity 1281 1289	META(D+)
+T29	Entity 1301 1333	transcriptional enhancer element
+T30	Entity 1430 1442	NFAT element
+R1	Protein-Component Arg1:T1 Arg2:T6
+R2	Protein-Component Arg1:T2 Arg2:T7
+R3	Protein-Component Arg1:T2 Arg2:T8
+R4	Protein-Component Arg1:T4 Arg2:T23
+R5	Subunit-Complex Arg1:T5 Arg2:T26

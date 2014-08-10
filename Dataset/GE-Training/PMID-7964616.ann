@@ -1,0 +1,104 @@
+T1	Protein 27 63	Epstein-Barr virus nuclear antigen 2
+T2	Protein 65 71	EBNA-2
+T3	Protein 166 172	EBNA-2
+T4	Protein 199 241	Epstein-Barr virus (EBV) nuclear antigen 2
+T5	Protein 243 249	EBNA-2
+T6	Protein 329 335	EBNA-2
+T7	Protein 382 386	CD23
+T8	Protein 388 393	c-fgr
+T9	Protein 395 420	latent membrane protein 1
+T10	Protein 422 426	LMP1
+T11	Protein 432 450	terminal protein 1
+T12	Protein 452 455	TP1
+T13	Protein 482 485	TP1
+T14	Protein 506 513	BamHI C
+T15	Protein 652 658	EBNA-2
+T16	Protein 694 700	EBNA-2
+T17	Protein 749 752	LMP
+T18	Protein 844 847	LMP
+T19	Protein 871 877	EBNA-2
+T20	Protein 926 932	EBNA-2
+T21	Protein 958 961	LMP
+T22	Protein 1085 1088	LMP
+T23	Protein 1181 1184	LMP
+T24	Protein 1372 1378	EBNA-2
+T25	Protein 1461 1467	EBNA-2
+T26	Protein 1481 1487	EBNA-2
+T27	Protein 1605 1612	EBNA-2A
+T28	Protein 1620 1623	TP1
+T29	Protein 1738 1741	LMP
+T30	Protein 1801 1807	EBNA-2
+T31	Protein 1911 1917	EBNA-2
+T32	Protein 1986 1989	LMP
+*	Equiv T12 T11
+*	Equiv T10 T9
+*	Equiv T2 T1
+*	Equiv T4 T5
+T33	Binding 4 11	binding
+T34	Positive_regulation 336 351	trans-activates
+T35	Positive_regulation 458 474	Trans-activation
+T36	Entity 486 494	promoter
+T37	Entity 514 522	promoter
+T38	Positive_regulation 581 589	mediated
+T39	Positive_regulation 712 726	trans-activate
+T40	Gene_expression 731 741	expression
+T41	Entity 817 836	cis-acting elements
+T42	Positive_regulation 878 886	mediates
+T43	Positive_regulation 938 953	trans-activates
+T44	Entity 962 970	promoter
+T45	Binding 990 1002	interactions
+T46	Binding 1159 1166	binding
+T47	Entity 1185 1193	promoter
+T48	Binding 1357 1368	interaction
+T49	Binding 1412 1424	interactions
+T50	Binding 1594 1601	binding
+T51	Entity 1624 1632	promoter
+T52	Entity 1742 1750	promoter
+T53	Binding 1751 1758	binding
+T54	Binding 1973 1978	bound
+T55	Entity 1990 1998	promoter
+E1	Binding:T33 Theme:T2
+E2	Positive_regulation:T34 Theme:T8 Cause:T6
+E3	Positive_regulation:T34 Theme:T10 Cause:T6
+E4	Positive_regulation:T34 Theme:T7 Cause:T6
+E5	Positive_regulation:T34 Theme:T12 Cause:T6
+E6	Positive_regulation:T35 Theme:T13 Site:T36
+E7	Positive_regulation:T35 Theme:T14 Site:T37
+E8	Positive_regulation:T38 Theme:E6
+E9	Positive_regulation:T38 Theme:E7
+E10	Positive_regulation:T39 Theme:E11 Cause:T16
+E11	Gene_expression:T40 Theme:T17
+E12	Positive_regulation:T42 Theme:T18 Cause:T19 Site:T41
+E13	Positive_regulation:T43 Theme:T21 Cause:E14 Site:T44
+E14	Binding:T45 Theme:T20
+E15	Binding:T46 Theme:T23 Site:T47
+E16	Binding:T48 Theme:T24
+E17	Binding:T49 Theme:T24
+E18	Binding:T50 Theme:T27 Theme2:T28 Site2:T51
+E19	Binding:T53 Theme:T29 Site:T52
+E20	Binding:T54 Theme:T32 Site:T55
+M1	Speculation E1
+M2	Speculation E8
+M3	Negation E9
+M4	Speculation E9
+M5	Speculation E13
+M6	Speculation E20
+
+T56	Entity 1235 1259	nucleotides -135 to -176
+R1	Protein-Component  Arg1:T23 Arg2:T56
+T57	Entity 1276 1306	LMP transcriptional start site
+R2	Protein-Component  Arg1:T23 Arg2:T57
+T58	Entity 848 856	promoter
+R3	Protein-Component  Arg1:T18 Arg2:T58
+R4	Protein-Component Arg1:T32 Arg2:T55
+R5	Protein-Component Arg1:T18 Arg2:T41
+R6	Protein-Component Arg1:T23 Arg2:T47
+R7	Protein-Component Arg1:T29 Arg2:T52
+T59	Entity 1207 1221	42 bp fragment
+R8	Protein-Component  Arg1:T23 Arg2:T59
+R9	Protein-Component Arg1:T28 Arg2:T51
+T60	Entity 1151 1173	protein-binding region
+R10	Protein-Component  Arg1:T23 Arg2:T60
+R11	Protein-Component Arg1:T13 Arg2:T36
+R12	Protein-Component Arg1:T21 Arg2:T44
+R13	Protein-Component Arg1:T14 Arg2:T37

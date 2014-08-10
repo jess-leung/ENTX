@@ -1,0 +1,35 @@
+T1	Protein 11 13	IK
+T2	Protein 18 27	IFN-gamma
+T3	Protein 318 334	interferon-gamma
+T4	Protein 336 345	IFN-gamma
+T5	Protein 463 465	IK
+T6	Protein 501 510	IFN-gamma
+T7	Protein 596 598	IK
+T8	Protein 785 808	class II transactivator
+T9	Protein 810 815	CIITA
+T10	Protein 856 865	IFN-gamma
+T11	Protein 915 920	CIITA
+T12	Protein 929 931	IK
+T13	Protein 989 994	CIITA
+T14	Protein 1065 1067	IK
+T15	Protein 1180 1182	IK
+T16	Protein 1198 1203	CIITA
+*	Equiv T8 T9
+*	Equiv T3 T4
+T17	Gene_expression 632 647	over-expression
+T18	Positive_regulation 632 647	over-expression
+T19	Transcription 921 925	mRNA
+T20	Positive_regulation 939 950	transfected
+T21	Gene_expression 939 950	transfected
+T22	Negative_regulation 976 985	reduction
+T23	Transcription 1000 1013	transcription
+T24	Negative_regulation 1158 1168	inhibition
+E1	Gene_expression:T17 Theme:T7
+E2	Positive_regulation:T18 Theme:E1
+E3	Transcription:T19 Theme:T11
+E4	Positive_regulation:T20 Theme:E5
+E5	Gene_expression:T21 Theme:T12
+E6	Negative_regulation:T22 Theme:E7 Cause:E4
+E7	Transcription:T23 Theme:T13
+E8	Negative_regulation:T24 Theme:T16 Cause:T15
+M1	Speculation E3

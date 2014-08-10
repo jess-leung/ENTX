@@ -1,0 +1,14 @@
+T1	Protein 259 271	IkappaBalpha
+T2	Protein 303 315	IkappaBalpha
+T3	Protein 319 328	TNF-alpha
+T4	Protein 426 438	IkappaBalpha
+T5	Protein 540 552	IkappaBalpha
+T6	Protein 875 887	IkappaBalpha
+T7	Protein 928 940	IkappaBalpha
+T8	Entity 10 20	proteasome
+T9	Entity 114 122	NFkappaB
+T10	Entity 200 210	proteasome
+T11	Entity 638 648	proteasome
+T12	Entity 817 827	proteasome
+T13	Entity 984 992	NFkappaB
+T14	Entity 1089 1099	proteasome

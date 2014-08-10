@@ -1,0 +1,18 @@
+T1	Protein 649 654	HZF 1
+T2	Protein 655 657	42
+T3	Protein 1292 1297	HZF 1
+T4	Protein 1298 1300	10
+T5	Protein 1336 1342	HZF 11
+T6	Protein 1343 1345	42
+T7	Entity 13 24	cDNA clones
+T8	Entity 355 391	consensus zinc finger peptide domain
+T9	Entity 415 426	cDNA clones
+T10	Entity 431 464	Kruppel-related zinc finger genes
+T11	Entity 574 585	cDNA clones
+T12	Entity 629 647	42 different genes
+T13	Entity 984 1017	Kruppel-related zinc finger genes
+T14	Entity 1285 1290	cDNAs
+T15	Entity 1459 1471	zinc fingers
+T16	Entity 1547 1571	carboxy-terminal regions
+T17	Entity 1616 1649	KRAB-containing zinc finger genes
+T18	Entity 1662 1688	conserved sequence element

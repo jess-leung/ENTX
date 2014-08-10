@@ -1,0 +1,22 @@
+T1	Protein 137 164	tumor necrosis factor alpha
+T2	Protein 166 174	TNFalpha
+T3	Protein 364 369	TRAIL
+T4	Protein 371 408	TNF-related apoptosis-inducing ligand
+T5	Protein 509 517	TNFalpha
+T6	Protein 557 561	FADD
+T7	Protein 667 672	TRAIL
+T8	Protein 674 678	CD95
+T9	Protein 680 688	TNFalpha
+T10	Protein 854 866	IkappaBalpha
+*	Equiv T1 T2
+*	Equiv T3 T4
+T11	Entity 14 35	nuclear factor kappaB
+T12	Entity 240 261	nuclear factor kappaB
+T13	Entity 263 271	NFkappaB
+T14	Entity 453 461	NFkappaB
+T15	Entity 519 527	NFkappaB
+T16	Entity 624 632	NFkappaB
+T17	Entity 706 714	NFkappaB
+T18	Entity 750 760	proteasome
+T19	Entity 1137 1145	NFkappaB
+T20	Entity 1235 1243	NFkappaB

@@ -1,0 +1,10 @@
+T1	Protein 43 54	beta-globin
+T2	Protein 224 238	epsilon-globin
+T3	Protein 382 394	gamma-globin
+T4	Protein 404 414	luciferase
+T5	Positive_regulation 364 374	increasing
+T6	Gene_expression 420 430	expression
+T7	Positive_regulation 562 570	required
+E1	Positive_regulation:T5 Theme:E2
+E2	Gene_expression:T6 Theme:T4
+E3	Positive_regulation:T7 Theme:E1

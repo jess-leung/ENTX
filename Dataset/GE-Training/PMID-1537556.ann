@@ -1,0 +1,16 @@
+T1	Protein 85 99	epsilon-globin
+T2	Protein 490 504	epsilon-globin
+T3	Protein 980 986	DNaseI
+T4	Protein 1353 1367	epsilon-globin
+T5	Regulation 1323 1331	regulate
+T6	Transcription 1332 1345	transcription
+E1	Regulation:T5 Theme:E2
+E2	Transcription:T6 Theme:T4
+M1	Speculation E1
+
+T7	Entity 468 476	cap site
+R1	Protein-Component  Arg1:T2 Arg2:T7
+T8	Entity 63 71	silencer
+R2	Protein-Component  Arg1:T1 Arg2:T8
+T9	Entity 436 451	-392 to -177 bp
+R3	Protein-Component  Arg1:T2 Arg2:T9

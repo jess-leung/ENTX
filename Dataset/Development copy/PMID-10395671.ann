@@ -1,0 +1,29 @@
+T1	Protein 18 32	Janus kinase 3
+T2	Protein 33 39	STAT5a
+T3	Protein 54 58	CD40
+T4	Protein 118 122	CD40
+T5	Protein 123 134	CD40 ligand
+T6	Protein 303 307	CD40
+T7	Protein 405 409	CD40
+T8	Protein 492 496	CD40
+T9	Protein 567 571	CD40
+T10	Protein 809 812	p50
+T11	Protein 857 861	CD40
+T12	Protein 912 915	p65
+T13	Protein 971 985	Janus kinase 3
+T14	Protein 1022 1026	CD40
+T15	Protein 1076 1090	Janus kinase 3
+T16	Protein 1138 1142	CD40
+T17	Protein 1193 1199	STAT5a
+T18	Protein 1335 1339	CD40
+T19	Protein 1413 1417	CD40
+T20	Protein 1463 1467	CD40
+T21	Protein 1515 1519	CD40
+T22	Entity 612 621	NF-kappaB
+T23	Entity 638 642	AP-1
+T24	Entity 740 759	NF-kappaB complexes
+T25	Entity 828 845	NF-kappaB complex
+T26	Entity 986 994	tyrosine
+T27	Entity 1200 1203	DNA
+R1	Subunit-Complex Arg1:T12 Arg2:T25
+R2	Subunit-Complex Arg1:T10 Arg2:T25

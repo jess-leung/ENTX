@@ -1,0 +1,40 @@
+T1	Protein 157 160	CD4
+T2	Protein 217 230	interleukin 2
+T3	Protein 232 236	IL-2
+T4	Protein 359 363	IL-4
+T5	Protein 463 469	NF-ATp
+T6	Protein 565 568	IL2
+T7	Protein 692 695	IL4
+T8	Protein 868 874	NF-ATp
+T9	Protein 950 953	IL4
+T10	Protein 991 994	IL4
+T11	Protein 1111 1138	tumor necrosis factor alpha
+T12	Protein 1157 1161	RelA
+T13	Protein 1229 1233	RelA
+T14	Protein 1289 1292	IL4
+T15	Protein 1369 1375	NF-ATp
+T16	Protein 1406 1410	RelA
+T17	Protein 1478 1482	RelA
+T18	Protein 1487 1493	NF-ATp
+T19	Protein 1561 1564	IL4
+*	Equiv T2 T3
+T20	Entity 47 57	NF-kappa B
+T21	Entity 532 548	lymphokine genes
+T22	Entity 879 889	NF-kappa B
+T23	Entity 897 907	P sequence
+T24	Entity 928 942	69 bp upstream
+T25	Entity 954 983	transcription initiation site
+T26	Entity 995 1003	promoter
+T27	Entity 1080 1090	NF-kappa B
+T28	Entity 1293 1301	promoter
+T29	Entity 1315 1331	mouse P sequence
+T30	Entity 1344 1364	higher-affinity site
+T31	Entity 1382 1401	lower-affinity site
+R1	Protein-Component Arg1:T9 Arg2:T23
+R2	Protein-Component Arg1:T9 Arg2:T24
+R3	Protein-Component Arg1:T9 Arg2:T25
+R4	Protein-Component Arg1:T10 Arg2:T26
+R5	Protein-Component Arg1:T14 Arg2:T30
+R6	Protein-Component Arg1:T14 Arg2:T29
+R7	Protein-Component Arg1:T14 Arg2:T31
+R8	Protein-Component Arg1:T14 Arg2:T28

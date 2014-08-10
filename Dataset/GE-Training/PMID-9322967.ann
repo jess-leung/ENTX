@@ -1,0 +1,30 @@
+T1	Protein 26 30	GH-N
+T2	Protein 87 93	Pit-1b
+T3	Protein 102 104	GH
+T4	Protein 196 198	GH
+T5	Protein 319 321	GH
+T6	Protein 412 414	GH
+T7	Protein 495 499	GH-N
+T8	Protein 517 521	GH-V
+T9	Protein 678 683	Pit-1
+T10	Protein 696 702	Pit-1b
+T11	Gene_expression 18 25	express
+T12	Transcription 18 25	express
+T13	Gene_expression 182 192	expression
+T14	Gene_expression 296 303	express
+T15	Gene_expression 348 356	negative
+T16	Transcription 399 411	demonstrated
+T17	Gene_expression 483 490	express
+T18	Gene_expression 599 606	express
+E1	Gene_expression:T11 Theme:T2
+E2	Transcription:T12 Theme:T1
+E3	Gene_expression:T13 Theme:T4
+E4	Gene_expression:T14 Theme:T5
+E5	Gene_expression:T15 Theme:T5
+E6	Transcription:T16 Theme:T6
+E7	Gene_expression:T17 Theme:T7
+E8	Gene_expression:T17 Theme:T8
+E9	Gene_expression:T18 Theme:T10
+M1	Speculation E3
+M2	Negation E5
+M3	Negation E8

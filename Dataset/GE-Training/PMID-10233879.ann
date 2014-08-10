@@ -1,0 +1,11 @@
+T1	Protein 554 560	GATA-1
+T2	Protein 922 926	EGFP
+T3	Protein 1136 1142	GATA-1
+T4	Gene_expression 862 872	expression
+E1	Gene_expression:T4 Theme:T2
+M1	Speculation E1
+
+T5	Entity 504 586	autoregulatory enhancer of the erythroid-specific GATA-1 transcription factor gene
+R1	Protein-Component  Arg1:T1 Arg2:T5
+T6	Entity 1143 1166	autoregulatory enhancer
+R2	Protein-Component  Arg1:T3 Arg2:T6

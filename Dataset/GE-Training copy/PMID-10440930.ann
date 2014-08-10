@@ -1,0 +1,12 @@
+T1	Protein 15 23	TNFalpha
+T2	Protein 722 749	tumor necrosis factor-alpha
+T3	Protein 751 759	TNFalpha
+T4	Protein 1079 1091	IkappaBalpha
+T5	Protein 1096 1107	IkappaBbeta
+*	Equiv T2 T3
+T6	Negative_regulation 1052 1059	prevent
+T7	Protein_catabolism 1064 1075	degradation
+E1	Negative_regulation:T6 Theme:E3
+E2	Negative_regulation:T6 Theme:E4
+E3	Protein_catabolism:T7 Theme:T5
+E4	Protein_catabolism:T7 Theme:T4

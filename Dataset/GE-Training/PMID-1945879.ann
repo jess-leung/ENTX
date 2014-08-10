@@ -1,0 +1,38 @@
+T1	Protein 107 120	interleukin 2
+T2	Protein 193 206	Interleukin 2
+T3	Protein 208 212	Il-2
+T4	Protein 495 499	Il-2
+T5	Protein 619 624	TCF-1
+T6	Protein 626 641	T cell factor 1
+T7	Protein 700 705	TCF-1
+T8	Protein 881 886	TCF-1
+T9	Protein 1466 1470	Il-2
+*	Equiv T2 T3
+*	Equiv T5 T6
+T10	Localization 500 509	secreting
+T11	Binding 575 582	binding
+T12	Binding 887 892	binds
+T13	Regulation 1418 1425	control
+T14	Transcription 1445 1458	transcription
+E1	Localization:T10 Theme:T4
+E2	Binding:T11 Theme:T5
+E3	Binding:T12 Theme:T8
+E4	Regulation:T13 Theme:E5
+E5	Transcription:T14 Theme:T9
+
+T15	Entity 754 760	105 kD
+R1	Protein-Component  Arg1:T7 Arg2:T15
+T16	Entity 744 749	50 kD
+R2	Protein-Component  Arg1:T7 Arg2:T16
+T17	Entity 121 129	promoter
+R3	Protein-Component  Arg1:T1 Arg2:T17
+T18	Entity 267 302	essential cis-acting enhancer motif
+R4	Protein-Component  Arg1:T2 Arg2:T18
+T19	Entity 249 260	GGGATTTCACC
+R5	Protein-Component  Arg1:T2 Arg2:T19
+T20	Entity 232 248	kB-like sequence
+R6	Protein-Component  Arg1:T2 Arg2:T20
+T21	Entity 722 734	polypeptides
+R7	Protein-Component  Arg1:T7 Arg2:T21
+T22	Entity 147 172	T cell-specific enhancers
+R8	Protein-Component  Arg1:T2 Arg2:T22

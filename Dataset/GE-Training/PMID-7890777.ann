@@ -1,0 +1,6 @@
+T1	Protein 1038 1045	HLA-DRA
+
+T2	Entity 1026 1034	X2-boxes
+R1	Protein-Component  Arg1:T1 Arg2:T2
+T3	Entity 1019 1022	X1-
+R2	Protein-Component  Arg1:T1 Arg2:T3

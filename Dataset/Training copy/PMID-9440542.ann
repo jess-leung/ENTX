@@ -1,0 +1,46 @@
+T1	Protein 628 632	IL-4
+T2	Protein 645 649	CD40
+T3	Protein 680 684	IL-4
+T4	Protein 695 754	signal transducers and activators of transcription (STAT) 6
+T5	Protein 863 868	STAT6
+T6	Protein 889 893	IL-4
+T7	Protein 1019 1023	IL-4
+T8	Protein 1074 1078	CD40
+T9	Protein 1103 1107	IL-4
+T10	Protein 1440 1444	IL-4
+T11	Protein 1454 1458	CD40
+T12	Protein 1498 1502	IL-4
+T13	Protein 1527 1531	CD40
+T14	Protein 1561 1565	CD23
+T15	Protein 1624 1629	STAT6
+T16	Protein 1698 1702	IL-4
+T17	Protein 1713 1717	CD40
+T18	Entity 80 101	nuclear factor-kappaB
+T19	Entity 108 120	binding site
+T20	Entity 125 146	nuclear factor-kappaB
+T21	Entity 148 157	NF-kappaB
+T22	Entity 177 222	promoter region of the germline Cepsilon gene
+T23	Entity 177 192	promoter region
+T24	Entity 200 222	germline Cepsilon gene
+T25	Entity 373 382	NF-kappaB
+T26	Entity 386 403	germline Cepsilon
+T27	Entity 506 525	n-acetyl-L-cysteine
+T28	Entity 527 530	NAC
+T29	Entity 615 624	NF-kappaB
+T30	Entity 770 779	NF-kappaB
+T31	Entity 781 784	NAC
+T32	Entity 818 845	decoy oligodeoxynucleotides
+T33	Entity 850 859	NF-kappaB
+T34	Entity 902 919	germline Cepsilon
+T35	Entity 954 981	decoy oligodeoxynucleotides
+T36	Entity 1032 1049	germline Cepsilon
+T37	Entity 1115 1132	germline Cepsilon
+T38	Entity 1173 1176	NAC
+T39	Entity 1185 1211	decoy oligodeoxynucleotide
+T40	Entity 1216 1225	NF-kappaB
+T41	Entity 1241 1244	NAC
+T42	Entity 1336 1339	NAC
+T43	Entity 1610 1619	NF-kappaB
+T44	Entity 1663 1680	germline Cepsilon
+T45	Entity 1727 1736	NF-kappaB
+T46	Entity 1799 1816	germline Cepsilon

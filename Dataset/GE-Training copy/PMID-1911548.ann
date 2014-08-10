@@ -1,0 +1,53 @@
+T1	Protein 71 77	GM-CSF
+T2	Protein 431 479	granulocyte-macrophage colony-stimulating factor
+T3	Protein 481 487	GM-CSF
+T4	Protein 563 569	GM-CSF
+T5	Protein 907 913	GM-CSF
+T6	Protein 1111 1114	p50
+T7	Protein 1128 1131	p65
+T8	Protein 1195 1201	GM-CSF
+T9	Protein 1280 1283	p50
+T10	Protein 1342 1345	p50
+T11	Protein 1377 1380	p65
+T12	Protein 1422 1425	p65
+T13	Protein 1568 1572	KBF1
+T14	Protein 1631 1634	p50
+T15	Protein 1897 1903	GM-CSF
+T16	Protein 1992 1998	GM-CSF
+*	Equiv T3 T2
+T17	Positive_regulation 83 92	essential
+T18	Gene_expression 101 110	induction
+T19	Regulation 114 123	responses
+T20	Positive_regulation 363 368	leads
+T21	Gene_expression 376 385	induction
+T22	Positive_regulation 615 624	essential
+T23	Positive_regulation 629 655	transcriptional activation
+T24	Positive_regulation 919 929	activation
+T25	Binding 1156 1172	binding activity
+T26	Entity 1240 1249	enhancers
+T27	Binding 1313 1320	complex
+T28	Binding 1346 1356	associates
+T29	Binding 1472 1479	complex
+T30	Binding 1614 1621	reacted
+T31	Positive_regulation 1864 1873	stimulate
+T32	Transcription 1874 1887	transcription
+T33	Gene_expression 1964 1974	activation
+T34	Positive_regulation 2004 2011	through
+E1	Positive_regulation:T17 Theme:E3
+E2	Gene_expression:T18 Theme:T1
+E3	Regulation:T19 Theme:E2
+E4	Positive_regulation:T20 Theme:E5
+E5	Gene_expression:T21 Theme:T3
+E6	Positive_regulation:T22 Theme:E7
+E7	Positive_regulation:T23 Theme:T4
+E8	Positive_regulation:T24 Theme:T5
+E9	Binding:T25 Theme:T8 Site:T26
+E10	Binding:T27 Theme:T9
+E11	Binding:T28 Theme:T10 Theme2:T11
+E12	Binding:T29 Theme:T12
+E13	Binding:T30 Theme:T14
+E14	Positive_regulation:T31 Theme:E15
+E15	Transcription:T32 Theme:T15
+E16	Gene_expression:T33 Theme:T16
+E17	Positive_regulation:T34 Theme:E16
+M1	Negation E14

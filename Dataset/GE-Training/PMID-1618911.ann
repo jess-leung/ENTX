@@ -1,0 +1,5 @@
+T1	Protein 165 168	rel
+T2	Protein 964 967	p50
+
+T3	Entity 968 978	homodimers
+R1	Subunit-Complex  Arg1:T2 Arg2:T3

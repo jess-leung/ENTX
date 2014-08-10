@@ -1,0 +1,32 @@
+T1	Protein 145 157	CD4 receptor
+T2	Protein 211 214	CD4
+T3	Protein 423 426	CD4
+T4	Protein 520 523	CD4
+T5	Protein 633 636	CD4
+T6	Protein 748 756	p56(lck)
+T7	Protein 917 920	CD4
+T8	Protein 1038 1046	p56(lck)
+T9	Protein 1103 1115	CD4 receptor
+T10	Protein 1290 1293	CD4
+T11	Protein 1456 1459	Fas
+T12	Protein 1460 1470	Fas ligand
+T13	Protein 1514 1517	Fas
+T14	Protein 1654 1657	CD4
+T15	Protein 1729 1732	Fas
+T16	Protein 1733 1743	Fas ligand
+T17	Protein 1774 1782	p56(lck)
+T18	Protein 1832 1835	CD4
+T19	Entity 215 231	cytoplasmic tail
+T20	Entity 486 495	wild-type
+T21	Entity 500 512	mutant forms
+T22	Entity 524 540	cytoplasmic tail
+T23	Entity 650 661	residue 402
+T24	Entity 807 818	residue 418
+T25	Entity 864 880	cytoplasmic tail
+T26	Entity 1050 1060	NF- kappaB
+T27	Entity 1812 1849	critical region for CD4 dimerization.
+R1	Protein-Component Arg1:T2 Arg2:T19
+R2	Protein-Component Arg1:T4 Arg2:T22
+R3	Protein-Component Arg1:T5 Arg2:T23
+R4	Protein-Component Arg1:T6 Arg2:T24
+R5	Protein-Component Arg1:T18 Arg2:T27

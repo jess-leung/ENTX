@@ -1,0 +1,37 @@
+T1	Protein 95 101	oct-2A
+T2	Protein 147 153	Oct-2a
+T3	Protein 274 280	Oct-2a
+T4	Protein 320 324	GAL4
+T5	Protein 358 364	Oct-2a
+T6	Protein 659 665	Oct-2a
+T7	Protein 853 859	Oct-2a
+T8	Protein 1204 1210	Oct-2a
+T9	Protein 1306 1312	Oct-2a
+T10	Entity 427 428	N
+T11	Entity 439 446	termini
+T12	Positive_regulation 505 516	potentiated
+T13	Binding 520 532	interactions
+E1	Positive_regulation:T12 Theme:T5 Cause:E4 Site:T11
+E2	Positive_regulation:T12 Theme:T5 Cause:E3 Site:T10
+E3	Binding:T13 Theme:T5 Site:T10
+E4	Binding:T13 Theme:T5 Site:T11
+
+T14	Entity 401 419	activation domains
+R1	Protein-Component  Arg1:T5 Arg2:T14
+T15	Entity 281 297	effector regions
+R2	Protein-Component  Arg1:T3 Arg2:T15
+R3	Protein-Component Arg1:T5 Arg2:T11
+T16	Entity 15 48	transcriptional repression domain
+R4	Protein-Component  Arg1:T1 Arg2:T16
+T17	Entity 832 849	N-terminal region
+R5	Protein-Component  Arg1:T7 Arg2:T17
+T18	Entity 645 655	N terminus
+R6	Protein-Component  Arg1:T6 Arg2:T18
+T19	Entity 608 625	repression domain
+R7	Protein-Component  Arg1:T6 Arg2:T19
+T20	Entity 667 683	amino acids 2-99
+R8	Protein-Component  Arg1:T6 Arg2:T20
+T21	Entity 320 343	GAL4 DNA-binding domain
+R9	Protein-Component  Arg1:T4 Arg2:T21
+T22	Entity 877 902	minimal repression domain
+R10	Protein-Component  Arg1:T7 Arg2:T22

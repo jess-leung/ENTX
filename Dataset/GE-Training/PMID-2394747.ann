@@ -1,0 +1,26 @@
+T1	Protein 54 60	NFAT-1
+T2	Protein 278 284	NFAT-1
+T3	Protein 459 465	NFAT-1
+T4	Protein 559 565	NFAT-1
+T5	Protein 779 785	NFAT-1
+T6	Protein 917 923	NFAT-1
+T7	Protein 996 1002	NFAT-1
+T8	Protein 1038 1044	NFAT-1
+T9	Protein 1281 1287	NFAT-1
+T10	Protein 1535 1541	NFAT-1
+T11	Protein 1775 1781	NFAT-1
+T12	Protein 1856 1862	NFAT-1
+T13	Positive_regulation 1068 1075	induced
+T14	Positive_regulation 1145 1153	requires
+T15	Positive_regulation 1267 1277	appearance
+T16	Entity 1499 1505	tissue
+T17	Localization 1517 1527	expression
+T18	Localization 1565 1575	expression
+T19	Entity 1598 1625	HIV-LTR/tat transgenic mice
+T20	Binding 1800 1804	bind
+E1	Positive_regulation:T13 Theme:T8
+E2	Positive_regulation:T14 Theme:T8
+E3	Positive_regulation:T15 Theme:T9
+E4	Localization:T17 Theme:T10 AtLoc:T16
+E5	Localization:T18 Theme:T10 AtLoc:T19
+E6	Binding:T20 Theme:T11

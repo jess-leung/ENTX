@@ -1,0 +1,35 @@
+T1	Protein 14 19	c-fos
+T2	Protein 24 29	c-jun
+T3	Protein 113 131	phytohemagglutinin
+T4	Protein 185 190	c-fos
+T5	Protein 192 200	p62c-fos
+T6	Protein 206 211	c-jun
+T7	Protein 213 221	p39c-jun
+T8	Protein 833 853	phyto- hemagglutinin
+T9	Protein 855 858	PHA
+T10	Protein 1087 1095	p62c-fos
+T11	Protein 1097 1105	p39c-jun
+T12	Protein 1185 1188	PHA
+T13	Protein 1429 1437	p62c-fos
+T14	Protein 1443 1451	p39c-jun
+T15	Protein 1613 1621	p62c-fos
+T16	Protein 1626 1634	p39c-jun
+T17	Protein 1709 1717	p62c-fos
+T18	Protein 1722 1730	p39c-jun
+T19	Protein 1796 1799	PHA
+T20	Protein 1898 1906	p39c-jun
+T21	Protein 1953 1961	p62c-fos
+T22	Protein 1966 1974	p39c-jun
+T23	Protein 2006 2009	PHA
+T24	Protein 2050 2058	p62c-fos
+T25	Protein 2128 2136	p39c-jun
+*	Equiv T4 T5
+*	Equiv T6 T7
+*	Equiv T8 T9
+T26	Entity 43 47	AP-1
+T27	Entity 965 969	AP-1
+T28	Entity 1402 1406	AP-1
+T29	Entity 1452 1456	AP-1
+T30	Entity 1736 1740	AP-1
+T31	Entity 1836 1840	AP-1
+R1	Subunit-Complex Arg1:T13 Arg2:T28

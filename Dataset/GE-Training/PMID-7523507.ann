@@ -1,0 +1,19 @@
+T1	Protein 25 30	c-fos
+T2	Protein 153 158	c-fos
+T3	Protein 285 288	Fos
+T4	Protein 468 473	c-fos
+T5	Transcription 214 225	transcribed
+T6	Positive_regulation 226 231	after
+T7	Gene_expression 289 299	expression
+E1	Transcription:T5 Theme:T2
+E2	Positive_regulation:T6 Theme:E1
+E3	Gene_expression:T7 Theme:T3
+
+T8	Entity 456 459	SRE
+R1	Protein-Component  Arg1:T4 Arg2:T8
+T9	Entity 31 53	serum response element
+R2	Protein-Component  Arg1:T1 Arg2:T9
+T10	Entity 432 454	serum response element
+R3	Protein-Component  Arg1:T4 Arg2:T10
+T11	Entity 474 491	regulatory region
+R4	Protein-Component  Arg1:T4 Arg2:T11

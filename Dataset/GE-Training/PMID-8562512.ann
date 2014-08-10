@@ -1,0 +1,8 @@
+T1	Protein 338 349	Fc gamma RI
+T2	Protein 353 365	Fc gamma RII
+T3	Protein 801 810	TNF-alpha
+T4	Protein 833 842	IL-1 beta
+T5	Protein 1038 1047	TNF-alpha
+T6	Binding 321 334	cross-linking
+E1	Binding:T6 Theme:T1
+E2	Binding:T6 Theme:T2

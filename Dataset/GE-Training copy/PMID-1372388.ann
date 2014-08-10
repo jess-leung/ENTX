@@ -1,0 +1,39 @@
+T1	Protein 51 56	c-Rel
+T2	Protein 101 114	interleukin-6
+T3	Protein 211 216	c-Rel
+T4	Protein 373 378	c-Rel
+T5	Protein 445 448	p50
+T6	Protein 586 591	c-Rel
+T7	Protein 626 639	interleukin-6
+T8	Protein 641 645	IL-6
+T9	Protein 651 666	beta interferon
+T10	Protein 715 718	p50
+T11	Protein 809 814	c-Rel
+T12	Protein 823 826	p50
+T13	Protein 857 861	IL-6
+T14	Protein 912 917	c-Rel
+T15	Protein 966 970	IL-6
+T16	Protein 1050 1054	IL-6
+T17	Protein 1096 1117	tumor necrosis factor
+T18	Protein 1276 1280	IL-6
+T19	Protein 1345 1349	IL-6
+*	Equiv T8 T7
+T20	Binding 379 384	binds
+T21	Binding 405 415	homodimers
+T22	Binding 427 439	heterodimers
+T23	Binding 502 523	binding specificities
+T24	Binding 528 538	affinities
+T25	Binding 608 621	high affinity
+T26	Entity 667 680	kappa B sites
+T27	Binding 698 709	association
+T28	Binding 947 957	recognizes
+E1	Binding:T20 Theme:T4
+E2	Binding:T21 Theme:T4
+E3	Binding:T22 Theme:T4 Theme2:T5
+E4	Binding:T23 Theme:T4
+E5	Binding:T24 Theme:T4
+E6	Binding:T25 Theme:T6 Theme2:T9 Site2:T26
+E7	Binding:T25 Theme:T6 Theme2:T8 Site2:T26
+E8	Binding:T27 Theme:T10 Theme2:T13
+E9	Binding:T27 Theme:T10
+E10	Binding:T28 Theme:T13

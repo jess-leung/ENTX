@@ -1,0 +1,25 @@
+T1	Protein 53 56	Tax
+T2	Protein 136 139	Tax
+T3	Protein 342 345	Tax
+T4	Protein 365 368	Tax
+T5	Protein 567 582	interferon beta
+T6	Protein 735 738	Tax
+T7	Protein 851 854	Tax
+T8	Protein 942 990	granulocyte-macrophage colony stimulating factor
+T9	Protein 1186 1189	Tax
+T10	Entity 0 10	NF-kappa B
+T11	Entity 173 183	NF-kappa B
+T12	Entity 193 213	recognition sequence
+T13	Entity 221 231	NF-kappa B
+T14	Entity 242 246	gene
+T15	Entity 427 437	NF-kappa B
+T16	Entity 583 593	PRDII site
+T17	Entity 921 931	NF-kappa B
+T18	Entity 1048 1078	NF-kappa B-regulated promoters
+T19	Entity 1048 1058	NF-kappa B
+T20	Entity 1069 1078	promoters
+T21	Entity 1149 1153	gene
+T22	Entity 1316 1346	NF-kappa B-regulated promoters
+T23	Entity 1316 1326	NF-kappa B
+T24	Entity 1337 1346	promoters
+R1	Protein-Component Arg1:T5 Arg2:T16

@@ -1,0 +1,46 @@
+T1	Protein 19 25	NOTCH1
+T2	Protein 70 80	RBP-Jkappa
+T3	Protein 152 162	RBP-Jkappa
+T4	Protein 215 221	NOTCH1
+T5	Protein 284 290	NOTCH1
+T6	Protein 442 448	NOTCH1
+T7	Protein 686 696	RBP-Jkappa
+T8	Protein 787 797	RBP-Jkappa
+T9	Protein 918 928	RBP-Jkappa
+T10	Protein 953 959	NOTCH1
+T11	Protein 1044 1054	RBP-Jkappa
+T12	Protein 1190 1200	RBP-Jkappa
+T13	Protein 1834 1840	NOTCH1
+T14	Protein 1922 1932	RBP-Jkappa
+T15	Binding 137 146	associate
+T16	Binding 753 758	bound
+T17	Positive_regulation 1164 1172	augments
+T18	Binding 1173 1184	association
+T19	Negative_regulation 1561 1570	decreased
+T20	Entity 1571 1578	nuclear
+T21	Localization 1579 1591	localization
+T22	Binding 1905 1916	association
+E1	Binding:T15 Theme:T1 Theme2:T3
+E2	Binding:T16 Theme:T8
+E3	Positive_regulation:T17 Theme:E4
+E4	Binding:T18 Theme:T1 Theme2:T12
+E5	Negative_regulation:T19 Theme:E6
+E6	Localization:T21 Theme:T1 AtLoc:T20
+E7	Binding:T22 Theme:T14
+
+T23	Entity 550 556	DeltaE
+R1	Protein-Component  Arg1:T6 Arg2:T23
+T24	Entity 989 1009	intracellular domain
+R2	Protein-Component  Arg1:T10 Arg2:T24
+T25	Entity 928 941	-binding site
+R3	Protein-Component  Arg1:T10 Arg2:T25
+T26	Entity 1936 1950	promoter sites
+R4	Protein-Component  Arg1:T14 Arg2:T26
+T27	Entity 960 981	ankyrin repeat region
+R5	Protein-Component  Arg1:T10 Arg2:T27
+T28	Entity 45 65	primary binding site
+R6	Protein-Component  Arg1:T1 Arg2:T28
+T29	Entity 84 114	nuclear localization sequences
+R7	Protein-Component  Arg1:T1 Arg2:T29
+T30	Entity 45 80	primary binding site for RBP-Jkappa
+R8	Protein-Component  Arg1:T1 Arg2:T30

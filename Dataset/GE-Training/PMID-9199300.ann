@@ -1,0 +1,66 @@
+T1	Protein 45 50	Stat5
+T2	Protein 55 60	Stat6
+T3	Protein 630 635	Stat5
+T4	Protein 640 645	Stat6
+T5	Protein 725 734	Prolactin
+T6	Protein 745 750	Stat5
+T7	Protein 756 769	interleukin-4
+T8	Protein 771 775	IL-4
+T9	Protein 787 792	Stat6
+T10	Protein 931 936	Stat6
+T11	Protein 989 993	IL-4
+T12	Protein 1018 1023	Stat6
+T13	Protein 1092 1097	Stat6
+T14	Protein 1228 1251	glucocorticoid receptor
+T15	Protein 1280 1284	IL-4
+T16	Protein 1334 1339	Stat6
+T17	Protein 1394 1399	Stat6
+T18	Protein 1551 1556	Stat6
+T19	Protein 1606 1611	Stat5
+T20	Protein 1613 1618	Stat6
+T21	Protein 1638 1642	VP16
+T22	Protein 1658 1663	Stat6
+T23	Protein 1739 1744	Stat5
+T24	Protein 1800 1805	Stat6
+T25	Protein 1810 1814	IL-4
+*	Equiv T8 T7
+T26	Positive_regulation 672 678	active
+T27	Positive_regulation 735 744	activates
+T28	Positive_regulation 777 786	activates
+T29	Positive_regulation 902 917	transactivation
+T30	Negative_regulation 962 972	restricted
+T31	Positive_regulation 1004 1014	activation
+T32	Positive_regulation 1098 1108	activation
+T33	Positive_regulation 1272 1279	enhance
+T34	Entity 1774 1796	transactivation domain
+T35	Regulation 1815 1824	regulated
+T36	Positive_regulation 1826 1839	independently
+T37	Binding 1853 1860	binding
+E1	Positive_regulation:T26 Theme:T4
+E2	Positive_regulation:T26 Theme:T3
+E3	Positive_regulation:T27 Theme:T6 Cause:T5
+E4	Positive_regulation:T28 Theme:T9 Cause:T8
+E5	Positive_regulation:T29 Theme:T10
+E6	Negative_regulation:T30 Theme:E5
+E7	Positive_regulation:T31 Theme:T12 Cause:T11
+E8	Positive_regulation:T32 Theme:T13
+E9	Positive_regulation:T33 Theme:T16 Cause:T14
+E10	Regulation:T35 Theme:T24 Cause:T25 Site:T34
+E11	Positive_regulation:T36 Theme:E10 Cause:E12
+E12	Binding:T37 Theme:T24 Site:T34
+M1	Speculation E5
+M2	Negation E6
+M3	Negation E11
+
+T38	Entity 1579 1602	transactivation domains
+R1	Protein-Component  Arg1:T20 Arg2:T38
+T39	Entity 1440 1471	heterologous DNA binding domain
+R2	Protein-Component  Arg1:T17 Arg2:T39
+R3	Protein-Component Arg1:T19 Arg2:T38
+T40	Entity 1366 1390	carboxyl-terminal region
+R4	Protein-Component  Arg1:T17 Arg2:T40
+T41	Entity 18 41	transactivation domains
+R5	Protein-Component  Arg1:T1 Arg2:T41
+R6	Protein-Component Arg1:T2 Arg2:T41
+R7	Protein-Component Arg1:T21 Arg2:T38
+R8	Protein-Component Arg1:T24 Arg2:T34

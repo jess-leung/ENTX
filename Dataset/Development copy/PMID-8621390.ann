@@ -1,0 +1,27 @@
+T1	Protein 34 47	interleukin-2
+T2	Protein 293 306	Interleukin-2
+T3	Protein 308 312	IL-2
+T4	Protein 501 505	IL-2
+T5	Protein 630 648	phytohemagglutinin
+T6	Protein 984 988	IL-2
+T7	Protein 1155 1159	IL-2
+*	Equiv T2 T3
+T8	Entity 314 322	promoter
+T9	Entity 322 336	-reporter gene
+T10	Entity 368 383	endogenous gene
+T11	Entity 459 480	mutagenized promoters
+T12	Entity 506 529	cis-regulatory elements
+T13	Entity 556 574	proximal AP-1 site
+T14	Entity 565 569	AP-1
+T15	Entity 583 598	NF- kappaB site
+T16	Entity 583 593	NF- kappaB
+T17	Entity 666 669	CD3
+T18	Entity 827 839	cis-elements
+T19	Entity 860 900	nuclear factor of activated T cell sites
+T20	Entity 1135 1147	cis-elements
+T21	Entity 1160 1168	promoter
+R1	Protein-Component Arg1:T2 Arg2:T8
+R2	Protein-Component Arg1:T4 Arg2:T13
+R3	Protein-Component Arg1:T4 Arg2:T12
+R4	Protein-Component Arg1:T7 Arg2:T20
+R5	Protein-Component Arg1:T7 Arg2:T21

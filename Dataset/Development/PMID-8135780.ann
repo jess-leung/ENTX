@@ -1,0 +1,54 @@
+T1	Protein 45 51	GM-CSF
+T2	Protein 192 240	granulocyte-macrophage colony-stimulating factor
+T3	Protein 242 248	GM-CSF
+T4	Protein 678 684	GM-CSF
+T5	Protein 721 724	p50
+T6	Protein 725 728	p65
+T7	Protein 740 745	c-Jun
+T8	Protein 746 751	c-Fos
+T9	Protein 833 839	GM-CSF
+T10	Protein 890 896	GM-CSF
+T11	Protein 1024 1030	GM-CSF
+T12	Protein 1158 1203	Ca2+/calmodulin-dependent protein phosphatase
+T13	Protein 1395 1401	GM-CSF
+T14	Protein 1537 1543	GM-CSF
+*	Equiv T2 T3
+T15	Entity 0 11	Calcineurin
+T16	Entity 52 60	promoter
+T17	Entity 104 114	NF-kappa B
+T18	Entity 115 119	AP-1
+T19	Entity 137 156	cis-acting elements
+T20	Entity 157 174	GM-kappa B/GC-box
+T21	Entity 179 183	CLE0
+T22	Entity 398 417	GM-kappa B sequence
+T23	Entity 435 445	NF-kappa B
+T24	Entity 483 496	CLE0 sequence
+T25	Entity 546 550	AP-1
+T26	Entity 798 848	luciferase reporter containing the GM-CSF promoter
+T27	Entity 798 817	luciferase reporter
+T28	Entity 840 848	promoter
+T29	Entity 897 905	promoter
+T30	Entity 957 967	NF-kappa B
+T31	Entity 972 976	AP-1
+T32	Entity 1031 1039	promoter
+T33	Entity 1055 1072	GM-kappa B/GC-box
+T34	Entity 1081 1085	CLE0
+T35	Entity 1087 1091	AP-1
+T36	Entity 1138 1149	calcineurin
+T37	Entity 1151 1153	CN
+T38	Entity 1263 1273	NF-kappa B
+T39	Entity 1274 1278	AP-1
+T40	Entity 1316 1318	CN
+T41	Entity 1402 1410	promoter
+T42	Entity 1486 1503	binding sequences
+R1	Protein-Component Arg1:T1 Arg2:T16
+R2	Protein-Component Arg1:T2 Arg2:T20
+R3	Protein-Component Arg1:T2 Arg2:T21
+R4	Protein-Component Arg1:T9 Arg2:T26
+R5	Protein-Component Arg1:T9 Arg2:T28
+R6	Protein-Component Arg1:T10 Arg2:T29
+R7	Protein-Component Arg1:T11 Arg2:T34
+R8	Protein-Component Arg1:T11 Arg2:T33
+R9	Protein-Component Arg1:T11 Arg2:T32
+R10	Protein-Component Arg1:T13 Arg2:T41
+R11	Protein-Component Arg1:T14 Arg2:T42

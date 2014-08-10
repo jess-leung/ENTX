@@ -1,0 +1,7 @@
+T1	Protein 409 413	IL-2
+T2	Protein 415 419	IL-6
+T3	Protein 421 425	IL-8
+T4	Regulation 334 342	regulate
+E1	Regulation:T4 Theme:T3
+E2	Regulation:T4 Theme:T2
+E3	Regulation:T4 Theme:T1

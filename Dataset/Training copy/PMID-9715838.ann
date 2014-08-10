@@ -1,0 +1,16 @@
+T1	Protein 71 80	TNF-alpha
+T2	Protein 147 174	tumor necrosis factor-alpha
+T3	Protein 176 185	TNF-alpha
+T4	Protein 623 626	CD4
+T5	Protein 761 770	TNF-alpha
+T6	Protein 907 916	TNF-alpha
+T7	Protein 937 940	Tat
+*	Equiv T2 T3
+T8	Entity 771 779	promoter
+T9	Entity 787 800	reporter gene
+T10	Entity 949 952	tar
+T11	Entity 998 1007	NF-kappaB
+T12	Entity 1022 1048	HIV-1 long terminal repeat
+T13	Entity 1050 1053	LTR
+T14	Entity 1542 1551	HIV genes
+R1	Protein-Component Arg1:T5 Arg2:T8

@@ -1,0 +1,44 @@
+T1	Protein 311 318	PML-RAR
+T2	Protein 344 377	retinoic acid receptor type alpha
+T3	Protein 379 388	RAR alpha
+T4	Protein 548 557	RAR alpha
+T5	Protein 762 799	granulocyte colony-stimulating factor
+T6	Protein 801 806	G-CSF
+T7	Protein 901 931	leukocyte alkaline phosphatase
+T8	Protein 933 938	CD11b
+T9	Protein 940 944	CD33
+T10	Protein 950 964	G-CSF receptor
+T11	Protein 1442 1445	LAP
+T12	Protein 1472 1480	RAR beta
+T13	Protein 1485 1494	RAR gamma
+T14	Protein 1674 1681	PML-RAR
+T15	Protein 1762 1769	PML-RAR
+T16	Protein 1785 1794	RAR alpha
+T17	Protein 1891 1898	PML-RAR
+T18	Protein 2067 2076	RAR alpha
+T19	Protein 2187 2194	PML-RAR
+*	Equiv T2 T3
+*	Equiv T5 T6
+T20	Gene_expression 303 310	express
+T21	Positive_regulation 390 397	derived
+T22	Regulation 1124 1134	modulating
+T23	Gene_expression 1139 1149	expression
+T24	Positive_regulation 1433 1441	inducing
+T25	Gene_expression 1685 1692	present
+T26	Binding 1824 1832	affinity
+T27	Gene_expression 2195 2205	containing
+E1	Gene_expression:T20 Theme:T1
+E2	Positive_regulation:T21 Theme:T1
+E3	Regulation:T22 Theme:E8
+E4	Regulation:T22 Theme:E9
+E5	Regulation:T22 Theme:E7
+E6	Regulation:T22 Theme:E10
+E7	Gene_expression:T23 Theme:T7
+E8	Gene_expression:T23 Theme:T10
+E9	Gene_expression:T23 Theme:T9
+E10	Gene_expression:T23 Theme:T8
+E11	Positive_regulation:T24 Theme:T11
+E12	Gene_expression:T25 Theme:T14
+E13	Binding:T26 Theme:T15
+E14	Binding:T26 Theme:T16
+E15	Gene_expression:T27 Theme:T19

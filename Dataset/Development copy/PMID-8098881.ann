@@ -1,0 +1,14 @@
+T1	Protein 423 427	IL-2
+T2	Protein 869 882	interleukin-2
+T3	Protein 1238 1242	IL-2
+T4	Entity 22 33	CD3 antigen
+T5	Entity 254 269	CD3/TCR complex
+T6	Entity 580 583	DNA
+T7	Entity 658 661	CD3
+T8	Entity 883 923	sequence specific oligonucleotide probes
+T9	Entity 1017 1020	CD3
+T10	Entity 1185 1190	sites
+T11	Entity 1206 1230	promoter/enhancer region
+T12	Entity 1378 1381	DNA
+R1	Protein-Component Arg1:T3 Arg2:T11
+R2	Protein-Component Arg1:T3 Arg2:T10

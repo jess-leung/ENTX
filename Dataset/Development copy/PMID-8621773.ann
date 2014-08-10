@@ -1,0 +1,27 @@
+T1	Protein 98 103	MMP-1
+T2	Entity 213 236	type I collagen fibrils
+T3	Entity 740 759	cis-acting elements
+T4	Entity 767 787	collagenase promoter
+T5	Entity 868 970	Deletion constructs containing as little as 72 bp of 5' -flanking sequence of the collagenase promoter
+T6	Entity 912 917	72 bp
+T7	Entity 921 942	5' -flanking sequence
+T8	Entity 950 970	collagenase promoter
+T9	Entity 1142 1183	polyoma enhancer A-binding protein-3 site
+T10	Entity 1142 1158	polyoma enhancer
+T11	Entity 1185 1195	-83 to -91
+T12	Entity 1201 1214	TTCA sequence
+T13	Entity 1216 1228	-102 to -105
+T14	Entity 1290 1321	activator protein-1 [AP-1] site
+T15	Entity 1290 1309	activator protein-1
+T16	Entity 1311 1315	AP-1
+T17	Entity 1325 1328	-72
+T18	Entity 1339 1353	basal promoter
+T19	Entity 1417 1436	NF-kappaB-like site
+T20	Entity 1417 1426	NF-kappaB
+T21	Entity 1533 1537	AP-1
+T22	Entity 1605 1619	AP-1 complexes
+T23	Entity 1659 1662	jun
+T24	Entity 1667 1684	fos gene families
+T25	Entity 1745 1749	AP-1
+T26	Entity 1759 1780	nuclear factor-kappaB
+T27	Entity 2029 2056	upstream promoter sequences

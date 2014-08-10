@@ -1,0 +1,32 @@
+T1	Protein 46 50	JunD
+T2	Protein 55 59	JunB
+T3	Protein 130 134	JunD
+T4	Protein 391 395	JunD
+T5	Protein 499 503	JunD
+T6	Protein 603 607	JunB
+T7	Protein 652 656	JunD
+T8	Protein 673 677	JunB
+T9	Protein 737 742	c-Fos
+T10	Protein 792 796	JunD
+T11	Protein 1168 1172	JunD
+T12	Entity 0 4	cAMP
+T13	Entity 29 42	proenkephalin
+T14	Entity 94 107	AP-1 proteins
+T15	Entity 155 188	AP-1 transcription factor complex
+T16	Entity 221 245	human proenkephalin gene
+T17	Entity 297 301	cAMP
+T18	Entity 485 493	enhancer
+T19	Entity 525 533	enhancer
+T20	Entity 539 548	homodimer
+T21	Entity 575 601	AP-1 transcription complex
+T22	Entity 663 677	homodimer JunB
+T23	Entity 700 708	enhancer
+T24	Entity 835 850	genes linked to
+T25	Entity 879 896	response elements
+T26	Entity 985 1002	response elements
+T27	Entity 1111 1115	cAMP
+T28	Entity 1272 1276	cAMP
+R1	Subunit-Complex Arg1:T3 Arg2:T15
+R2	Subunit-Complex Arg1:T5 Arg2:T20
+R3	Subunit-Complex Arg1:T6 Arg2:T21
+R4	Subunit-Complex Arg1:T8 Arg2:T22

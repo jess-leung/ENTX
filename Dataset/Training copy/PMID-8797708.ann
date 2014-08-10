@@ -1,0 +1,39 @@
+T1	Protein 22 25	Tax
+T2	Protein 372 375	Tax
+T3	Protein 493 496	Tax
+T4	Protein 575 578	Tax
+T5	Protein 667 670	Tax
+T6	Protein 842 845	Tax
+T7	Protein 1112 1127	I kappa B alpha
+T8	Protein 1359 1363	p105
+T9	Protein 1392 1395	p50
+T10	Protein 1486 1489	Tax
+T11	Protein 1638 1641	Tax
+T12	Protein 1650 1654	HsN3
+T13	Protein 1760 1764	HsN3
+T14	Protein 1796 1799	Tax
+T15	Protein 1844 1847	Tax
+T16	Protein 1860 1864	p100
+T17	Protein 1868 1871	p65
+T18	Protein 1872 1887	I kappa B alpha
+T19	Entity 35 51	human proteasome
+T20	Entity 41 51	proteasome
+T21	Entity 70 80	NF-kappa B
+T22	Entity 611 625	cellular genes
+T23	Entity 855 865	NF-kappa B
+T24	Entity 1043 1067	NF-kappa B/Rel complexes
+T25	Entity 1186 1196	proteasome
+T26	Entity 1231 1241	NF-kappa B
+T27	Entity 1317 1342	cognate enhancer elements
+T28	Entity 1381 1391	NF-kappa B
+T29	Entity 1450 1460	proteasome
+T30	Entity 1500 1510	NF-kappa B
+T31	Entity 1670 1686	human proteasome
+T32	Entity 1676 1686	proteasome
+T33	Entity 1765 1775	proteasome
+T34	Entity 1902 1938	cytoplasmic NF-kappa B/Rel complexes
+T35	Entity 1946 1956	proteasome
+R1	Subunit-Complex Arg1:T9 Arg2:T28
+R2	Subunit-Complex Arg1:T12 Arg2:T31
+R3	Subunit-Complex Arg1:T12 Arg2:T32
+R4	Subunit-Complex Arg1:T13 Arg2:T33

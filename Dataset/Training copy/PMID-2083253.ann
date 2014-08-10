@@ -1,0 +1,69 @@
+T1	Protein 16 27	TCF-1 alpha
+T2	Protein 87 110	T-cell receptor C alpha
+T3	Protein 441 452	TCF-1 alpha
+T4	Protein 563 574	TCF-1 alpha
+T5	Protein 685 694	TCR alpha
+T6	Protein 812 821	TCR alpha
+T7	Protein 834 840	p56lck
+T8	Protein 845 854	CD3 delta
+T9	Protein 882 893	TCF-1 alpha
+T10	Protein 957 966	TCR delta
+T11	Protein 981 989	TCR beta
+T12	Protein 1105 1116	TCF-1 alpha
+T13	Protein 1365 1374	TCR alpha
+T14	Protein 1408 1419	TCF-1 alpha
+T15	Protein 1568 1579	TCF-2 alpha
+T16	Protein 1808 1819	TCF-1 alpha
+T17	Protein 1944 1955	TCF-1 alpha
+T18	Protein 1991 2000	TCR alpha
+T19	Protein 2104 2115	TCF-1 alpha
+T20	Protein 2174 2185	TCF-1 alpha
+T21	Protein 2273 2282	TCR alpha
+T22	Protein 2404 2415	TCF-1 alpha
+T23	Protein 2441 2452	TCF-2 alpha
+T24	Protein 2457 2466	T alpha 1
+T25	Protein 2468 2472	CREB
+T26	Protein 2543 2552	TCR alpha
+*	Equiv T24 T25
+T27	Entity 116 124	enhancer
+T28	Entity 557 560	TCR
+T29	Entity 644 658	HIV-1 promoter
+T30	Entity 695 703	enhancer
+T31	Entity 711 720	promoters
+T32	Entity 894 907	binding motif
+T33	Entity 909 927	5'-GGCACCCTTTGA-3'
+T34	Entity 991 1000	enhancers
+T35	Entity 1343 1357	95-bp fragment
+T36	Entity 1375 1389	control region
+T37	Entity 1420 1432	binding site
+T38	Entity 1454 1475	cAMP-response element
+T39	Entity 1498 1503	motif
+T40	Entity 1513 1525	binding site
+T41	Entity 1601 1625	T-cell-specific enhancer
+T42	Entity 1635 1648	Tandem copies
+T43	Entity 1820 1832	binding site
+T44	Entity 1915 1938	tandem enhancer repeats
+T45	Entity 1956 1968	binding site
+T46	Entity 2001 2009	enhancer
+T47	Entity 2186 2201	binding element
+T48	Entity 2241 2265	its neighboring elements
+T49	Entity 2283 2291	enhancer
+T50	Entity 2343 2364	heterologous promoter
+T51	Entity 2553 2561	enhancer
+R1	Protein-Component Arg1:T2 Arg2:T27
+R2	Protein-Component Arg1:T5 Arg2:T30
+R3	Protein-Component Arg1:T10 Arg2:T32
+R4	Protein-Component Arg1:T11 Arg2:T32
+R5	Protein-Component Arg1:T10 Arg2:T34
+R6	Protein-Component Arg1:T11 Arg2:T34
+R7	Protein-Component Arg1:T13 Arg2:T35
+R8	Protein-Component Arg1:T13 Arg2:T38
+R9	Protein-Component Arg1:T13 Arg2:T41
+R10	Protein-Component Arg1:T13 Arg2:T40
+R11	Protein-Component Arg1:T13 Arg2:T39
+R12	Protein-Component Arg1:T13 Arg2:T36
+R13	Protein-Component Arg1:T18 Arg2:T46
+R14	Protein-Component Arg1:T21 Arg2:T48
+R15	Protein-Component Arg1:T21 Arg2:T47
+R16	Protein-Component Arg1:T21 Arg2:T49
+R17	Protein-Component Arg1:T26 Arg2:T51

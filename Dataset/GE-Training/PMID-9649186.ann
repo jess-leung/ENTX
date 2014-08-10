@@ -1,0 +1,5 @@
+T1	Protein 173 177	IL-2
+T2	Positive_regulation 162 169	leading
+T3	Gene_expression 178 188	expression
+E1	Positive_regulation:T2 Theme:E2
+E2	Gene_expression:T3 Theme:T1

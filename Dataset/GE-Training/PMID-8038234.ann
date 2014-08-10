@@ -1,0 +1,89 @@
+T1	Protein 0 4	IL-4
+T2	Protein 20 24	IL-2
+T3	Protein 27 31	IL-3
+T4	Protein 38 44	GM-CSF
+T5	Protein 110 114	IL-4
+T6	Protein 270 280	IL-1 alpha
+T7	Protein 282 291	IL-1 beta
+T8	Protein 293 297	IL-6
+T9	Protein 299 303	IL-8
+T10	Protein 309 318	TNF-alpha
+T11	Protein 387 411	IL-1 receptor antagonist
+T12	Protein 412 419	(IL1-RA
+T13	Protein 482 486	IL-4
+T14	Protein 577 581	IL-2
+T15	Protein 583 587	IL-3
+T16	Protein 593 599	GM-CSF
+T17	Protein 601 605	IL-4
+T18	Protein 672 681	IL-1 beta
+T19	Protein 683 687	IL-8
+T20	Protein 693 702	TNF-alpha
+T21	Protein 732 736	IL-2
+T22	Protein 738 742	IL-3
+T23	Protein 748 754	GM-CSF
+T24	Protein 756 760	IL-4
+T25	Protein 781 785	IL-2
+T26	Protein 794 798	IL-6
+T27	Protein 841 845	IL-4
+T28	Protein 876 880	IL-2
+T29	Protein 883 887	IL-3
+T30	Protein 893 899	GM-CSF
+T31	Protein 985 989	IL-4
+T32	Protein 1119 1123	IL-4
+T33	Protein 1179 1183	IL-4
+T34	Protein 1254 1261	IL-1-RA
+T35	Protein 1281 1285	IL-2
+T36	Protein 1287 1291	IL-3
+T37	Protein 1297 1303	GM-CSF
+*	Equiv T12 T11
+T38	Gene_expression 118 125	product
+T39	Negative_regulation 261 269	suppress
+T40	Gene_expression 324 334	expression
+T41	Positive_regulation 348 358	stimulated
+T42	Positive_regulation 376 386	upregulate
+T43	Gene_expression 426 436	expression
+T44	Negative_regulation 606 620	down-regulated
+T45	Positive_regulation 621 638	mRNA accumulation
+T46	Negative_regulation 766 776	suppressed
+T47	Positive_regulation 786 793	induced
+T48	Transcription 804 814	expression
+T49	Regulation 1210 1219	influence
+T50	Positive_regulation 1227 1236	induction
+T51	Gene_expression 1240 1250	expression
+E1	Gene_expression:T38 Theme:T5
+E2	Negative_regulation:T39 Theme:E15 Cause:T5
+E3	Negative_regulation:T39 Theme:E16 Cause:T5
+E4	Negative_regulation:T39 Theme:E14 Cause:T5
+E5	Negative_regulation:T39 Theme:E13 Cause:T5
+E6	Negative_regulation:T39 Theme:E12 Cause:T5
+E7	Gene_expression:T40 Theme:T10
+E8	Gene_expression:T40 Theme:T6
+E9	Gene_expression:T40 Theme:T8
+E10	Gene_expression:T40 Theme:T9
+E11	Gene_expression:T40 Theme:T7
+E12	Positive_regulation:T41 Theme:E11
+E13	Positive_regulation:T41 Theme:E7
+E14	Positive_regulation:T41 Theme:E8
+E15	Positive_regulation:T41 Theme:E10
+E16	Positive_regulation:T41 Theme:E9
+E17	Positive_regulation:T42 Theme:E18 Cause:T5
+E18	Gene_expression:T43 Theme:T12
+E19	Negative_regulation:T44 Theme:E22 Cause:T17
+E20	Negative_regulation:T44 Theme:E23 Cause:T17
+E21	Negative_regulation:T44 Theme:E24 Cause:T17
+E22	Positive_regulation:T45 Theme:T19
+E23	Positive_regulation:T45 Theme:T18
+E24	Positive_regulation:T45 Theme:T20
+E25	Negative_regulation:T46 Theme:E26 Cause:T24
+E26	Positive_regulation:T47 Theme:E27 Cause:T25
+E27	Transcription:T48 Theme:T26
+E28	Regulation:T49 Theme:E31 Cause:T33
+E29	Regulation:T49 Theme:E32 Cause:T33
+E30	Regulation:T49 Theme:E33 Cause:T33
+E31	Positive_regulation:T50 Theme:E34 Cause:T36
+E32	Positive_regulation:T50 Theme:E34 Cause:T37
+E33	Positive_regulation:T50 Theme:E34 Cause:T35
+E34	Gene_expression:T51 Theme:T34
+M1	Negation E28
+M2	Negation E29
+M3	Negation E30

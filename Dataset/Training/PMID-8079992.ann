@@ -1,0 +1,17 @@
+T1	Protein 354 358	XIST
+T2	Protein 441 445	XIST
+T3	Protein 744 748	XIST
+T4	Protein 910 920	histone H4
+T5	Protein 1219 1223	ZXDA
+T6	Protein 1229 1233	ZXDB
+T7	Protein 1277 1282	PHKA1
+T8	Protein 1364 1368	XIST
+T9	Protein 1414 1418	XIST
+T10	Entity 359 364	locus
+T11	Entity 941 958	chromatin domains
+T12	Entity 1092 1097	genes
+T13	Entity 1234 1238	loci
+T14	Entity 1283 1287	loci
+T15	Entity 1460 1473	its AR allele
+T16	Entity 1500 1530	the one on the normal X allele
+T17	Entity 1522 1530	X allele

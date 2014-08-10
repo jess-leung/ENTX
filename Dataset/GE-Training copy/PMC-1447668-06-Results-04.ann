@@ -1,0 +1,108 @@
+T1	Protein 40 43	Tax
+T2	Protein 62 67	Foxp3
+T3	Protein 135 140	Foxp3
+T4	Protein 210 237	tumor necrosis factor-alpha
+T5	Protein 315 320	Foxp3
+T6	Protein 475 478	Tax
+T7	Protein 565 568	Tax
+T8	Protein 732 737	Foxp3
+T9	Protein 786 789	Tax
+T10	Protein 883 888	Foxp3
+T11	Protein 906 909	Tax
+T12	Protein 1000 1003	Tax
+T13	Protein 1017 1022	Foxp3
+T14	Protein 1031 1039	DeltaFKH
+T15	Protein 1151 1154	Tax
+T16	Protein 1269 1274	Foxp3
+T17	Protein 1284 1292	DeltaFKH
+T18	Protein 1305 1308	Tax
+T19	Protein 1510 1513	Tax
+T20	Protein 1575 1580	Foxp3
+T21	Protein 1726 1729	Tax
+T22	Protein 1765 1770	Foxp3
+T23	Protein 1782 1785	Tax
+T24	Protein 1880 1883	Tax
+T25	Protein 1979 1984	Foxp3
+T26	Protein 2018 2026	DeltaFKH
+T27	Protein 2080 2083	Tax
+T28	Protein 2119 2124	Foxp3
+T29	Protein 2211 2216	Foxp3
+T30	Protein 2267 2270	Tax
+T31	Protein 2362 2367	Foxp3
+T32	Protein 2567 2570	Tax
+T33	Protein 2650 2655	Foxp3
+T34	Protein 2699 2702	Tax
+T35	Protein 2802 2805	Tax
+T36	Protein 2857 2861	Gal4
+T37	Protein 2882 2886	Gal4
+T38	Protein 2897 2908	Gal4-BD-Tax
+T39	Protein 3014 3018	Gal4
+T40	Protein 3139 3150	Gal4-BD-Tax
+T41	Protein 3226 3231	Foxp3
+T42	Protein 3236 3244	DeltaFKH
+T43	Protein 3262 3267	Foxp3
+T44	Protein 3285 3288	Tax
+T45	Protein 3345 3348	Tax
+T46	Protein 3374 3379	Foxp3
+T47	Protein 3562 3567	Foxp3
+T48	Protein 3569 3577	DeltaFKH
+T49	Protein 3712 3715	CD4
+T50	Protein 3825 3828	Tax
+T51	Protein 3928 3931	Tax
+T52	Protein 3996 4001	Foxp3
+T53	Protein 4072 4080	DeltaFKH
+T54	Protein 4118 4121	Tax
+T55	Protein 4159 4164	Foxp3
+T56	Protein 4208 4211	Tax
+T57	Positive_regulation 714 728	overexpression
+T58	Positive_regulation 979 992	overexpressed
+T59	Gene_expression 1251 1265	overexpression
+T60	Positive_regulation 1708 1722	overexpression
+T61	Gene_expression 1749 1761	transfection
+T62	Binding 1965 1973	interact
+T63	Positive_regulation 2000 2014	overexpression
+T64	Negative_regulation 2217 2232	down-regulating
+T65	Gene_expression 2237 2247	expression
+T66	Binding 2368 2377	interacts
+T67	Localization 2503 2515	localization
+T68	Entity 2523 2530	nucleus
+T69	Binding 2715 2726	associating
+T70	Positive_regulation 3185 3199	overexpression
+T71	Negative_regulation 3317 3328	interfacing
+T72	Transcription 3800 3810	expression
+T73	Transcription 3937 3948	synthesized
+T74	Negative_regulation 3962 3976	down-regulated
+T75	Transcription 4024 4032	produced
+T76	Regulation 4108 4114	affect
+T77	Gene_expression 4122 4132	expression
+T78	Negative_regulation 4179 4189	repressing
+T79	Gene_expression 4194 4204	expression
+E1	Positive_regulation:T57 Theme:T8
+E2	Positive_regulation:T58 Theme:T12
+E3	Positive_regulation:T58 Theme:T13
+E4	Positive_regulation:T58 Theme:T14
+E5	Gene_expression:T59 Theme:T16
+E6	Gene_expression:T59 Theme:T17
+E7	Positive_regulation:T60 Theme:T21
+E8	Gene_expression:T61 Theme:T22
+E9	Binding:T62 Theme:T25
+E10	Positive_regulation:T63 Theme:T26
+E11	Negative_regulation:T64 Theme:E12 Cause:T29
+E12	Gene_expression:T65 Theme:T30
+E13	Binding:T66 Theme:T31
+E14	Localization:T67 Theme:T31 ToLoc:T68
+E15	Binding:T69 Theme:T33 Theme2:T34
+E16	Positive_regulation:T70 Theme:T41
+E17	Positive_regulation:T70 Theme:T42
+E18	Negative_regulation:T71 Theme:T45 Cause:T43
+E19	Transcription:T72 Theme:T50
+E20	Transcription:T73 Theme:T51
+E21	Negative_regulation:T74 Theme:E20 Cause:T52
+E22	Transcription:T75 Theme:T51
+E23	Regulation:T76 Theme:E24 Cause:T53
+E24	Gene_expression:T77 Theme:T54
+E25	Negative_regulation:T78 Theme:E26 Cause:T55
+E26	Gene_expression:T79 Theme:T56
+M1	Speculation E13
+M2	Speculation E15
+M3	Negation E23

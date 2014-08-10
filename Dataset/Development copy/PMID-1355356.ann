@@ -1,0 +1,32 @@
+T1	Protein 66 73	v-erb A
+T2	Protein 92 99	v-erb A
+T3	Protein 268 275	v-erb A
+T4	Protein 401 423	retinoic acid receptor
+T5	Protein 429 436	v-erb A
+T6	Protein 536 543	c-erb A
+T7	Protein 602 609	v-erb A
+T8	Protein 832 839	c-erb A
+T9	Protein 916 923	v-erb A
+T10	Protein 1027 1034	v-erb A
+T11	Protein 1290 1297	v-erb A
+T12	Entity 39 58	zinc finger domains
+T13	Entity 187 201	host cell gene
+T14	Entity 294 297	DNA
+T15	Entity 463 473	amino acid
+T16	Entity 497 515	DNA-binding domain
+T17	Entity 562 571	serine 61
+T18	Entity 689 701	threonine 78
+T19	Entity 788 800	threonine 78
+T20	Entity 972 983	position 61
+T21	Entity 985 997	Threonine 78
+T22	Entity 1014 1019	D-box
+T23	Entity 1145 1166	serine at position 61
+R1	Protein-Component Arg1:T1 Arg2:T12
+R2	Protein-Component Arg1:T5 Arg2:T16
+R3	Protein-Component Arg1:T6 Arg2:T16
+R4	Protein-Component Arg1:T6 Arg2:T15
+R5	Protein-Component Arg1:T6 Arg2:T17
+R6	Protein-Component Arg1:T5 Arg2:T15
+R7	Protein-Component Arg1:T8 Arg2:T19
+R8	Protein-Component Arg1:T10 Arg2:T21
+R9	Protein-Component Arg1:T10 Arg2:T22

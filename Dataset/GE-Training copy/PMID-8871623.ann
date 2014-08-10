@@ -1,0 +1,42 @@
+T1	Protein 67 71	CD28
+T2	Protein 132 155	acidic sphingomyelinase
+T3	Protein 233 237	CD28
+T4	Protein 282 286	CD28
+T5	Protein 386 390	CD28
+T6	Protein 555 559	CD28
+T7	Protein 685 689	CD28
+T8	Protein 751 755	CD28
+T9	Protein 771 773	B7
+T10	Protein 879 883	IL-2
+T11	Protein 974 976	B7
+T12	Protein 1181 1185	CD28
+T13	Protein 1263 1267	IL-2
+T14	Protein 1363 1367	CD28
+T15	Protein 1496 1519	acidic sphingomyelinase
+T16	Protein 1747 1751	CD28
+T17	Protein 1881 1904	acidic sphingomyelinase
+T18	Positive_regulation 72 83	stimulation
+T19	Binding 247 255	ligation
+T20	Positive_regulation 690 700	activation
+T21	Positive_regulation 756 767	stimulation
+T22	Gene_expression 774 785	transfected
+T23	Positive_regulation 774 785	transfected
+T24	Positive_regulation 853 864	accompanied
+T25	Gene_expression 884 894	production
+T26	Binding 1186 1194	ligation
+T27	Positive_regulation 1212 1221	induction
+T28	Gene_expression 1268 1278	production
+T29	Negative_regulation 1483 1492	inhibitor
+E1	Positive_regulation:T18 Theme:T1
+E2	Binding:T19 Theme:T3
+E3	Positive_regulation:T20 Theme:T7
+E4	Positive_regulation:T21 Theme:T8
+E5	Gene_expression:T22 Theme:T9
+E6	Positive_regulation:T23 Theme:E5
+E7	Positive_regulation:T24 Theme:E8 Cause:E4
+E8	Gene_expression:T25 Theme:T10
+E9	Binding:T26 Theme:T12
+E10	Positive_regulation:T27 Theme:E11
+E11	Gene_expression:T28 Theme:T13
+E12	Negative_regulation:T29 Theme:T15
+M1	Negation E7

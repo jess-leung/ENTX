@@ -1,0 +1,28 @@
+T1	Protein 42 55	interleukin-2
+T2	Protein 135 148	interleukin-2
+T3	Protein 150 154	IL-2
+T4	Protein 281 285	IL-2
+T5	Protein 388 392	IL-2
+T6	Protein 479 484	Stat5
+T7	Protein 527 543	Protein kinase B
+T8	Protein 545 548	PKB
+T9	Protein 566 570	IL-2
+T10	Protein 609 612	PKB
+T11	Protein 698 700	Rb
+T12	Protein 745 752	p27kip1
+T13	Protein 793 796	PKB
+T14	Protein 823 827	IL-2
+*	Equiv T2 T3
+*	Equiv T8 T7
+T15	Positive_regulation 553 562	activated
+T16	Entity 575 579	PI3K
+T17	Gene_expression 585 595	expression
+T18	Negative_regulation 670 678	inhibits
+T19	Phosphorylation 679 694	phosphorylation
+T20	Protein_catabolism 730 741	degradation
+E1	Positive_regulation:T15 Theme:T8 Cause:T9 CSite:T16
+E2	Gene_expression:T17 Theme:T10
+E3	Negative_regulation:T18 Theme:E5
+E4	Negative_regulation:T18 Theme:E6
+E5	Phosphorylation:T19 Theme:T11
+E6	Protein_catabolism:T20 Theme:T12

@@ -1,0 +1,37 @@
+T1	Protein 117 122	c-fos
+T2	Protein 127 132	c-jun
+T3	Protein 345 350	c-jun
+T4	Protein 355 360	c-fos
+T5	Protein 485 490	c-jun
+T6	Protein 495 500	c-fos
+T7	Protein 673 680	lamin A
+T8	Protein 682 689	lamin C
+T9	Protein 695 703	vimentin
+T10	Protein 814 819	c-jun
+T11	Protein 824 829	c-fos
+T12	Protein 977 980	PKC
+T13	Protein 1128 1133	c-jun
+T14	Protein 1138 1143	c-fos
+T15	Protein 1236 1241	c-jun
+T16	Protein 1246 1251	c-fos
+T17	Protein 1496 1501	c-jun
+T18	Protein 1535 1568	chloramphenicol acetyltransferase
+T19	Protein 1570 1573	CAT
+T20	Protein 1594 1597	CAT
+T21	Protein 1798 1801	CAT
+T22	Protein 1933 1938	c-jun
+*	Equiv T18 T19
+T23	Entity 134 138	AP-1
+T24	Entity 1488 1579	deleted c-jun promoter fragments linked to the chloramphenicol acetyltransferase (CAT) gene
+T25	Entity 1502 1520	promoter fragments
+T26	Entity 1707 1726	region (-97 to -20)
+T27	Entity 1734 1742	promoter
+T28	Entity 1761 1778	AP-1 binding site
+T29	Entity 1761 1765	AP-1
+T30	Entity 2009 2018	AP-1 site
+T31	Entity 2009 2013	AP-1
+R1	Subunit-Complex Arg1:T1 Arg2:T23
+R2	Subunit-Complex Arg1:T2 Arg2:T23
+R3	Protein-Component Arg1:T17 Arg2:T24
+R4	Protein-Component Arg1:T18 Arg2:T24
+R5	Protein-Component Arg1:T17 Arg2:T25

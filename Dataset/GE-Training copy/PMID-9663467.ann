@@ -1,0 +1,32 @@
+T1	Protein 0 14	Thrombopoietin
+T2	Protein 85 90	c-Mpl
+T3	Protein 123 137	Thrombopoietin
+T4	Protein 139 142	TPO
+T5	Protein 442 445	TPO
+T6	Protein 464 467	TPO
+T7	Protein 556 559	TPO
+T8	Protein 588 591	TPO
+T9	Protein 632 644	TPO receptor
+T10	Protein 657 686	erythropoietin (EPO) receptor
+T11	Protein 721 724	TPO
+T12	Protein 729 732	EPO
+T13	Protein 748 760	EPO receptor
+T14	Protein 790 793	TPO
+T15	Protein 917 920	TPO
+T16	Protein 967 970	EPO
+T17	Protein 1049 1052	TPO
+*	Equiv T3 T4
+T18	Binding 63 84	its specific receptor
+T19	Positive_regulation 592 599	induced
+T20	Entity 600 608	tyrosine
+T21	Phosphorylation 609 624	phosphorylation
+T22	Binding 737 744	binding
+E1	Binding:T18 Theme:T1 Theme2:T2
+E2	Positive_regulation:T19 Theme:E4 Cause:T8
+E3	Positive_regulation:T19 Theme:E5 Cause:T8
+E4	Phosphorylation:T21 Theme:T9 Site:T20
+E5	Phosphorylation:T21 Theme:T10 Site:T20
+E6	Binding:T22 Theme:T11 Theme2:T13
+E7	Binding:T22 Theme:T12 Theme2:T13
+M1	Negation E3
+M2	Negation E6

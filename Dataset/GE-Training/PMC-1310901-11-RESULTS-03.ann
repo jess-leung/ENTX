@@ -1,0 +1,22 @@
+T1	Protein 63 68	IRF-4
+T2	Protein 174 179	IRF-4
+T3	Protein 567 572	IRF-4
+T4	Protein 856 861	IRF-4
+T5	Protein 1046 1051	IRF-4
+T6	Protein 1173 1178	IRF-4
+T7	Protein 1385 1390	IRF-4
+T8	Protein 1541 1546	IRF-4
+T9	Gene_expression 185 195	expression
+T10	Gene_expression 862 870	negative
+T11	Gene_expression 1052 1060	positive
+T12	Gene_expression 1179 1187	positive
+T13	Transcription 1391 1404	transcription
+T14	Gene_expression 1547 1555	negative
+E1	Gene_expression:T9 Theme:T2
+E2	Gene_expression:T10 Theme:T4
+E3	Gene_expression:T11 Theme:T5
+E4	Gene_expression:T12 Theme:T6
+E5	Transcription:T13 Theme:T7
+E6	Gene_expression:T14 Theme:T8
+M1	Negation E2
+M2	Negation E6

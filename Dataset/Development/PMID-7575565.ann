@@ -1,0 +1,19 @@
+T1	Protein 0 5	HMG-I
+T2	Protein 112 117	HMG-I
+T3	Protein 167 172	HMG-I
+T4	Protein 315 321	GATA-1
+T5	Protein 386 391	HMG-I
+T6	Protein 544 549	HMG-I
+T7	Protein 657 662	HMG-I
+T8	Protein 713 718	HMG-I
+T9	Entity 15 26	GATA motifs
+T10	Entity 125 152	human gamma-globin promoter
+T11	Entity 222 233	GATA motifs
+T12	Entity 241 262	gamma-globin promoter
+T13	Entity 491 512	gamma-globin promoter
+T14	Entity 572 587	mutant sequence
+T15	Entity 601 612	GATA motifs
+T16	Entity 624 643	globin cis-elements
+T17	Entity 799 821	multiprotein complexes
+T18	Entity 836 847	globin gene
+R1	Subunit-Complex Arg1:T8 Arg2:T17

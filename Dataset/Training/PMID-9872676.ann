@@ -1,0 +1,42 @@
+T1	Protein 0 14	Interleukin-10
+T2	Protein 26 49	inhibitory kappaB-alpha
+T3	Protein 71 85	Interleukin-10
+T4	Protein 87 92	IL-10
+T5	Protein 242 269	tumor necrosis factor-alpha
+T6	Protein 271 280	TNF-alpha
+T7	Protein 306 311	IL-10
+T8	Protein 552 575	inhibitory kappaB-alpha
+T9	Protein 577 590	IkappaB-alpha
+T10	Protein 614 619	IL-10
+T11	Protein 679 688	TNF-alpha
+T12	Protein 720 733	IkappaB-alpha
+T13	Protein 792 797	IL-10
+T14	Protein 849 858	TNF-alpha
+T15	Protein 897 910	IkappaB-alpha
+T16	Protein 1044 1049	IL-10
+T17	Protein 1085 1094	TNF-alpha
+T18	Protein 1203 1216	IkappaB-alpha
+T19	Protein 1300 1309	TNF-alpha
+T20	Protein 1365 1370	IL-10
+T21	Protein 1397 1406	TNF-alpha
+T22	Protein 1499 1512	IkappaB-alpha
+T23	Protein 1576 1581	IL-10
+T24	Protein 1630 1643	IkappaB-alpha
+T25	Protein 1697 1702	IL-10
+T26	Protein 1760 1773	IkappaB-alpha
+T27	Protein 1816 1825	TNF-alpha
+*	Equiv T3 T4
+*	Equiv T5 T6
+*	Equiv T8 T9
+T28	Entity 363 384	nuclear factor-kappaB
+T29	Entity 386 395	NF-kappaB
+T30	Entity 427 436	NF-kappaB
+T31	Entity 532 550	inhibitory peptide
+T32	Entity 644 653	NF-kappaB
+T33	Entity 871 880	NF-kappaB
+T34	Entity 1139 1148	NF-kappaB
+T35	Entity 1543 1552	NF-kappaB
+T36	Entity 1553 1556	DNA
+T37	Entity 1674 1683	NF-kappaB
+T38	Entity 1684 1687	DNA
+T39	Entity 1736 1745	NF-kappaB

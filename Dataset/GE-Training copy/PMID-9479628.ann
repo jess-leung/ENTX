@@ -1,0 +1,6 @@
+T1	Protein 691 694	fos
+T2	Protein 699 702	jun
+T3	Protein 890 916	B-cell lymphoma/leukemia-2
+T4	Gene_expression 673 681	products
+E1	Gene_expression:T4 Theme:T2
+E2	Gene_expression:T4 Theme:T1

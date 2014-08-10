@@ -1,0 +1,66 @@
+T1	Protein 20 23	Fos
+T2	Protein 29 32	Jun
+T3	Protein 69 73	IL-2
+T4	Protein 83 87	CD28
+T5	Protein 138 142	CD28
+T6	Protein 276 280	CD28
+T7	Protein 301 305	IL-2
+T8	Protein 419 423	CD28
+T9	Protein 473 477	IL-2
+T10	Protein 681 685	CD28
+T11	Protein 802 806	CD28
+T12	Protein 924 928	CD28
+T13	Protein 1192 1196	IL-2
+T14	Protein 1484 1489	c-Rel
+T15	Protein 1518 1521	p50
+T16	Protein 1526 1530	RelA
+T17	Protein 1567 1572	c-Fos
+T18	Protein 1577 1582	c-Jun
+T19	Protein 1748 1752	IL-2
+T20	Protein 1774 1778	CD28
+T21	Entity 69 118	IL-2 promoter CD28 response element/AP-1 sequence
+T22	Entity 74 82	promoter
+T23	Entity 105 109	AP-1
+T24	Entity 478 486	promoter
+T25	Entity 561 565	AP-1
+T26	Entity 570 591	nuclear factor-kappaB
+T27	Entity 593 602	NF-kappaB
+T28	Entity 637 673	uncharacterized transcription factor
+T29	Entity 686 702	response complex
+T30	Entity 761 770	NF-kappaB
+T31	Entity 929 945	response element
+T32	Entity 947 953	CD28RE
+T33	Entity 1029 1073	adjacent promoter proximal AP-1-binding site
+T34	Entity 1056 1073	AP-1-binding site
+T35	Entity 1056 1060	AP-1
+T36	Entity 1164 1184	CD28RE/AP-1 sequence
+T37	Entity 1164 1170	CD28RE
+T38	Entity 1171 1175	AP-1
+T39	Entity 1197 1205	promoter
+T40	Entity 1229 1252	four specific complexes
+T41	Entity 1300 1322	one of these complexes
+T42	Entity 1348 1354	CD28RE
+T43	Entity 1363 1381	adjacent AP-1 site
+T44	Entity 1372 1376	AP-1
+T45	Entity 1390 1399	NF-kappaB
+T46	Entity 1432 1460	CD28RE/AP-1-specific complex
+T47	Entity 1432 1438	CD28RE
+T48	Entity 1559 1565	CD28RE
+T49	Entity 1606 1634	CD28RE/AP-1-specific complex
+T50	Entity 1606 1612	CD28RE
+T51	Entity 1661 1737	functional complexes encompassing both the CD28RE and the AP-1-binding sites
+T52	Entity 1661 1681	functional complexes
+T53	Entity 1704 1710	CD28RE
+T54	Entity 1719 1737	AP-1-binding sites
+T55	Entity 1753 1761	promoter
+R1	Protein-Component Arg1:T3 Arg2:T22
+R2	Protein-Component Arg1:T9 Arg2:T24
+R3	Protein-Component Arg1:T13 Arg2:T37
+R4	Protein-Component Arg1:T13 Arg2:T36
+R5	Protein-Component Arg1:T13 Arg2:T39
+R6	Subunit-Complex Arg1:T16 Arg2:T46
+R7	Subunit-Complex Arg1:T15 Arg2:T46
+R8	Subunit-Complex Arg1:T14 Arg2:T46
+R9	Subunit-Complex Arg1:T18 Arg2:T49
+R10	Subunit-Complex Arg1:T17 Arg2:T49
+R11	Protein-Component Arg1:T19 Arg2:T55

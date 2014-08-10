@@ -1,0 +1,127 @@
+T1	Protein 10 15	MAD-3
+T2	Protein 68 71	p65
+T3	Protein 134 137	p65
+T4	Protein 275 278	p65
+T5	Protein 294 297	p50
+T6	Protein 367 372	v-rel
+T7	Protein 406 409	p65
+T8	Protein 597 600	p50
+T9	Protein 843 848	MAD-3
+T10	Protein 879 882	p65
+T11	Protein 1121 1124	p65
+T12	Protein 1170 1175	MAD-3
+T13	Protein 1207 1210	p65
+T14	Protein 1374 1379	MAD-3
+T15	Protein 1394 1397	p65
+T16	Protein 1435 1438	p65
+T17	Protein 1591 1594	p65
+T18	Protein 1636 1641	MAD-3
+T19	Protein 1686 1689	p65
+T20	Protein 1819 1822	p65
+T21	Protein 1956 1959	p65
+T22	Protein 2058 2063	MAD-3
+T23	Protein 2131 2136	MAD-3
+T24	Protein 2166 2169	p50
+T25	Protein 2243 2246	p50
+T26	Protein 2436 2439	p65
+T27	Negative_regulation 16 21	masks
+T28	Entity 26 53	nuclear localization signal
+T29	Negative_regulation 115 122	inhibit
+T30	Binding 142 149	binding
+T31	Binding 215 222	complex
+T32	Binding 246 253	binding
+T33	Binding 503 511	receptor
+T34	Regulation 711 720	regulated
+T35	Binding 1353 1360	binding
+T36	Positive_regulation 1401 1411	sufficient
+T37	Localization 1415 1423	retarget
+T38	Entity 1463 1472	cytoplasm
+T39	Negative_regulation 1487 1495	deletion
+T40	Entity 1514 1541	nuclear localization signal
+T41	Negative_regulation 1595 1603	disrupts
+T42	Binding 1619 1625	engage
+T43	Entity 1661 1671	C-terminus
+T44	Negative_regulation 1690 1700	attenuates
+T45	Entity 1709 1716	nuclear
+T46	Localization 1717 1729	localization
+T47	Positive_regulation 1762 1770	required
+T48	Negative_regulation 1794 1804	inhibition
+T49	Binding 1827 1834	binding
+T50	Binding 2137 2142	binds
+T51	Positive_regulation 2208 2213	leads
+T52	Localization 2217 2228	retargeting
+T53	Entity 2271 2280	cytoplasm
+E1	Negative_regulation:T27 Theme:T2 Cause:T1 Site:T28
+E2	Negative_regulation:T29 Theme:E3 Cause:T1
+E3	Binding:T30 Theme:T3
+E4	Binding:T31 Theme:T4 Theme2:T5
+E5	Binding:T32 Theme:T5
+E6	Binding:T32 Theme:T4
+E7	Binding:T33 Theme:T7
+E8	Regulation:T34 Theme:T8
+E9	Binding:T35 Theme:T14 Theme2:T15
+E10	Positive_regulation:T36 Theme:E11 Cause:E9
+E11	Localization:T37 Theme:T16 ToLoc:T38
+E12	Negative_regulation:T39 Theme:T17 Site:T40
+E13	Negative_regulation:T41 Theme:E14 Cause:E12
+E14	Binding:T42 Theme:T17 Theme2:T18
+E15	Negative_regulation:T44 Theme:E16 Cause:T19 CSite:T43
+E16	Localization:T46 Theme:T19 ToLoc:T45
+E17	Positive_regulation:T47 Theme:E18 Cause:T19 CSite:T43
+E18	Negative_regulation:T48 Theme:E19
+E19	Binding:T49 Theme:T20
+E20	Binding:T50 Theme:T23 Theme2:T24
+E21	Positive_regulation:T51 Theme:E22 Cause:E20
+E22	Localization:T52 Theme:T25 ToLoc:T53
+M1	Negation E8
+
+T54	Entity 1557 1576	Rel homology domain
+R1	Protein-Component  Arg1:T17 Arg2:T54
+T55	Entity 1110 1120	NF-kappa B
+R2	Subunit-Complex  Arg1:T11 Arg2:T55
+T56	Entity 1808 1818	NF-kappa B
+R3	Subunit-Complex  Arg1:T20 Arg2:T56
+T57	Entity 1675 1685	NF-kappa B
+R4	Subunit-Complex  Arg1:T19 Arg2:T57
+T58	Entity 183 222	NF-kappa B transcription factor complex
+R5	Subunit-Complex  Arg1:T4 Arg2:T58
+R6	Protein-Component Arg1:T17 Arg2:T40
+R7	Protein-Component Arg1:T19 Arg2:T43
+T59	Entity 868 878	NF-kappa B
+R8	Subunit-Complex  Arg1:T10 Arg2:T59
+T60	Entity 1196 1206	NF-kappa B
+R9	Subunit-Complex  Arg1:T13 Arg2:T60
+T61	Entity 1383 1393	NF-kappa B
+R10	Subunit-Complex  Arg1:T15 Arg2:T61
+T62	Entity 57 67	NF-kappa B
+R11	Subunit-Complex  Arg1:T2 Arg2:T62
+T63	Entity 1919 1941	transactivation domain
+R12	Protein-Component  Arg1:T21 Arg2:T63
+T64	Entity 283 293	NF-kappa B
+R13	Subunit-Complex  Arg1:T5 Arg2:T64
+T65	Entity 2369 2386	C-terminal domain
+R14	Protein-Component  Arg1:T26 Arg2:T65
+R15	Subunit-Complex Arg1:T5 Arg2:T58
+T66	Entity 264 274	NF-kappa B
+R16	Subunit-Complex  Arg1:T4 Arg2:T66
+T67	Entity 123 133	NF-kappa B
+R17	Subunit-Complex  Arg1:T3 Arg2:T67
+T68	Entity 1580 1590	NF-kappa B
+R18	Subunit-Complex  Arg1:T17 Arg2:T68
+T69	Entity 2155 2165	NF-kappa B
+R19	Subunit-Complex  Arg1:T24 Arg2:T69
+T70	Entity 1424 1434	NF-kappa B
+R20	Subunit-Complex  Arg1:T16 Arg2:T70
+T71	Entity 2425 2435	NF-kappa B
+R21	Subunit-Complex  Arg1:T26 Arg2:T71
+T72	Entity 1945 1955	NF-kappa B
+R22	Subunit-Complex  Arg1:T21 Arg2:T72
+T73	Entity 1887 1914	nuclear localization signal
+R23	Protein-Component  Arg1:T21 Arg2:T73
+R24	Protein-Component Arg1:T2 Arg2:T28
+T74	Entity 586 596	NF-kappa B
+R25	Subunit-Complex  Arg1:T8 Arg2:T74
+T75	Entity 395 405	NF-kappa B
+R26	Subunit-Complex  Arg1:T7 Arg2:T75
+T76	Entity 2232 2242	NF-kappa B
+R27	Subunit-Complex  Arg1:T25 Arg2:T76

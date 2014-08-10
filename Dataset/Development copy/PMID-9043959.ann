@@ -1,0 +1,37 @@
+T1	Protein 23 26	CD4
+T2	Protein 157 160	CD4
+T3	Protein 386 389	CD4
+T4	Protein 561 564	CD4
+T5	Protein 819 822	CD4
+T6	Protein 845 848	CD4
+T7	Protein 937 940	CD4
+T8	Protein 965 968	CD4
+T9	Protein 1146 1149	CD4
+T10	Protein 1185 1188	CD4
+T11	Protein 1216 1219	CD4
+T12	Protein 1308 1311	CD4
+T13	Protein 1364 1367	CD4
+T14	Entity 104 112	enhancer
+T15	Entity 118 126	promoter
+T16	Entity 135 143	silencer
+T17	Entity 325 348	regulatory DNA elements
+T18	Entity 459 486	5'-positive regulatory unit
+T19	Entity 506 514	promoter
+T20	Entity 523 534	5' enhancer
+T21	Entity 565 568	CD8
+T22	Entity 754 762	enhancer
+T23	Entity 805 811	intron
+T24	Entity 903 921	regulatory element
+T25	Entity 929 949	minimal CD4 silencer
+T26	Entity 999 1002	CD8
+T27	Entity 1110 1128	silencer mechanism
+T28	Entity 1185 1197	CD4 silencer
+T29	Entity 1221 1224	CD8
+T30	Entity 1268 1281	anti-silencer
+R1	Protein-Component Arg1:T2 Arg2:T16
+R2	Protein-Component Arg1:T2 Arg2:T14
+R3	Protein-Component Arg1:T2 Arg2:T15
+R4	Protein-Component Arg1:T5 Arg2:T22
+R5	Protein-Component Arg1:T5 Arg2:T23
+R6	Protein-Component Arg1:T7 Arg2:T25
+R7	Protein-Component Arg1:T10 Arg2:T28

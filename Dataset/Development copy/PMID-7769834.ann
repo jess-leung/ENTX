@@ -1,0 +1,22 @@
+T1	Protein 26 49	early growth response-1
+T2	Protein 197 220	early growth response-1
+T3	Protein 227 232	EGR-1
+T4	Protein 273 278	EGR-1
+T5	Protein 391 396	EGR-1
+T6	Protein 430 463	chloramphenicol acetyltransferase
+T7	Protein 465 468	CAT
+T8	Protein 505 510	EGR-1
+T9	Protein 576 581	EGR-1
+T10	Protein 703 724	serum response factor
+T11	Protein 726 729	SRF
+T12	Protein 876 881	EGR-1
+*	Equiv T6 T7
+*	Equiv T10 T11
+T13	Entity 545 555	CArG motif
+T14	Entity 557 567	C C[AT]6GG
+T15	Entity 582 590	promoter
+T16	Entity 731 739	peptides
+R1	Protein-Component Arg1:T9 Arg2:T14
+R2	Protein-Component Arg1:T9 Arg2:T13
+R3	Protein-Component Arg1:T9 Arg2:T15
+R4	Protein-Component Arg1:T10 Arg2:T16

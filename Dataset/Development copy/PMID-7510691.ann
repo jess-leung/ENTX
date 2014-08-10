@@ -1,0 +1,39 @@
+T1	Protein 4 17	interleukin-8
+T2	Protein 306 319	interleukin-8
+T3	Protein 321 325	IL-8
+T4	Protein 497 501	IL-8
+T5	Protein 944 948	JunD
+T6	Protein 952 957	c-Fos
+T7	Protein 1167 1172	c-Rel
+T8	Protein 1174 1177	p65
+T9	Protein 1179 1182	p50
+T10	Protein 1188 1191	p49
+T11	Protein 1437 1441	IL-8
+T12	Protein 1464 1474	Ig kappa B
+T13	Protein 1595 1599	IL-2
+T14	Protein 1600 1605	NF-AT
+T15	Protein 1610 1617	NFIL-2A
+T16	Protein 1628 1638	Ig kappa B
+T17	Protein 1658 1662	IL-8
+*	Equiv T2 T3
+T18	Entity 40 45	sites
+T19	Entity 502 511	promoters
+T20	Entity 539 544	sites
+T21	Entity 568 587	responsive elements
+T22	Entity 680 685	sites
+T23	Entity 860 869	AP-1 site
+T24	Entity 1047 1082	kappa B-like site binding complexes
+T25	Entity 1317 1329	kappa B site
+T26	Entity 1333 1357	immunoglobulin (Ig) gene
+T27	Entity 1368 1378	NF-kappa B
+T28	Entity 1442 1459	kappa B-like site
+T29	Entity 1475 1479	site
+T30	Entity 1618 1623	sites
+T31	Entity 1639 1643	site
+T32	Entity 1685 1690	sites
+R1	Protein-Component Arg1:T1 Arg2:T18
+R2	Protein-Component Arg1:T4 Arg2:T21
+R3	Protein-Component Arg1:T4 Arg2:T19
+R4	Protein-Component Arg1:T11 Arg2:T28
+R5	Protein-Component Arg1:T12 Arg2:T29
+R6	Protein-Component Arg1:T17 Arg2:T32

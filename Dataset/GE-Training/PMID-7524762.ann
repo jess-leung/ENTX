@@ -1,0 +1,58 @@
+T1	Protein 0 12	Steel factor
+T2	Protein 21 24	SCL
+T3	Protein 78 90	Steel factor
+T4	Protein 199 202	SCL
+T5	Protein 218 223	Tcl-5
+T6	Protein 227 232	Tal-1
+T7	Protein 327 330	SCL
+T8	Protein 434 446	Steel factor
+T9	Protein 450 453	SCL
+T10	Protein 715 718	SCL
+T11	Protein 875 878	SCL
+T12	Protein 922 925	SCL
+T13	Protein 1092 1095	SCL
+T14	Protein 1126 1129	SCL
+T15	Protein 1133 1145	Steel factor
+T16	Protein 1237 1249	Steel factor
+T17	Protein 1367 1379	Steel factor
+T18	Protein 1381 1384	SCL
+T19	Protein 1458 1461	SCL
+T20	Protein 1523 1535	Steel factor
+T21	Protein 1573 1585	Steel factor
+T22	Protein 1630 1633	SCL
+T23	Protein 1733 1745	Steel factor
+T24	Protein 1847 1850	SCL
+T25	Protein 1883 1888	Steel
+*	Equiv T4 T5 T6
+T26	Regulation 13 20	affects
+T27	Gene_expression 25 35	expression
+T28	Regulation 423 430	effects
+T29	Gene_expression 454 464	expression
+T30	Negative_regulation 789 798	decreased
+T31	Negative_regulation 946 954	decrease
+T32	Regulation 1060 1071	responsible
+T33	Negative_regulation 1080 1088	decrease
+T34	Positive_regulation 1397 1406	increased
+T35	Positive_regulation 1446 1454	increase
+T36	Transcription 1639 1645	levels
+T37	Positive_regulation 1695 1703	increase
+T38	Regulation 1818 1827	important
+T39	Positive_regulation 1835 1843	increase
+E1	Regulation:T26 Theme:E2 Cause:T1
+E2	Gene_expression:T27 Theme:T2
+E3	Regulation:T28 Theme:E4 Cause:T8
+E4	Gene_expression:T29 Theme:T9
+E5	Negative_regulation:T30 Theme:T10
+E6	Negative_regulation:T31 Theme:T12
+E7	Regulation:T32 Theme:E8
+E8	Negative_regulation:T33 Theme:T13
+E9	Positive_regulation:T34 Theme:T18
+E10	Positive_regulation:T35 Theme:T19
+E11	Transcription:T36 Theme:T22
+E12	Positive_regulation:T37 Theme:E11 Cause:T23
+E13	Regulation:T38 Theme:E14
+E14	Positive_regulation:T39 Theme:T24 Cause:T25
+M1	Speculation E3
+M2	Negation E6
+M3	Negation E12
+M4	Speculation E13

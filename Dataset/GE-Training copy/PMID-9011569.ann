@@ -1,0 +1,46 @@
+T1	Protein 73 80	insulin
+T2	Protein 158 165	insulin
+T3	Protein 231 238	insulin
+T4	Protein 587 594	insulin
+T5	Protein 671 678	insulin
+T6	Protein 741 751	beta-actin
+T7	Protein 799 806	insulin
+T8	Protein 968 975	insulin
+T9	Protein 985 992	insulin
+T10	Protein 1157 1190	insulin gene transcription factor
+T11	Protein 1192 1197	PDX-1
+T12	Protein 1198 1202	IPF1
+T13	Protein 1203 1208	STF-1
+T14	Protein 1624 1631	insulin
+*	Equiv T11 T10 T12 T13
+T15	Negative_regulation 220 227	decline
+T16	Localization 239 248	secretion
+T17	Regulation 576 583	effects
+T18	Transcription 600 613	transcription
+T19	Entity 812 820	promoter
+T20	Negative_regulation 834 838	lost
+T21	Negative_regulation 952 960	decrease
+T22	Negative_regulation 1114 1122	decrease
+T23	Binding 1134 1150	binding activity
+T24	Negative_regulation 1276 1285	prevented
+T25	Positive_regulation 1450 1468	serve as mediators
+T26	Negative_regulation 1613 1623	suppresses
+T27	Transcription 1637 1650	transcription
+E1	Negative_regulation:T15 Theme:E2
+E2	Localization:T16 Theme:T3
+E3	Regulation:T17 Theme:E4
+E4	Transcription:T18 Theme:T4
+E5	Negative_regulation:T20 Theme:T7 Site:T19
+E6	Negative_regulation:T21 Theme:T9
+E7	Negative_regulation:T21 Theme:T8
+E8	Negative_regulation:T22 Theme:E9
+E9	Binding:T23 Theme:T7 Theme2:T11 Site:T19
+E10	Negative_regulation:T24 Theme:E7
+E11	Negative_regulation:T24 Theme:E5
+E12	Negative_regulation:T24 Theme:E8
+E13	Negative_regulation:T24 Theme:E6
+E14	Positive_regulation:T25 Theme:E9
+E15	Negative_regulation:T26 Theme:E16
+E16	Transcription:T27 Theme:T14
+M1	Speculation E3
+M2	Speculation E14

@@ -1,0 +1,7 @@
+T1	Protein 329 362	chloramphenicol acetyltransferase
+T2	Protein 567 569	E6
+T3	Protein 880 882	E6
+T4	Protein 993 995	E6
+
+T5	Entity 996 1001	motif
+R1	Protein-Component  Arg1:T4 Arg2:T5

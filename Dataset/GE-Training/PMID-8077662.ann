@@ -1,0 +1,62 @@
+T1	Protein 13 17	IL-8
+T2	Protein 49 53	CD28
+T3	Protein 78 82	IL-8
+T4	Protein 262 266	CD28
+T5	Protein 466 470	CD28
+T6	Protein 522 526	IL-8
+T7	Protein 579 583	CD28
+T8	Protein 627 631	IL-8
+T9	Protein 700 704	CD28
+T10	Protein 797 801	IL-8
+T11	Protein 823 827	CD28
+T12	Protein 930 934	IL-8
+T13	Protein 978 982	CD28
+T14	Protein 1019 1023	CD28
+T15	Protein 1061 1065	IL-8
+T16	Protein 1218 1222	IL-8
+T17	Positive_regulation 0 9	Induction
+T18	Gene_expression 18 28	expression
+T19	Positive_regulation 40 44	uses
+T20	Localization 187 195	secreted
+T21	Positive_regulation 243 254	Stimulation
+T22	Gene_expression 490 498	produced
+T23	Positive_regulation 588 596	resulted
+T24	Positive_regulation 602 623	synergistic induction
+T25	Localization 632 641	secretion
+T26	Entity 749 773	NF-kappa B-like sequence
+T27	Regulation 828 836	response
+T28	Negative_regulation 893 900	blocked
+T29	Positive_regulation 905 926	synergistic induction
+T30	Gene_expression 935 945	expression
+T31	Positive_regulation 1002 1013	involvement
+T32	Positive_regulation 1048 1057	induction
+T33	Gene_expression 1066 1076	expression
+T34	Positive_regulation 1198 1207	increased
+T35	Gene_expression 1208 1214	levels
+E1	Positive_regulation:T17 Theme:E2
+E2	Gene_expression:T18 Theme:T1
+E3	Positive_regulation:T19 Theme:E1
+E4	Localization:T20 Theme:T3
+E5	Positive_regulation:T21 Theme:T4
+E6	Gene_expression:T22 Theme:T6
+E7	Positive_regulation:T23 Theme:E8
+E8	Positive_regulation:T24 Theme:E9
+E9	Localization:T25 Theme:T8
+E10	Regulation:T27 Theme:T10 Cause:T11 Site:T26
+E11	Negative_regulation:T28 Theme:E12
+E12	Positive_regulation:T29 Theme:E13
+E13	Gene_expression:T30 Theme:T12
+E14	Positive_regulation:T31 Theme:E15
+E15	Positive_regulation:T32 Theme:E16
+E16	Gene_expression:T33 Theme:T15
+E17	Positive_regulation:T34 Theme:E18
+E18	Gene_expression:T35 Theme:T16
+M1	Negation E11
+
+T36	Entity 781 789	promoter
+R1	Protein-Component  Arg1:T10 Arg2:T36
+T37	Entity 781 806	promoter of the IL-8 gene
+R2	Protein-Component  Arg1:T10 Arg2:T37
+T38	Entity 828 844	response element
+R3	Protein-Component  Arg1:T10 Arg2:T38
+R4	Protein-Component Arg1:T10 Arg2:T26

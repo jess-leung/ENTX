@@ -1,0 +1,26 @@
+T1	Protein 25 48	class II transactivator
+T2	Protein 53 73	CREB binding protein
+T3	Protein 240 256	gamma interferon
+T4	Protein 335 358	class II transactivator
+T5	Protein 360 365	CIITA
+T6	Protein 428 433	CIITA
+T7	Protein 452 472	CREB binding protein
+T8	Protein 474 477	CBP
+T9	Protein 569 574	CIITA
+T10	Protein 579 582	CBP
+T11	Protein 640 643	CBP
+T12	Protein 873 876	CBP
+T13	Protein 884 907	glucocorticoid receptor
+T14	Protein 926 929	CBP
+*	Equiv T4 T5
+*	Equiv T8 T7
+T15	Binding 0 12	Interactions
+T16	Positive_regulation 415 424	functions
+T17	Binding 440 447	recruit
+T18	Binding 540 560	binding interactions
+T19	Negative_regulation 859 869	squelching
+E1	Binding:T15 Theme:T1 Theme2:T2
+E2	Positive_regulation:T16 Theme:E3 Cause:T6
+E3	Binding:T17 Theme:T8
+E4	Binding:T18 Theme:T9 Theme2:T10
+E5	Negative_regulation:T19 Theme:T12 Cause:T13

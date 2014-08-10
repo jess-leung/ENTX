@@ -1,0 +1,10 @@
+T1	Protein 171 181	IFN-alpha5
+T2	Protein 186 194	IFN-beta
+T3	Protein 996 1006	IFN-alpha5
+T4	Protein 1011 1019	IFN-beta
+T5	Gene_expression 157 167	expression
+T6	Gene_expression 1024 1032	produced
+E1	Gene_expression:T5 Theme:T1
+E2	Gene_expression:T5 Theme:T2
+E3	Gene_expression:T6 Theme:T4
+E4	Gene_expression:T6 Theme:T3

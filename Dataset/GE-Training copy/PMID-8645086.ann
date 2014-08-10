@@ -1,0 +1,6 @@
+T1	Protein 633 642	TNF-alpha
+T2	Protein 689 698	TNF-alpha
+T3	Protein 798 807	TNF-alpha
+T4	Protein 991 994	Tat
+T5	Negative_regulation 995 1004	inhibitor
+E1	Negative_regulation:T5 Theme:T4

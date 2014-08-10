@@ -1,0 +1,32 @@
+T1	Protein 79 88	TNF-alpha
+T2	Protein 149 170	necrosis factor alpha
+T3	Protein 172 181	TNF-alpha
+T4	Protein 252 261	TNF-alpha
+T5	Protein 381 390	TNF-alpha
+T6	Protein 439 442	CAT
+T7	Protein 840 844	GABP
+T8	Protein 1011 1027	interferon-gamma
+T9	Protein 1112 1121	TNF-alpha
+*	Equiv T2 T3
+T10	Entity 38 46	enhancer
+T11	Entity 63 89	third intron of TNF-alpha.
+T12	Entity 63 75	third intron
+T13	Entity 106 119	enhancer site
+T14	Entity 127 139	third intron
+T15	Entity 143 170	tumor necrosis factor alpha
+T16	Entity 220 238	5'-flanking region
+T17	Entity 365 390	third intron of TNF-alpha
+T18	Entity 365 377	third intron
+T19	Entity 489 513	conserved 20-bp sequence
+T20	Entity 535 541	intron
+T21	Entity 615 628	reporter gene
+T22	Entity 678 716	ets transcription factor binding sites
+T23	Entity 804 819	oligonucleotide
+R1	Protein-Component Arg1:T1 Arg2:T12
+R2	Protein-Component Arg1:T1 Arg2:T10
+R3	Protein-Component Arg1:T1 Arg2:T11
+R4	Protein-Component Arg1:T2 Arg2:T13
+R5	Protein-Component Arg1:T2 Arg2:T14
+R6	Protein-Component Arg1:T4 Arg2:T16
+R7	Protein-Component Arg1:T5 Arg2:T18
+R8	Protein-Component Arg1:T5 Arg2:T17

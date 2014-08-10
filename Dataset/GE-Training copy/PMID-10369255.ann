@@ -1,0 +1,24 @@
+T1	Protein 28 33	OCT-1
+T2	Protein 49 52	TNF
+T3	Protein 364 367	TNF
+T4	Protein 378 400	tumour necrosis factor
+T5	Protein 402 405	TNF
+T6	Protein 536 541	OCT-1
+T7	Protein 655 660	OCT-1
+T8	Protein 900 903	TNF
+*	Equiv T5 T4
+T9	Regulation 20 27	affects
+T10	Binding 34 41	binding
+T11	Entity 53 68	promoter region
+T12	Positive_regulation 487 493	causes
+T13	Binding 545 549	bind
+T14	Regulation 608 614	alters
+T15	Gene_expression 620 630	expression
+T16	Binding 661 677	binding genotype
+E1	Regulation:T9 Theme:E2
+E2	Binding:T10 Theme:T1 Theme2:T2 Site2:T11
+E3	Positive_regulation:T12 Theme:E4
+E4	Binding:T13 Theme:T6
+E5	Regulation:T14 Theme:E6
+E6	Gene_expression:T15 Theme:T5
+E7	Binding:T16 Theme:T2 Theme2:T7 Site:T11

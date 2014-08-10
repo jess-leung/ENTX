@@ -1,0 +1,42 @@
+T1	Protein 49 52	p50
+T2	Protein 425 429	p105
+T3	Protein 458 461	p50
+T4	Protein 641 644	p50
+T5	Protein 645 648	p65
+T6	Protein 927 947	PKC isoenzymes alpha
+T7	Protein 952 956	beta
+T8	Protein 1115 1118	p50
+T9	Protein 1119 1122	p65
+T10	Protein 1149 1153	p105
+T11	Positive_regulation 21 30	induction
+T12	Entity 66 74	promoter
+T13	Regulation 75 84	underlies
+T14	Positive_regulation 90 102	perpetuation
+T15	Transcription 135 148	transcription
+T16	Regulation 393 403	regulating
+T17	Gene_expression 408 417	synthesis
+T18	Positive_regulation 474 482	enhanced
+T19	Regulation 563 571	mediated
+T20	Negative_regulation 991 1000	inhibitor
+T21	Localization 1124 1137	translocation
+T22	Positive_regulation 1138 1145	results
+T23	Entity 1154 1162	promoter
+T24	Positive_regulation 1163 1175	upregulation
+E1	Positive_regulation:T11 Theme:T1 Site:T12
+E2	Regulation:T13 Theme:E3 Cause:E1
+E3	Positive_regulation:T14 Theme:E4
+E4	Transcription:T15 Theme:T1
+E5	Regulation:T16 Theme:E6
+E6	Gene_expression:T17 Theme:T2
+E7	Positive_regulation:T18 Theme:E5
+E8	Regulation:T19 Theme:E7
+E9	Regulation:T19 Theme:E7 Cause:T5
+E10	Regulation:T19 Theme:E7 Cause:T4
+E11	Negative_regulation:T20 Theme:T7
+E12	Negative_regulation:T20 Theme:T6
+E13	Localization:T21 Theme:T8
+E14	Localization:T21 Theme:T9
+E15	Positive_regulation:T22 Theme:E17 Cause:E14
+E16	Positive_regulation:T22 Theme:E17 Cause:E13
+E17	Positive_regulation:T24 Theme:T10 Site:T23
+M1	Negation E8

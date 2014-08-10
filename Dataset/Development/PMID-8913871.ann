@@ -1,0 +1,15 @@
+T1	Protein 897 908	VD receptor
+T2	Protein 910 913	VDR
+*	Equiv T1 T2
+T3	Entity 1327 1467	promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9)
+T4	Entity 1327 1366	promoter carrying a VD response element
+T5	Entity 1327 1335	promoter
+T6	Entity 1347 1366	VD response element
+T7	Entity 1374 1397	palindromic arrangement
+T8	Entity 1405 1437	hexameric receptor binding sites
+T9	Entity 1448 1461	9 nucleotides
+T10	Entity 1463 1466	IP9
+T11	Entity 1502 1568	response element formed by a direct repeat spaced by 3 nucleotides
+T12	Entity 1502 1518	response element
+T13	Entity 1555 1568	3 nucleotides
+T14	Entity 1570 1573	DR3

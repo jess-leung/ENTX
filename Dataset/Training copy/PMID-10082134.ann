@@ -1,0 +1,19 @@
+T1	Protein 184 196	PAF-receptor
+T2	Protein 723 729	VCAM-1
+T3	Protein 935 939	ERK2
+T4	Protein 972 976	ERK1
+T5	Protein 989 993	ERK2
+T6	Protein 1216 1222	VCAM-1
+T7	Protein 1259 1265	VCAM-1
+T8	Protein 1317 1323	VCAM-1
+T9	Protein 1555 1562	PECAM-1
+T10	Protein 1641 1648	PECAM-1
+T11	Protein 1674 1681	PECAM-1
+T12	Protein 1952 1958	VCAM-1
+T13	Protein 2056 2063	PECAM-1
+T14	Protein 2221 2228	PECAM-1
+T15	Entity 749 779	transcription factor NF-kappaB
+T16	Entity 860 868	tyrosine
+T17	Entity 1191 1200	NF-kappaB
+T18	Entity 2016 2025	NF-kappaB
+R1	Protein-Component Arg1:T3 Arg2:T16

@@ -1,0 +1,8 @@
+T1	Protein 490 494	IL-2
+T2	Protein 496 500	IL-6
+T3	Protein 502 511	TNF-alpha
+T4	Protein 513 518	IL-10
+T5	Entity 586 591	NF-kB
+T6	Entity 592 595	DNA
+T7	Entity 817 822	NF-kB
+T8	Entity 1000 1005	NF-kB

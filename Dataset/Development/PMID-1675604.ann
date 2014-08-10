@@ -1,0 +1,52 @@
+T1	Protein 116 120	KBF1
+T2	Protein 213 218	H-2Kb
+T3	Protein 250 253	p50
+T4	Protein 399 403	KBF1
+T5	Protein 404 407	p50
+T6	Protein 531 536	c-rel
+T7	Protein 541 546	v-rel
+T8	Protein 592 596	KBF1
+T9	Protein 597 600	p50
+T10	Protein 659 663	KBF1
+T11	Protein 664 667	p50
+T12	Protein 874 878	KBF1
+T13	Protein 879 882	p50
+T14	Protein 884 886	c-
+T15	Protein 891 896	v-rel
+T16	Protein 1169 1172	CD4
+T17	Protein 1286 1291	H-2Kb
+T18	Entity 57 67	NF-kappa B
+T19	Entity 148 158	enhancer A
+T20	Entity 174 182	promoter
+T21	Entity 190 212	mouse MHC class I gene
+T22	Entity 302 312	NF-kappa B
+T23	Entity 330 347	a series of genes
+T24	Entity 426 435	homodimer
+T25	Entity 454 466	heterodimers
+T26	Entity 569 588	dimerization domain
+T27	Entity 614 645	between amino acids 201 and 367
+T28	Entity 698 701	DNA
+T29	Entity 734 740	dimers
+T30	Entity 811 814	DNA
+T31	Entity 1021 1045	HIV long terminal repeat
+T32	Entity 1076 1086	NF-kappa B
+T33	Entity 1191 1206	delta SP mutant
+T34	Entity 1292 1300	promoter
+T35	Entity 1471 1481	NF-kappa B
+R1	Protein-Component Arg1:T2 Arg2:T20
+R2	Protein-Component Arg1:T2 Arg2:T19
+R3	Subunit-Complex Arg1:T1 Arg2:T22
+R4	Subunit-Complex Arg1:T3 Arg2:T22
+R5	Subunit-Complex Arg1:T4 Arg2:T24
+R6	Subunit-Complex Arg1:T5 Arg2:T24
+R7	Subunit-Complex Arg1:T6 Arg2:T25
+R8	Subunit-Complex Arg1:T7 Arg2:T25
+R9	Subunit-Complex Arg1:T4 Arg2:T25
+R10	Subunit-Complex Arg1:T5 Arg2:T25
+R11	Protein-Component Arg1:T9 Arg2:T26
+R12	Protein-Component Arg1:T9 Arg2:T27
+R13	Protein-Component Arg1:T8 Arg2:T27
+R14	Protein-Component Arg1:T8 Arg2:T26
+R15	Subunit-Complex Arg1:T11 Arg2:T29
+R16	Subunit-Complex Arg1:T10 Arg2:T29
+R17	Protein-Component Arg1:T17 Arg2:T34

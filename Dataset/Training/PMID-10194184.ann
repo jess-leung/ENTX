@@ -1,0 +1,32 @@
+T1	Protein 133 161	interleukin-2 receptor-alpha
+T2	Protein 163 173	IL-2Ralpha
+T3	Protein 383 393	IL-2Ralpha
+T4	Protein 536 546	IL-2Ralpha
+T5	Protein 605 615	IL-2Ralpha
+T6	Protein 743 753	IL-2Ralpha
+T7	Protein 892 902	IL-2Ralpha
+T8	Protein 987 1003	interferon-gamma
+T9	Protein 1005 1014	IFN-gamma
+T10	Protein 1021 1031	IL-2Ralpha
+T11	Protein 1450 1453	p50
+T12	Protein 1458 1461	p65
+T13	Protein 1518 1521	p50
+T14	Protein 1526 1529	p65
+T15	Protein 1594 1604	IL-2Ralpha
+*	Equiv T1 T2
+*	Equiv T8 T9
+T16	Entity 14 23	NF-kappaB
+T17	Entity 1032 1040	promoter
+T18	Entity 1056 1095	nuclear factor kappa B (NF-kappaB) site
+T19	Entity 1056 1078	nuclear factor kappa B
+T20	Entity 1080 1089	NF-kappaB
+T21	Entity 1154 1168	NF-kappaB site
+T22	Entity 1154 1163	NF-kappaB
+T23	Entity 1200 1250	heterologous herpes thymidine kinase (TK) promoter
+T24	Entity 1369 1383	NF-kappaB site
+T25	Entity 1369 1378	NF-kappaB
+T26	Entity 1474 1483	NF-kappaB
+R1	Protein-Component Arg1:T10 Arg2:T18
+R2	Protein-Component Arg1:T10 Arg2:T17
+R3	Subunit-Complex Arg1:T12 Arg2:T26
+R4	Subunit-Complex Arg1:T11 Arg2:T26

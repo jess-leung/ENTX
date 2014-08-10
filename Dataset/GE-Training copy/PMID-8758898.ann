@@ -1,0 +1,5 @@
+T1	Protein 574 581	NF-IL-6
+T2	Gene_expression 543 557	overexpressing
+T3	Positive_regulation 543 557	overexpressing
+E1	Gene_expression:T2 Theme:T1
+E2	Positive_regulation:T3 Theme:E1

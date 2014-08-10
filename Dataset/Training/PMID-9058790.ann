@@ -1,0 +1,48 @@
+T1	Protein 8 13	Rel-A
+T2	Protein 18 23	c-Rel
+T3	Protein 647 650	p50
+T4	Protein 651 654	p65
+T5	Protein 659 662	p50
+T6	Protein 663 668	c-Rel
+T7	Protein 914 917	p50
+T8	Protein 918 923	c-Rel
+T9	Protein 957 960	p50
+T10	Protein 961 964	p65
+T11	Protein 1067 1070	p65
+T12	Protein 1136 1139	p65
+T13	Protein 1141 1144	p50
+T14	Protein 1150 1155	c-Rel
+T15	Protein 1186 1189	CD4
+T16	Protein 1252 1255	p65
+T17	Protein 1260 1265	c-Rel
+T18	Entity 24 41	protein complexes
+T19	Entity 99 121	Nuclear factor-kappa B
+T20	Entity 123 133	NF-kappa B
+T21	Entity 201 215	cellular genes
+T22	Entity 324 329	genes
+T23	Entity 420 430	NF-kappa B
+T24	Entity 580 590	NF-kappa B
+T25	Entity 669 678	complexes
+T26	Entity 797 807	NF-kappa B
+T27	Entity 914 923	p50/c-Rel
+T28	Entity 957 964	p50/p65
+T29	Entity 1266 1275	complexes
+T30	Entity 1338 1348	NF-kappa B
+R1	Subunit-Complex Arg1:T1 Arg2:T18
+R2	Subunit-Complex Arg1:T2 Arg2:T18
+R3	Subunit-Complex Arg1:T6 Arg2:T24
+R4	Subunit-Complex Arg1:T5 Arg2:T24
+R5	Subunit-Complex Arg1:T4 Arg2:T24
+R6	Subunit-Complex Arg1:T3 Arg2:T24
+R7	Subunit-Complex Arg1:T3 Arg2:T25
+R8	Subunit-Complex Arg1:T4 Arg2:T25
+R9	Subunit-Complex Arg1:T5 Arg2:T25
+R10	Subunit-Complex Arg1:T6 Arg2:T25
+R11	Subunit-Complex Arg1:T7 Arg2:T27
+R12	Subunit-Complex Arg1:T8 Arg2:T27
+R13	Subunit-Complex Arg1:T9 Arg2:T28
+R14	Subunit-Complex Arg1:T10 Arg2:T28
+R15	Subunit-Complex Arg1:T16 Arg2:T30
+R16	Subunit-Complex Arg1:T17 Arg2:T30
+R17	Subunit-Complex Arg1:T16 Arg2:T29
+R18	Subunit-Complex Arg1:T17 Arg2:T29

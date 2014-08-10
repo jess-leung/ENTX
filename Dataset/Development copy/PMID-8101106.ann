@@ -1,0 +1,30 @@
+T1	Protein 34 37	p65
+T2	Protein 66 71	CD11b
+T3	Protein 531 534	p50
+T4	Protein 539 542	p65
+T5	Protein 721 724	p65
+T6	Protein 1056 1061	CD11b
+T7	Protein 1132 1135	p65
+T8	Protein 1196 1201	CD11b
+T9	Protein 1264 1267	p65
+T10	Protein 1480 1483	p65
+T11	Entity 0 45	Antisense oligonucleotides to the p65 subunit
+T12	Entity 0 26	Antisense oligonucleotides
+T13	Entity 49 59	NF-kappa B
+T14	Entity 152 162	NF-kappa B
+T15	Entity 195 258	variety of genes implicated in the cellular response to injury.
+T16	Entity 206 211	genes
+T17	Entity 335 345	NF-kappa B
+T18	Entity 373 390	promoter elements
+T19	Entity 480 523	Antisense phosphorothioate oligonucleotides
+T20	Entity 559 577	NF-kappa B complex
+T21	Entity 760 807	phosphorothioate antisense oligodeoxynucleotide
+T22	Entity 1136 1154	antisense oligomer
+T23	Entity 1223 1241	formyl-met-leu-phe
+T24	Entity 1268 1315	antisense phosphorothioate oligodeoxynucleotide
+T25	Entity 1457 1483	antisense oligomers to p65
+T26	Entity 1457 1476	antisense oligomers
+T27	Entity 1518 1528	NF-kappa B
+R1	Subunit-Complex Arg1:T1 Arg2:T13
+R2	Subunit-Complex Arg1:T4 Arg2:T20
+R3	Subunit-Complex Arg1:T3 Arg2:T20

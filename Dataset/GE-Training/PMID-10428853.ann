@@ -1,0 +1,41 @@
+T1	Protein 34 54	ecto-5'-nucleotidase
+T2	Protein 202 222	ecto-5'-nucleotidase
+T3	Protein 233 238	5'-NT
+T4	Protein 334 337	CAT
+T5	Protein 402 412	ecto-5'-NT
+T6	Protein 637 644	DNase I
+T7	Protein 703 706	Sp1
+T8	Protein 708 711	Sp1
+T9	Protein 807 810	Sp1
+T10	Protein 812 818	NRE-2a
+T11	Protein 820 825	TCF-1
+T12	Protein 826 831	LEF-1
+T13	Protein 837 840	Sp1
+T14	Protein 1049 1052	Sp1
+T15	Protein 1209 1214	ATF-1
+T16	Protein 1219 1224	ATF-2
+T17	Protein 1497 1507	ecto-5'-NT
+*	Equiv T11 T12
+T18	Regulation 16 26	regulation
+T19	Entity 55 63	promoter
+T20	Regulation 65 69	Role
+T21	Positive_regulation 107 116	mediating
+T22	Negative_regulation 117 127	repression
+T23	Transcription 377 387	expression
+T24	Binding 1169 1176	binding
+E1	Regulation:T18 Theme:T1 Site:T19
+E2	Regulation:T20 Theme:E3
+E3	Positive_regulation:T21 Theme:E4
+E4	Negative_regulation:T22 Theme:T1 Site:T19
+E5	Transcription:T23 Theme:T5
+E6	Binding:T24 Theme:T15
+E7	Binding:T24 Theme:T16
+R1	Protein-Component Arg1:T1 Arg2:T19
+
+T25	Entity 1453 1486	tissue-specific regulatory region
+R2	Protein-Component  Arg1:T17 Arg2:T25
+T26	Entity 1508 1521	core promoter
+R3	Protein-Component  Arg1:T17 Arg2:T26
+T27	Entity 185 194	5' region
+R4	Protein-Component  Arg1:T3 Arg2:T27
+R5	Protein-Component Arg1:T2 Arg2:T27

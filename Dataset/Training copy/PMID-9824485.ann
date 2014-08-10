@@ -1,0 +1,36 @@
+T1	Protein 55 66	fibronectin
+T2	Protein 75 91	interleukin-beta
+T3	Protein 201 218	interleukin-1beta
+T4	Protein 220 228	IL-1beta
+T5	Protein 290 301	fibronectin
+T6	Protein 303 305	FN
+T7	Protein 451 453	FN
+T8	Protein 462 470	IL-1beta
+T9	Protein 612 614	FN
+T10	Protein 623 631	IL-1beta
+T11	Protein 683 691	IL-1beta
+T12	Protein 764 766	FN
+T13	Protein 879 887	IL-1beta
+T14	Protein 1133 1141	IL-1beta
+T15	Protein 1467 1469	FN
+T16	Protein 1483 1491	IL-1beta
+T17	Protein 1551 1559	IL-1beta
+T18	Protein 1734 1742	IL-1beta
+T19	Protein 1880 1882	FN
+T20	Protein 1891 1899	IL-1beta
+T21	Protein 1970 1978	IL-1beta
+*	Equiv T3 T4
+*	Equiv T5 T6
+T22	Entity 24 40	protein kinase C
+T23	Entity 308 324	Protein kinase C
+T24	Entity 326 329	PKC
+T25	Entity 422 425	PKC
+T26	Entity 552 555	PKC
+T27	Entity 1142 1150	promoter
+T28	Entity 1166 1190	luciferase reporter gene
+T29	Entity 1385 1425	transcription factor activator protein-1
+T30	Entity 1427 1431	AP-1
+T31	Entity 1607 1611	AP-1
+T32	Entity 1837 1840	PKC
+T33	Entity 1859 1862	PKC
+R1	Protein-Component Arg1:T14 Arg2:T27

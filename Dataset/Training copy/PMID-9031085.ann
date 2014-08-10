@@ -1,0 +1,5 @@
+T1	Protein 553 559	GATA-1
+T2	Protein 658 698	erythroid delta-aminolevulinate synthase
+T3	Protein 700 706	ALAS-E
+*	Equiv T2 T3
+T4	Entity 14 38	erythroid-specific genes

@@ -1,0 +1,37 @@
+T1	Protein 18 23	STAT1
+T2	Protein 29 34	STAT2
+T3	Protein 39 44	STAT3
+T4	Protein 671 676	STAT1
+T5	Protein 680 685	STAT2
+T6	Protein 777 782	STAT1
+T7	Protein 783 788	STAT3
+T8	Protein 850 855	STAT1
+T9	Protein 860 865	STAT2
+T10	Protein 869 874	STAT1
+T11	Protein 879 884	STAT3
+T12	Protein 1137 1142	STAT1
+T13	Protein 1143 1148	STAT2
+T14	Protein 1185 1190	STAT1
+T15	Protein 1223 1228	STAT2
+T16	Protein 1233 1238	STAT3
+T17	Protein 1257 1262	STAT2
+T18	Protein 1267 1272	STAT3
+T19	Protein 1312 1317	STAT1
+T20	Protein 1352 1357	STAT1
+T21	Entity 57 77	signalling complexes
+T22	Entity 339 347	tyrosine
+T23	Entity 491 519	STAT protein heterocomplexes
+T24	Entity 789 804	heterocomplexes
+T25	Entity 1062 1070	tyrosine
+T26	Entity 1149 1166	signaling complex
+T27	Entity 1291 1306	heterocomplexes
+R1	Subunit-Complex Arg1:T2 Arg2:T21
+R2	Subunit-Complex Arg1:T3 Arg2:T21
+R3	Subunit-Complex Arg1:T1 Arg2:T21
+R4	Subunit-Complex Arg1:T6 Arg2:T24
+R5	Subunit-Complex Arg1:T7 Arg2:T24
+R6	Subunit-Complex Arg1:T12 Arg2:T26
+R7	Subunit-Complex Arg1:T13 Arg2:T26
+R8	Subunit-Complex Arg1:T19 Arg2:T27
+R9	Subunit-Complex Arg1:T17 Arg2:T27
+R10	Subunit-Complex Arg1:T18 Arg2:T27

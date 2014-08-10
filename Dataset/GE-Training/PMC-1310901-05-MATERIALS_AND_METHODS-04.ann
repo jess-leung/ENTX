@@ -1,0 +1,39 @@
+T1	Protein 35 40	IRF-4
+T2	Protein 271 276	IRF-4
+T3	Protein 300 310	beta-actin
+T4	Protein 502 508	(DNMT1
+T5	Protein 509 515	DNMT3A
+T6	Protein 517 523	DNMT3B
+T7	Protein 525 529	MeCP
+T8	Protein 531 535	MBD1
+T9	Protein 537 541	MBD2
+T10	Protein 546 550	MBD4
+T11	Protein 600 605	IRF-4
+T12	Protein 1838 1843	IRF-4
+T13	Protein 1844 1849	ICSAT
+T14	Protein 1851 1855	M-17
+T15	Protein 1915 1925	beta-actin
+*	Equiv T12 T14 T13
+T16	Transcription 41 56	transcriptional
+T17	Transcription 243 257	RNA expression
+T18	Gene_expression 467 477	expression
+T19	Gene_expression 614 624	expression
+E1	Transcription:T16 Theme:T1
+E2	Transcription:T17 Theme:T2
+E3	Transcription:T17 Theme:T3
+E4	Gene_expression:T18 Theme:T4
+E5	Gene_expression:T18 Theme:T5
+E6	Gene_expression:T18 Theme:T6
+E7	Gene_expression:T18 Theme:T7
+E8	Gene_expression:T18 Theme:T8
+E9	Gene_expression:T18 Theme:T9
+E10	Gene_expression:T18 Theme:T10
+E11	Gene_expression:T19 Theme:T11
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7
+M5	Speculation E8
+M6	Speculation E9
+M7	Speculation E10
+M8	Speculation E11

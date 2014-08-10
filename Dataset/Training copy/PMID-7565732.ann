@@ -1,0 +1,45 @@
+T1	Protein 34 47	interleukin-2
+T2	Protein 89 94	NFATp
+T3	Protein 308 321	interleukin 2
+T4	Protein 323 327	IL-2
+T5	Protein 578 582	IL-2
+T6	Protein 601 620	vitamin D3 receptor
+T7	Protein 622 625	VDR
+T8	Protein 694 698	IL-2
+T9	Protein 746 750	IL-2
+T10	Protein 786 789	VDR
+T11	Protein 1033 1040	NF-AT-1
+T12	Protein 1100 1105	NFATp
+T13	Protein 1127 1130	VDR
+T14	Protein 1227 1230	VDR
+T15	Protein 1311 1315	IL-2
+T16	Protein 1371 1374	VDR
+T17	Protein 1418 1422	IL-2
+T18	Protein 1520 1525	NFATp
+T19	Protein 1561 1564	VDR
+T20	Protein 1568 1571	VDR
+T21	Protein 1654 1657	VDR
+T22	Protein 1697 1702	NFATp
+T23	Protein 1762 1769	NF-AT-1
+T24	Protein 1869 1873	IL-2
+*	Equiv T3 T4
+*	Equiv T6 T7
+T25	Entity 95 99	AP-1
+T26	Entity 819 822	DNA
+T27	Entity 849 856	element
+T28	Entity 873 876	DNA
+T29	Entity 965 977	40-bp region
+T30	Entity 1004 1031	positive regulatory element
+T31	Entity 1121 1125	AP-1
+T32	Entity 1131 1134	DNA
+T33	Entity 1227 1249	VDR DNA-binding domain
+T34	Entity 1231 1234	DNA
+T35	Entity 1356 1359	DNA
+T36	Entity 1535 1542	complex
+T37	Entity 1571 1591	-retinoid X receptor
+T38	Entity 1657 1689	-retinoid X receptor heterodimer
+T39	Entity 1703 1707	AP-1
+T40	Entity 1770 1777	element
+R1	Protein-Component Arg1:T14 Arg2:T33
+R2	Subunit-Complex Arg1:T20 Arg2:T37
+R3	Subunit-Complex Arg1:T21 Arg2:T38

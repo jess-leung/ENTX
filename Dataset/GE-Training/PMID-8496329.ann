@@ -1,0 +1,35 @@
+T1	Protein 25 45	thyrotropin receptor
+T2	Protein 221 233	TSH receptor
+T3	Protein 235 240	TSH-R
+T4	Protein 270 275	TSH-R
+T5	Protein 453 458	TSH-R
+T6	Protein 547 565	thyroid peroxidase
+T7	Protein 589 602	thyroglobulin
+T8	Protein 651 656	c-fos
+T9	Protein 689 694	c-myc
+T10	Protein 705 710	TSH-R
+T11	Protein 1085 1101	gamma-Interferon
+T12	Protein 1331 1336	TSH-R
+T13	Protein 1338 1356	thyroid peroxidase
+T14	Protein 1358 1371	thyroglobulin
+T15	Protein 1377 1382	c-fos
+*	Equiv T2 T3
+T16	Gene_expression 0 10	Expression
+T17	Regulation 82 94	coregulation
+T18	Transcription 276 293	transcript levels
+T19	Gene_expression 459 469	expression
+T20	Gene_expression 533 543	expression
+T21	Transcription 711 728	transcript levels
+T22	Gene_expression 1102 1112	expression
+E1	Gene_expression:T16 Theme:T1
+E2	Regulation:T17 Theme:E1
+E3	Transcription:T18 Theme:T4
+E4	Gene_expression:T19 Theme:T5
+E5	Gene_expression:T20 Theme:T7
+E6	Gene_expression:T20 Theme:T8
+E7	Gene_expression:T20 Theme:T6
+E8	Gene_expression:T20 Theme:T9
+E9	Transcription:T21 Theme:T10
+E10	Gene_expression:T22 Theme:T11
+M1	Speculation E3
+M2	Negation E9

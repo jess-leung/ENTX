@@ -1,0 +1,61 @@
+T1	Protein 23 41	interleukin-1alpha
+T2	Protein 101 104	Tax
+T3	Protein 220 238	interleukin-1alpha
+T4	Protein 240 249	IL-1alpha
+T5	Protein 309 318	IL-1alpha
+T6	Protein 393 402	IL-1alpha
+T7	Protein 442 451	IL-1alpha
+T8	Protein 458 467	IL-1alpha
+T9	Protein 515 548	chloramphenicol acetyltransferase
+T10	Protein 550 553	CAT
+T11	Protein 629 638	IL-1alpha
+T12	Protein 671 674	Tax
+T13	Protein 756 765	IL-1alpha
+T14	Protein 819 822	Tax
+T15	Protein 960 969	IL-1alpha
+T16	Protein 979 982	CAT
+T17	Protein 1037 1040	p65
+T18	Protein 1041 1044	p50
+T19	Protein 1074 1083	IL-1alpha
+T20	Protein 1408 1417	IL-1alpha
+T21	Protein 1477 1486	IL-1alpha
+T22	Protein 1523 1526	Tax
+T23	Protein 1582 1585	Tax
+T24	Protein 1599 1608	IL-1alpha
+T25	Protein 1668 1677	IL-1alpha
+*	Equiv T3 T4
+*	Equiv T9 T10
+T26	Entity 42 50	promoter
+T27	Entity 403 411	promoter
+T28	Entity 555 568	reporter gene
+T29	Entity 766 774	promoter
+T30	Entity 863 868	genes
+T31	Entity 876 902	nuclear factor (NF)-kappaB
+T32	Entity 970 978	promoter
+T33	Entity 1045 1054	NF-kappaB
+T34	Entity 1084 1101	kappaB-like sites
+T35	Entity 1113 1129	-1,065 to -1,056
+T36	Entity 1134 1146	+646 to +655
+T37	Entity 1183 1192	NF-kappaB
+T38	Entity 1245 1254	NF-kappaB
+T39	Entity 1289 1314	3' NF-kappaB binding site
+T40	Entity 1292 1301	NF-kappaB
+T41	Entity 1327 1344	5' NF-kappaB site
+T42	Entity 1330 1339	NF-kappaB
+T43	Entity 1375 1377	5'
+T44	Entity 1381 1399	3' NF-kappaB sites
+T45	Entity 1418 1426	promoter
+T46	Entity 1487 1495	promoter
+T47	Entity 1509 1518	NF-kappaB
+T48	Entity 1635 1644	NF-kappaB
+R1	Protein-Component Arg1:T1 Arg2:T26
+R2	Protein-Component Arg1:T6 Arg2:T27
+R3	Protein-Component Arg1:T13 Arg2:T29
+R4	Protein-Component Arg1:T15 Arg2:T32
+R5	Subunit-Complex Arg1:T17 Arg2:T33
+R6	Subunit-Complex Arg1:T18 Arg2:T33
+R7	Protein-Component Arg1:T19 Arg2:T34
+R8	Protein-Component Arg1:T20 Arg2:T44
+R9	Protein-Component Arg1:T20 Arg2:T43
+R10	Protein-Component Arg1:T20 Arg2:T45
+R11	Protein-Component Arg1:T21 Arg2:T46

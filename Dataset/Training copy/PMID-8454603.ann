@@ -1,0 +1,33 @@
+T1	Protein 30 43	interleukin 3
+T2	Protein 45 48	IL3
+T3	Protein 139 142	IL3
+T4	Protein 236 249	interleukin 3
+T5	Protein 251 254	IL3
+T6	Protein 321 324	CD2
+T7	Protein 363 381	phytohemagglutinin
+T8	Protein 622 627	c-Jun
+T9	Protein 629 634	c-Fos
+T10	Protein 720 723	IL3
+T11	Protein 798 801	IL3
+T12	Protein 883 886	IL3
+T13	Protein 925 928	Sp1
+T14	Protein 996 999	IL3
+T15	Protein 1034 1037	CD2
+T16	Protein 1062 1080	phytohemagglutinin
+T17	Protein 1145 1148	IL3
+T18	Protein 1296 1299	IL3
+*	Equiv T1 T2
+*	Equiv T4 T5
+T19	Entity 325 333	receptor
+T20	Entity 640 647	octamer
+T21	Entity 760 776	specific regions
+T22	Entity 802 822	5'-flanking sequence
+T23	Entity 863 875	-107 and -59
+T24	Entity 887 895	promoter
+T25	Entity 929 943	binding motifs
+R1	Protein-Component Arg1:T11 Arg2:T21
+R2	Protein-Component Arg1:T10 Arg2:T21
+R3	Protein-Component Arg1:T11 Arg2:T22
+R4	Protein-Component Arg1:T12 Arg2:T23
+R5	Protein-Component Arg1:T12 Arg2:T25
+R6	Protein-Component Arg1:T12 Arg2:T24

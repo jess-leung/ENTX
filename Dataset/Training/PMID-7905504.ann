@@ -1,0 +1,16 @@
+T1	Protein 11 15	CD45
+T2	Protein 206 210	CD45
+T3	Protein 334 338	CD45
+T4	Protein 456 460	CD45
+T5	Protein 504 508	CD45
+T6	Protein 540 544	CD45
+T7	Protein 670 674	CD45
+T8	Protein 850 854	CD45
+T9	Protein 922 926	CD45
+T10	Protein 952 956	CD45
+T11	Entity 19 29	NF-kappa B
+T12	Entity 187 190	TCR
+T13	Entity 385 394	HIV-1 LTR
+T14	Entity 631 640	HIV-1 LTR
+T15	Entity 701 704	TCR
+T16	Entity 811 831	NF-kappa B complexes

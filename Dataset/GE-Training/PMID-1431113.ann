@@ -1,0 +1,8 @@
+T1	Protein 954 957	p50
+T2	Binding 969 985	binding activity
+E1	Binding:T2 Theme:T1
+
+T3	Entity 949 952	KBF
+R1	Subunit-Complex  Arg1:T1 Arg2:T3
+T4	Entity 958 967	homodimer
+R2	Subunit-Complex  Arg1:T1 Arg2:T4

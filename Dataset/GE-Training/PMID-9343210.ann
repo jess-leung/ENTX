@@ -1,0 +1,79 @@
+T1	Protein 34 67	vascular cell adhesion molecule-1
+T2	Protein 136 139	Tax
+T3	Protein 678 711	vascular cell adhesion molecule 1
+T4	Protein 713 719	VCAM-1
+T5	Protein 721 726	CD106
+T6	Protein 1112 1115	Tax
+T7	Protein 1144 1150	VCAM-1
+T8	Protein 1260 1263	tax
+T9	Protein 1284 1287	Tax
+T10	Protein 1291 1297	VCAM-1
+T11	Protein 1393 1396	tax
+T12	Protein 1502 1508	VCAM-1
+T13	Protein 1533 1566	chloramphenicol acetyltransferase
+T14	Protein 1592 1595	Tax
+T15	Protein 1621 1627	VCAM-1
+T16	Protein 1694 1700	VCAM-1
+T17	Protein 1757 1760	Tax
+T18	Protein 1959 1965	VCAM-1
+T19	Protein 1981 1984	Tax
+T20	Protein 2097 2100	Tax
+T21	Protein 2123 2129	VCAM-1
+T22	Positive_regulation 0 26	Transcriptional activation
+T23	Gene_expression 90 100	expressing
+T24	Gene_expression 652 662	expressing
+T25	Positive_regulation 663 674	high levels
+T26	Gene_expression 793 803	identified
+T27	Gene_expression 897 906	expressed
+T28	Regulation 1078 1082	role
+T29	Positive_regulation 1131 1140	induction
+T30	Gene_expression 1178 1187	detection
+T31	Gene_expression 1245 1255	expressing
+T32	Regulation 1274 1280	effect
+T33	Transcription 1303 1316	transcription
+T34	Positive_regulation 1600 1616	trans activating
+T35	Entity 1628 1636	promoter
+T36	Binding 1637 1640	via
+T37	Entity 1645 1660	NF-kappaB sites
+T38	Positive_regulation 1740 1748	required
+T39	Positive_regulation 1761 1768	induced
+T40	Gene_expression 1769 1779	expression
+T41	Positive_regulation 1970 1977	induced
+T42	Gene_expression 1985 1995	expressing
+T43	Regulation 2014 2023	dependent
+T44	Positive_regulation 2101 2108	induced
+T45	Gene_expression 2109 2119	expression
+E1	Positive_regulation:T22 Theme:T1
+E2	Gene_expression:T23 Theme:T2
+E3	Gene_expression:T24 Theme:T4
+E4	Positive_regulation:T25 Theme:E3
+E5	Gene_expression:T26 Theme:T4
+E6	Gene_expression:T27 Theme:T4
+E7	Regulation:T28 Theme:E8 Cause:T6
+E8	Positive_regulation:T29 Theme:T7
+E9	Gene_expression:T30 Theme:T7
+E10	Gene_expression:T31 Theme:T8
+E11	Regulation:T32 Theme:E12 Cause:T9
+E12	Transcription:T33 Theme:T10
+E13	Positive_regulation:T34 Theme:T15 Cause:E14 Site:T35
+E14	Binding:T36 Theme:T14 Theme2:T16 Site2:T37
+E15	Positive_regulation:T38 Theme:E16 Cause:T16 CSite:T37
+E16	Positive_regulation:T39 Theme:E17 Cause:T17
+E17	Gene_expression:T40 Theme:T16
+E18	Positive_regulation:T41 Theme:T18
+E19	Gene_expression:T42 Theme:T19
+E20	Regulation:T43 Theme:E18
+E21	Positive_regulation:T44 Theme:E22 Cause:T20
+E22	Gene_expression:T45 Theme:T21
+M1	Negation E6
+M2	Speculation E7
+R1	Protein-Component Arg1:T15 Arg2:T35
+
+T46	Entity 1706 1714	promoter
+R2	Protein-Component  Arg1:T16 Arg2:T46
+R3	Protein-Component Arg1:T15 Arg2:T37
+T47	Entity 1509 1517	promoter
+R4	Protein-Component  Arg1:T12 Arg2:T47
+R5	Protein-Component Arg1:T16 Arg2:T37
+T48	Entity 1397 1406	sequences
+R6	Protein-Component  Arg1:T10 Arg2:T48

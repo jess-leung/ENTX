@@ -1,0 +1,46 @@
+T1	Protein 394 404	calmodulin
+T2	Protein 627 645	interleukin (IL)-2
+T3	Protein 650 654	IL-4
+T4	Protein 1139 1143	IL-2
+T5	Protein 1183 1216	chloramphenicol acetyltransferase
+T6	Protein 1273 1277	IL-2
+T7	Protein 1445 1449	IL-2
+T8	Protein 1604 1608	IL-2
+T9	Protein 1750 1754	IL-2
+T10	Protein 1843 1847	IL-4
+T11	Positive_regulation 612 622	key enzyme
+T12	Entity 655 663	promoter
+T13	Positive_regulation 664 674	activation
+T14	Negative_regulation 1412 1429	inhibitory effect
+T15	Entity 1450 1458	promoter
+T16	Negative_regulation 1479 1488	decreased
+T17	Transcription 1489 1502	transcription
+T18	Positive_regulation 1525 1549	transactivating pathways
+T19	Positive_regulation 1591 1603	superinduced
+T20	Entity 1609 1617	promoter
+T21	Negative_regulation 1719 1728	inhibited
+T22	Positive_regulation 1733 1742	induction
+T23	Entity 1755 1763	promoter
+E1	Positive_regulation:T11 Theme:E3
+E2	Positive_regulation:T11 Theme:E4
+E3	Positive_regulation:T13 Theme:T3 Site:T12
+E4	Positive_regulation:T13 Theme:T2 Site:T12
+E5	Negative_regulation:T14 Theme:T7 Site:T15
+E6	Negative_regulation:T16 Theme:E8
+E7	Transcription:T17 Theme:T7
+E8	Positive_regulation:T18 Theme:E7
+E9	Positive_regulation:T19 Theme:T8 Site:T20
+E10	Negative_regulation:T21 Theme:E11
+E11	Positive_regulation:T22 Theme:T9 Site:T23
+
+T24	Entity 1144 1152	promoter
+R1	Protein-Component  Arg1:T4 Arg2:T24
+T25	Entity 1848 1856	promoter
+R2	Protein-Component  Arg1:T10 Arg2:T25
+R3	Protein-Component Arg1:T8 Arg2:T20
+R4	Protein-Component Arg1:T9 Arg2:T23
+T26	Entity 1278 1286	promoter
+R5	Protein-Component  Arg1:T6 Arg2:T26
+R6	Protein-Component Arg1:T7 Arg2:T15
+R7	Protein-Component Arg1:T3 Arg2:T12
+R8	Protein-Component Arg1:T2 Arg2:T12

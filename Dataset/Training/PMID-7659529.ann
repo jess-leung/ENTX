@@ -1,0 +1,52 @@
+T1	Protein 41 64	erythropoietin receptor
+T2	Protein 93 99	GATA-1
+T3	Protein 104 107	Sp1
+T4	Protein 117 131	Erythropoietin
+T5	Protein 133 136	Epo
+T6	Protein 243 247	EpoR
+T7	Protein 440 444	EpoR
+T8	Protein 599 602	Sp1
+T9	Protein 630 636	GATA-1
+T10	Protein 649 654	hEpoR
+T11	Protein 796 801	hEpoR
+T12	Protein 818 824	GATA-1
+T13	Protein 829 832	Sp1
+T14	Protein 992 995	Sp1
+T15	Protein 1091 1094	Sp1
+T16	Protein 1124 1130	GATA-1
+T17	Protein 1193 1198	hEpoR
+T18	Protein 1298 1304	GATA-1
+T19	Protein 1387 1390	Sp1
+T20	Protein 1431 1436	hEpoR
+T21	Protein 1503 1509	GATA-1
+T22	Protein 1563 1569	GATA-1
+T23	Protein 1592 1596	EpoR
+T24	Protein 1620 1625	hEpoR
+T25	Protein 1661 1667	GATA-1
+T26	Protein 1683 1688	hEpoR
+T27	Protein 1744 1747	Sp1
+T28	Protein 1752 1758	GATA-1
+T29	Protein 1818 1821	Sp1
+*	Equiv T4 T5
+T30	Entity 108 114	motifs
+T31	Entity 370 400	transcription control elements
+T32	Entity 408 426	5' flanking region
+T33	Entity 524 548	150 bp promoter fragment
+T34	Entity 554 567	binding sites
+T35	Entity 655 663	promoter
+T36	Entity 833 846	binding sites
+T37	Entity 874 887	TATA sequence
+T38	Entity 1095 1108	binding motif
+T39	Entity 1199 1207	promoter
+T40	Entity 1391 1395	site
+T41	Entity 1437 1445	promoter
+T42	Entity 1597 1605	promoter
+R1	Protein-Component Arg1:T2 Arg2:T30
+R2	Protein-Component Arg1:T3 Arg2:T30
+R3	Protein-Component Arg1:T7 Arg2:T31
+R4	Protein-Component Arg1:T7 Arg2:T32
+R5	Protein-Component Arg1:T10 Arg2:T35
+R6	Protein-Component Arg1:T17 Arg2:T39
+R7	Protein-Component Arg1:T20 Arg2:T40
+R8	Protein-Component Arg1:T20 Arg2:T41
+R9	Protein-Component Arg1:T23 Arg2:T42

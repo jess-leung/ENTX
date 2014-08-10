@@ -1,0 +1,52 @@
+T1	Protein 6 36	interferon regulatory factor 2
+T2	Protein 116 146	Interferon regulatory factor 2
+T3	Protein 148 153	IRF-2
+T4	Protein 211 226	interferon beta
+T5	Protein 251 281	interferon regulatory factor 1
+T6	Protein 336 341	IRF-2
+T7	Protein 398 403	IRF-2
+T8	Protein 556 561	IRF-2
+T9	Protein 594 599	IRF-2
+T10	Protein 870 886	interferon-alpha
+T11	Protein 891 897	-gamma
+T12	Protein 903 933	interferon regulatory factor 1
+T13	Protein 1133 1138	IRF-2
+T14	Protein 1247 1277	interferon regulatory factor 1
+T15	Protein 1279 1294	interferon beta
+T16	Protein 1352 1382	interferon regulatory factor 1
+T17	Protein 1565 1570	IRF-2
+*	Equiv T2 T3
+T18	Entity 95 113	5'-flanking region
+T19	Entity 314 325	genomic DNA
+T20	Entity 363 384	intron-exon structure
+T21	Entity 421 456	major transcription initiation site
+T22	Entity 518 536	5'-flanking region
+T23	Entity 600 615	promoter region
+T24	Entity 627 637	CpG island
+T25	Entity 652 660	GC boxes
+T26	Entity 673 696	NF-kappa B-binding site
+T27	Entity 673 683	NF-kappa B
+T28	Entity 704 712	CAAT box
+T29	Entity 721 729	TATA box
+T30	Entity 740 755	promoter region
+T31	Entity 774 800	heterologous reporter gene
+T32	Entity 820 835	promoter region
+T33	Entity 1013 1030	40 nucleotides 5'
+T34	Entity 1038 1075	major transcriptional initiation site
+T35	Entity 1111 1129	truncated promoter
+T36	Entity 1196 1221	transcriptional enhancers
+T37	Entity 1300 1326	interferon-inducible genes
+R1	Protein-Component Arg1:T6 Arg2:T22
+R2	Protein-Component Arg1:T6 Arg2:T21
+R3	Protein-Component Arg1:T7 Arg2:T20
+R4	Protein-Component Arg1:T9 Arg2:T24
+R5	Protein-Component Arg1:T9 Arg2:T29
+R6	Protein-Component Arg1:T9 Arg2:T26
+R7	Protein-Component Arg1:T9 Arg2:T28
+R8	Protein-Component Arg1:T9 Arg2:T25
+R9	Protein-Component Arg1:T9 Arg2:T23
+R10	Protein-Component Arg1:T13 Arg2:T35
+R11	Protein-Component Arg1:T13 Arg2:T33
+R12	Protein-Component Arg1:T13 Arg2:T34
+R13	Protein-Component Arg1:T15 Arg2:T36
+R14	Protein-Component Arg1:T14 Arg2:T36

@@ -1,0 +1,106 @@
+T1	Protein 22 27	c-fos
+T2	Protein 28 33	c-jun
+T3	Protein 100 105	c-fos
+T4	Protein 106 111	c-jun
+T5	Protein 213 218	c-Fos
+T6	Protein 219 224	c-Jun
+T7	Protein 402 407	c-fos
+T8	Protein 408 413	c-jun
+T9	Protein 585 595	CD3epsilon
+T10	Protein 633 636	PHA
+T11	Protein 685 690	c-Fos
+T12	Protein 729 734	c-Fos
+T13	Protein 743 748	c-Jun
+T14	Protein 986 991	c-fos
+T15	Protein 999 1004	c-jun
+T16	Protein 1193 1198	c-jun
+T17	Protein 1234 1239	c-fos
+T18	Protein 1461 1466	c-jun
+T19	Protein 1476 1481	c-fos
+T20	Protein 1596 1601	c-jun
+T21	Protein 1610 1615	c-fos
+T22	Protein 1773 1794	serum response factor
+T23	Protein 1799 1804	Elk-1
+T24	Protein 1912 1917	c-jun
+T25	Protein 1994 1999	c-fos
+T26	Protein 2000 2005	c-jun
+T27	Negative_regulation 0 8	Impaired
+T28	Positive_regulation 9 18	induction
+T29	Binding 83 90	binding
+T30	Entity 112 120	promoter
+T31	Positive_regulation 176 186	activation
+T32	Negative_regulation 289 297	impaired
+T33	Regulation 369 398	aberrancies in the regulation
+T34	Transcription 421 425	mRNA
+T35	Binding 567 579	cross-linked
+T36	Positive_regulation 672 681	increases
+T37	Gene_expression 699 709	expression
+T38	Gene_expression 715 725	expression
+T39	Negative_regulation 762 769	reduced
+T40	Negative_regulation 966 975	decreased
+T41	Transcription 976 982	levels
+T42	Gene_expression 1100 1106	levels
+T43	Positive_regulation 1400 1409	increases
+T44	Binding 1439 1446	binding
+T45	Entity 1486 1505	DNA sequence motifs
+T46	Positive_regulation 1704 1711	induced
+T47	Regulation 1962 1973	aberrancies
+T48	Positive_regulation 1981 1990	induction
+E1	Negative_regulation:T27 Theme:E3
+E2	Negative_regulation:T27 Theme:E4
+E3	Positive_regulation:T28 Theme:T2
+E4	Positive_regulation:T28 Theme:T1
+E5	Binding:T29 Theme:T3 Site:T30
+E6	Binding:T29 Theme:T4 Site:T30
+E7	Positive_regulation:T31 Theme:T6
+E8	Positive_regulation:T31 Theme:T5
+E9	Negative_regulation:T32 Theme:E8
+E10	Negative_regulation:T32 Theme:E7
+E11	Regulation:T33 Theme:E13
+E12	Regulation:T33 Theme:E14
+E13	Transcription:T34 Theme:T8
+E14	Transcription:T34 Theme:T7
+E15	Binding:T35 Theme:T9
+E16	Positive_regulation:T36 Theme:E17
+E17	Gene_expression:T37 Theme:T11
+E18	Gene_expression:T38 Theme:T12
+E19	Gene_expression:T38 Theme:T13
+E20	Negative_regulation:T39 Theme:E18
+E21	Negative_regulation:T39 Theme:E19
+E22	Negative_regulation:T40 Theme:E25
+E23	Negative_regulation:T40 Theme:E24
+E24	Transcription:T41 Theme:T15
+E25	Transcription:T41 Theme:T14
+E26	Gene_expression:T42 Theme:T17
+E27	Positive_regulation:T43 Theme:E29
+E28	Positive_regulation:T43 Theme:E30
+E29	Binding:T44 Theme:T18 Site:T45
+E30	Binding:T44 Theme:T19 Site:T45
+E31	Positive_regulation:T46 Theme:E30
+E32	Regulation:T47 Theme:E35
+E33	Regulation:T47 Theme:E34
+E34	Positive_regulation:T48 Theme:T25
+E35	Positive_regulation:T48 Theme:T26
+M1	Speculation E11
+M2	Speculation E12
+M3	Speculation E13
+M4	Speculation E14
+M5	Negation E21
+
+T49	Entity 112 129	promoter elements
+R1	Protein-Component  Arg1:T4 Arg2:T49
+T50	Entity 1917 1922	/AP-1
+R2	Subunit-Complex  Arg1:T24 Arg2:T50
+T51	Entity 1240 1262	serum response element
+R3	Protein-Component  Arg1:T17 Arg2:T51
+T52	Entity 225 229	AP-1
+R4	Subunit-Complex  Arg1:T6 Arg2:T52
+T53	Entity 1199 1224	TRE-like promoter element
+R5	Protein-Component  Arg1:T16 Arg2:T53
+R6	Subunit-Complex Arg1:T5 Arg2:T52
+T54	Entity 1656 1681	nuclear protein complexes
+R7	Subunit-Complex  Arg1:T23 Arg2:T54
+R8	Subunit-Complex Arg1:T22 Arg2:T54
+R9	Protein-Component Arg1:T3 Arg2:T49
+R10	Protein-Component Arg1:T19 Arg2:T45
+R11	Protein-Component Arg1:T18 Arg2:T45

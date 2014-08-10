@@ -1,0 +1,28 @@
+T1	Protein 187 190	p35
+T2	Protein 195 198	p40
+T3	Protein 792 795	p40
+T4	Protein 878 886	IL-12p40
+T5	Protein 938 941	p40
+T6	Protein 1024 1027	p40
+T7	Protein 1047 1050	p40
+T8	Protein 1106 1109	p40
+T9	Entity 10 15	IL-12
+T10	Entity 100 109	NF-kappaB
+T11	Entity 112 117	IL-12
+T12	Entity 123 152	75-kDa heterodimeric cytokine
+T13	Entity 446 451	IL-12
+T14	Entity 678 683	IL-12
+T15	Entity 763 780	IL-12 heterodimer
+T16	Entity 947 955	promoter
+T17	Entity 984 993	NF-kappaB
+T18	Entity 1027 1039	-kappaB site
+T19	Entity 1051 1059	promoter
+T20	Entity 1366 1375	NF-kappaB
+T21	Entity 1422 1427	IL-12
+R1	Subunit-Complex Arg1:T1 Arg2:T11
+R2	Subunit-Complex Arg1:T2 Arg2:T12
+R3	Subunit-Complex Arg1:T1 Arg2:T12
+R4	Subunit-Complex Arg1:T2 Arg2:T11
+R5	Protein-Component Arg1:T5 Arg2:T16
+R6	Protein-Component Arg1:T6 Arg2:T18
+R7	Protein-Component Arg1:T7 Arg2:T19

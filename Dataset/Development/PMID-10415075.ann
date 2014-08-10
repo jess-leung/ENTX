@@ -1,0 +1,28 @@
+T1	Protein 123 126	p65
+T2	Protein 127 131	RelA
+T3	Protein 802 806	CD28
+T4	Protein 1509 1512	p65
+T5	Protein 1616 1619	p65
+T6	Protein 1639 1642	p65
+T7	Protein 1703 1706	p50
+T8	Entity 9 19	NF-kappa B
+T9	Entity 123 131	p65-RelA
+T10	Entity 387 397	NF-kappa B
+T11	Entity 443 461	inflammatory genes
+T12	Entity 586 612	NF-kappa B protein complex
+T13	Entity 775 778	TCR
+T14	Entity 958 968	NF-kappa B
+T15	Entity 1080 1090	NF-kappa B
+T16	Entity 1177 1187	NF-kappa B
+T17	Entity 1312 1322	NF-kappa B
+T18	Entity 1488 1498	NF-kappa B
+T19	Entity 1513 1522	complexes
+T20	Entity 1643 1652	complexes
+T21	Entity 1707 1716	homodimer
+T22	Entity 1783 1791	cytokine
+T23	Entity 1795 1805	other gene
+R1	Subunit-Complex Arg1:T1 Arg2:T9
+R2	Subunit-Complex Arg1:T2 Arg2:T9
+R3	Subunit-Complex Arg1:T4 Arg2:T19
+R4	Subunit-Complex Arg1:T6 Arg2:T20
+R5	Subunit-Complex Arg1:T7 Arg2:T21

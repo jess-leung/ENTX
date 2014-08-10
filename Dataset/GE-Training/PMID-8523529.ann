@@ -1,0 +1,15 @@
+T1	Protein 0 21	Protein kinase C-zeta
+T2	Protein 759 767	PKC-zeta
+T3	Protein 936 944	PKC-zeta
+T4	Protein 1119 1127	PKC-zeta
+T5	Protein 1192 1200	PKC-zeta
+T6	Protein 1202 1210	PKC-zeta
+T7	Protein 1384 1392	PKC-zeta
+T8	Protein 1465 1473	PKC-zeta
+T9	Protein 1546 1550	CREB
+T10	Gene_expression 948 955	present
+T11	Negative_regulation 998 1011	downmodulated
+T12	Gene_expression 1142 1156	cotransfection
+E1	Gene_expression:T10 Theme:T3
+E2	Negative_regulation:T11 Theme:E1
+E3	Gene_expression:T12 Theme:T5

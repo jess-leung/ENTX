@@ -1,0 +1,21 @@
+T1	Protein 81 102	T cell receptor gamma
+T2	Protein 495 516	T cell receptor gamma
+T3	Protein 518 522	TCRG
+T4	Protein 698 702	TCRG
+T5	Protein 780 784	TCRG
+*	Equiv T2 T3
+T6	Positive_regulation 649 657	mediates
+T7	Positive_regulation 680 690	activation
+T8	Entity 703 711	enhancer
+T9	Positive_regulation 859 868	increased
+E1	Positive_regulation:T6 Theme:E2
+E2	Positive_regulation:T7 Theme:T4 Site:T8
+E3	Positive_regulation:T9 Theme:T5
+R1	Protein-Component Arg1:T4 Arg2:T8
+
+T10	Entity 524 532	enhancer
+R2	Protein-Component  Arg1:T2 Arg2:T10
+T11	Entity 21 63	ionomycin/cyclosporin A-responsive element
+R3	Protein-Component  Arg1:T1 Arg2:T11
+T12	Entity 103 111	enhancer
+R4	Protein-Component  Arg1:T1 Arg2:T12

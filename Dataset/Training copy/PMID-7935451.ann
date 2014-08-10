@@ -1,0 +1,37 @@
+T1	Protein 35 38	Tax
+T2	Protein 112 127	I kappa B alpha
+T3	Protein 132 136	RelA
+T4	Protein 138 141	p65
+T5	Protein 186 189	tax
+T6	Protein 399 402	Tax
+T7	Protein 716 731	I kappa B alpha
+T8	Protein 740 743	Tax
+T9	Protein 838 843	c-Rel
+T10	Protein 980 983	Tax
+T11	Protein 1056 1059	Tax
+T12	Protein 1162 1177	I kappa B alpha
+T13	Protein 1268 1283	I kappa B alpha
+T14	Protein 1493 1496	Tax
+T15	Protein 1518 1523	c-Rel
+T16	Protein 1555 1559	RelA
+T17	Protein 1561 1564	p65
+T18	Protein 1626 1631	c-rel
+T19	Protein 1740 1745	c-Rel
+*	Equiv T3 T4
+*	Equiv T16 T17
+T20	Entity 53 63	NF-kappa B
+T21	Entity 169 179	c-rel gene
+T22	Entity 309 319	viral gene
+T23	Entity 357 371	cellular genes
+T24	Entity 519 529	NF-kappa B
+T25	Entity 605 615	NF-kappa B
+T26	Entity 672 704	ankyrin-rich inhibitory proteins
+T27	Entity 844 853	complexes
+T28	Entity 1017 1027	NF-kappa B
+T29	Entity 1323 1341	NF-kappa B complex
+T30	Entity 1445 1463	NF-kappa B complex
+T31	Entity 1577 1587	NF-kappa B
+T32	Entity 1658 1682	kappa B enhancer element
+R1	Subunit-Complex Arg1:T9 Arg2:T27
+R2	Protein-Component Arg1:T18 Arg2:T32
+R3	Subunit-Complex Arg1:T16 Arg2:T31

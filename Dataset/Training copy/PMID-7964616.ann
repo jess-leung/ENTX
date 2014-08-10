@@ -1,0 +1,68 @@
+T1	Protein 27 63	Epstein-Barr virus nuclear antigen 2
+T2	Protein 65 71	EBNA-2
+T3	Protein 166 172	EBNA-2
+T4	Protein 199 241	Epstein-Barr virus (EBV) nuclear antigen 2
+T5	Protein 243 249	EBNA-2
+T6	Protein 329 335	EBNA-2
+T7	Protein 382 386	CD23
+T8	Protein 388 393	c-fgr
+T9	Protein 395 420	latent membrane protein 1
+T10	Protein 422 426	LMP1
+T11	Protein 432 450	terminal protein 1
+T12	Protein 452 455	TP1
+T13	Protein 482 485	TP1
+T14	Protein 506 513	BamHI C
+T15	Protein 652 658	EBNA-2
+T16	Protein 694 700	EBNA-2
+T17	Protein 749 752	LMP
+T18	Protein 844 847	LMP
+T19	Protein 871 877	EBNA-2
+T20	Protein 926 932	EBNA-2
+T21	Protein 958 961	LMP
+T22	Protein 1085 1088	LMP
+T23	Protein 1181 1184	LMP
+T24	Protein 1372 1378	EBNA-2
+T25	Protein 1461 1467	EBNA-2
+T26	Protein 1481 1487	EBNA-2
+T27	Protein 1605 1612	EBNA-2A
+T28	Protein 1620 1623	TP1
+T29	Protein 1738 1741	LMP
+T30	Protein 1801 1807	EBNA-2
+T31	Protein 1911 1917	EBNA-2
+T32	Protein 1986 1989	LMP
+*	Equiv T1 T2
+*	Equiv T4 T5
+*	Equiv T9 T10
+*	Equiv T11 T12
+T33	Entity 0 3	DNA
+T34	Entity 371 376	genes
+T35	Entity 486 494	promoter
+T36	Entity 514 522	promoter
+T37	Entity 689 692	DNA
+T38	Entity 817 836	cis-acting elements
+T39	Entity 848 856	promoter
+T40	Entity 962 970	promoter
+T41	Entity 1151 1173	protein-binding region
+T42	Entity 1185 1193	promoter
+T43	Entity 1207 1221	42 bp fragment
+T44	Entity 1235 1259	nucleotides -135 to -176
+T45	Entity 1276 1306	LMP transcriptional start site
+T46	Entity 1320 1333	DNA fragments
+T47	Entity 1388 1391	DNA
+T48	Entity 1624 1632	promoter
+T49	Entity 1742 1750	promoter
+T50	Entity 1954 1972	specific complexes
+T51	Entity 1990 1998	promoter
+R1	Protein-Component Arg1:T13 Arg2:T35
+R2	Protein-Component Arg1:T14 Arg2:T36
+R3	Protein-Component Arg1:T18 Arg2:T38
+R4	Protein-Component Arg1:T18 Arg2:T39
+R5	Protein-Component Arg1:T21 Arg2:T40
+R6	Protein-Component Arg1:T23 Arg2:T41
+R7	Protein-Component Arg1:T23 Arg2:T45
+R8	Protein-Component Arg1:T23 Arg2:T43
+R9	Protein-Component Arg1:T23 Arg2:T44
+R10	Protein-Component Arg1:T23 Arg2:T42
+R11	Protein-Component Arg1:T28 Arg2:T48
+R12	Protein-Component Arg1:T29 Arg2:T49
+R13	Protein-Component Arg1:T32 Arg2:T51

@@ -1,0 +1,47 @@
+T1	Protein 0 5	Foxp3
+T2	Protein 111 116	Foxp3
+T3	Protein 165 168	CD4
+T4	Protein 169 173	CD25
+T5	Protein 220 225	Foxp3
+T6	Protein 370 375	Foxj1
+T7	Protein 380 386	Foxo3a
+T8	Protein 423 428	Foxp3
+T9	Protein 578 588	luciferase
+T10	Protein 666 671	Foxp3
+T11	Protein 720 745	green fluorescent protein
+T12	Protein 818 828	luciferase
+T13	Protein 842 847	Foxp3
+T14	Protein 912 917	Foxp3
+T15	Protein 1046 1051	Foxp3
+T16	Protein 1101 1106	Foxp3
+T17	Protein 1311 1316	Foxp3
+T18	Protein 1465 1470	Foxp3
+T19	Protein 1543 1548	Foxp3
+T20	Protein 1655 1665	luciferase
+T21	Protein 1716 1721	Foxp3
+T22	Protein 1851 1856	Foxp3
+T23	Protein 1991 1996	Foxp3
+T24	Protein 2009 2012	CD4
+T25	Protein 2214 2219	Foxp3
+T26	Protein 2331 2334	CD4
+T27	Positive_regulation 429 443	overexpression
+T28	Gene_expression 672 682	expression
+T29	Transcription 848 863	mRNA expression
+T30	Gene_expression 895 908	concentration
+T31	Positive_regulation 941 950	increases
+T32	Gene_expression 1107 1117	expression
+T33	Transcription 1471 1486	mRNA expression
+T34	Gene_expression 1689 1699	expression
+T35	Positive_regulation 1833 1847	overexpression
+T36	Positive_regulation 1973 1987	overexpression
+E1	Positive_regulation:T27 Theme:T8
+E2	Gene_expression:T28 Theme:T10
+E3	Transcription:T29 Theme:T13
+E4	Gene_expression:T30 Theme:T14
+E5	Positive_regulation:T31 Theme:E4
+E6	Gene_expression:T32 Theme:T16
+E7	Transcription:T33 Theme:T18
+E8	Gene_expression:T34 Theme:T21
+E9	Positive_regulation:T35 Theme:T22
+E10	Positive_regulation:T36 Theme:T23
+M1	Speculation E3

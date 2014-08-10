@@ -1,0 +1,42 @@
+T1	Protein 29 40	beta-globin
+T2	Protein 163 174	beta-globin
+T3	Protein 641 652	beta-globin
+T4	Protein 780 791	beta-globin
+T5	Protein 864 870	GATA-1
+T6	Protein 875 879	Sp-1
+T7	Protein 1055 1062	DNase 1
+T8	Protein 1209 1220	beta-globin
+T9	Protein 1347 1358	beta-globin
+T10	Protein 1417 1428	beta-globin
+T11	Protein 1596 1607	beta-globin
+T12	Entity 41 49	promoter
+T13	Entity 180 185	locus
+T14	Entity 274 283	chromatin
+T15	Entity 319 347	DNase 1 hypersensitive sites
+T16	Entity 366 394	active globin gene promoters
+T17	Entity 429 456	globin locus control region
+T18	Entity 505 527	beta-like globin genes
+T19	Entity 653 661	promoter
+T20	Entity 682 744	erythroid-specific DNase 1 hypersensitive site-forming element
+T21	Entity 746 750	HSFE
+T22	Entity 792 800	promoter
+T23	Entity 833 846	binding sites
+T24	Entity 851 856	NF-E2
+T25	Entity 858 862	AP-1
+T26	Entity 881 891	Constructs
+T27	Entity 954 972	promoter chromatin
+T28	Entity 1022 1026	HSFE
+T29	Entity 1090 1162	from the transcriptional start site to -300bp of the artificial promoter
+T30	Entity 1143 1162	artificial promoter
+T31	Entity 1221 1230	promoters
+T32	Entity 1286 1304	promoter chromatin
+T33	Entity 1492 1510	cis-acting element
+T34	Entity 1544 1562	promoter chromatin
+R1	Protein-Component Arg1:T1 Arg2:T12
+R2	Protein-Component Arg1:T4 Arg2:T21
+R3	Protein-Component Arg1:T4 Arg2:T20
+R4	Protein-Component Arg1:T3 Arg2:T19
+R5	Protein-Component Arg1:T4 Arg2:T22
+R6	Protein-Component Arg1:T8 Arg2:T31
+R7	Protein-Component Arg1:T11 Arg2:T33
+R8	Protein-Component Arg1:T11 Arg2:T34

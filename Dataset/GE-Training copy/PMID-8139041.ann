@@ -1,0 +1,19 @@
+T1	Protein 94 97	pol
+T2	Protein 345 348	pol
+T3	Protein 462 469	DNase I
+T4	Protein 474 494	micrococcal nuclease
+T5	Protein 1232 1236	PU.1
+T6	Protein 1237 1242	Spi-1
+T7	Protein 1364 1368	Ets1
+T8	Protein 1501 1505	PU.1
+T9	Protein 1506 1511	Spi-1
+T10	Protein 1552 1555	Sp1
+T11	Protein 1781 1784	pol
+*	Equiv T8 T9
+*	Equiv T5 T6
+T12	Binding 1042 1047	bound
+T13	Binding 1328 1335	binding
+T14	Binding 1522 1547	containing a binding site
+E1	Binding:T12 Theme:T5
+E2	Binding:T13 Theme:T7
+E3	Binding:T14 Theme:T10

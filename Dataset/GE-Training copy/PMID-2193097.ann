@@ -1,0 +1,4 @@
+T1	Protein 237 240	CAT
+T2	Protein 862 910	granulocyte/macrophage colony-stimulating factor
+T3	Protein 912 918	GM-CSF
+*	Equiv T2 T3

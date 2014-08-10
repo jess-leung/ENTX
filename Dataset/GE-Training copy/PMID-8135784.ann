@@ -1,0 +1,20 @@
+T1	Protein 125 138	interleukin-4
+T2	Protein 212 225	interleukin-4
+T3	Protein 227 231	IL-4
+T4	Protein 564 567	P65
+T5	Protein 571 574	P65
+T6	Protein 575 578	P50
+T7	Protein 1118 1121	P65
+*	Equiv T2 T3
+T8	Binding 51 60	interacts
+T9	Entity 81 91	P sequence
+T10	Entity 188 198	P sequence
+T11	Regulation 262 280	responsive element
+T12	Binding 592 597	bound
+T13	Binding 1126 1134	detected
+E1	Binding:T8 Theme:T1 Site:T9
+E2	Regulation:T11 Theme:T2 Site:T10
+E3	Binding:T12 Theme:T5
+E4	Binding:T12 Theme:T6
+E5	Binding:T12 Theme:T4
+E6	Binding:T13 Theme:T7

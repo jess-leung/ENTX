@@ -1,0 +1,41 @@
+T1	Protein 70 74	PU.1
+T2	Protein 76 81	spi-1
+T3	Protein 94 98	PU.1
+T4	Protein 100 105	spi-1
+T5	Protein 507 511	PU.1
+T6	Protein 605 609	PU.1
+T7	Protein 693 697	PU.1
+T8	Protein 775 780	Oct-1
+T9	Protein 785 790	Oct-2
+T10	Protein 998 1001	Sp1
+T11	Protein 1053 1057	PU.1
+T12	Protein 1124 1129	OBF-1
+T13	Protein 1130 1134	Bob1
+T14	Protein 1135 1140	OCA-B
+T15	Protein 1205 1210	OBF-1
+T16	Protein 1211 1215	Bob1
+T17	Protein 1216 1221	OCA-B
+T18	Protein 1244 1248	PU.1
+T19	Protein 1377 1381	PU.1
+*	Equiv T1 T2
+*	Equiv T3 T4
+*	Equiv T12 T13 T14
+*	Equiv T15 T16 T17
+T20	Entity 83 91	promoter
+T21	Entity 242 247	genes
+T22	Entity 512 520	promoter
+T23	Entity 529 561	cell type-specific reporter gene
+T24	Entity 686 706	murine PU.1 promoter
+T25	Entity 698 706	promoter
+T26	Entity 818 839	site at base pair -55
+T27	Entity 1002 1014	binding site
+T28	Entity 1031 1043	octamer site
+T29	Entity 1058 1077	autoregulatory site
+T30	Entity 1249 1257	promoter
+T31	Entity 1398 1410	octamer site
+R1	Protein-Component Arg1:T1 Arg2:T20
+R2	Protein-Component Arg1:T5 Arg2:T22
+R3	Protein-Component Arg1:T7 Arg2:T24
+R4	Protein-Component Arg1:T7 Arg2:T25
+R5	Protein-Component Arg1:T11 Arg2:T29
+R6	Protein-Component Arg1:T18 Arg2:T30

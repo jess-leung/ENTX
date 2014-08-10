@@ -1,0 +1,45 @@
+T1	Protein 33 38	Egr-1
+T2	Protein 59 92	interleukin-2 receptor beta-chain
+T3	Protein 155 193	interleukin-2 IL-2 receptor beta-chain
+T4	Protein 195 204	IL-2Rbeta
+T5	Protein 253 257	IL-2
+T6	Protein 262 267	IL-15
+T7	Protein 278 287	IL-2Rbeta
+T8	Protein 564 573	IL-2Rbeta
+T9	Protein 589 592	Sp1
+T10	Protein 597 600	Sp3
+T11	Protein 1072 1077	Egr-1
+T12	Protein 1111 1116	Egr-1
+T13	Protein 1172 1181	IL-2Rbeta
+T14	Protein 1242 1247	Egr-1
+T15	Protein 1275 1280	Egr-1
+T16	Protein 1365 1374	IL-2Rbeta
+T17	Protein 1431 1436	Egr-1
+T18	Protein 1515 1518	Sp1
+T19	Protein 1523 1528	Egr-1
+T20	Protein 1603 1608	Egr-1
+T21	Protein 1653 1656	Sp1
+T22	Protein 1661 1666	Egr-1
+T23	Protein 1724 1733	IL-2Rbeta
+*	Equiv T3 T4
+T24	Entity 93 101	promoter
+T25	Entity 135 148	binding sites
+T26	Entity 493 508	enhancer region
+T27	Entity 525 550	nucleotides -170 and -139
+T28	Entity 574 582	promoter
+T29	Entity 614 624	5' portion
+T30	Entity 698 708	3' portion
+T31	Entity 726 743	Sp binding motifs
+T32	Entity 1182 1199	DNA binding motif
+T33	Entity 1248 1260	binding site
+T34	Entity 1294 1309	Sp binding site
+T35	Entity 1375 1383	promoter
+T36	Entity 1734 1742	promoter
+R1	Protein-Component Arg1:T2 Arg2:T25
+R2	Protein-Component Arg1:T2 Arg2:T24
+R3	Protein-Component Arg1:T8 Arg2:T26
+R4	Protein-Component Arg1:T8 Arg2:T27
+R5	Protein-Component Arg1:T8 Arg2:T28
+R6	Protein-Component Arg1:T13 Arg2:T32
+R7	Protein-Component Arg1:T16 Arg2:T35
+R8	Protein-Component Arg1:T23 Arg2:T36

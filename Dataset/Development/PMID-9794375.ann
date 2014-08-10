@@ -1,0 +1,56 @@
+T1	Protein 32 35	HS1
+T2	Protein 206 209	CD2
+T3	Protein 214 218	CD28
+T4	Protein 226 229	CD2
+T5	Protein 235 239	CD28
+T6	Protein 439 442	Vav
+T7	Protein 444 447	Cbl
+T8	Protein 488 491	Src
+T9	Protein 507 510	Lck
+T10	Protein 515 518	Fyn
+T11	Protein 581 584	HS1
+T12	Protein 704 707	HS1
+T13	Protein 763 766	CD2
+T14	Protein 772 776	CD28
+T15	Protein 934 938	CD28
+T16	Protein 971 975	CD28
+T17	Protein 984 988	CD80
+T18	Protein 992 996	CD86
+T19	Protein 1041 1044	HS1
+T20	Protein 1109 1112	HS1
+T21	Protein 1152 1155	CD2
+T22	Protein 1274 1278	CD28
+T23	Protein 1286 1289	CD2
+T24	Protein 1344 1347	HS1
+T25	Protein 1392 1395	HSI
+T26	Protein 1440 1443	Src
+T27	Protein 1467 1470	Lck
+T28	Protein 1500 1504	CD45
+T29	Protein 1522 1526	MEK1
+T30	Protein 1614 1618	CD28
+T31	Protein 1624 1627	CD2
+T32	Protein 1749 1752	HSI
+T33	Protein 1816 1819	HS1
+T34	Entity 170 173	CD3
+T35	Entity 221 224	CD3
+T36	Entity 349 357	tyrosine
+T37	Entity 532 535	CD3
+T38	Entity 553 561	tyrosine
+T39	Entity 758 761	CD3
+T40	Entity 907 910	CD3
+T41	Entity 1013 1021	tyrosine
+T42	Entity 1081 1089	tyrosine
+T43	Entity 1311 1314	CD3
+T44	Entity 1380 1383	CD3
+T45	Entity 1609 1612	CD3
+T46	Entity 1721 1729	tyrosine
+T47	Entity 1788 1796	tyrosine
+R1	Protein-Component Arg1:T6 Arg2:T36
+R2	Protein-Component Arg1:T7 Arg2:T36
+R3	Protein-Component Arg1:T9 Arg2:T36
+R4	Protein-Component Arg1:T10 Arg2:T36
+R5	Protein-Component Arg1:T11 Arg2:T38
+R6	Protein-Component Arg1:T19 Arg2:T41
+R7	Protein-Component Arg1:T20 Arg2:T42
+R8	Protein-Component Arg1:T32 Arg2:T46
+R9	Protein-Component Arg1:T33 Arg2:T47

@@ -1,0 +1,42 @@
+T1	Protein 25 28	p50
+T2	Protein 29 32	p65
+T3	Protein 72 93	pro-interleukin-1beta
+T4	Protein 237 258	pro-interleukin 1beta
+T5	Protein 260 271	proIL-1beta
+T6	Protein 449 460	proIL-1beta
+T7	Protein 574 577	fos
+T8	Protein 579 582	CAT
+T9	Protein 1221 1224	p50
+T10	Protein 1229 1232	p65
+T11	Protein 1280 1283	p52
+T12	Protein 1285 1290	c-Rel
+T13	Protein 1292 1297	Rel B
+T14	Protein 1315 1320	c-Fos
+T15	Protein 1322 1327	C-Jun
+T16	Protein 1338 1347	C/EBPbeta
+T17	Protein 1349 1355	NF-IL6
+T18	Protein 1629 1640	proIL-1beta
+*	Equiv T16 T17
+*	Equiv T4 T5
+T19	Positive_regulation 0 11	Involvement
+T20	Positive_regulation 48 58	activation
+T21	Regulation 351 360	influence
+T22	Transcription 417 441	transcriptional activity
+T23	Positive_regulation 716 725	induction
+T24	Negative_regulation 1441 1450	decreased
+T25	Positive_regulation 1459 1469	stimulated
+T26	Positive_regulation 1598 1606	critical
+T27	Positive_regulation 1615 1625	activation
+T28	Transcription 1646 1659	transcription
+E1	Positive_regulation:T19 Theme:E3 Cause:T2
+E2	Positive_regulation:T19 Theme:E3 Cause:T1
+E3	Positive_regulation:T20 Theme:T3
+E4	Regulation:T21 Theme:E5
+E5	Transcription:T22 Theme:T6
+E6	Positive_regulation:T23 Theme:E5
+E7	Negative_regulation:T24 Theme:E8
+E8	Positive_regulation:T25 Theme:E5
+E9	Positive_regulation:T26 Theme:E10
+E10	Positive_regulation:T27 Theme:E11
+E11	Transcription:T28 Theme:T18
+M1	Speculation E4

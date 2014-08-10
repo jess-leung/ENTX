@@ -1,0 +1,5 @@
+T1	Protein 963 990	tumor necrosis factor-alpha
+T2	Protein 992 1001	TNF-alpha
+*	Equiv T1 T2
+T3	Positive_regulation 951 959	increase
+E1	Positive_regulation:T3 Theme:T1

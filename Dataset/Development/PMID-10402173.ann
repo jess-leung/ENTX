@@ -1,0 +1,19 @@
+T1	Protein 697 701	RelA
+T2	Protein 702 711	NFkappaB1
+T3	Protein 836 848	IkappaBalpha
+T4	Protein 994 998	RelA
+T5	Protein 1003 1013	NF-kappaB1
+T6	Protein 1090 1094	RelA
+T7	Protein 1095 1105	NF-kappaB1
+T8	Entity 15 24	NF-kappaB
+T9	Entity 252 261	NF-kappaB
+T10	Entity 294 303	NF-kappaB
+T11	Entity 439 448	NF-kappaB
+T12	Entity 531 537	kappaB
+T13	Entity 697 711	RelA/NFkappaB1
+T14	Entity 761 767	kappaB
+T15	Entity 1106 1123	binding complexes
+T16	Entity 1215 1224	NF-kappaB
+T17	Entity 1301 1310	NF-kappaB
+R1	Subunit-Complex Arg1:T1 Arg2:T13
+R2	Subunit-Complex Arg1:T2 Arg2:T13

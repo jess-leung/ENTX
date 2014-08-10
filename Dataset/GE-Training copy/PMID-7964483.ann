@@ -1,0 +1,18 @@
+T1	Protein 83 97	autoantigen La
+T2	Protein 98 102	SS-B
+T3	Protein 394 408	autoantigen La
+T4	Protein 409 413	SS-B
+T5	Protein 446 448	La
+T6	Protein 498 500	La
+T7	Protein 823 825	La
+T8	Protein 1108 1122	autoantigen La
+T9	Protein 1123 1127	SS-B
+*	Equiv T1 T2
+*	Equiv T8 T9
+*	Equiv T3 T4
+T10	Positive_regulation 838 844	result
+T11	Gene_expression 1060 1070	expression
+T12	Regulation 1128 1134	alters
+E1	Positive_regulation:T10 Theme:T7
+E2	Gene_expression:T11 Theme:T8
+E3	Regulation:T12 Theme:E2

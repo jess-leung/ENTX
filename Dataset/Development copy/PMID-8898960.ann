@@ -1,0 +1,29 @@
+T1	Protein 26 49	class II transactivator
+T2	Protein 788 811	class II transactivator
+T3	Protein 813 818	CIITA
+T4	Protein 1043 1048	CIITA
+T5	Protein 1081 1086	CIITA
+T6	Protein 1153 1158	CIITA
+T7	Protein 1556 1561	CIITA
+T8	Protein 1706 1718	HLA-DQ alpha
+T9	Protein 1722 1730	-DQ beta
+T10	Protein 1791 1796	CIITA
+T11	Protein 2048 2053	CIITA
+*	Equiv T2 T3
+T12	Entity 49 70	-encoding AIR-1 locus
+T13	Entity 102 148	major histocompatibility complex class II gene
+T14	Entity 260 312	major histocompatibility complex (MHC) class II gene
+T15	Entity 509 522	class II gene
+T16	Entity 612 615	SIR
+T17	Entity 617 652	suppressor of immune response genes
+T18	Entity 701 715	class II genes
+T19	Entity 757 767	AIR-1 gene
+T20	Entity 903 921	MHC class II genes
+T21	Entity 1018 1029	AIR-1 locus
+T22	Entity 1159 1174	coding sequence
+T23	Entity 1199 1220	heterologous promoter
+T24	Entity 1244 1268	human MHC class II genes
+T25	Entity 1329 1353	mouse MHC class II genes
+T26	Entity 1619 1643	human HLA-DQ heterodimer
+T27	Entity 1951 1979	human HLA-DQ class II subset
+R1	Protein-Component Arg1:T6 Arg2:T22

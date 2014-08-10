@@ -1,0 +1,29 @@
+T1	Protein 226 229	CD4
+T2	Protein 507 511	IL-4
+T3	Protein 516 520	IL-5
+T4	Protein 665 669	IL-4
+T5	Protein 674 678	IL-5
+T6	Protein 832 836	IL-4
+T7	Protein 841 845	IL-5
+T8	Protein 942 945	p50
+T9	Protein 946 949	p50
+T10	Protein 1145 1148	p50
+T11	Protein 1149 1152	p65
+T12	Protein 1286 1289	p50
+T13	Protein 1290 1293	p65
+*	Equiv T8 T9
+T14	Entity 951 960	homodimer
+T15	Entity 1003 1019	kappa B sequence
+T16	Entity 1154 1165	heterodimer
+T17	Entity 1175 1191	kappa B sequence
+T18	Entity 1228 1248	di-butyryl (Bt2)cAMP
+T19	Entity 1244 1248	cAMP
+T20	Entity 1295 1306	heterodimer
+T21	Entity 1314 1330	kappa B sequence
+T22	Entity 1683 1692	sequences
+T23	Entity 1816 1820	cAMP
+R1	Subunit-Complex Arg1:T8 Arg2:T14
+R2	Subunit-Complex Arg1:T10 Arg2:T16
+R3	Subunit-Complex Arg1:T11 Arg2:T16
+R4	Subunit-Complex Arg1:T12 Arg2:T20
+R5	Subunit-Complex Arg1:T13 Arg2:T20

@@ -1,0 +1,17 @@
+T1	Protein 226 229	CD4
+T2	Protein 436 440	IL-2
+T3	Protein 445 454	IFN-gamma
+T4	Protein 482 486	IL-4
+T5	Protein 488 492	IL-5
+T6	Protein 494 498	IL-6
+T7	Protein 500 505	IL-10
+T8	Protein 511 516	IL-13
+T9	Gene_expression 428 435	produce
+T10	Gene_expression 474 481	produce
+E1	Gene_expression:T9 Theme:T2
+E2	Gene_expression:T9 Theme:T3
+E3	Gene_expression:T10 Theme:T6
+E4	Gene_expression:T10 Theme:T4
+E5	Gene_expression:T10 Theme:T5
+E6	Gene_expression:T10 Theme:T8
+E7	Gene_expression:T10 Theme:T7

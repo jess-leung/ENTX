@@ -1,0 +1,29 @@
+T1	Protein 66 70	IL-2
+T2	Protein 108 112	CD28
+T3	Protein 138 142	IL-2
+T4	Protein 218 222	IL-2
+T5	Protein 325 329	CD28
+T6	Protein 381 385	CD28
+T7	Protein 435 439	IL-2
+T8	Protein 656 660	IL-2
+T9	Protein 771 775	CD28
+T10	Protein 779 783	IL-2
+T11	Entity 40 44	AP-1
+T12	Entity 71 79	promoter
+T13	Entity 130 135	RE/AP
+T14	Entity 223 231	promoter
+T15	Entity 440 448	promoter
+T16	Entity 581 595	AP-1 reporters
+T17	Entity 581 585	AP-1
+T18	Entity 631 635	AP-1
+T19	Entity 661 669	promoter
+T20	Entity 698 712	RE/AP reporter
+T21	Entity 784 792	promoter
+T22	Entity 856 861	sites
+T23	Entity 930 935	RE/AP
+T24	Entity 985 998	NFAT reporter
+R1	Protein-Component Arg1:T1 Arg2:T12
+R2	Protein-Component Arg1:T4 Arg2:T14
+R3	Protein-Component Arg1:T7 Arg2:T15
+R4	Protein-Component Arg1:T8 Arg2:T19
+R5	Protein-Component Arg1:T10 Arg2:T21

@@ -1,0 +1,28 @@
+T1	Protein 27 31	IL-2
+T2	Protein 48 51	CD4
+T3	Protein 220 223	CD4
+T4	Protein 308 312	IL-2
+T5	Protein 555 561	p59fyn
+T6	Protein 566 574	CD3 zeta
+T7	Protein 737 741	IL-2
+T8	Protein 800 804	IL-2
+T9	Protein 950 953	p50
+T10	Protein 954 957	p65
+T11	Protein 1904 1908	IL-2
+T12	Entity 32 40	promoter
+T13	Entity 575 583	tyrosine
+T14	Entity 810 825	promoter region
+T15	Entity 938 948	NF-kappa B
+T16	Entity 958 969	heterodimer
+T17	Entity 976 980	AP-1
+T18	Entity 1333 1346	NF-AT complex
+T19	Entity 1532 1542	NF-AT site
+T20	Entity 1834 1844	NF-AT site
+R1	Protein-Component Arg1:T1 Arg2:T12
+R2	Protein-Component Arg1:T6 Arg2:T13
+R3	Protein-Component Arg1:T5 Arg2:T13
+R4	Protein-Component Arg1:T8 Arg2:T14
+R5	Subunit-Complex Arg1:T9 Arg2:T15
+R6	Subunit-Complex Arg1:T10 Arg2:T15
+R7	Subunit-Complex Arg1:T9 Arg2:T16
+R8	Subunit-Complex Arg1:T10 Arg2:T16

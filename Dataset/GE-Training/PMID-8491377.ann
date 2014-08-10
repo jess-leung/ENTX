@@ -1,0 +1,34 @@
+T1	Protein 43 62	early B-cell factor
+T2	Protein 117 136	Early B-cell factor
+T3	Protein 138 141	EBF
+T4	Protein 320 324	mb-1
+T5	Protein 383 386	EBF
+T6	Protein 455 458	EBF
+T7	Protein 532 535	EBF
+T8	Protein 556 560	mb-1
+T9	Protein 777 780	EBF
+T10	Protein 892 895	EBF
+T11	Protein 958 961	EBF
+T12	Protein 1162 1165	EBF
+T13	Protein 1455 1458	EBF
+*	Equiv T3 T2
+T14	Binding 229 244	binding protein
+T15	Regulation 250 280	participates in the regulation
+T16	Transcription 571 590	The cDNA hybridized
+T17	Transcription 667 675	detected
+T18	Binding 1193 1202	interacts
+T19	Binding 1222 1231	homodimer
+E1	Binding:T14 Theme:T3
+E2	Regulation:T15 Theme:T4 Cause:T3
+E3	Transcription:T16 Theme:T6
+E4	Transcription:T17 Theme:T6
+E5	Binding:T18 Theme:T12
+E6	Binding:T19 Theme:T12
+M1	Negation E4
+
+T20	Entity 561 569	promoter
+R1	Protein-Component  Arg1:T8 Arg2:T20
+T21	Entity 535 548	-binding site
+R2	Protein-Component  Arg1:T8 Arg2:T21
+T22	Entity 976 1023	amino-terminal cysteine-rich DNA-binding domain
+R3	Protein-Component  Arg1:T11 Arg2:T22

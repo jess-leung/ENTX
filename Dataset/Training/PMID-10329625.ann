@@ -1,0 +1,20 @@
+T1	Protein 117 120	Id3
+T2	Protein 178 181	Id3
+T3	Protein 284 288	CD34
+T4	Protein 555 558	Id3
+T5	Protein 724 727	Id3
+T6	Protein 872 875	Id3
+T7	Protein 1021 1024	CD4
+T8	Protein 1087 1090	Id3
+T9	Entity 92 108	helix-loop-helix
+T10	Entity 222 244	basic helix-loop-helix
+T11	Entity 246 250	bHLH
+T12	Entity 347 373	T cell receptor (TCR) gene
+T13	Entity 595 603	TCR gene
+T14	Entity 750 780	recombination activating genes
+T15	Entity 1027 1030	CD8
+T16	Entity 1033 1036	CD3
+T17	Entity 1051 1071	rearranged TCR genes
+T18	Entity 1062 1071	TCR genes
+T19	Entity 1115 1122	control
+T20	Entity 1258 1262	bHLH

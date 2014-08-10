@@ -1,0 +1,27 @@
+T1	Protein 131 135	IL-2
+T2	Protein 223 227	CD28
+T3	Protein 274 278	IL-2
+T4	Protein 500 505	c-Jun
+T5	Protein 1176 1181	c-Jun
+T6	Protein 1483 1487	CD28
+T7	Protein 1650 1655	c-Jun
+T8	Entity 30 34	AP-1
+T9	Entity 39 70	NF-kappa B transcription factor
+T10	Entity 136 144	promoter
+T11	Entity 192 195	TCR
+T12	Entity 279 287	promoter
+T13	Entity 316 333	AP-1-like factors
+T14	Entity 338 348	NF-kappa B
+T15	Entity 487 491	AP-1
+T16	Entity 591 601	NF-kappa B
+T17	Entity 1042 1052	NF-kappa B
+T18	Entity 1150 1172	transactivation domain
+T19	Entity 1414 1418	AP-1
+T20	Entity 1423 1433	NF-kappa B
+T21	Entity 1588 1598	NF-kappa B
+T22	Entity 1765 1769	AP-1
+T23	Entity 1770 1780	NF-kappa B
+R1	Protein-Component Arg1:T1 Arg2:T10
+R2	Protein-Component Arg1:T3 Arg2:T12
+R3	Subunit-Complex Arg1:T4 Arg2:T15
+R4	Protein-Component Arg1:T5 Arg2:T18

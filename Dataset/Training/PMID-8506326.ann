@@ -1,0 +1,49 @@
+T1	Protein 281 284	IL2
+T2	Protein 286 289	IL3
+T3	Protein 291 294	IL4
+T4	Protein 300 303	IL5
+T5	Protein 318 332	interleukins 2
+T6	Protein 334 335	3
+T7	Protein 337 338	4
+T8	Protein 344 345	5
+T9	Protein 347 351	IL-2
+T10	Protein 353 355	-3
+T11	Protein 357 359	-4
+T12	Protein 365 367	-5
+T13	Protein 643 646	IL2
+T14	Protein 699 704	OCT-1
+T15	Protein 856 859	IL2
+T16	Protein 922 925	IL4
+T17	Protein 1146 1180	chloramphenicol acetyl transferase
+T18	Protein 1182 1185	CAT
+T19	Protein 1219 1222	IL2
+T20	Protein 1291 1294	CAT
+T21	Protein 1322 1325	IL2
+T22	Protein 1456 1459	CAT
+T23	Protein 1506 1511	OCT-1
+*	Equiv T17 T18
+T24	Entity 251 267	lymphokine genes
+T25	Entity 487 503	lymphokine genes
+T26	Entity 589 606	response elements
+T27	Entity 622 639	regulatory region
+T28	Entity 648 668	Nuclear factor NF-kB
+T29	Entity 670 690	activation protein 1
+T30	Entity 692 696	AP-1
+T31	Entity 832 848	response element
+T32	Entity 860 868	enhancer
+T33	Entity 879 906	NF-AT-like response element
+T34	Entity 926 934	enhancer
+T35	Entity 1223 1240	regulatory region
+T36	Entity 1271 1289	enhancer sequences
+T37	Entity 1326 1343	regulatory region
+T38	Entity 1368 1386	NF-AT-binding site
+T39	Entity 1512 1542	proximal (OCT-1p)-binding site
+R1	Protein-Component Arg1:T13 Arg2:T27
+R2	Protein-Component Arg1:T13 Arg2:T26
+R3	Protein-Component Arg1:T15 Arg2:T31
+R4	Protein-Component Arg1:T16 Arg2:T33
+R5	Protein-Component Arg1:T15 Arg2:T32
+R6	Protein-Component Arg1:T16 Arg2:T34
+R7	Protein-Component Arg1:T19 Arg2:T35
+R8	Protein-Component Arg1:T21 Arg2:T37
+R9	Protein-Component Arg1:T23 Arg2:T39

@@ -1,0 +1,18 @@
+T1	Protein 41 56	15-lipoxygenase
+T2	Protein 117 132	15-lipoxygenase
+T3	Protein 134 137	lox
+T4	Protein 334 340	15-lox
+T5	Protein 935 938	lox
+*	Equiv T2 T3
+T6	Entity 86 110	transcriptional silencer
+T7	Entity 311 326	5' flanking DNA
+T8	Entity 513 539	transcriptional 'silencer'
+T9	Entity 606 614	silencer
+T10	Entity 654 669	5' flanking DNA
+T11	Entity 691 704	binding sites
+T12	Entity 855 868	binding sites
+T13	Entity 927 956	minimal lox promoter fragment
+T14	Entity 962 977	5' flanking DNA
+T15	Entity 1011 1024	binding sites
+R1	Protein-Component Arg1:T4 Arg2:T7
+R2	Protein-Component Arg1:T5 Arg2:T13

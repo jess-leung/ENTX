@@ -1,0 +1,25 @@
+T1	Protein 11 14	Myc
+T2	Protein 15 18	Max
+T3	Protein 369 374	c-Myc
+T4	Protein 448 453	c-Myc
+T5	Protein 564 567	Max
+T6	Protein 674 677	Myc
+T7	Protein 745 748	Max
+T8	Protein 866 869	Myc
+T9	Protein 946 949	Max
+T10	Binding 547 562	binding partner
+T11	Gene_expression 636 648	coexpression
+T12	Binding 686 728	capable of forming functional heterodimers
+T13	Binding 922 940	heterodimerization
+E1	Binding:T10 Theme:T4 Theme2:T5
+E2	Gene_expression:T11 Theme:T7
+E3	Gene_expression:T11 Theme:T6
+E4	Binding:T12 Theme:T6 Theme2:T7
+E5	Binding:T13 Theme:T8 Theme2:T9
+
+T14	Entity 19 30	heterodimer
+R1	Subunit-Complex  Arg1:T1 Arg2:T14
+T15	Entity 716 728	heterodimers
+R2	Subunit-Complex  Arg1:T6 Arg2:T15
+R3	Subunit-Complex Arg1:T2 Arg2:T14
+R4	Subunit-Complex Arg1:T7 Arg2:T15

@@ -1,0 +1,22 @@
+T1	Protein 205 218	Interleukin-2
+T2	Protein 220 224	IL-2
+T3	Protein 356 360	IL-2
+T4	Protein 427 431	IL-2
+T5	Protein 567 573	p56lck
+T6	Protein 598 602	IL-2
+T7	Protein 644 647	lck
+T8	Protein 689 692	lck
+T9	Protein 833 837	IL-2
+T10	Protein 932 936	IL-2
+*	Equiv T1 T2
+T11	Entity 0 27	SRC-related proto-oncogenes
+T12	Entity 173 178	genes
+T13	Entity 361 369	enhancer
+T14	Entity 501 516	src gene family
+T15	Entity 756 759	DNA
+T16	Entity 820 825	sites
+T17	Entity 838 846	enhancer
+T18	Entity 881 885	AP-1
+R1	Protein-Component Arg1:T3 Arg2:T13
+R2	Protein-Component Arg1:T9 Arg2:T16
+R3	Protein-Component Arg1:T9 Arg2:T17

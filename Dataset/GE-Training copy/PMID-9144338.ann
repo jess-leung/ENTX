@@ -1,0 +1,30 @@
+T1	Protein 18 36	vitamin D receptor
+T2	Protein 201 219	vitamin D receptor
+T3	Protein 221 224	VDR
+T4	Protein 376 379	VDR
+T5	Protein 449 452	VDR
+T6	Protein 590 593	VDR
+T7	Protein 670 673	VDR
+T8	Protein 933 936	VDR
+T9	Protein 963 966	VDR
+T10	Protein 1155 1158	VDR
+T11	Protein 1523 1526	VDR
+T12	Protein 1673 1690	serum osteocalcin
+T13	Protein 1745 1748	VDR
+T14	Protein 1799 1802	VDR
+*	Equiv T2 T3
+T15	Transcription 359 368	abundance
+T16	Gene_expression 919 928	expressed
+T17	Transcription 1221 1231	expression
+T18	Transcription 1502 1515	concentration
+T19	Regulation 1771 1777	affect
+T20	Transcription 1782 1791	abundance
+E1	Transcription:T15 Theme:T4
+E2	Gene_expression:T16 Theme:T8
+E3	Transcription:T17 Theme:T10
+E4	Transcription:T18 Theme:T11
+E5	Regulation:T19 Theme:E6
+E6	Transcription:T20 Theme:T14
+M1	Speculation E1
+M2	Negation E2
+M3	Negation E5

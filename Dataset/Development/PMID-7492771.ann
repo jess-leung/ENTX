@@ -1,0 +1,30 @@
+T1	Protein 145 160	Factor VII/VIIa
+T2	Protein 168 195	tissue factor (TF) receptor
+T3	Protein 241 243	TF
+T4	Protein 407 409	TF
+T5	Protein 506 511	c-Rel
+T6	Protein 512 515	p65
+T7	Protein 554 556	TF
+T8	Protein 679 681	TF
+T9	Protein 695 697	TF
+T10	Protein 874 889	I kappa B alpha
+T11	Protein 936 941	c-Rel
+T12	Protein 942 945	p65
+T13	Protein 1086 1088	TF
+T14	Protein 1163 1165	TF
+T15	Protein 1243 1248	c-Rel
+T16	Protein 1249 1252	p65
+T17	Entity 81 99	tissue factor gene
+T18	Entity 516 528	heterodimers
+T19	Entity 534 546	kappa B site
+T20	Entity 557 565	promoter
+T21	Entity 946 958	heterodimers
+T22	Entity 1253 1265	heterodimers
+R1	Protein-Component Arg1:T7 Arg2:T19
+R2	Subunit-Complex Arg1:T5 Arg2:T18
+R3	Subunit-Complex Arg1:T6 Arg2:T18
+R4	Protein-Component Arg1:T7 Arg2:T20
+R5	Subunit-Complex Arg1:T11 Arg2:T21
+R6	Subunit-Complex Arg1:T12 Arg2:T21
+R7	Subunit-Complex Arg1:T15 Arg2:T22
+R8	Subunit-Complex Arg1:T16 Arg2:T22

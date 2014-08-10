@@ -1,0 +1,57 @@
+T1	Protein 122 135	interleukin 2
+T2	Protein 388 401	interleukin 2
+T3	Protein 403 407	IL-2
+T4	Protein 678 682	IL-2
+T5	Protein 771 804	chloramphenicol acetyltransferase
+T6	Protein 870 874	IL-2
+T7	Protein 918 922	IL-2
+T8	Protein 985 991	NFAT-1
+T9	Protein 1264 1268	IL-2
+T10	Protein 1382 1386	IL-2
+T11	Protein 1526 1531	c-fos
+T12	Protein 1536 1541	c-jun
+T13	Protein 1596 1600	IL-2
+T14	Protein 1765 1769	IL-2
+*	Equiv T2 T3
+T15	Entity 4 13	AP-1 site
+T16	Entity 4 8	AP-1
+T17	Entity 17 24	-150 bp
+T18	Entity 38 53	NF-kappa B site
+T19	Entity 38 48	NF-kappa B
+T20	Entity 136 144	promoter
+T21	Entity 299 323	activation-related genes
+T22	Entity 448 475	T cell receptor/CD3 complex
+T23	Entity 847 854	plasmid
+T24	Entity 875 883	promoter
+T25	Entity 899 912	reporter gene
+T26	Entity 923 931	promoter
+T27	Entity 941 958	binding sites for
+T28	Entity 941 954	binding sites
+T29	Entity 998 1008	NF-kappa B
+T30	Entity 1014 1018	AP-1
+T31	Entity 1106 1138	trimer of the NFAT and Oct sites
+T32	Entity 1210 1225	NF-kappa B site
+T33	Entity 1210 1220	NF-kappa B
+T34	Entity 1269 1277	promoter
+T35	Entity 1309 1318	AP-1 site
+T36	Entity 1330 1337	-150 bp
+T37	Entity 1387 1395	promoter
+T38	Entity 1601 1609	promoter
+T39	Entity 1673 1682	AP-1 site
+T40	Entity 1673 1677	AP-1
+T41	Entity 1686 1693	-150 bp
+T42	Entity 1770 1778	promoter
+R1	Protein-Component Arg1:T1 Arg2:T17
+R2	Protein-Component Arg1:T1 Arg2:T15
+R3	Protein-Component Arg1:T1 Arg2:T18
+R4	Protein-Component Arg1:T1 Arg2:T20
+R5	Protein-Component Arg1:T6 Arg2:T24
+R6	Protein-Component Arg1:T7 Arg2:T27
+R7	Protein-Component Arg1:T7 Arg2:T28
+R8	Protein-Component Arg1:T7 Arg2:T26
+R9	Protein-Component Arg1:T9 Arg2:T34
+R10	Protein-Component Arg1:T10 Arg2:T37
+R11	Protein-Component Arg1:T13 Arg2:T38
+R12	Protein-Component Arg1:T14 Arg2:T39
+R13	Protein-Component Arg1:T14 Arg2:T41
+R14	Protein-Component Arg1:T14 Arg2:T42

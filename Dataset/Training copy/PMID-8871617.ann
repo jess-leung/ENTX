@@ -1,0 +1,32 @@
+T1	Protein 432 436	IL-2
+T2	Protein 539 544	egr-1
+T3	Protein 607 611	IL-2
+T4	Protein 753 758	c-fos
+T5	Protein 763 767	junB
+T6	Protein 827 831	IL-2
+T7	Protein 870 875	c-jun
+T8	Protein 880 884	junD
+T9	Protein 1043 1047	IL-2
+T10	Protein 1177 1181	IL-2
+T11	Protein 1199 1204	c-myc
+T12	Protein 1255 1259	IL-2
+T13	Protein 1268 1273	bcl-2
+T14	Protein 1463 1468	egr-1
+T15	Protein 1470 1475	c-fos
+T16	Protein 1481 1485	junB
+T17	Protein 1522 1527	bcl-2
+T18	Protein 1595 1599	IL-2
+T19	Entity 0 5	IL-12
+T20	Entity 68 99	immediate-early activation gene
+T21	Entity 145 149	IL-2
+T22	Entity 154 159	IL-12
+T23	Entity 330 335	genes
+T24	Entity 621 626	IL-12
+T25	Entity 841 846	IL-12
+T26	Entity 944 948	AP-1
+T27	Entity 974 978	AP-1
+T28	Entity 1096 1101	genes
+T29	Entity 1186 1191	IL-12
+T30	Entity 1332 1337	IL-12
+T31	Entity 1422 1461	immediate-early activation genes family
+T32	Entity 1488 1492	AP-1

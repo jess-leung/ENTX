@@ -1,0 +1,23 @@
+T1	Protein 562 565	lck
+T2	Protein 570 573	fyn
+T3	Protein 685 708	phospholipase C gamma 1
+T4	Protein 859 863	CD45
+T5	Protein 895 899	CD45
+T6	Protein 943 947	CD45
+T7	Protein 1154 1159	c-fos
+T8	Protein 1290 1294	CD69
+T9	Protein 1311 1345	interleukin 2 receptor alpha-chain
+T10	Protein 1347 1351	CD25
+T11	Protein 1470 1483	interleukin 2
+*	Equiv T9 T10
+T12	Entity 13 21	tyrosine
+T13	Entity 106 114	tyrosine
+T14	Entity 136 144	tyrosine
+T15	Entity 296 304	tyrosine
+T16	Entity 545 553	tyrosine
+T17	Entity 630 638	tyrosine
+T18	Entity 995 1003	tyrosine
+T19	Entity 1052 1077	phosphorylated substrates
+T20	Entity 1518 1528	NF-kappa B
+T21	Entity 1771 1779	tyrosine
+R1	Protein-Component Arg1:T3 Arg2:T17

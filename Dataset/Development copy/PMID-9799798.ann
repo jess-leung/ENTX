@@ -1,0 +1,25 @@
+T1	Protein 30 51	lysosomal acid lipase
+T2	Protein 118 121	Sp1
+T3	Protein 139 160	lysosomal acid lipase
+T4	Protein 162 165	LAL
+T5	Protein 369 372	LAL
+T6	Protein 505 508	LAL
+T7	Protein 1106 1109	Sp1
+T8	Protein 1126 1129	LAL
+T9	Protein 1221 1224	Sp1
+T10	Protein 1334 1337	LAL
+T11	Protein 1410 1431	lysosomal acid lipase
+T12	Protein 1433 1436	LAL
+T13	Protein 1501 1504	Sp1
+*	Equiv T3 T4
+*	Equiv T11 T12
+T14	Entity 758 777	cis-acting elements
+T15	Entity 854 862	promoter
+T16	Entity 908 921	reporter gene
+T17	Entity 932 954	PMA responsive element
+T18	Entity 983 990	-182 bp
+T19	Entity 995 1002	-107 bp
+T20	Entity 1019 1049	major transcription start site
+T21	Entity 1130 1138	promoter
+T22	Entity 1197 1216	expression plasmids
+R1	Protein-Component Arg1:T8 Arg2:T21

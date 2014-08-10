@@ -1,0 +1,42 @@
+T1	Protein 30 43	interleukin 2
+T2	Protein 45 49	IL-2
+T3	Protein 78 83	c-Raf
+T4	Protein 105 109	IL-2
+T5	Protein 347 360	interleukin 2
+T6	Protein 361 366	(IL-2
+T7	Protein 516 521	c-Raf
+T8	Protein 591 595	IL-2
+T9	Protein 743 747	IL-2
+T10	Protein 779 783	IL-2
+T11	Protein 832 836	IL-2
+T12	Protein 1016 1026	GABP alpha
+T13	Protein 1031 1036	-beta
+T14	Protein 1296 1300	IL-2
+T15	Protein 1375 1379	IL-2
+T16	Protein 1427 1430	BXB
+T17	Protein 1465 1470	c-Raf
+T18	Protein 1644 1649	c-Raf
+T19	Protein 1868 1872	IL-2
+*	Equiv T1 T2
+*	Equiv T5 T6
+T20	Entity 51 59	enhancer
+T21	Entity 140 167	T-cell receptor-CD3 complex
+T22	Entity 616 639	distal enhancer element
+T23	Entity 784 792	enhancer
+T24	Entity 837 854	promoter-enhancer
+T25	Entity 1042 1063	dyad symmetry element
+T26	Entity 1065 1068	DSE
+T27	Entity 1077 1092	distal enhancer
+T28	Entity 1113 1138	palindromic binding sites
+T29	Entity 1224 1227	DSE
+T30	Entity 1265 1280	distal enhancer
+T31	Entity 1301 1318	promoter-enhancer
+T32	Entity 1380 1397	promoter-enhancer
+T33	Entity 1566 1583	promoter-enhancer
+R1	Protein-Component Arg1:T1 Arg2:T20
+R2	Protein-Component Arg1:T9 Arg2:T22
+R3	Protein-Component Arg1:T8 Arg2:T22
+R4	Protein-Component Arg1:T10 Arg2:T23
+R5	Protein-Component Arg1:T11 Arg2:T24
+R6	Protein-Component Arg1:T14 Arg2:T31
+R7	Protein-Component Arg1:T15 Arg2:T32

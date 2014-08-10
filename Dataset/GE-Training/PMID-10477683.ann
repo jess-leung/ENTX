@@ -1,0 +1,31 @@
+T1	Protein 0 5	c-Maf
+T2	Protein 327 332	c-Maf
+T3	Protein 337 342	c-Myb
+T4	Protein 462 467	c-Myb
+T5	Protein 977 982	c-Maf
+T6	Protein 1033 1038	c-Maf
+T7	Protein 1109 1114	c-Maf
+T8	Protein 1342 1347	c-Maf
+T9	Protein 1455 1460	c-Myb
+T10	Protein 1488 1493	Bcl-2
+T11	Protein 1498 1502	CD13
+T12	Protein 1503 1506	APN
+*	Equiv T11 T12
+T13	Binding 365 384	physically interact
+T14	Positive_regulation 959 973	overexpression
+T15	Gene_expression 959 973	overexpression
+T16	Positive_regulation 1090 1105	Elevated levels
+T17	Negative_regulation 1425 1435	inhibition
+T18	Regulation 1461 1470	regulated
+E1	Binding:T13 Theme:T2 Theme2:T3
+E2	Positive_regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T5
+E4	Positive_regulation:T16 Theme:T7
+E5	Negative_regulation:T17 Theme:T11 Cause:T8
+E6	Negative_regulation:T17 Theme:T10 Cause:T8
+E7	Regulation:T18 Theme:T11 Cause:T9
+E8	Regulation:T18 Theme:T10 Cause:T9
+
+T19	Entity 410 430	inhibitory complexes
+R1	Subunit-Complex  Arg1:T2 Arg2:T19
+R2	Subunit-Complex Arg1:T3 Arg2:T19

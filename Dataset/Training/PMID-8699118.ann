@@ -1,0 +1,9 @@
+T1	Protein 171 181	IFN-alpha5
+T2	Protein 186 194	IFN-beta
+T3	Protein 996 1006	IFN-alpha5
+T4	Protein 1011 1019	IFN-beta
+T5	Entity 466 513	interferon-induced transcription factor complex
+T6	Entity 514 519	ISGF3
+T7	Entity 658 662	ISRE
+T8	Entity 686 710	luciferase reporter gene
+T9	Entity 911 949	major histocompatibility class I genes

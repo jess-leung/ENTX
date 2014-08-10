@@ -1,0 +1,58 @@
+T1	Protein 49 54	Oct-2
+T2	Protein 56 60	Bob1
+T3	Protein 118 122	BLR1
+T4	Protein 167 171	BLR1
+T5	Protein 326 330	blr1
+T6	Protein 700 705	Oct-2
+T7	Protein 707 711	Bob1
+T8	Protein 740 743	p50
+T9	Protein 748 751	p52
+T10	Protein 796 800	BLR1
+T11	Protein 850 853	p52
+T12	Protein 865 869	BLR1
+T13	Protein 928 932	BLR1
+T14	Protein 954 959	Oct-2
+T15	Protein 961 965	Bob1
+T16	Positive_regulation 76 83	directs
+T17	Gene_expression 84 94	expression
+T18	Positive_regulation 350 356	confer
+T19	Gene_expression 397 407	expression
+T20	Gene_expression 782 792	expression
+T21	Negative_regulation 805 812	reduced
+T22	Gene_expression 870 880	expression
+T23	Regulation 885 895	unaffected
+T24	Regulation 938 944	target
+T25	Gene_expression 1068 1077	deficient
+E1	Positive_regulation:T16 Theme:E2
+E2	Gene_expression:T17 Theme:T3
+E3	Positive_regulation:T18 Theme:E4
+E4	Gene_expression:T19 Theme:T5
+E5	Gene_expression:T20 Theme:T10
+E6	Negative_regulation:T21 Theme:E5
+E7	Gene_expression:T22 Theme:T12
+E8	Regulation:T23 Theme:E7
+E9	Regulation:T24 Theme:T13 Cause:T14
+E10	Regulation:T24 Theme:T13
+E11	Regulation:T24 Theme:T13 Cause:T15
+E12	Gene_expression:T25 Theme:T15
+E13	Gene_expression:T25 Theme:T14
+M1	Negation E5
+M2	Negation E8
+M3	Negation E12
+M4	Negation E13
+
+T26	Entity 721 730	NF-kappaB
+R1	Subunit-Complex  Arg1:T9 Arg2:T26
+R2	Subunit-Complex Arg1:T8 Arg2:T26
+T27	Entity 854 863	NF-kappaB
+R3	Subunit-Complex  Arg1:T11 Arg2:T27
+T28	Entity 331 344	core promoter
+R4	Protein-Component  Arg1:T5 Arg2:T28
+T29	Entity 450 476	functional promoter region
+R5	Protein-Component  Arg1:T5 Arg2:T29
+T30	Entity 560 586	noncanonical octamer motif
+R6	Protein-Component  Arg1:T5 Arg2:T30
+T31	Entity 531 546	NF-kappaB motif
+R7	Protein-Component  Arg1:T5 Arg2:T31
+T32	Entity 502 526	transcription start site
+R8	Protein-Component  Arg1:T5 Arg2:T32

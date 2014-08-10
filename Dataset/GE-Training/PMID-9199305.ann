@@ -1,0 +1,69 @@
+T1	Protein 33 38	Egr-1
+T2	Protein 59 92	interleukin-2 receptor beta-chain
+T3	Protein 155 193	interleukin-2 IL-2 receptor beta-chain
+T4	Protein 195 204	IL-2Rbeta
+T5	Protein 253 257	IL-2
+T6	Protein 262 267	IL-15
+T7	Protein 278 287	IL-2Rbeta
+T8	Protein 564 573	IL-2Rbeta
+T9	Protein 589 592	Sp1
+T10	Protein 597 600	Sp3
+T11	Protein 1072 1077	Egr-1
+T12	Protein 1111 1116	Egr-1
+T13	Protein 1172 1181	IL-2Rbeta
+T14	Protein 1242 1247	Egr-1
+T15	Protein 1275 1280	Egr-1
+T16	Protein 1365 1374	IL-2Rbeta
+T17	Protein 1431 1436	Egr-1
+T18	Protein 1515 1518	Sp1
+T19	Protein 1523 1528	Egr-1
+T20	Protein 1603 1608	Egr-1
+T21	Protein 1653 1656	Sp1
+T22	Protein 1661 1666	Egr-1
+T23	Protein 1724 1733	IL-2Rbeta
+*	Equiv T3 T4
+T24	Regulation 102 109	through
+T25	Gene_expression 306 315	expressed
+T26	Positive_regulation 362 369	induced
+T27	Binding 482 486	bind
+T28	Entity 574 582	promoter
+T29	Binding 601 606	bound
+T30	Binding 1091 1102	recognition
+T31	Binding 1281 1286	bound
+T32	Positive_regulation 1344 1352	required
+T33	Entity 1375 1383	promoter
+T34	Gene_expression 1415 1427	transfection
+T35	Positive_regulation 1415 1427	transfection
+T36	Binding 1535 1549	form a complex
+T37	Gene_expression 1589 1599	production
+T38	Positive_regulation 1708 1715	mediate
+E1	Regulation:T24 Theme:T2
+E2	Gene_expression:T25 Theme:T7
+E3	Positive_regulation:T26 Theme:E2
+E4	Binding:T27 Theme:T8 Site:T28
+E5	Binding:T29 Theme:T10
+E6	Binding:T29 Theme:T9
+E7	Binding:T30 Theme:T11
+E8	Binding:T31 Theme:T15
+E9	Positive_regulation:T32 Theme:T16 Site:T33
+E10	Gene_expression:T34 Theme:T17
+E11	Positive_regulation:T35 Theme:E10
+E12	Binding:T36 Theme:T18 Theme2:T19
+E13	Gene_expression:T37 Theme:T20
+E14	Positive_regulation:T38 Theme:T23 Cause:T21
+E15	Positive_regulation:T38 Theme:T23 Cause:T22
+
+T39	Entity 1734 1742	promoter
+R1	Protein-Component  Arg1:T23 Arg2:T39
+T40	Entity 1182 1199	DNA binding motif
+R2	Protein-Component  Arg1:T13 Arg2:T40
+R3	Protein-Component Arg1:T16 Arg2:T33
+T41	Entity 493 508	enhancer region
+R4	Protein-Component  Arg1:T8 Arg2:T41
+T42	Entity 525 550	nucleotides -170 and -139
+R5	Protein-Component  Arg1:T8 Arg2:T42
+T43	Entity 93 101	promoter
+R6	Protein-Component  Arg1:T2 Arg2:T43
+R7	Protein-Component Arg1:T8 Arg2:T28
+T44	Entity 135 148	binding sites
+R8	Protein-Component  Arg1:T2 Arg2:T44

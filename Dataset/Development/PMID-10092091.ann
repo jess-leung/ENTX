@@ -1,0 +1,30 @@
+T1	Protein 20 23	Fas
+T2	Protein 24 29	APO-1
+T3	Protein 30 34	CD95
+T4	Protein 375 378	Fas
+T5	Protein 379 384	APO-1
+T6	Protein 385 389	CD95
+T7	Protein 507 510	p50
+T8	Protein 515 518	p65
+T9	Protein 546 549	Fas
+T10	Protein 742 745	Fas
+T11	Protein 950 953	p50
+T12	Protein 958 961	p65
+T13	Protein 1075 1078	Fas
+T14	Protein 1255 1258	Fas
+T15	Protein 1493 1496	Fas
+T16	Protein 1601 1604	Fas
+T17	Entity 0 9	NF-kappaB
+T18	Entity 40 43	TCR
+T19	Entity 227 236	NF-kappaB
+T20	Entity 335 344	NF-kappaB
+T21	Entity 598 607	NF-kappaB
+T22	Entity 624 649	soluble peptide inhibitor
+T23	Entity 676 685	NF-kappaB
+T24	Entity 793 802	NF-kappaB
+T25	Entity 819 844	soluble peptide inhibitor
+T26	Entity 893 896	TCR
+T27	Entity 1000 1003	TCR
+T28	Entity 1316 1335	NF-kappaB complexes
+T29	Entity 1410 1419	NF-kappaB
+T30	Entity 1574 1583	NF-kappaB

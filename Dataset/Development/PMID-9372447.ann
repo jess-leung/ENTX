@@ -1,0 +1,16 @@
+T1	Protein 1049 1054	Oct-2
+T2	Protein 1056 1061	OBF-1
+T3	Protein 1063 1067	PU.1
+T4	Protein 1128 1131	E47
+T5	Protein 1313 1318	Oct-2
+T6	Entity 14 33	immunoglobulin gene
+T7	Entity 207 212	genes
+T8	Entity 570 590	B cell-encoded genes
+T9	Entity 683 688	genes
+T10	Entity 804 811	Ig gene
+T11	Entity 917 924	Ig gene
+T12	Entity 1116 1126	NF-kappa B
+T13	Entity 1290 1297	Ig gene
+T14	Entity 1323 1333	NF-kappa B
+T15	Entity 1563 1570	Ig gene
+T16	Entity 1685 1693	Ig genes

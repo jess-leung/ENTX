@@ -1,0 +1,16 @@
+T1	Protein 59 117	heparin-binding epidermal growth factor-like growth factor
+T2	Protein 324 382	heparin-binding epidermal growth factor-like growth factor
+T3	Protein 384 390	HB-EGF
+T4	Protein 592 598	HB-EGF
+T5	Protein 842 848	HB-EGF
+T6	Protein 981 987	HB-EGF
+T7	Protein 1306 1312	HB-EGF
+T8	Protein 1368 1374	HB-EGF
+*	Equiv T2 T3
+T9	Entity 162 169	kappa B
+T10	Entity 638 645	kappa B
+T11	Entity 858 865	kappa B
+T12	Entity 997 1004	kappa B
+T13	Entity 1198 1208	NF-kappa B
+T14	Entity 1253 1260	kappa B
+T15	Entity 1457 1464	kappa B

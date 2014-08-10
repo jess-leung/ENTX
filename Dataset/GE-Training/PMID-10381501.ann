@@ -1,0 +1,44 @@
+T1	Protein 0 6	GATA-1
+T2	Protein 11 25	erythropoietin
+T3	Protein 85 91	bcl-xL
+T4	Protein 130 136	GATA-1
+T5	Protein 280 286	GATA-1
+T6	Protein 402 408	GATA-1
+T7	Protein 485 491	GATA-1
+T8	Protein 554 560	bcl-xL
+T9	Protein 591 596	bcl-2
+T10	Protein 601 606	mcl-1
+T11	Protein 635 641	bcl-xL
+T12	Protein 655 661	GATA-1
+T13	Protein 719 725	bcl-xL
+T14	Protein 840 846	GATA-1
+T15	Protein 890 904	erythropoietin
+T16	Protein 974 980	GATA-1
+T17	Protein 994 1000	bcl-xL
+T18	Protein 1115 1121	bcl-xL
+T19	Protein 1212 1218	bcl-xL
+T20	Protein 1256 1262	GATA-1
+T21	Protein 1267 1281	erythropoietin
+T22	Regulation 74 84	regulating
+T23	Gene_expression 92 102	expression
+T24	Positive_regulation 501 508	induces
+T25	Gene_expression 513 523	expression
+T26	Positive_regulation 984 993	stimulate
+T27	Gene_expression 1006 1016	expression
+T28	Regulation 1233 1252	downstream effector
+E1	Regulation:T22 Theme:E3 Cause:T1
+E2	Regulation:T22 Theme:E3 Cause:T2
+E3	Gene_expression:T23 Theme:T3
+E4	Positive_regulation:T24 Theme:E9 Cause:T7
+E5	Positive_regulation:T24 Theme:E8 Cause:T7
+E6	Positive_regulation:T24 Theme:E7 Cause:T7
+E7	Gene_expression:T25 Theme:T9
+E8	Gene_expression:T25 Theme:T8
+E9	Gene_expression:T25 Theme:T10
+E10	Positive_regulation:T26 Theme:E12 Cause:T15
+E11	Positive_regulation:T26 Theme:E12 Cause:T16
+E12	Gene_expression:T27 Theme:T17
+E13	Regulation:T28 Theme:T19 Cause:T21
+E14	Regulation:T28 Theme:T19 Cause:T20
+M1	Negation E4
+M2	Negation E6

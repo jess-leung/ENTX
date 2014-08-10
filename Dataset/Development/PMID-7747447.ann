@@ -1,0 +1,31 @@
+T1	Protein 13 16	Sp1
+T2	Protein 566 569	Sp1
+T3	Protein 768 771	Sp1
+T4	Protein 851 854	PHA
+T5	Protein 859 872	interleukin 2
+T6	Protein 942 945	Tat
+T7	Protein 1030 1033	SP1
+T8	Protein 1124 1128	PP2A
+T9	Protein 1228 1231	Tat
+T10	Protein 1237 1240	Sp1
+T11	Entity 37 47	NF-kappa B
+T12	Entity 60 79	HIV promoter domain
+T13	Entity 235 256	HIV regulatory region
+T14	Entity 258 261	LTR
+T15	Entity 355 390	responding to the factor NF-kappa B
+T16	Entity 380 390	NF-kappa B
+T17	Entity 400 426	promoter domain of the LTR
+T18	Entity 400 415	promoter domain
+T19	Entity 423 426	LTR
+T20	Entity 448 495	HIV LTR-driven luciferase expression constructs
+T21	Entity 448 455	HIV LTR
+T22	Entity 570 586	binding elements
+T23	Entity 610 618	TATA box
+T24	Entity 892 934	LTR constructs deleted of kappa B elements
+T25	Entity 892 906	LTR constructs
+T26	Entity 918 934	kappa B elements
+T27	Entity 1161 1182	transcription complex
+T28	Entity 1333 1343	NF-kappa B
+T29	Entity 1375 1382	HIV LTR
+R1	Subunit-Complex Arg1:T9 Arg2:T27
+R2	Subunit-Complex Arg1:T10 Arg2:T27

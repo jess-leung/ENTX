@@ -1,0 +1,39 @@
+T1	Protein 89 93	IL-4
+T2	Protein 163 167	IL-4
+T3	Protein 212 216	IL-4
+T4	Protein 494 498	IL-4
+T5	Protein 589 593	IL-4
+T6	Protein 714 718	IL-4
+T7	Protein 870 879	C/EBPbeta
+T8	Protein 881 887	NF-IL6
+T9	Protein 895 905	C/EBPdelta
+T10	Protein 907 917	NF-IL6beta
+T11	Protein 925 931	NF-ATc
+T12	Protein 938 944	NF-ATp
+T13	Protein 1130 1134	IL-4
+T14	Protein 1224 1234	NF-IL6beta
+T15	Protein 1335 1345	NF-IL6beta
+T16	Protein 1524 1528	IL-4
+*	Equiv T9 T10
+*	Equiv T7 T8
+T17	Localization 220 228	secreted
+T18	Regulation 539 550	responsible
+T19	Gene_expression 571 581	expression
+T20	Binding 671 678	binding
+T21	Gene_expression 1135 1144	producing
+T22	Regulation 1485 1489	role
+T23	Regulation 1510 1520	regulation
+T24	Gene_expression 1534 1544	expression
+E1	Localization:T17 Theme:T3
+E2	Regulation:T18 Theme:E3
+E3	Gene_expression:T19 Theme:T5
+E4	Binding:T20 Theme:T6
+E5	Gene_expression:T21 Theme:T13
+E6	Regulation:T22 Theme:E7
+E7	Regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T16
+M1	Negation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E6

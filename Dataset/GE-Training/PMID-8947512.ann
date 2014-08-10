@@ -1,0 +1,22 @@
+T1	Protein 17 29	LDL-receptor
+T2	Protein 199 237	low density lipoprotein (LDL)-receptor
+T3	Protein 239 296	3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase
+T4	Protein 301 317	HMG-CoA synthase
+T5	Protein 952 968	alpha-interferon
+T6	Protein 1054 1066	LDL-receptor
+T7	Protein 1195 1211	alpha-interferon
+T8	Protein 1381 1393	LDL-receptor
+T9	Positive_regulation 7 16	dependent
+T10	Transcription 35 48	transcription
+T11	Regulation 150 158	regulate
+T12	Regulation 1044 1053	modulated
+T13	Transcription 1072 1085	transcription
+T14	Transcription 1399 1412	transcription
+E1	Positive_regulation:T9 Theme:E2
+E2	Transcription:T10 Theme:T1
+E3	Regulation:T11 Theme:T2
+E4	Regulation:T11 Theme:T3
+E5	Regulation:T11 Theme:T4
+E6	Regulation:T12 Theme:E7
+E7	Transcription:T13 Theme:T6
+E8	Transcription:T14 Theme:T8

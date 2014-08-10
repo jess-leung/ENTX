@@ -1,0 +1,8 @@
+T1	Protein 58 67	alpha TCR
+T2	Protein 368 377	alpha TCR
+T3	Transcription 0 15	Transcriptional
+T4	Regulation 16 26	regulation
+T5	Regulation 301 327	transcriptional regulation
+E1	Transcription:T3 Theme:T1
+E2	Regulation:T4 Theme:E1
+E3	Regulation:T5 Theme:T2

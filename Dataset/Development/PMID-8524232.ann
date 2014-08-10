@@ -1,0 +1,58 @@
+T1	Protein 0 28	Initiation binding repressor
+T2	Protein 94 104	histone h5
+T3	Protein 251 279	Initiation binding repressor
+T4	Protein 293 296	IBR
+T5	Protein 448 458	histone h5
+T6	Protein 577 580	IBR
+T7	Protein 609 612	IBF
+T8	Protein 653 656	IBR
+T9	Protein 683 686	IBR
+T10	Protein 724 727	IBR
+T11	Protein 732 735	IBF
+T12	Protein 737 740	IBR
+T13	Protein 837 842	NRF-1
+T14	Protein 843 859	alpha-Pal factor
+T15	Protein 921 925	P3A2
+T16	Protein 930 947	erected wing gene
+T17	Protein 957 960	EWG
+T18	Protein 988 991	IBR
+T19	Protein 996 999	IBF
+T20	Protein 1126 1129	IBR
+T21	Protein 1130 1131	F
+T22	Protein 1294 1297	IBR
+T23	Protein 1298 1299	F
+T24	Protein 1631 1634	IBR
+T25	Protein 1635 1636	F
+*	Equiv T13 T14
+T26	Entity 57 86	transcription initiation site
+T27	Entity 411 440	transcription initiation site
+T28	Entity 657 662	sites
+T29	Entity 1179 1189	homodimers
+T30	Entity 1203 1208	dimer
+T31	Entity 1225 1228	DNA
+T32	Entity 1275 1290	N-terminal half
+T33	Entity 1312 1343	DNA-binding/dimerization domain
+T34	Entity 1387 1409	casein kinase II sites
+T35	Entity 1387 1403	casein kinase II
+T36	Entity 1428 1465	bipartite nuclear localization signal
+T37	Entity 1572 1604	alternating RCGCRYGCGY consensus
+T38	Entity 1637 1650	binding sites
+T39	Entity 1664 1688	direct-repeat palindrome
+T40	Entity 1689 1701	TGCGCATGCGCA
+T41	Entity 1709 1721	optimal site
+T42	Entity 1735 1740	genes
+T43	Entity 1808 1813	genes
+R1	Protein-Component Arg1:T2 Arg2:T26
+R2	Protein-Component Arg1:T5 Arg2:T27
+R3	Subunit-Complex Arg1:T20 Arg2:T30
+R4	Subunit-Complex Arg1:T21 Arg2:T29
+R5	Subunit-Complex Arg1:T21 Arg2:T30
+R6	Subunit-Complex Arg1:T20 Arg2:T29
+R7	Protein-Component Arg1:T23 Arg2:T32
+R8	Protein-Component Arg1:T23 Arg2:T34
+R9	Protein-Component Arg1:T22 Arg2:T34
+R10	Protein-Component Arg1:T22 Arg2:T36
+R11	Protein-Component Arg1:T23 Arg2:T36
+R12	Protein-Component Arg1:T22 Arg2:T33
+R13	Protein-Component Arg1:T23 Arg2:T33
+R14	Protein-Component Arg1:T22 Arg2:T32

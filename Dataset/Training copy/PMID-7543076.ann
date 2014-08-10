@@ -1,0 +1,10 @@
+T1	Protein 27 37	E-selectin
+T2	Protein 196 206	E-selectin
+T3	Protein 292 302	E-selectin
+T4	Protein 441 485	bactericidal/permeability-increasing protein
+T5	Protein 487 490	BPI
+T6	Protein 515 525	E-selectin
+*	Equiv T4 T5
+T7	Entity 689 699	NF-kappa B
+T8	Entity 762 772	NF-kappa B
+T9	Entity 847 857	NF-kappa B

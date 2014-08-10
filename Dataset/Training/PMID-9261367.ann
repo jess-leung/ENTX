@@ -1,0 +1,23 @@
+T1	Protein 102 105	Tat
+T2	Protein 204 207	Tat
+T3	Protein 508 511	Tat
+T4	Protein 598 625	tumor necrosis factor alpha
+T5	Protein 715 718	Tat
+T6	Protein 767 770	Tat
+T7	Protein 963 966	Tat
+T8	Protein 1306 1309	Tat
+T9	Protein 1566 1569	Tat
+T10	Entity 258 268	viral gene
+T11	Entity 316 342	HIV-1 long terminal repeat
+T12	Entity 344 347	LTR
+T13	Entity 372 404	transactivation response element
+T14	Entity 406 409	TAR
+T15	Entity 536 550	HIV-1 promoter
+T16	Entity 561 564	TAR
+T17	Entity 685 695	NF-kappa B
+T18	Entity 723 733	NF-kappa B
+T19	Entity 780 783	LTR
+T20	Entity 1073 1082	HIV-1 LTR
+T21	Entity 1212 1221	HIV-1 LTR
+T22	Entity 1338 1348	NF-kappa B
+T23	Entity 1526 1536	NF-kappa B

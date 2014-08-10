@@ -1,0 +1,68 @@
+T1	Protein 0 26	Fibroblast growth factor-1
+T2	Protein 28 33	FGF-1
+T3	Protein 44 48	IL-2
+T4	Protein 261 266	FGF-1
+T5	Protein 424 429	FGF-1
+T6	Protein 607 612	FGF-1
+T7	Protein 642 647	FGF-1
+T8	Protein 739 753	FGF receptor-1
+T9	Protein 783 788	FGF-1
+T10	Protein 871 875	IL-2
+T11	Protein 919 923	CD28
+T12	Protein 1037 1041	IL-2
+T13	Protein 1083 1088	FGF-1
+T14	Protein 1230 1235	FGF-1
+T15	Protein 1308 1311	p65
+T16	Protein 1312 1316	RelA
+T17	Protein 1318 1321	p50
+T18	Protein 1390 1403	IkappaB-alpha
+T19	Protein 1517 1522	FGF-1
+T20	Protein 1623 1637	FGF receptor-1
+T21	Protein 1715 1719	CD28
+T22	Protein 1749 1754	FGF-1
+T23	Protein 1828 1833	c-Rel
+T24	Protein 1865 1869	CD28
+*	Equiv T2 T1
+T25	Positive_regulation 35 43	enhances
+T26	Gene_expression 49 59	production
+T27	Gene_expression 281 290	expressed
+T28	Gene_expression 706 713	express
+T29	Positive_regulation 819 827	provides
+T30	Positive_regulation 849 857	augments
+T31	Positive_regulation 862 870	mediated
+T32	Gene_expression 876 886	production
+T33	Positive_regulation 942 950	mediated
+T34	Regulation 1028 1036	regulate
+T35	Positive_regulation 1271 1279	composed
+T36	Positive_regulation 1339 1346	results
+T37	Protein_catabolism 1375 1386	degradation
+T38	Binding 1638 1648	engagement
+T39	Positive_regulation 1755 1762	induced
+E1	Positive_regulation:T25 Theme:E2 Cause:T2
+E2	Gene_expression:T26 Theme:T3
+E3	Gene_expression:T27 Theme:T4
+E4	Gene_expression:T28 Theme:T8
+E5	Positive_regulation:T29 Theme:E6
+E6	Positive_regulation:T30 Theme:E7
+E7	Positive_regulation:T31 Theme:E8
+E8	Gene_expression:T32 Theme:T10
+E9	Positive_regulation:T33 Theme:E5
+E10	Regulation:T34 Theme:T12
+E11	Positive_regulation:T35 Theme:T15
+E12	Positive_regulation:T35 Theme:T16
+E13	Positive_regulation:T35 Theme:T17
+E14	Positive_regulation:T36 Theme:E13 Cause:E17
+E15	Positive_regulation:T36 Theme:E11 Cause:E17
+E16	Positive_regulation:T36 Theme:E12 Cause:E17
+E17	Protein_catabolism:T37 Theme:T18
+E18	Binding:T38 Theme:T20
+E19	Positive_regulation:T39 Theme:T23 Cause:T22
+
+T40	Entity 1322 1334	heterodimers
+R1	Subunit-Complex  Arg1:T17 Arg2:T40
+T41	Entity 1242 1267	NF-kappaB binding complex
+R2	Subunit-Complex  Arg1:T17 Arg2:T41
+R3	Subunit-Complex Arg1:T16 Arg2:T41
+R4	Subunit-Complex Arg1:T16 Arg2:T40
+R5	Subunit-Complex Arg1:T15 Arg2:T40
+R6	Subunit-Complex Arg1:T15 Arg2:T41

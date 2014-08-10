@@ -1,0 +1,33 @@
+T1	Protein 38 50	beta-catenin
+T2	Protein 51 77	lymphoid enhancer factor 1
+T3	Protein 199 211	beta-catenin
+T4	Protein 397 409	beta-catenin
+T5	Protein 534 546	beta-catenin
+T6	Protein 698 710	beta-catenin
+T7	Protein 746 751	LEF-1
+T8	Protein 753 763	E-cadherin
+T9	Protein 769 772	APC
+T10	Protein 781 785	axin
+T11	Protein 800 812	beta-catenin
+T12	Protein 1000 1012	beta-catenin
+T13	Protein 1085 1097	beta-Catenin
+T14	Protein 1102 1107	LEF-1
+T15	Protein 1386 1398	beta-catenin
+T16	Protein 1439 1444	LEF-1
+T17	Protein 1445 1457	beta-catenin
+T18	Protein 1515 1519	VP16
+T19	Entity 78 87	complexes
+T20	Entity 712 719	Delta19
+T21	Entity 792 799	Delta19
+T22	Entity 937 944	Delta19
+T23	Entity 1108 1117	complexes
+T24	Entity 1131 1144	reporter gene
+T25	Entity 1411 1424	reporter gene
+T26	Entity 1458 1467	complexes
+R1	Subunit-Complex Arg1:T1 Arg2:T19
+R2	Subunit-Complex Arg1:T2 Arg2:T19
+R3	Protein-Component Arg1:T6 Arg2:T20
+R4	Subunit-Complex Arg1:T13 Arg2:T23
+R5	Subunit-Complex Arg1:T14 Arg2:T23
+R6	Subunit-Complex Arg1:T16 Arg2:T26
+R7	Subunit-Complex Arg1:T17 Arg2:T26

@@ -1,0 +1,13 @@
+T1	Protein 476 481	c-jun
+T2	Protein 1039 1044	c-jun
+T3	Entity 12 15	jun
+T4	Entity 20 43	fos gene family members
+T5	Entity 336 339	jun
+T6	Entity 344 367	fos gene family members
+T7	Entity 545 559	AP-1 complexes
+T8	Entity 770 774	AP-1
+T9	Entity 843 874	endogenous AP-1 regulated genes
+T10	Entity 854 858	AP-1
+T11	Entity 994 998	AP-1
+T12	Entity 1075 1079	AP-1
+T13	Entity 1153 1176	transcriptional complex

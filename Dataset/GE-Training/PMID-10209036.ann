@@ -1,0 +1,32 @@
+T1	Protein 0 46	SHP2-interacting transmembrane adaptor protein
+T2	Protein 48 51	SIT
+T3	Protein 391 394	SIT
+T4	Protein 396 442	SHP2 interacting transmembrane adaptor protein
+T5	Protein 445 448	SIT
+T6	Protein 564 567	src
+T7	Protein 581 584	syk
+T8	Protein 610 613	SIT
+T9	Protein 670 674	SHP2
+T10	Protein 748 751	SIT
+T11	Protein 803 821	phytohemagglutinin
+T12	Protein 1022 1026	SHP2
+T13	Protein 1030 1033	SIT
+T14	Protein 1101 1104	SIT
+T15	Protein 1213 1217	SHP2
+*	Equiv T1 T2
+*	Equiv T3 T4
+T16	Gene_expression 504 513	expressed
+T17	Entity 536 544	tyrosine
+T18	Phosphorylation 545 560	phosphorylation
+T19	Positive_regulation 561 563	by
+T20	Gene_expression 730 744	Overexpression
+T21	Binding 1011 1018	binding
+E1	Gene_expression:T16 Theme:T5
+E2	Phosphorylation:T18 Theme:T8 Site:T17
+E3	Positive_regulation:T19 Theme:E2 Cause:T6
+E4	Positive_regulation:T19 Theme:E2 Cause:T7
+E5	Gene_expression:T20 Theme:T10
+E6	Binding:T21 Theme:T12 Theme2:T13
+
+T22	Entity 62 84	disulfide-linked dimer
+R1	Subunit-Complex  Arg1:T1 Arg2:T22

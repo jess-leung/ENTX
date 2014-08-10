@@ -1,0 +1,13 @@
+T1	Protein 120 144	class II trans-activator
+T2	Protein 146 151	CIITA
+T3	Protein 572 577	CIITA
+T4	Protein 655 664	IFN-gamma
+*	Equiv T1 T2
+T5	Entity 96 113	N-terminal domain
+T6	Entity 246 264	MHC class II genes
+T7	Entity 296 322	N-terminal 151 amino acids
+T8	Entity 348 361	acidic domain
+T9	Entity 385 421	proline/serine/threonine-rich domain
+T10	Entity 385 392	proline
+T11	Entity 393 399	serine
+T12	Entity 400 409	threonine

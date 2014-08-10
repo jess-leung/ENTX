@@ -1,0 +1,57 @@
+T1	Protein 27 30	p50
+T2	Protein 840 843	p50
+T3	Protein 932 935	p50
+T4	Protein 936 939	p65
+T5	Protein 944 947	p50
+T6	Protein 948 952	RelB
+T7	Protein 1008 1011	p50
+T8	Protein 1012 1015	p65
+T9	Protein 1020 1023	p50
+T10	Protein 1024 1028	RelB
+T11	Protein 1105 1108	p50
+T12	Protein 1109 1112	p65
+T13	Protein 1149 1152	p50
+T14	Gene_expression 13 23	expression
+T15	Negative_regulation 77 86	decreases
+T16	Gene_expression 788 797	expressed
+T17	Negative_regulation 860 869	decreased
+T18	Positive_regulation 891 902	in favor of
+T19	Gene_expression 998 1007	expressed
+T20	Positive_regulation 1098 1104	induce
+E1	Gene_expression:T14 Theme:T1
+E2	Negative_regulation:T15 Theme:E1
+E3	Gene_expression:T16 Theme:T2
+E4	Negative_regulation:T17 Theme:E3
+E5	Positive_regulation:T18 Theme:T4
+E6	Positive_regulation:T18 Theme:T5
+E7	Positive_regulation:T18 Theme:T6
+E8	Positive_regulation:T18 Theme:T3
+E9	Gene_expression:T19 Theme:T7
+E10	Gene_expression:T19 Theme:T9
+E11	Gene_expression:T19 Theme:T8
+E12	Gene_expression:T19 Theme:T10
+E13	Positive_regulation:T20 Theme:T11
+E14	Positive_regulation:T20 Theme:T12
+M1	Negation E13
+M2	Negation E14
+
+T21	Entity 1020 1028	p50/RelB
+R1	Subunit-Complex  Arg1:T10 Arg2:T21
+T22	Entity 1105 1112	p50/p65
+R2	Subunit-Complex  Arg1:T12 Arg2:T22
+T23	Entity 1008 1015	p50/p65
+R3	Subunit-Complex  Arg1:T8 Arg2:T23
+T24	Entity 953 965	heterodimers
+R4	Subunit-Complex  Arg1:T5 Arg2:T24
+T25	Entity 844 853	homodimer
+R5	Subunit-Complex  Arg1:T2 Arg2:T25
+R6	Subunit-Complex Arg1:T9 Arg2:T21
+R7	Subunit-Complex Arg1:T7 Arg2:T23
+R8	Subunit-Complex Arg1:T3 Arg2:T24
+R9	Subunit-Complex Arg1:T6 Arg2:T24
+T26	Entity 1153 1163	homodimers
+R10	Subunit-Complex  Arg1:T13 Arg2:T26
+T27	Entity 31 40	homodimer
+R11	Subunit-Complex  Arg1:T1 Arg2:T27
+R12	Subunit-Complex Arg1:T4 Arg2:T24
+R13	Subunit-Complex Arg1:T11 Arg2:T22

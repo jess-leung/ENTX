@@ -1,0 +1,32 @@
+T1	Protein 719 729	E-selectin
+T2	Protein 733 751	interleukin (IL)-8
+T3	Protein 847 879	tumor necrosis factor receptor I
+T4	Protein 881 886	TNFRI
+T5	Protein 1169 1179	E-selectin
+T6	Protein 1181 1185	IL-8
+T7	Protein 1341 1344	p50
+T8	Protein 1349 1352	p65
+T9	Protein 1430 1447	Lymphotoxin-alpha
+T10	Protein 1449 1456	LTalpha
+T11	Protein 1466 1493	tumor necrosis factor-alpha
+T12	Protein 1508 1515	LTalpha
+T13	Protein 1597 1602	TNFRI
+T14	Protein 1844 1849	TNFRI
+T15	Protein 1915 1925	E-selectin
+T16	Protein 1930 1934	IL-8
+T17	Protein 2058 2063	TNFRI
+*	Equiv T3 T4
+*	Equiv T9 T10
+T18	Entity 0 31	Membrane-associated lymphotoxin
+T19	Entity 91 100	NF-kappaB
+T20	Entity 686 701	luciferase gene
+T21	Entity 752 761	promoters
+T22	Entity 777 805	NF-kappaB-dependent promoter
+T23	Entity 777 786	NF-kappaB
+T24	Entity 1191 1200	NF-kappaB
+T25	Entity 1330 1339	NF-kappaB
+T26	Entity 1862 1871	NF-kappaB
+R1	Protein-Component Arg1:T1 Arg2:T21
+R2	Protein-Component Arg1:T2 Arg2:T21
+R3	Subunit-Complex Arg1:T8 Arg2:T25
+R4	Subunit-Complex Arg1:T7 Arg2:T25

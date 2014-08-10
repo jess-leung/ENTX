@@ -1,0 +1,51 @@
+T1	Protein 43 91	granulocyte-macrophage colony-stimulating factor
+T2	Protein 127 175	Granulocyte-macrophage colony-stimulating factor
+T3	Protein 177 183	GM-CSF
+T4	Protein 314 320	GM-CSF
+T5	Protein 395 401	GM-CSF
+T6	Protein 551 557	GM-CSF
+T7	Protein 843 849	GM-CSF
+T8	Protein 946 952	GM-CSF
+T9	Protein 1037 1044	DNase I
+T10	Protein 1253 1259	GM-CSF
+T11	Protein 1348 1351	Tax
+T12	Protein 1435 1441	GM-CSF
+T13	Protein 1531 1537	GM-CSF
+T14	Protein 1609 1622	interleukin 3
+T15	Protein 1697 1703	GM-CSF
+T16	Protein 1786 1792	GM-CSF
+T17	Protein 1879 1885	GM-CSF
+*	Equiv T2 T3
+T18	Entity 513 539	NF-kappaB/Rel binding site
+T19	Entity 513 522	NF-kappaB
+T20	Entity 558 566	promoter
+T21	Entity 579 593	kappaB element
+T22	Entity 648 661	reporter gene
+T23	Entity 732 747	oligonucleotide
+T24	Entity 792 811	regulatory sequence
+T25	Entity 872 895	15-base oligonucleotide
+T26	Entity 897 900	GM3
+T27	Entity 920 938	purine-rich region
+T28	Entity 953 970	proximal promoter
+T29	Entity 991 1005	kappaB element
+T30	Entity 1076 1079	GM3
+T31	Entity 1089 1124	sequence-specific collinear triplex
+T32	Entity 1134 1160	double-stranded DNA target
+T33	Entity 1134 1153	double-stranded DNA
+T34	Entity 1183 1186	GM3
+T35	Entity 1260 1267	element
+T36	Entity 1269 1272	GM3
+T37	Entity 1442 1450	promoter
+T38	Entity 1479 1482	GM3
+T39	Entity 1675 1689	kappaB element
+T40	Entity 1704 1712	promoter
+R1	Protein-Component Arg1:T6 Arg2:T21
+R2	Protein-Component Arg1:T6 Arg2:T18
+R3	Protein-Component Arg1:T6 Arg2:T20
+R4	Protein-Component Arg1:T8 Arg2:T27
+R5	Protein-Component Arg1:T8 Arg2:T29
+R6	Protein-Component Arg1:T8 Arg2:T28
+R7	Protein-Component Arg1:T12 Arg2:T37
+R8	Protein-Component Arg1:T15 Arg2:T39
+R9	Protein-Component Arg1:T16 Arg2:T39
+R10	Protein-Component Arg1:T15 Arg2:T40

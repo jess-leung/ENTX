@@ -1,0 +1,44 @@
+T1	Protein 60 73	interleukin-4
+T2	Protein 78 91	interleukin-5
+T3	Protein 174 192	interleukin (IL)-2
+T4	Protein 194 198	IL-3
+T5	Protein 200 204	IL-4
+T6	Protein 206 211	IL-10
+T7	Protein 217 265	granulocyte-macrophage colony-stimulating factor
+T8	Protein 358 362	IL-5
+T9	Protein 438 442	IL-5
+T10	Protein 570 574	IL-5
+T11	Protein 678 682	IL-2
+T12	Protein 716 720	IL-2
+T13	Protein 763 767	IL-5
+T14	Protein 842 846	IL-2
+T15	Protein 921 925	IL-5
+T16	Protein 1024 1028	IL-4
+T17	Protein 1407 1410	P65
+T18	Protein 1414 1417	P65
+T19	Protein 1418 1421	P50
+T20	Protein 1571 1574	P65
+T21	Protein 1876 1880	IL-4
+T22	Protein 1885 1889	IL-5
+T23	Entity 402 406	cAMP
+T24	Entity 521 525	cAMP
+T25	Entity 575 583	promoter
+T26	Entity 598 602	cAMP
+T27	Entity 721 729	promoter
+T28	Entity 800 804	cAMP
+T29	Entity 926 934	promoter
+T30	Entity 938 942	cAMP
+T31	Entity 1006 1016	P sequence
+T32	Entity 1048 1066	responsive element
+T33	Entity 1182 1195	binding sites
+T34	Entity 1272 1282	P sequence
+T35	Entity 1422 1433	heterodimer
+T36	Entity 1458 1468	P sequence
+R1	Protein-Component Arg1:T10 Arg2:T25
+R2	Protein-Component Arg1:T12 Arg2:T27
+R3	Protein-Component Arg1:T15 Arg2:T29
+R4	Protein-Component Arg1:T16 Arg2:T32
+R5	Protein-Component Arg1:T16 Arg2:T31
+R6	Protein-Component Arg1:T16 Arg2:T33
+R7	Subunit-Complex Arg1:T18 Arg2:T35
+R8	Subunit-Complex Arg1:T19 Arg2:T35

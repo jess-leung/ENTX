@@ -1,0 +1,19 @@
+T1	Protein 8 12	IKK1
+T2	Protein 17 21	IKK2
+T3	Protein 421 425	IKK1
+T4	Protein 430 434	IKK2
+T5	Protein 491 503	IkappaBalpha
+T6	Protein 505 516	IkappaBbeta
+T7	Protein 522 536	IkappaBepsilon
+T8	Protein 1094 1098	IKK1
+T9	Protein 1127 1131	IKK1
+T10	Protein 1153 1157	IKK2
+T11	Protein 1279 1283	IKK2
+T12	Protein 1496 1500	IKK2
+T13	Entity 224 242	a variety of genes
+T14	Entity 261 270	NF-kappaB
+T15	Entity 607 616	NF-kappaB
+T16	Entity 1026 1035	NF-kappaB
+T17	Entity 1185 1191	kappaB
+T18	Entity 1311 1317	kappaB
+T19	Entity 1415 1421	kappaB

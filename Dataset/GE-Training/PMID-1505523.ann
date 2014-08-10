@@ -1,0 +1,12 @@
+T1	Protein 35 38	Tat
+T2	Protein 119 122	Tat
+T3	Protein 265 268	Tat
+T4	Protein 704 707	Tat
+T5	Protein 994 997	Tat
+T6	Protein 1066 1069	Tat
+T7	Protein 1298 1301	Tat
+T8	Protein 1753 1756	p24
+T9	Binding 689 700	interaction
+T10	Gene_expression 1733 1743	production
+E1	Binding:T9 Theme:T4
+E2	Gene_expression:T10 Theme:T8

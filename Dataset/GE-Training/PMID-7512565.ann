@@ -1,0 +1,44 @@
+T1	Protein 0 3	Sp1
+T2	Protein 72 76	CD14
+T3	Protein 79 83	CD14
+T4	Protein 271 275	CD14
+T5	Protein 303 307	CD14
+T6	Protein 339 344	EcoRI
+T7	Protein 431 435	CD14
+T8	Protein 761 765	CD14
+T9	Protein 963 966	Sp1
+T10	Protein 1028 1032	CD14
+T11	Protein 1065 1068	Sp1
+T12	Protein 1216 1219	Sp1
+T13	Protein 1279 1283	CD14
+T14	Protein 1304 1308	CD14
+T15	Protein 1309 1312	Sp1
+T16	Protein 1369 1372	Sp1
+T17	Protein 1496 1499	Sp1
+T18	Protein 1546 1549	Sp1
+T19	Regulation 9 17	critical
+T20	Gene_expression 52 62	expression
+T21	Gene_expression 111 120	expressed
+T22	Positive_regulation 195 204	increased
+T23	Regulation 281 291	regulation
+T24	Binding 988 993	bound
+T25	Entity 1033 1041	promoter
+T26	Regulation 1237 1241	role
+T27	Gene_expression 1265 1275	expression
+T28	Binding 1335 1340	bound
+T29	Phosphorylation 1509 1524	phosphorylation
+E1	Regulation:T19 Theme:E2 Cause:T1
+E2	Gene_expression:T20 Theme:T2
+E3	Gene_expression:T21 Theme:T3
+E4	Positive_regulation:T22 Theme:E3
+E5	Regulation:T23 Theme:T4
+E6	Binding:T24 Theme:T9 Theme2:T10 Site2:T25
+E7	Regulation:T26 Theme:E8 Cause:T12
+E8	Gene_expression:T27 Theme:T13
+E9	Binding:T28 Theme:T16
+E10	Phosphorylation:T29 Theme:T17
+M1	Speculation E5
+
+T30	Entity 1069 1081	binding site
+R1	Protein-Component  Arg1:T13 Arg2:T30
+R2	Protein-Component Arg1:T10 Arg2:T25

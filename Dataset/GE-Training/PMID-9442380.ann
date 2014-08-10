@@ -1,0 +1,86 @@
+T1	Protein 136 139	p50
+T2	Protein 266 269	TNF
+T3	Protein 271 292	tumor necrosis factor
+T4	Protein 386 399	CD14 receptor
+T5	Protein 670 673	p50
+T6	Protein 673 676	p50
+T7	Protein 783 786	p50
+T8	Protein 1073 1076	p50
+T9	Protein 1076 1079	p50
+T10	Protein 1181 1184	p50
+T11	Protein 1184 1187	p50
+T12	Protein 1212 1229	kappa light chain
+T13	Protein 1298 1301	p50
+T14	Protein 1301 1304	p50
+T15	Protein 1466 1469	p50
+*	Equiv T2 T3
+T16	Positive_regulation 113 124	upregulated
+T17	Gene_expression 248 258	expression
+T18	Negative_regulation 312 315	low
+T19	Gene_expression 374 381	express
+T20	Binding 485 492	binding
+T21	Binding 774 778	bind
+T22	Positive_regulation 805 816	upregulated
+T23	Binding 867 874	is true
+T24	Binding 1062 1069	binding
+T25	Positive_regulation 1094 1105	upregulated
+T26	Binding 1170 1177	binding
+T27	Entity 1246 1258	GGGGACTTTCCG
+T28	Binding 1281 1285	bind
+T29	Negative_regulation 1373 1381	detected
+T30	Positive_regulation 1454 1465	upregulated
+T31	Regulation 1506 1515	dependent
+E1	Positive_regulation:T16 Theme:T1
+E2	Gene_expression:T17 Theme:T2
+E3	Negative_regulation:T18 Theme:E2
+E4	Gene_expression:T19 Theme:T4
+E5	Binding:T20 Theme:T5
+E6	Binding:T20 Theme:T6
+E7	Binding:T21 Theme:T7
+E8	Positive_regulation:T22 Theme:T7
+E9	Binding:T23 Theme:T7
+E10	Binding:T24 Theme:T8
+E11	Binding:T24 Theme:T9
+E12	Positive_regulation:T25 Theme:T9
+E13	Positive_regulation:T25 Theme:T8
+E14	Binding:T26 Theme:T10
+E15	Binding:T26 Theme:T11
+E16	Binding:T28 Theme:T12 Theme2:T13 Site:T27
+E17	Binding:T28 Theme:T12 Theme2:T14 Site:T27
+E18	Negative_regulation:T29 Theme:E16
+E19	Negative_regulation:T29 Theme:E17
+E20	Positive_regulation:T30 Theme:T15
+E21	Regulation:T31 Theme:E20
+M1	Negation E7
+M2	Negation E9
+M3	Negation E14
+M4	Negation E15
+M5	Negation E16
+M6	Negation E17
+R1	Protein-Component Arg1:T12 Arg2:T27
+
+T32	Entity 1230 1244	enhancer motif
+R2	Protein-Component  Arg1:T12 Arg2:T32
+T33	Entity 1073 1079	p50p50
+R3	Subunit-Complex  Arg1:T8 Arg2:T33
+T34	Entity 1181 1187	p50p50
+R4	Subunit-Complex  Arg1:T11 Arg2:T34
+T35	Entity 1470 1480	homodimers
+R5	Subunit-Complex  Arg1:T15 Arg2:T35
+T36	Entity 1298 1304	p50p50
+R6	Subunit-Complex  Arg1:T13 Arg2:T36
+T37	Entity 140 150	homodimers
+R7	Subunit-Complex  Arg1:T1 Arg2:T37
+R8	Subunit-Complex Arg1:T14 Arg2:T36
+T38	Entity 680 690	NF-kappa B
+R9	Subunit-Complex  Arg1:T5 Arg2:T38
+T39	Entity 787 796	homodimer
+R10	Subunit-Complex  Arg1:T7 Arg2:T39
+T40	Entity 1561 1578	DNA binding motif
+R11	Protein-Component  Arg1:T15 Arg2:T40
+T41	Entity 670 676	p50p50
+R12	Subunit-Complex  Arg1:T6 Arg2:T41
+R13	Subunit-Complex Arg1:T9 Arg2:T33
+R14	Subunit-Complex Arg1:T6 Arg2:T38
+R15	Subunit-Complex Arg1:T10 Arg2:T34
+R16	Subunit-Complex Arg1:T5 Arg2:T41

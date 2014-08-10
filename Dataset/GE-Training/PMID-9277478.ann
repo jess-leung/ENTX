@@ -1,0 +1,51 @@
+T1	Protein 626 653	tumor necrosis factor-alpha
+T2	Protein 655 664	TNF-alpha
+T3	Protein 683 701	interleukin-1 beta
+T4	Protein 703 712	IL-1 beta
+T5	Protein 776 809	vascular cell adhesion molecule-1
+T6	Protein 811 817	VCAM-1
+T7	Protein 819 824	CD106
+T8	Protein 830 840	E-selectin
+T9	Protein 842 848	ELAM-1
+T10	Protein 850 855	CD62E
+T11	Protein 869 902	intercellular adhesion molecule-1
+T12	Protein 904 910	ICAM-1
+T13	Protein 912 916	CD54
+T14	Protein 1061 1067	VCAM-1
+T15	Protein 1072 1082	E-selectin
+T16	Protein 1456 1465	TNF-alpha
+T17	Protein 1524 1533	IL-1 beta
+T18	Protein 1658 1667	TNF-alpha
+*	Equiv T12 T11 T13
+*	Equiv T9 T8 T10
+*	Equiv T6 T5 T7
+T19	Positive_regulation 738 748	stimulated
+T20	Gene_expression 762 772	expression
+T21	Negative_regulation 950 959	inhibited
+T22	Negative_regulation 1041 1048	reduced
+T23	Positive_regulation 1053 1060	induced
+T24	Gene_expression 1083 1093	expression
+T25	Regulation 1253 1259	effect
+T26	Negative_regulation 1261 1270	Decreased
+E1	Positive_regulation:T19 Theme:E3
+E2	Gene_expression:T20 Theme:T9
+E3	Gene_expression:T20 Theme:T6
+E4	Gene_expression:T20 Theme:T12
+E5	Negative_regulation:T21 Theme:E2
+E6	Negative_regulation:T21 Theme:E3
+E7	Negative_regulation:T21 Theme:E4
+E8	Negative_regulation:T22 Theme:E10
+E9	Negative_regulation:T22 Theme:E11
+E10	Positive_regulation:T23 Theme:E12
+E11	Positive_regulation:T23 Theme:E13
+E12	Gene_expression:T24 Theme:T14
+E13	Gene_expression:T24 Theme:T15
+E14	Regulation:T25 Theme:E13
+E15	Regulation:T25 Theme:E12
+E16	Negative_regulation:T26 Theme:E13
+E17	Negative_regulation:T26 Theme:E12
+M1	Negation E5
+M2	Negation E6
+M3	Negation E7
+M4	Negation E14
+M5	Negation E15

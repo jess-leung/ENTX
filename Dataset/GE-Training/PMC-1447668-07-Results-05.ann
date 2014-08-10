@@ -1,0 +1,33 @@
+T1	Protein 10 15	Foxp3
+T2	Protein 85 90	Foxp3
+T3	Protein 130 133	CD4
+T4	Protein 134 138	CD25
+T5	Protein 261 266	Foxp3
+T6	Protein 341 346	Foxp3
+T7	Protein 369 372	CD4
+T8	Protein 373 377	CD25
+T9	Protein 834 839	Foxp3
+T10	Protein 858 861	CD4
+T11	Protein 862 866	CD25
+T12	Protein 1032 1037	Foxp3
+T13	Protein 1221 1224	Tax
+T14	Protein 1287 1292	Foxp3
+T15	Positive_regulation 0 9	Increased
+T16	Gene_expression 24 34	Expression
+T17	Gene_expression 94 103	expressed
+T18	Gene_expression 355 365	expression
+T19	Positive_regulation 1017 1021	high
+T20	Gene_expression 1046 1056	expression
+T21	Positive_regulation 1216 1220	high
+T22	Negative_regulation 1279 1286	reduced
+T23	Gene_expression 1293 1303	expression
+E1	Positive_regulation:T15 Theme:E2
+E2	Gene_expression:T16 Theme:T1
+E3	Gene_expression:T17 Theme:T2
+E4	Gene_expression:T18 Theme:T6
+E5	Positive_regulation:T19 Theme:E6
+E6	Gene_expression:T20 Theme:T12
+E7	Positive_regulation:T21 Theme:T13
+E8	Negative_regulation:T22 Theme:E9
+E9	Gene_expression:T23 Theme:T14
+M1	Speculation E4

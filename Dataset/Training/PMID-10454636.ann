@@ -1,0 +1,23 @@
+T1	Protein 1113 1140	tumor necrosis factor-alpha
+T2	Protein 1142 1151	TNF-alpha
+T3	Protein 1214 1223	TNF-alpha
+T4	Protein 1311 1320	TNF-alpha
+T5	Protein 1413 1416	p50
+T6	Protein 1418 1421	p65
+T7	Protein 1426 1439	IkappaB-alpha
+*	Equiv T1 T2
+T8	Entity 78 87	NF-kappaB
+T9	Entity 257 267	HIV-1 gene
+T10	Entity 679 696	NF-kappaB element
+T11	Entity 679 688	NF-kappaB
+T12	Entity 712 732	long terminal repeat
+T13	Entity 752 767	NF-kappaB sites
+T14	Entity 752 761	NF-kappaB
+T15	Entity 830 842	kappaB sites
+T16	Entity 848 869	heterologous promoter
+T17	Entity 899 908	NF-kappaB
+T18	Entity 1171 1180	NF-kappaB
+T19	Entity 1356 1365	NF-kappaB
+T20	Entity 1366 1369	DNA
+T21	Entity 1476 1485	NF-kappaB
+T22	Entity 1653 1662	NF-kappaB

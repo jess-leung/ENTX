@@ -1,0 +1,5 @@
+T1	Protein 649 652	Sp1
+T2	Protein 1213 1216	Sp1
+
+T3	Entity 653 658	sites
+R1	Protein-Component  Arg1:T1 Arg2:T3

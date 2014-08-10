@@ -1,0 +1,41 @@
+T1	Protein 63 69	p95vav
+T2	Protein 263 269	p95vav
+T3	Protein 522 528	p95vav
+T4	Protein 614 620	p95vav
+T5	Protein 717 730	interleukin-2
+T6	Protein 756 762	p95vav
+T7	Protein 817 830	interleukin-2
+T8	Protein 937 943	p95vav
+T9	Protein 1078 1084	p95vav
+T10	Protein 1236 1242	p95vav
+T11	Protein 1393 1399	p95vav
+T12	Protein 1466 1477	calcineurin
+T13	Protein 1498 1504	p95vav
+T14	Protein 1688 1694	p95vav
+T15	Protein 1735 1741	p95vav
+T16	Protein 1896 1902	p95vav
+T17	Positive_regulation 50 58	required
+T18	Gene_expression 280 289	expressed
+T19	Positive_regulation 596 610	overexpression
+T20	Gene_expression 596 610	overexpression
+T21	Regulation 705 713	involved
+T22	Gene_expression 731 741	expression
+T23	Positive_regulation 944 958	overexpression
+T24	Gene_expression 944 958	overexpression
+T25	Positive_regulation 1717 1731	overexpression
+T26	Gene_expression 1717 1731	overexpression
+E1	Positive_regulation:T17 Theme:T1
+E2	Gene_expression:T18 Theme:T2
+E3	Positive_regulation:T19 Theme:E4
+E4	Gene_expression:T20 Theme:T4
+E5	Regulation:T21 Theme:E6
+E6	Gene_expression:T22 Theme:T5
+E7	Positive_regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T8
+E9	Positive_regulation:T25 Theme:T15
+E10	Gene_expression:T26 Theme:T15
+
+T27	Entity 1054 1084	first 67 amino acids of p95vav
+R1	Protein-Component  Arg1:T9 Arg2:T27
+T28	Entity 1054 1074	first 67 amino acids
+R2	Protein-Component  Arg1:T9 Arg2:T28

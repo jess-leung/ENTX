@@ -1,0 +1,25 @@
+T1	Protein 709 712	p50
+T2	Protein 713 716	p65
+T3	Protein 889 902	IkappaB-alpha
+T4	Protein 919 923	p105
+T5	Protein 1378 1406	tumour necrosis factor-alpha
+T6	Protein 1408 1417	TNF-alpha
+T7	Protein 1458 1467	TNF-alpha
+T8	Protein 1649 1658	TNF-alpha
+T9	Protein 1933 1942	TNF-alpha
+*	Equiv T5 T6
+T10	Entity 18 27	NF-kappaB
+T11	Entity 28 48	transcription factor
+T12	Entity 208 238	transcription factor NF-kappaB
+T13	Entity 661 691	transcription factor NF-kappaB
+T14	Entity 697 716	heterodimer p50/p65
+T15	Entity 826 835	NF-kappaB
+T16	Entity 966 975	NF-kappaB
+T17	Entity 1215 1224	NF-kappaB
+T18	Entity 1479 1488	NF-kappaB
+T19	Entity 1580 1589	NF-kappaB
+T20	Entity 1793 1802	NF-kappaB
+R1	Subunit-Complex Arg1:T1 Arg2:T13
+R2	Subunit-Complex Arg1:T2 Arg2:T13
+R3	Subunit-Complex Arg1:T1 Arg2:T14
+R4	Subunit-Complex Arg1:T2 Arg2:T14

@@ -1,0 +1,34 @@
+T1	Protein 41 46	c-Fos
+T2	Protein 51 56	c-Jun
+T3	Protein 174 179	c-Fos
+T4	Protein 184 189	c-Jun
+T5	Protein 300 305	c-Fos
+T6	Protein 310 315	c-Jun
+T7	Protein 352 357	Con A
+T8	Protein 554 559	c-Fos
+T9	Protein 564 569	c-Jun
+T10	Protein 622 625	PKC
+T11	Protein 665 670	c-Fos
+T12	Protein 675 680	c-Jun
+T13	Protein 797 802	c-Fos
+T14	Protein 807 812	c-Jun
+T15	Protein 908 911	PKC
+T16	Protein 997 1000	PKC
+T17	Protein 1058 1063	Con A
+T18	Protein 1401 1406	c-Fos
+T19	Protein 1411 1416	c-Jun
+T20	Protein 1559 1562	PKC
+T21	Entity 73 77	AP-1
+T22	Entity 90 94	AP-1
+T23	Entity 362 365	PHA
+T24	Entity 442 446	cAMP
+T25	Entity 728 732	cAMP
+T26	Entity 1021 1038	cyclic nucleotide
+T27	Entity 1114 1118	AP-1
+T28	Entity 1126 1149	AP-1 consensus sequence
+T29	Entity 1151 1154	TRE
+T30	Entity 1160 1164	AP-1
+T31	Entity 1236 1240	AP-1
+T32	Entity 1289 1293	cAMP
+T33	Entity 1433 1437	AP-1
+T34	Entity 1450 1454	AP-1

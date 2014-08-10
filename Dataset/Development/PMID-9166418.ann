@@ -1,0 +1,21 @@
+T1	Protein 110 133	class II transactivator
+T2	Protein 262 285	class II transactivator
+T3	Protein 287 292	CIITA
+T4	Protein 650 655	CIITA
+T5	Protein 783 788	CIITA
+T6	Protein 865 870	CIITA
+T7	Protein 997 1002	CIITA
+T8	Protein 1049 1054	CIITA
+T9	Protein 1383 1388	CIITA
+*	Equiv T2 T3
+T10	Entity 33 86	major histocompatibility complex (MHC) class II genes
+T11	Entity 162 203	major histocompatibility complex class II
+T12	Entity 360 380	human class II genes
+T13	Entity 382 388	HLA-DR
+T14	Entity 390 393	-DQ
+T15	Entity 399 402	-DP
+T16	Entity 656 663	alleles
+T17	Entity 693 699	HLA-DQ
+T18	Entity 1196 1212	HLA-DQ haplotype
+T19	Entity 1228 1244	RJ2.2.5 DQB gene
+T20	Entity 1305 1311	HLA-DQ

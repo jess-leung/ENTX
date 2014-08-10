@@ -1,0 +1,19 @@
+T1	Protein 850 865	I kappa B-alpha
+T2	Protein 1044 1059	I kappa B-alpha
+T3	Protein 1142 1169	tumor necrosis factor-alpha
+T4	Protein 1174 1192	interleukin-1 beta
+T5	Entity 27 49	nuclear factor-kappa B
+T6	Entity 112 122	NF-kappa B
+T7	Entity 231 241	NF-kappa B
+T8	Entity 367 377	NF-kappa B
+T9	Entity 534 541	p50/p65
+T10	Entity 553 570	NF-kappa B dimers
+T11	Entity 553 563	NF-kappa B
+T12	Entity 605 621	target gene IL-8
+T13	Entity 642 652	NF-kappa B
+T14	Entity 741 751	proteasome
+T15	Entity 762 765	PSI
+T16	Entity 785 795	NF-kappa B
+T17	Entity 1098 1108	NF-kappa B
+T18	Entity 1335 1349	NF-kappa B/Rel
+T19	Entity 1335 1345	NF-kappa B

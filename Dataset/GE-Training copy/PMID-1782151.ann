@@ -1,0 +1,41 @@
+T1	Protein 15 30	interferon beta
+T2	Protein 117 132	interferon beta
+T3	Protein 134 142	IFN-beta
+T4	Protein 358 366	IFN-beta
+T5	Protein 1009 1014	IRF-1
+T6	Protein 1015 1020	ISGF2
+T7	Protein 1132 1140	IFN beta
+T8	Protein 1336 1344	IFN-beta
+T9	Protein 1702 1710	IFN-beta
+T10	Protein 1806 1814	IFN-beta
+*	Equiv T3 T2
+T11	Positive_regulation 0 11	Stimulation
+T12	Transcription 36 49	transcription
+T13	Entity 184 200	enhanson domains
+T14	Regulation 211 218	targets
+T15	Positive_regulation 257 266	inducible
+T16	Gene_expression 267 277	expression
+T17	Positive_regulation 348 357	mediating
+T18	Positive_regulation 367 376	induction
+T19	Positive_regulation 1201 1210	increased
+T20	Positive_regulation 1324 1332	increase
+T21	Transcription 1354 1367	transcription
+T22	Negative_regulation 1455 1464	decreased
+T23	Positive_regulation 1600 1608	increase
+T24	Positive_regulation 1797 1805	activate
+T25	Transcription 1815 1828	transcription
+E1	Positive_regulation:T11 Theme:E2
+E2	Transcription:T12 Theme:T1
+E3	Regulation:T14 Theme:T3 Site:T13
+E4	Positive_regulation:T15 Theme:E5
+E5	Gene_expression:T16 Theme:T3
+E6	Positive_regulation:T17 Theme:E7
+E7	Positive_regulation:T18 Theme:T4
+E8	Positive_regulation:T19 Theme:E2
+E9	Positive_regulation:T20 Theme:E10
+E10	Transcription:T21 Theme:T8
+E11	Negative_regulation:T22 Theme:E9
+E12	Positive_regulation:T23 Theme:E10
+E13	Positive_regulation:T24 Theme:E14
+E14	Transcription:T25 Theme:T10
+M1	Speculation E13

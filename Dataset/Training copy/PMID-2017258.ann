@@ -1,0 +1,16 @@
+T1	Protein 55 63	protease
+T2	Protein 809 820	50K subunit
+T3	Protein 883 887	p105
+T4	Protein 1035 1039	p105
+T5	Protein 1226 1234	protease
+T6	Protein 1247 1251	p105
+T7	Entity 110 160	human immunodeficiency virus type-1 (HIV-1) genome
+T8	Entity 331 341	NF-kappa B
+T9	Entity 383 409	HIV-1 long terminal repeat
+T10	Entity 623 651	inactive cytoplasmic complex
+T11	Entity 745 762	active NF-kappa B
+T12	Entity 783 820	complementary DNA for the 50K subunit
+T13	Entity 783 800	complementary DNA
+T14	Entity 952 969	active NF-kappa B
+T15	Entity 1064 1081	active NF-kappa B
+T16	Entity 1276 1309	active nuclear NF-kappa B complex

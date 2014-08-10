@@ -1,0 +1,39 @@
+T1	Protein 74 77	CD4
+T2	Protein 234 237	CD4
+T3	Protein 483 486	CD4
+T4	Protein 560 563	CD4
+T5	Protein 615 619	CD80
+T6	Protein 621 625	CD86
+T7	Protein 627 631	CD71
+T8	Protein 633 660	interleukin-2 (IL-2)R alpha
+T9	Protein 662 672	IL-2R beta
+T10	Protein 677 688	IL-2R gamma
+T11	Protein 931 936	OCT-1
+T12	Protein 1070 1074	IL-2
+T13	Protein 1198 1201	CD4
+T14	Protein 1679 1682	CD4
+T15	Positive_regulation 603 614	upregulated
+T16	Positive_regulation 713 726	up-regulation
+T17	Positive_regulation 892 901	induction
+T18	Regulation 980 1006	transcriptional regulators
+E1	Positive_regulation:T15 Theme:T7
+E2	Positive_regulation:T15 Theme:T5
+E3	Positive_regulation:T15 Theme:T10
+E4	Positive_regulation:T15 Theme:T6
+E5	Positive_regulation:T15 Theme:T9
+E6	Positive_regulation:T15 Theme:T8
+E7	Positive_regulation:T16 Theme:T5
+E8	Positive_regulation:T16 Theme:T9
+E9	Positive_regulation:T16 Theme:T8
+E10	Positive_regulation:T16 Theme:T6
+E11	Positive_regulation:T16 Theme:T10
+E12	Positive_regulation:T16 Theme:T7
+E13	Positive_regulation:T17 Theme:T11
+E14	Regulation:T18 Theme:T12
+E15	Regulation:T18 Theme:T12 Cause:T11
+M1	Negation E8
+M2	Negation E9
+M3	Negation E10
+M4	Negation E11
+M5	Negation E12
+M6	Speculation E13

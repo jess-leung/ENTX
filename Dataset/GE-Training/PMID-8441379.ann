@@ -1,0 +1,53 @@
+T1	Protein 4 31	human prointerleukin 1 beta
+T2	Protein 282 309	human prointerleukin 1 beta
+T3	Protein 311 323	proIL-1 beta
+T4	Protein 1174 1178	IL-6
+T5	Protein 1195 1201	NF-IL6
+T6	Protein 1233 1245	proIL-1 beta
+T7	Protein 1464 1473	IL-1 beta
+T8	Protein 1513 1518	c-fos
+T9	Protein 1542 1554	proIL-1 beta
+T10	Protein 1660 1672	proIL-1 beta
+*	Equiv T3 T2
+T11	Positive_regulation 37 45	requires
+T12	Positive_regulation 137 146	induction
+T13	Positive_regulation 234 243	necessary
+T14	Regulation 248 274	transcriptional regulation
+T15	Positive_regulation 947 956	important
+T16	Gene_expression 966 975	induction
+T17	Positive_regulation 1116 1124	required
+T18	Positive_regulation 1157 1166	induction
+T19	Gene_expression 1474 1484	expression
+T20	Positive_regulation 1486 1490	When
+T21	Entity 1555 1563	enhancer
+T22	Positive_regulation 1568 1577	inducible
+T23	Entity 1673 1681	promoter
+T24	Positive_regulation 1691 1702	requirement
+E1	Positive_regulation:T11 Theme:E2
+E2	Positive_regulation:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E4
+E4	Regulation:T14 Theme:T3
+E5	Positive_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T3
+E7	Positive_regulation:T17 Theme:E9 Cause:T5
+E8	Positive_regulation:T17 Theme:E9
+E9	Positive_regulation:T18 Theme:T4
+E10	Gene_expression:T19 Theme:T7
+E11	Positive_regulation:T20 Theme:E12
+E12	Positive_regulation:T22 Theme:T9 Site:T21
+E13	Positive_regulation:T24 Theme:T10 Cause:T9 Site:T23 CSite:T21
+M1	Speculation E5
+M2	Negation E10
+
+T25	Entity 78 84	distal
+R1	Protein-Component  Arg1:T1 Arg2:T25
+R2	Protein-Component Arg1:T9 Arg2:T21
+R3	Protein-Component Arg1:T10 Arg2:T23
+T26	Entity 65 73	proximal
+R4	Protein-Component  Arg1:T1 Arg2:T26
+T27	Entity 1246 1270	cap site-proximal region
+R5	Protein-Component  Arg1:T6 Arg2:T27
+T28	Entity 1348 1365	enhancer elements
+R6	Protein-Component  Arg1:T6 Arg2:T28
+T29	Entity 1519 1527	promoter
+R7	Protein-Component  Arg1:T8 Arg2:T29

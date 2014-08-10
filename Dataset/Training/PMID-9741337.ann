@@ -1,0 +1,32 @@
+T1	Protein 8 12	CD28
+T2	Protein 21 34	interleukin-2
+T3	Protein 177 190	interleukin-2
+T4	Protein 192 196	IL-2
+T5	Protein 244 248	IL-2
+T6	Protein 419 423	CD28
+T7	Protein 470 474	IL-2
+T8	Protein 575 579	IL-2
+T9	Protein 665 669	IL-2
+T10	Protein 716 720	CD28
+T11	Protein 773 777	IL-2
+T12	Protein 823 827	IL-2
+T13	Protein 1035 1039	IL-2
+T14	Protein 1559 1563	CD28
+T15	Protein 1748 1752	IL-2
+T16	Protein 1797 1801	IL-2
+T17	Protein 1877 1881	CD28
+*	Equiv T3 T4
+T18	Entity 4 7	CD3
+T19	Entity 377 385	receptor
+T20	Entity 400 403	CD3
+T21	Entity 409 412	CD3
+T22	Entity 540 543	CD3
+T23	Entity 733 736	CD3
+T24	Entity 971 981	NF-kappa B
+T25	Entity 1268 1278	NF-kappa B
+T26	Entity 1424 1434	NF-kappa B
+T27	Entity 1475 1478	CD3
+T28	Entity 1591 1601	NF-kappa B
+T29	Entity 1854 1857	CD3
+T30	Entity 1867 1870	CD3
+T31	Entity 1965 1975	NF-kappa B

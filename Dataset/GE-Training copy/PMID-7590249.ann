@@ -1,0 +1,19 @@
+T1	Protein 87 102	I kappa B alpha
+T2	Protein 233 248	I kappa B alpha
+T3	Protein 253 267	I kappa B beta
+T4	Protein 297 312	I kappa B alpha
+T5	Protein 683 698	I kappa B alpha
+T6	Protein 707 710	p50
+T7	Protein 821 836	I kappa B alpha
+T8	Protein 982 996	I kappa B beta
+T9	Protein 1036 1050	I kappa b beta
+T10	Protein 1060 1075	I kappa B alpha
+T11	Protein 1164 1179	I kappa B alpha
+T12	Gene_expression 103 112	deficient
+T13	Negative_regulation 670 677	lacking
+T14	Protein_catabolism 997 1008	degradation
+E1	Gene_expression:T12 Theme:T1
+E2	Negative_regulation:T13 Theme:T5
+E3	Negative_regulation:T13 Theme:T6
+E4	Protein_catabolism:T14 Theme:T8
+M1	Negation E1

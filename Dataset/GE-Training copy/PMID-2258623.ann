@@ -1,0 +1,3 @@
+T1	Protein 1189 1208	activator protein 3
+T2	Binding 1209 1214	binds
+E1	Binding:T2 Theme:T1

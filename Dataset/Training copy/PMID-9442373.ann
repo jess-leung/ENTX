@@ -1,0 +1,30 @@
+T1	Protein 37 52	I kappa B alpha
+T2	Protein 57 71	I kappa B beta
+T3	Protein 582 597	I kappa B alpha
+T4	Protein 602 616	I kappa B beta
+T5	Protein 709 723	I kappa B beta
+T6	Protein 757 772	I kappa B alpha
+T7	Protein 974 989	I kappa B alpha
+T8	Protein 1239 1248	TNF-alpha
+T9	Protein 1298 1312	I kappa B beta
+T10	Protein 1320 1335	I kappa B alpha
+T11	Protein 1373 1387	I kappa B beta
+T12	Protein 1536 1545	TNF-alpha
+T13	Protein 1646 1661	I kappa B alpha
+T14	Protein 1729 1744	I kappa B alpha
+T15	Protein 1927 1942	I kappa B alpha
+T16	Protein 1991 2006	I kappa B alpha
+T17	Entity 14 24	NF-kappa B
+T18	Entity 84 104	Transcription factor
+T19	Entity 105 115	NF-kappa B
+T20	Entity 236 248	target genes
+T21	Entity 338 348	NF-kappa B
+T22	Entity 393 403	NF-kappa B
+T23	Entity 505 515	NF-kappa B
+T24	Entity 858 878	NF-kappa B/I kappa B
+T25	Entity 858 868	NF-kappa B
+T26	Entity 1227 1237	NF-kappa B
+T27	Entity 1426 1436	NF-kappa B
+T28	Entity 1599 1609	NF-kappa B
+T29	Entity 1697 1707	proteasome
+T30	Entity 2088 2098	NF kappa B

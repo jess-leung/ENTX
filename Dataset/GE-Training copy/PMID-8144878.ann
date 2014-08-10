@@ -1,0 +1,16 @@
+T1	Protein 14 19	v-src
+T2	Protein 450 455	v-src
+T3	Protein 750 755	v-src
+T4	Protein 786 789	p50
+T5	Protein 794 797	p65
+T6	Protein 1024 1029	v-src
+T7	Protein 1135 1140	v-src
+T8	Gene_expression 0 10	Expression
+T9	Gene_expression 456 466	expression
+T10	Binding 756 771	induced complex
+T11	Positive_regulation 756 763	induced
+E1	Gene_expression:T8 Theme:T1
+E2	Gene_expression:T9 Theme:T2
+E3	Binding:T10 Theme:T4 Theme2:T5
+E4	Positive_regulation:T11 Theme:E3 Cause:T3
+M1	Speculation E4

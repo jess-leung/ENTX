@@ -1,0 +1,11 @@
+T1	Protein 488 515	tumor necrosis factor alpha
+T2	Protein 517 526	TNF-alpha
+T3	Protein 739 748	TNF-alpha
+T4	Protein 864 875	p24 antigen
+T5	Protein 1113 1122	TNF-alpha
+*	Equiv T1 T2
+T6	Entity 926 952	HIV-1 long terminal repeat
+T7	Entity 954 957	LTR
+T8	Entity 1020 1030	activation
+T9	Entity 1330 1339	HIV-1 LTR
+T10	Entity 1389 1398	NF-kappaB

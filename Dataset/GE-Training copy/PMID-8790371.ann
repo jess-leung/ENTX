@@ -1,0 +1,23 @@
+T1	Protein 22 34	HIV protease
+T2	Protein 62 67	Bcl-2
+T3	Protein 88 138	human immunodeficiency virus type 1 (HIV) protease
+T4	Protein 201 206	bcl-2
+T5	Protein 277 282	bcl-2
+T6	Protein 486 513	tumor necrosis factor alpha
+T7	Protein 613 618	bcl-2
+T8	Protein 773 778	bcl-2
+T9	Protein 793 805	HIV protease
+T10	Protein 904 909	bcl-2
+T11	Protein 969 981	HIV protease
+T12	Protein_catabolism 50 58	cleavage
+T13	Gene_expression 70 80	Expression
+T14	Protein_catabolism 189 197	cleavage
+T15	Negative_regulation 419 427	reducing
+T16	Negative_regulation 582 590	depletes
+T17	Protein_catabolism 782 789	cleaved
+E1	Protein_catabolism:T12 Theme:T2
+E2	Gene_expression:T13 Theme:T3
+E3	Protein_catabolism:T14 Theme:T4
+E4	Negative_regulation:T15 Theme:T6 Cause:T5
+E5	Negative_regulation:T16 Theme:T7
+E6	Protein_catabolism:T17 Theme:T8

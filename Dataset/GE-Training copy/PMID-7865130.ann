@@ -1,0 +1,14 @@
+T1	Protein 649 654	HZF 1
+T2	Protein 655 657	42
+T3	Protein 1292 1297	HZF 1
+T4	Protein 1298 1300	10
+T5	Protein 1336 1342	HZF 11
+T6	Protein 1343 1345	42
+T7	Gene_expression 773 782	expressed
+T8	Gene_expression 940 950	expression
+T9	Gene_expression 1122 1132	expression
+E1	Gene_expression:T7 Theme:T2
+E2	Gene_expression:T7 Theme:T1
+E3	Gene_expression:T8 Theme:T1
+E4	Gene_expression:T8 Theme:T2
+E5	Gene_expression:T9 Theme:T1

@@ -1,0 +1,6 @@
+T1	Protein 238 241	tax
+T2	Protein 375 378	tax
+T3	Regulation 351 371	influences the level
+T4	Positive_regulation 379 389	activation
+E1	Regulation:T3 Theme:E2
+E2	Positive_regulation:T4 Theme:T2

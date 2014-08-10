@@ -1,0 +1,22 @@
+T1	Protein 324 327	p50
+T2	Protein 328 332	RelA
+T3	Protein 693 708	I kappa B-alpha
+T4	Protein 742 757	I kappa B-alpha
+T5	Binding 245 252	binding
+T6	Positive_regulation 337 344	induced
+T7	Negative_regulation 667 674	decline
+T8	Negative_regulation 767 778	replenished
+E1	Binding:T5 Theme:T2
+E2	Binding:T5 Theme:T1
+E3	Positive_regulation:T6 Theme:E2
+E4	Positive_regulation:T6 Theme:E1
+E5	Negative_regulation:T7 Theme:T3
+E6	Negative_regulation:T8 Theme:T4
+M1	Negation E6
+
+T9	Entity 300 322	NF-kappa B heterodimer
+R1	Subunit-Complex  Arg1:T1 Arg2:T9
+T10	Entity 324 332	p50/RelA
+R2	Subunit-Complex  Arg1:T2 Arg2:T10
+R3	Subunit-Complex Arg1:T2 Arg2:T9
+R4	Subunit-Complex Arg1:T1 Arg2:T10

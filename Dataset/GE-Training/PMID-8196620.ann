@@ -1,0 +1,114 @@
+T1	Protein 107 112	c-Rel
+T2	Protein 113 116	p65
+T3	Protein 343 356	tissue factor
+T4	Protein 358 360	TF
+T5	Protein 363 365	TF
+T6	Protein 614 616	TF
+T7	Protein 710 712	TF
+T8	Protein 766 768	TF
+T9	Protein 791 796	c-Rel
+T10	Protein 801 804	p65
+T11	Protein 824 827	p50
+T12	Protein 828 831	p65
+T13	Protein 848 851	p50
+T14	Protein 895 897	TF
+T15	Protein 1042 1044	TF
+T16	Protein 1085 1088	p50
+T17	Protein 1089 1092	p65
+T18	Protein 1128 1133	c-Rel
+T19	Protein 1134 1137	p65
+T20	Protein 1251 1256	c-Rel
+T21	Protein 1261 1264	p65
+T22	Protein 1284 1287	p50
+T23	Protein 1295 1297	TF
+T24	Protein 1330 1335	c-Rel
+T25	Protein 1336 1339	p65
+T26	Protein 1378 1380	TF
+T27	Protein 1438 1440	TF
+T28	Protein 1526 1531	c-Rel
+T29	Protein 1535 1538	p65
+T30	Protein 1597 1602	c-Rel
+T31	Protein 1603 1606	p65
+T32	Protein 1675 1677	TF
+*	Equiv T4 T3
+T33	Binding 96 103	binding
+T34	Positive_regulation 292 301	induction
+T35	Binding 527 532	bound
+T36	Entity 538 555	kappa B-like site
+T37	Positive_regulation 693 702	induction
+T38	Binding 774 779	bound
+T39	Binding 1061 1068	migrate
+T40	Binding 1112 1122	comigrated
+T41	Binding 1239 1247	presence
+T42	Binding 1273 1280	absence
+T43	Binding 1365 1370	bound
+T44	Binding 1586 1593	binding
+T45	Positive_regulation 1649 1657	mediated
+T46	Positive_regulation 1662 1671	induction
+T47	Gene_expression 1683 1693	expression
+E1	Binding:T33 Theme:T1
+E2	Binding:T33 Theme:T2
+E3	Positive_regulation:T34 Theme:T4
+E4	Binding:T35 Theme:T6 Site:T36
+E5	Positive_regulation:T37 Theme:T7
+E6	Binding:T38 Theme:T13
+E7	Binding:T38 Theme:T9
+E8	Binding:T38 Theme:T11
+E9	Binding:T38 Theme:T10
+E10	Binding:T38 Theme:T12
+E11	Binding:T39 Theme:T15 Theme2:T16
+E12	Binding:T39 Theme:T15 Theme2:T17
+E13	Binding:T40 Theme:T15 Theme2:T19
+E14	Binding:T40 Theme:T15 Theme2:T18
+E15	Binding:T41 Theme:T20 Theme2:T23
+E16	Binding:T41 Theme:T21 Theme2:T23
+E17	Binding:T42 Theme:T22 Theme2:T23
+E18	Binding:T43 Theme:T24
+E19	Binding:T43 Theme:T25
+E20	Binding:T44 Theme:T31
+E21	Binding:T44 Theme:T30
+E22	Positive_regulation:T45 Theme:E24 Cause:E21
+E23	Positive_regulation:T45 Theme:E24 Cause:E20
+E24	Positive_regulation:T46 Theme:E25
+E25	Gene_expression:T47 Theme:T32
+M1	Negation E6
+M2	Negation E8
+M3	Negation E10
+M4	Negation E11
+M5	Negation E12
+M6	Negation E17
+
+T48	Entity 1607 1619	heterodimers
+R1	Subunit-Complex  Arg1:T30 Arg2:T48
+T49	Entity 832 844	heterodimers
+R2	Subunit-Complex  Arg1:T11 Arg2:T49
+T50	Entity 1045 1052	complex
+R3	Subunit-Complex  Arg1:T15 Arg2:T50
+T51	Entity 557 573	5'-CGGAGTTTCC-3'
+R4	Protein-Component  Arg1:T6 Arg2:T51
+T52	Entity 117 129	heterodimers
+R5	Subunit-Complex  Arg1:T2 Arg2:T52
+T53	Entity 582 600	5'-flanking region
+R6	Protein-Component  Arg1:T6 Arg2:T53
+T54	Entity 805 815	homodimers
+R7	Subunit-Complex  Arg1:T10 Arg2:T54
+R8	Subunit-Complex Arg1:T12 Arg2:T49
+T55	Entity 1381 1398	kappa B-like site
+R9	Protein-Component  Arg1:T26 Arg2:T55
+T56	Entity 1138 1144	dimers
+R10	Subunit-Complex  Arg1:T19 Arg2:T56
+T57	Entity 852 862	homodimers
+R11	Subunit-Complex  Arg1:T13 Arg2:T57
+R12	Subunit-Complex Arg1:T18 Arg2:T56
+T58	Entity 1340 1352	heterodimers
+R13	Subunit-Complex  Arg1:T24 Arg2:T58
+R14	Protein-Component Arg1:T6 Arg2:T36
+R15	Subunit-Complex Arg1:T25 Arg2:T58
+T59	Entity 1093 1099	dimers
+R16	Subunit-Complex  Arg1:T17 Arg2:T59
+R17	Subunit-Complex Arg1:T31 Arg2:T48
+R18	Subunit-Complex Arg1:T9 Arg2:T54
+T60	Entity 1298 1305	complex
+R19	Subunit-Complex  Arg1:T23 Arg2:T60
+R20	Subunit-Complex Arg1:T1 Arg2:T52
+R21	Subunit-Complex Arg1:T16 Arg2:T59

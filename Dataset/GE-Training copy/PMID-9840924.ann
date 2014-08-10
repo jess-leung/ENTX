@@ -1,0 +1,69 @@
+T1	Protein 0 5	Tpl-2
+T2	Protein 14 18	IL-2
+T3	Protein 127 132	Tpl-2
+T4	Protein 209 213	IL-2
+T5	Protein 282 286	IL-2
+T6	Protein 299 304	Tpl-2
+T7	Protein 689 693	IL-2
+T8	Protein 706 711	Tpl-2
+T9	Protein 740 744	IL-2
+T10	Protein 836 840	Raf1
+T11	Protein 867 871	IL-2
+T12	Protein 901 906	Tpl-2
+T13	Protein 979 983	MEK1
+T14	Protein 984 988	MEK2
+T15	Protein 1112 1117	Tpl-2
+T16	Protein 1171 1175	MEK1
+T17	Protein 1180 1184	MEK2
+T18	Protein 1241 1245	IL-2
+T19	Protein 1464 1469	Tpl-2
+T20	Protein 1512 1516	IL-2
+T21	Protein 1565 1570	Tpl-2
+T22	Protein 1729 1734	Tpl-2
+T23	Protein 1885 1890	Bcl-2
+T24	Protein 1894 1902	Bcl-X(L)
+T25	Positive_regulation 6 13	induces
+T26	Gene_expression 19 29	expression
+T27	Positive_regulation 201 208	induces
+T28	Gene_expression 214 224	expression
+T29	Positive_regulation 264 274	activation
+T30	Entity 287 295	promoter
+T31	Negative_regulation 308 317	inhibited
+T32	Positive_regulation 445 453	promoted
+T33	Positive_regulation 638 662	necessary and sufficient
+T34	Positive_regulation 671 681	activation
+T35	Entity 694 702	promoter
+T36	Positive_regulation 717 727	activation
+T37	Entity 745 753	promoter
+T38	Regulation 804 810	depend
+T39	Entity 872 880	promoter
+T40	Positive_regulation 887 897	activation
+T41	Negative_regulation 917 924	blocked
+T42	Negative_regulation 989 998	inhibitor
+T43	Positive_regulation 1223 1233	activation
+T44	Entity 1246 1254	promoter
+T45	Regulation 1258 1275	under the control
+T46	Positive_regulation 1494 1504	activation
+T47	Entity 1517 1525	promoter
+T48	Negative_regulation 1581 1588	blocked
+T49	Negative_regulation 1658 1665	blocked
+E1	Positive_regulation:T25 Theme:E2
+E2	Gene_expression:T26 Theme:T2
+E3	Positive_regulation:T27 Theme:E4 Cause:T3
+E4	Gene_expression:T28 Theme:T4
+E5	Positive_regulation:T29 Theme:T5 Cause:T6 Site:T30
+E6	Negative_regulation:T31 Theme:E5
+E7	Positive_regulation:T32 Theme:E5
+E8	Positive_regulation:T33 Theme:E9
+E9	Positive_regulation:T34 Theme:T7 Cause:T8 Site:T35
+E10	Positive_regulation:T36 Theme:T9 Site:T37
+E11	Regulation:T38 Theme:E10
+E12	Positive_regulation:T40 Theme:T11 Cause:T12 Site:T39
+E13	Negative_regulation:T41 Theme:E12
+E14	Negative_regulation:T42 Theme:T12
+E15	Negative_regulation:T42 Theme:T13
+E16	Positive_regulation:T43 Theme:T18 Site:T44
+E17	Regulation:T45 Theme:E16
+E18	Positive_regulation:T46 Theme:T20 Cause:T21 Site:T47
+E19	Negative_regulation:T48 Theme:E18
+E20	Negative_regulation:T49 Theme:E18

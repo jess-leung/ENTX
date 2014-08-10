@@ -1,0 +1,72 @@
+T1	Protein 3 19	interferon-gamma
+T2	Protein 87 110	IgG Fc receptor type IC
+T3	Protein 119 135	interferon-gamma
+T4	Protein 156 178	IgG Fc receptor type I
+T5	Protein 180 191	Fc gamma RI
+T6	Protein 254 270	interferon-gamma
+T7	Protein 272 281	IFN-gamma
+T8	Protein 301 312	Fc gamma RI
+T9	Protein 421 430	IFN-gamma
+T10	Protein 455 464	IFN-gamma
+T11	Protein 533 544	Fc gamma RI
+T12	Protein 607 618	Fc gamma RI
+T13	Protein 650 659	IFN-gamma
+T14	Protein 694 706	Fc gamma RIC
+T15	Protein 872 875	CAT
+T16	Protein 920 932	Fc gamma RIC
+T17	Protein 1112 1121	IFN-gamma
+T18	Protein 1277 1286	IFN-gamma
+T19	Protein 1439 1448	IFN-gamma
+T20	Protein 1515 1526	STAT1 alpha
+T21	Protein 1548 1560	Fc gamma RIC
+T22	Protein 1581 1590	IFN-gamma
+T23	Protein 1620 1632	Fc gamma RIC
+T24	Protein 1659 1668	IFN-gamma
+T25	Protein 1836 1848	Fc gamma RIC
+T26	Protein 1857 1866	IFN-gamma
+T27	Protein 1891 1902	STAT1 alpha
+*	Equiv T5 T4
+*	Equiv T6 T7
+T28	Positive_regulation 40 48	mediates
+T29	Regulation 53 79	transcriptional regulation
+T30	Gene_expression 138 148	Expression
+T31	Positive_regulation 226 235	increased
+T32	Positive_regulation 365 373	elevated
+T33	Positive_regulation 507 510	led
+T34	Positive_regulation 514 519	super
+T35	Positive_regulation 520 529	induction
+T36	Gene_expression 545 555	expression
+T37	Transcription 619 632	transcription
+T38	Positive_regulation 637 646	increased
+T39	Binding 1535 1540	bound
+T40	Positive_regulation 1566 1580	in response to
+T41	Regulation 1802 1828	transcriptional regulation
+T42	Regulation 1867 1875	involves
+T43	Binding 1880 1887	binding
+E1	Positive_regulation:T28 Theme:E2
+E2	Regulation:T29 Theme:T2 Cause:T3
+E3	Gene_expression:T30 Theme:T5
+E4	Positive_regulation:T31 Theme:E3
+E5	Positive_regulation:T32 Theme:T8
+E6	Positive_regulation:T33 Theme:E7
+E7	Positive_regulation:T34 Theme:E8
+E8	Positive_regulation:T35 Theme:E9
+E9	Gene_expression:T36 Theme:T11
+E10	Transcription:T37 Theme:T12
+E11	Positive_regulation:T38 Theme:E10 Cause:T13
+E12	Binding:T39 Theme:T20
+E13	Positive_regulation:T40 Theme:E12
+E14	Regulation:T41 Theme:T25 Cause:T26
+E15	Regulation:T42 Theme:E14 Cause:E16
+E16	Binding:T43 Theme:T27
+
+T44	Entity 920 951	Fc gamma RIC promoter sequences
+R1	Protein-Component  Arg1:T16 Arg2:T44
+T45	Entity 1561 1565	GIRE
+R2	Protein-Component  Arg1:T21 Arg2:T45
+T46	Entity 1669 1688	activation sequence
+R3	Protein-Component  Arg1:T24 Arg2:T46
+T47	Entity 1633 1637	GIRE
+R4	Protein-Component  Arg1:T23 Arg2:T47
+T48	Entity 20 39	activation sequence
+R5	Protein-Component  Arg1:T1 Arg2:T48

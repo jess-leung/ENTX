@@ -1,0 +1,49 @@
+T1	Protein 35 41	GATA-4
+T2	Protein 74 78	IL-5
+T3	Protein 96 100	IL-5
+T4	Protein 164 177	Interleukin-5
+T5	Protein 179 183	IL-5
+T6	Protein 341 345	IL-5
+T7	Protein 398 402	IL-5
+T8	Protein 433 437	IL-5
+T9	Protein 667 679	human GATA-4
+T10	Protein 681 688	hGATA-4
+T11	Protein 704 711	hGATA-4
+T12	Protein 768 772	IL-5
+T13	Protein 950 957	hGATA-4
+T14	Protein 1007 1011	IL-5
+T15	Protein 1218 1225	hGATA-2
+T16	Protein 1227 1234	hGATA-3
+T17	Protein 1239 1246	hGATA-4
+T18	Protein 1390 1396	GATA-4
+T19	Protein 1607 1613	GATA-4
+T20	Protein 1770 1776	GATA-4
+T21	Protein 1854 1860	GATA-4
+T22	Protein 1902 1906	IL-5
+*	Equiv T4 T5
+*	Equiv T9 T10
+T23	Entity 84 92	promoter
+T24	Entity 373 379	region
+T25	Entity 408 416	promoter
+T26	Entity 463 482	cis-acting sequence
+T27	Entity 496 514	core binding motif
+T28	Entity 516 530	(A/T)GATA(A/G)
+T29	Entity 743 756	-70 GATA site
+T30	Entity 773 797	proximal promoter region
+T31	Entity 875 902	positive regulatory element
+T32	Entity 1012 1020	promoter
+T33	Entity 1060 1078	regulatory element
+T34	Entity 1086 1090	CLE0
+T35	Entity 1121 1134	-70 GATA site
+T36	Entity 1296 1327	consensus (A/T)GATA(G/ A) motif
+T37	Entity 1306 1321	(A/T)GATA(G/ A)
+T38	Entity 1450 1469	DNA-protein complex
+T39	Entity 1479 1492	-70 GATA site
+T40	Entity 1654 1667	-70 GATA site
+R1	Protein-Component Arg1:T2 Arg2:T23
+R2	Protein-Component Arg1:T7 Arg2:T24
+R3	Protein-Component Arg1:T7 Arg2:T25
+R4	Protein-Component Arg1:T12 Arg2:T29
+R5	Protein-Component Arg1:T12 Arg2:T30
+R6	Protein-Component Arg1:T14 Arg2:T32
+R7	Subunit-Complex Arg1:T18 Arg2:T38

@@ -1,0 +1,26 @@
+T1	Protein 0 14	Retinoblastoma
+T2	Protein 51 56	Oct-1
+T3	Protein 91 104	interleukin-8
+T4	Protein 152 166	retinoblastoma
+T5	Protein 235 244	IFN-gamma
+T6	Protein 289 291	Rb
+T7	Protein 300 309	IFN-gamma
+T8	Protein 380 382	Rb
+T9	Protein 455 457	Rb
+T10	Protein 545 550	Oct-1
+T11	Protein 653 655	Rb
+T12	Protein 673 675	Rb
+T13	Protein 713 718	Oct-1
+T14	Protein 758 763	Oct-1
+T15	Protein 795 808	interleukin 8
+T16	Protein 862 867	Oct-1
+T17	Protein 896 898	Rb
+T18	Protein 923 936	interleukin 8
+T19	Entity 201 219	HLA class II genes
+T20	Entity 318 331	class II gene
+T21	Entity 397 411	class II genes
+T22	Entity 507 514	HLA-DRA
+T23	Entity 520 543	prototype class II gene
+T24	Entity 620 636	HLA-DRA promoter
+T25	Entity 809 817	promoter
+R1	Protein-Component Arg1:T15 Arg2:T25

@@ -1,0 +1,38 @@
+T1	Protein 0 4	ETS1
+T2	Protein 30 36	GM-CSF
+T3	Protein 275 323	Granulocyte-macrophage colony-stimulating factor
+T4	Protein 325 331	GM-CSF
+T5	Protein 542 548	GM-CSF
+T6	Protein 733 737	ETS1
+T7	Protein 742 746	ELF1
+T8	Protein 885 891	GM-CSF
+T9	Protein 933 937	ETS1
+T10	Protein 947 951	ELF1
+T11	Protein 971 977	GM-CSF
+T12	Protein 1254 1258	ETS1
+T13	Protein 1264 1270	GM-CSF
+T14	Protein 1308 1312	ETS1
+T15	Protein 1386 1390	ETS1
+T16	Protein 1478 1482	ETS1
+T17	Protein 1526 1532	GM-CSF
+*	Equiv T3 T4
+T18	Entity 37 45	promoter
+T19	Entity 429 448	Cis-acting elements
+T20	Entity 484 490	motifs
+T21	Entity 819 822	GM5
+T22	Entity 844 856	CLE0 element
+T23	Entity 858 877	-47 to -40 upstream
+T24	Entity 892 921	transcription initiation site
+T25	Entity 991 994	GM5
+T26	Entity 1126 1129	GM5
+T27	Entity 1152 1168	ETS binding site
+T28	Entity 1174 1190	-GGAA- to -GGAT-
+T29	Entity 1271 1279	promoter
+R1	Protein-Component Arg1:T2 Arg2:T18
+R2	Protein-Component Arg1:T5 Arg2:T19
+R3	Protein-Component Arg1:T5 Arg2:T20
+R4	Protein-Component Arg1:T8 Arg2:T21
+R5	Protein-Component Arg1:T8 Arg2:T23
+R6	Protein-Component Arg1:T8 Arg2:T22
+R7	Protein-Component Arg1:T8 Arg2:T24
+R8	Protein-Component Arg1:T13 Arg2:T29

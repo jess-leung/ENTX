@@ -1,0 +1,55 @@
+T1	Protein 31 36	Runx3
+T2	Protein 46 51	Runx3
+T3	Protein 86 89	CD4
+T4	Protein 188 191	CD8
+T5	Protein 206 211	Runx3
+T6	Protein 225 228	CD8
+T7	Protein 229 232	CD4
+T8	Protein 240 243	CD8
+T9	Protein 244 247	CD4
+T10	Protein 283 286	CD4
+T11	Protein 318 323	Runx3
+T12	Protein 371 374	CD8
+T13	Protein 375 378	CD4
+T14	Protein 437 440	CD8
+T15	Protein 441 444	CD4
+T16	Protein 499 502	CD3
+T17	Protein 509 513	CD28
+T18	Protein 613 617	IL-2
+T19	Protein 672 677	Runx3
+T20	Protein 681 684	CD8
+T21	Protein 733 736	CD4
+T22	Protein 781 786	Runx3
+T23	Protein 894 898	CD25
+T24	Protein 903 907	CD69
+T25	Protein 965 969	CD25
+T26	Protein 971 976	Runx3
+T27	Protein 980 983	CD8
+T28	Protein 1006 1010	IL-2
+T29	Protein 1204 1207	CD4
+T30	Protein 1517 1522	Runx3
+T31	Protein 1526 1529	CD8
+T32	Protein 1559 1562	CD4
+T33	Protein 1648 1653	Runx3
+T34	Protein 1719 1724	Runx3
+T35	Protein 1728 1731	CD8
+T36	Negative_regulation 52 61	deficient
+T37	Negative_regulation 78 85	silence
+T38	Gene_expression 90 100	expression
+T39	Gene_expression 737 747	expression
+T40	Positive_regulation 877 890	up-regulation
+T41	Positive_regulation 953 964	up-regulate
+T42	Negative_regulation 1195 1203	silenced
+T43	Gene_expression 1208 1218	expression
+T44	Gene_expression 1549 1558	coexpress
+E1	Negative_regulation:T36 Theme:T2
+E2	Negative_regulation:T37 Theme:E3 Cause:E1
+E3	Gene_expression:T38 Theme:T3
+E4	Gene_expression:T39 Theme:T21
+E5	Positive_regulation:T40 Theme:T23
+E6	Positive_regulation:T40 Theme:T24
+E7	Positive_regulation:T41 Theme:T25
+E8	Negative_regulation:T42 Theme:E9
+E9	Gene_expression:T43 Theme:T29
+E10	Gene_expression:T44 Theme:T32
+M1	Negation E2

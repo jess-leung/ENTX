@@ -1,0 +1,28 @@
+T1	Protein 14 18	p105
+T2	Protein 183 193	NF-kappaB1
+T3	Protein 194 198	p105
+T4	Protein 238 241	p50
+T5	Protein 282 286	p105
+T6	Protein 519 523	p105
+T7	Protein 707 711	p105
+T8	Protein 844 847	p50
+T9	Protein 887 891	p105
+T10	Protein 943 946	p50
+T11	Protein 986 990	RelA
+T12	Protein 995 1000	c-Rel
+T13	Protein 1032 1036	p105
+T14	Protein 1084 1088	p105
+T15	Protein 1186 1190	p105
+T16	Protein 1307 1311	p105
+T17	Protein 1350 1353	p50
+T18	Protein 1440 1444	p105
+*	Equiv T2 T3
+T19	Entity 105 135	transcription factor NF-kappaB
+T20	Entity 145 155	proteasome
+T21	Entity 253 262	NF-kappaB
+T22	Entity 956 965	NF-kappaB
+T23	Entity 1138 1147	NF-kappaB
+R1	Subunit-Complex Arg1:T2 Arg2:T21
+R2	Subunit-Complex Arg1:T4 Arg2:T21
+R3	Subunit-Complex Arg1:T11 Arg2:T22
+R4	Subunit-Complex Arg1:T12 Arg2:T22

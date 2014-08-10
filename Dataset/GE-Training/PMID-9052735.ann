@@ -1,0 +1,27 @@
+T1	Protein 99 116	interleukin-1beta
+T2	Protein 124 142	Interleukin-1 beta
+T3	Protein 144 152	IL-1beta
+T4	Protein 280 288	IL-1beta
+T5	Protein 470 478	IL-1beta
+T6	Protein 926 959	transcription activator protein-2
+T7	Protein 1142 1150	IL-1beta
+T8	Protein 1151 1154	CAT
+T9	Protein 1159 1167	IL-1beta
+T10	Protein 1182 1185	CAT
+T11	Protein 1222 1255	chloramphenicol acetyltransferase
+T12	Protein 1257 1260	CAT
+*	Equiv T2 T3
+*	Equiv T12 T11
+T13	Regulation 260 270	regulation
+T14	Gene_expression 294 304	expression
+T15	Negative_regulation 447 466	negative regulation
+T16	Gene_expression 479 489	expression
+T17	Negative_regulation 1212 1221	repressed
+T18	Gene_expression 1262 1272	production
+E1	Regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T4
+E3	Negative_regulation:T15 Theme:E4
+E4	Gene_expression:T16 Theme:T5
+E5	Negative_regulation:T17 Theme:E6
+E6	Gene_expression:T18 Theme:T12
+M1	Negation E5

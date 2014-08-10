@@ -1,0 +1,6 @@
+T1	Protein 100 121	ORF 50 transactivator
+T2	Protein 140 145	EBV R
+T3	Protein 632 638	ORF 50
+T4	Entity 620 630	viral gene
+T5	Entity 702 727	delayed-early viral genes
+T6	Entity 772 782	lytic gene

@@ -1,0 +1,18 @@
+T1	Protein 1046 1057	NO synthase
+T2	Protein 1059 1062	NOS
+T3	Protein 1212 1215	NOS
+T4	Protein 1238 1241	NOS
+T5	Protein 1341 1361	GTP-cyclohydrolase I
+T6	Protein 1432 1435	NOS
+T7	Protein 1741 1744	NOS
+T8	Protein 2077 2095	GTP-cyclohydrolase
+*	Equiv T1 T2
+T9	Entity 125 146	nuclear factor-kappaB
+T10	Entity 546 567	nuclear factor kappaB
+T11	Entity 569 578	NF-kappaB
+T12	Entity 636 645	NF-kappaB
+T13	Entity 658 668	proteasome
+T14	Entity 698 730	double-stranded oligonucleotides
+T15	Entity 742 768	NF-kappaB binding sequence
+T16	Entity 742 751	NF-kappaB
+T17	Entity 1958 1967	NF-kappaB

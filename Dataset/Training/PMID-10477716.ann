@@ -1,0 +1,34 @@
+T1	Protein 45 58	interleukin-8
+T2	Protein 78 105	tumor necrosis factor alpha
+T3	Protein 202 229	Tumor necrosis factor alpha
+T4	Protein 231 239	TNFalpha
+T5	Protein 421 434	interleukin-8
+T6	Protein 436 440	IL-8
+T7	Protein 485 493	TNFalpha
+T8	Protein 537 541	IL-8
+T9	Protein 605 613	TNFalpha
+T10	Protein 638 642	IL-8
+T11	Protein 777 785	TNFalpha
+T12	Protein 859 864	Rel A
+T13	Protein 886 890	IL-8
+T14	Protein 901 909	TNFalpha
+T15	Protein 1008 1013	Rel A
+T16	Protein 1149 1157	TNFalpha
+T17	Protein 1324 1329	Rel A
+T18	Protein 1497 1505	TNFalpha
+T19	Protein 1772 1780	TNFalpha
+*	Equiv T3 T4
+*	Equiv T5 T6
+T20	Entity 0 21	Nuclear factor-kappaB
+T21	Entity 847 856	NF-kappaB
+T22	Entity 866 878	binding site
+T23	Entity 891 899	promoter
+T24	Entity 989 998	NF-kappaB
+T25	Entity 1234 1243	NF-kappaB
+T26	Entity 1368 1377	NF-kappaB
+T27	Entity 1434 1450	N-acetylcysteine
+T28	Entity 1452 1455	NAC
+T29	Entity 1578 1587	NF-kappaB
+R1	Protein-Component Arg1:T13 Arg2:T22
+R2	Protein-Component Arg1:T13 Arg2:T23
+R3	Subunit-Complex Arg1:T15 Arg2:T24

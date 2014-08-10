@@ -1,0 +1,72 @@
+T1	Protein 10 23	interleukin 2
+T2	Protein 161 174	interleukin 2
+T3	Protein 176 180	IL-2
+T4	Protein 186 202	interferon-gamma
+T5	Protein 204 213	IFN-gamma
+T6	Protein 313 317	IL-2
+T7	Protein 322 326	IL-2
+T8	Protein 624 633	IFN-gamma
+T9	Protein 663 672	IFN-gamma
+T10	Protein 886 890	IL-2
+T11	Protein 934 967	chloramphenicol acetyltransferase
+T12	Protein 969 972	CAT
+T13	Protein 1001 1004	CAT
+T14	Protein 1043 1047	IL-2
+T15	Protein 1194 1200	NFAT-1
+T16	Protein 1315 1322	NFIL-2A
+T17	Protein 1356 1365	IFN-gamma
+T18	Protein 1390 1394	IL-2
+T19	Protein 1452 1458	NFAT-1
+T20	Protein 1484 1488	IL-2
+*	Equiv T11 T12
+*	Equiv T3 T2
+*	Equiv T5 T4
+T21	Positive_regulation 0 9	Increased
+T22	Transcription 24 37	transcription
+T23	Positive_regulation 134 147	induces hyper
+T24	Gene_expression 147 157	production
+T25	Positive_regulation 290 312	enhanced and prolonged
+T26	Regulation 332 340	response
+T27	Gene_expression 634 644	production
+T28	Negative_regulation 649 658	inhibited
+T29	Regulation 690 700	unaffected
+T30	Positive_regulation 727 738	upregulated
+T31	Positive_regulation 1034 1042	enhanced
+T32	Gene_expression 1053 1062	induction
+T33	Positive_regulation 1117 1156	showed an early peak and more activated
+T34	Regulation 1266 1272	affect
+T35	Negative_regulation 1346 1355	inhibited
+T36	Gene_expression 1366 1375	synthesis
+T37	Positive_regulation 1381 1389	enhanced
+T38	Gene_expression 1395 1405	production
+T39	Regulation 1440 1451	influencing
+T40	Positive_regulation 1463 1483	causing an increased
+T41	Transcription 1489 1502	transcription
+E1	Positive_regulation:T21 Theme:E2
+E2	Transcription:T22 Theme:T1
+E3	Positive_regulation:T23 Theme:E6
+E4	Positive_regulation:T23 Theme:E5
+E5	Gene_expression:T24 Theme:T3
+E6	Gene_expression:T24 Theme:T5
+E7	Positive_regulation:T25 Theme:E10
+E8	Positive_regulation:T25 Theme:E9
+E9	Regulation:T26 Theme:T6
+E10	Regulation:T26 Theme:T7
+E11	Gene_expression:T27 Theme:T8
+E12	Negative_regulation:T28 Theme:E11
+E13	Regulation:T29 Theme:T9
+E14	Positive_regulation:T30 Theme:T9
+E15	Positive_regulation:T31 Theme:E16
+E16	Gene_expression:T32 Theme:T14
+E17	Positive_regulation:T33 Theme:T15
+E18	Regulation:T34 Theme:T16
+E19	Negative_regulation:T35 Theme:E20
+E20	Gene_expression:T36 Theme:T17
+E21	Positive_regulation:T37 Theme:E23 Cause:E24
+E22	Positive_regulation:T37 Theme:E23 Cause:E25
+E23	Gene_expression:T38 Theme:T18
+E24	Regulation:T39 Theme:T19
+E25	Positive_regulation:T40 Theme:E26 Cause:T20
+E26	Transcription:T41 Theme:T20
+M1	Negation E13
+M2	Negation E18

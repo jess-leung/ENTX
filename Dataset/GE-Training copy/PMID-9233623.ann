@@ -1,0 +1,26 @@
+T1	Protein 0 3	RP1
+T2	Protein 162 166	CD28
+T3	Protein 482 486	CD28
+T4	Protein 604 608	CD28
+T5	Protein 790 794	CD28
+T6	Protein 873 876	RP1
+T7	Protein 937 977	adenomatous polyposis coli (APC) protein
+T8	Protein 986 989	EB1
+T9	Protein 1065 1068	RP1
+T10	Protein 1135 1138	APC
+T11	Protein 1175 1178	RP1
+T12	Protein 1388 1391	RP1
+T13	Gene_expression 100 109	expressed
+T14	Binding 133 146	Cross-linking
+T15	Gene_expression 1055 1064	expressed
+T16	Binding 1095 1102	binding
+T17	Positive_regulation 1158 1171	up-regulation
+T18	Gene_expression 1364 1374	expression
+E1	Gene_expression:T13 Theme:T1
+E2	Binding:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T9
+E4	Binding:T16 Theme:T9
+E5	Binding:T16 Theme:T9 Theme2:T10
+E6	Positive_regulation:T17 Theme:T11
+E7	Gene_expression:T18 Theme:T12
+M1	Negation E4

@@ -1,0 +1,72 @@
+T1	Protein 401 420	bcr-abl fusion gene
+T2	Protein 480 496	interferon alpha
+T3	Protein 498 507	IFN-alpha
+T4	Protein 683 713	interferon regulatory factor 4
+T5	Protein 715 720	IRF-4
+T6	Protein 764 773	IFN-alpha
+T7	Protein 819 824	IRF-4
+T8	Protein 1153 1158	IRF-4
+T9	Protein 1160 1165	ICSAT
+T10	Protein 1166 1169	Pip
+T11	Protein 1170 1174	MUM1
+T12	Protein 1175 1180	LSIRF
+T13	Protein 1286 1291	IRF-4
+T14	Protein 1350 1355	IRF-4
+T15	Protein 1582 1587	IRF-4
+T16	Protein 1695 1700	IRF-4
+T17	Protein 1786 1791	IRF-4
+T18	Protein 2383 2387	MGMT
+T19	Protein 2389 2393	DAPK
+T20	Protein 2395 2401	p14ARF
+T21	Protein 2403 2411	p15INK4b
+T22	Protein 2413 2421	p16INK4a
+T23	Protein 2423 2428	BRCA1
+T24	Protein 2430 2435	CDH13
+T25	Protein 2440 2446	APAF-1
+T26	Protein 2515 2520	c-abl
+T27	Protein 2526 2529	bcr
+T28	Protein 2592 2597	c-abl
+T29	Protein 3154 3159	IRF-4
+T30	Protein 3221 3226	IRF-4
+T31	Protein 3295 3300	IRF-4
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T8 T10 T11 T9 T12
+T32	Positive_regulation 374 381	leading
+T33	Gene_expression 385 395	expression
+T34	Negative_regulation 656 664	impaired
+T35	Gene_expression 665 675	expression
+T36	Negative_regulation 806 815	silencing
+T37	Gene_expression 1217 1227	expression
+T38	Gene_expression 1292 1300	positive
+T39	Gene_expression 1336 1346	expression
+T40	Positive_regulation 1366 1373	induced
+T41	Negative_regulation 1570 1578	deletion
+T42	Gene_expression 1681 1691	expression
+T43	Regulation 2488 2496	regulate
+T44	Gene_expression 2497 2507	expression
+T45	Gene_expression 3165 3175	expression
+T46	Negative_regulation 3176 3185	silencing
+T47	Gene_expression 3301 3309	positive
+T48	Gene_expression 3315 3323	negative
+E1	Positive_regulation:T32 Theme:E2
+E2	Gene_expression:T33 Theme:T1
+E3	Negative_regulation:T34 Theme:E4
+E4	Gene_expression:T35 Theme:T4
+E5	Negative_regulation:T36 Theme:T7
+E6	Gene_expression:T37 Theme:T8
+E7	Gene_expression:T38 Theme:T13
+E8	Gene_expression:T39 Theme:T14
+E9	Positive_regulation:T40 Theme:E8
+E10	Negative_regulation:T41 Theme:T15
+E11	Gene_expression:T42 Theme:T16
+E12	Regulation:T43 Theme:E13
+E14	Regulation:T43 Theme:E15
+E13	Gene_expression:T44 Theme:T26
+E15	Gene_expression:T44 Theme:T27
+E16	Gene_expression:T45 Theme:T29
+E17	Negative_regulation:T46 Theme:E16
+E18	Gene_expression:T47 Theme:T31
+E19	Gene_expression:T48 Theme:T31
+M1	Negation E9
+M2	Negation E19

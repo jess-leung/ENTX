@@ -1,0 +1,26 @@
+T1	Protein 669 697	EBV nuclear antigen (EBNA) 1
+T2	Protein 712 717	EBNA2
+T3	Protein 870 875	EBNA2
+T4	Protein 882 914	Latent membrane protein (LMP) 2A
+T5	Protein 975 979	LMP1
+T6	Protein 984 989	LMP2B
+T7	Protein 1124 1129	BZLF1
+T8	Transcription 659 668	expressed
+T9	Positive_regulation 845 854	resulting
+T10	Transcription 862 866	lack
+T11	Transcription 924 932	detected
+T12	Transcription 999 1007	detected
+T13	Transcription 1205 1214	expressed
+E1	Transcription:T8 Theme:T2
+E2	Transcription:T8 Theme:T1
+E3	Positive_regulation:T9 Theme:E4
+E4	Transcription:T10 Theme:T3
+E5	Transcription:T11 Theme:T4
+E6	Transcription:T12 Theme:T5
+E7	Transcription:T12 Theme:T6
+E8	Transcription:T13 Theme:T7
+M1	Negation E1
+M2	Negation E4
+M3	Negation E6
+M4	Negation E7
+M5	Negation E8

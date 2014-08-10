@@ -1,0 +1,17 @@
+T1	Protein 427 431	JunB
+T2	Protein 433 437	FosB
+T3	Protein 442 447	c-Fos
+T4	Protein 627 659	immunoglobulin-like transcript-2
+T5	Protein 660 688	leukocyte Ig-like receptor 1
+T6	Protein 706 713	HLA-B27
+T7	Protein 818 822	JunB
+T8	Protein 824 828	FosB
+T9	Protein 834 839	c-Fos
+*	Equiv T4 T5
+T10	Entity 54 58	AP-1
+T11	Entity 356 418	very early activator protein (AP)-1 transcription factor genes
+T12	Entity 488 508	Jun-Fos heterodimers
+T13	Entity 627 688	immunoglobulin-like transcript-2/leukocyte Ig-like receptor 1
+T14	Entity 988 1013	AP-1 transcription factor
+T15	Entity 1195 1199	AP-1
+R1	Subunit-Complex Arg1:T4 Arg2:T13

@@ -1,0 +1,29 @@
+T1	Protein 29 32	Tat
+T2	Protein 94 97	tat
+T3	Protein 156 159	Tat
+T4	Protein 271 274	tat
+T5	Protein 377 380	Tat
+T6	Protein 596 599	Tat
+T7	Protein 631 634	Tat
+T8	Protein 739 742	tat
+T9	Protein 932 935	Sp1
+T10	Protein 979 982	Tat
+T11	Protein 1184 1187	Tat
+T12	Protein 1271 1274	Tat
+T13	Protein 1378 1381	tat
+T14	Protein 1474 1477	tat
+T15	Protein 1644 1647	Tat
+T16	Protein 1909 1912	Tat
+T17	Protein 2037 2040	Tat
+T18	Entity 86 89	LTR
+T19	Entity 434 458	HIV long terminal repeat
+T20	Entity 460 463	LTR
+T21	Entity 815 853	replication-competent HIV-1 constructs
+T22	Entity 883 887	LTRs
+T23	Entity 936 949	binding sites
+T24	Entity 995 1009	wild-type LTRs
+T25	Entity 1207 1221	wild-type LTRs
+T26	Entity 1403 1416	modified LTRs
+T27	Entity 1461 1464	LTR
+T28	Entity 1788 1801	viral genomes
+R1	Protein-Component Arg1:T8 Arg2:T23

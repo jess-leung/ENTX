@@ -1,0 +1,121 @@
+T1	Protein 274 279	delta
+T2	Protein 284 288	beta
+T3	Protein 493 498	delta
+T4	Protein 503 507	beta
+T5	Protein 601 606	delta
+T6	Protein 611 615	beta
+T7	Protein 746 751	delta
+T8	Protein 755 759	beta
+T9	Protein 789 793	beta
+T10	Protein 797 802	delta
+T11	Protein 816 819	CAT
+T12	Protein 867 870	CAT
+T13	Protein 901 912	beta globin
+T14	Protein 958 963	delta
+T15	Protein 992 1003	beta globin
+T16	Protein 1115 1120	delta
+T17	Protein 1196 1207	beta globin
+T18	Protein 1269 1274	delta
+T19	Protein 1399 1410	beta globin
+T20	Protein 1475 1480	delta
+T21	Protein 1507 1518	beta globin
+T22	Protein 1601 1605	beta
+T23	Protein 1702 1713	delta globi
+T24	Protein 1804 1807	BP1
+T25	Protein 1812 1815	BP2
+T26	Protein 1847 1858	beta globin
+T27	Protein 1929 1936	DNase I
+T28	Protein 1966 1978	delta-globin
+T29	Protein 2060 2066	GATA-1
+T30	Protein 2071 2074	BP2
+T31	Protein 2158 2169	beta globin
+T32	Regulation 201 212	responsible
+T33	Negative_regulation 221 236	down regulation
+T34	Positive_regulation 884 893	supported
+T35	Entity 913 921	promoter
+T36	Entity 964 972	promoter
+T37	Entity 1004 1012	promoter
+T38	Positive_regulation 1031 1039	increase
+T39	Negative_regulation 1147 1155	decrease
+T40	Gene_expression 1159 1169	expression
+T41	Entity 1519 1527	promoter
+T42	Positive_regulation 1545 1553	increase
+T43	Entity 2120 2144	upstream promoter region
+T44	Positive_regulation 2175 2185	contribute
+T45	Negative_regulation 2209 2220	suppression
+T46	Regulation 2255 2263	modulate
+T47	Gene_expression 2268 2278	expression
+E1	Regulation:T32 Theme:E4
+E2	Regulation:T32 Theme:E3
+E3	Negative_regulation:T33 Theme:T2
+E4	Negative_regulation:T33 Theme:T1
+E5	Positive_regulation:T34 Theme:T12 Cause:T14 CSite:T36
+E6	Positive_regulation:T34 Theme:T12 Cause:T13 CSite:T35
+E7	Positive_regulation:T38 Theme:T15 Site:T37
+E8	Negative_regulation:T39 Theme:E9
+E9	Gene_expression:T40 Theme:T12
+E10	Positive_regulation:T42 Theme:T21 Site:T41
+E11	Positive_regulation:T44 Theme:E12 Cause:T31 CSite:T43
+E12	Negative_regulation:T45 Theme:T31
+E13	Regulation:T46 Theme:E14 Cause:E11
+E14	Gene_expression:T47 Theme:T31
+M1	Negation E6
+
+T48	Entity 1451 1467	upstream portion
+R1	Protein-Component  Arg1:T20 Arg2:T48
+T49	Entity 1715 1732	regulatory region
+R2	Protein-Component  Arg1:T23 Arg2:T49
+T50	Entity 1121 1129	promoter
+R3	Protein-Component  Arg1:T16 Arg2:T50
+T51	Entity 470 483	DNA sequences
+R4	Protein-Component  Arg1:T3 Arg2:T51
+T52	Entity 760 768	fragment
+R5	Protein-Component  Arg1:T8 Arg2:T52
+T53	Entity 1763 1780	binding sites for
+R6	Protein-Component  Arg1:T26 Arg2:T53
+T54	Entity 1847 1879	beta globin gene flanking region
+R7	Protein-Component  Arg1:T26 Arg2:T54
+R8	Protein-Component Arg1:T4 Arg2:T51
+R9	Protein-Component Arg1:T21 Arg2:T41
+T55	Entity 1611 1619	promoter
+R10	Protein-Component  Arg1:T22 Arg2:T55
+T56	Entity 1979 1985	region
+R11	Protein-Component  Arg1:T28 Arg2:T56
+T57	Entity 1650 1682	positive transcriptional element
+R12	Protein-Component  Arg1:T23 Arg2:T57
+T58	Entity 188 200	cis-elements
+R13	Protein-Component  Arg1:T2 Arg2:T58
+T59	Entity 1910 1918	promoter
+R14	Protein-Component  Arg1:T26 Arg2:T59
+T60	Entity 508 527	5' flanking regions
+R15	Protein-Component  Arg1:T4 Arg2:T60
+T61	Entity 1208 1216	sequence
+R16	Protein-Component  Arg1:T17 Arg2:T61
+T62	Entity 1823 1879	upstream portion of the beta globin gene flanking region
+R17	Protein-Component  Arg1:T26 Arg2:T62
+T63	Entity 572 588	promoter regions
+R18	Protein-Component  Arg1:T3 Arg2:T63
+T64	Entity 1091 1107	upstream portion
+R19	Protein-Component  Arg1:T16 Arg2:T64
+T65	Entity 616 635	5' flanking regions
+R20	Protein-Component  Arg1:T6 Arg2:T65
+R21	Protein-Component Arg1:T5 Arg2:T65
+R22	Protein-Component Arg1:T14 Arg2:T36
+R23	Protein-Component Arg1:T15 Arg2:T37
+R24	Protein-Component Arg1:T21 Arg2:T48
+R25	Protein-Component Arg1:T1 Arg2:T58
+T66	Entity 1481 1489	promoter
+R26	Protein-Component  Arg1:T20 Arg2:T66
+T67	Entity 1416 1432	upstream element
+R27	Protein-Component  Arg1:T19 Arg2:T67
+R28	Protein-Component Arg1:T13 Arg2:T35
+T68	Entity 1259 1292	truncated delta promoter fragment
+R29	Protein-Component  Arg1:T18 Arg2:T68
+R30	Protein-Component Arg1:T7 Arg2:T52
+T69	Entity 1823 1839	upstream portion
+R31	Protein-Component  Arg1:T26 Arg2:T69
+R32	Protein-Component Arg1:T3 Arg2:T60
+T70	Entity 1043 1051	promoter
+R33	Protein-Component  Arg1:T15 Arg2:T70
+R34	Protein-Component Arg1:T4 Arg2:T63
+R35	Protein-Component Arg1:T31 Arg2:T43

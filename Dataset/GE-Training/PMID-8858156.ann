@@ -1,0 +1,21 @@
+T1	Protein 6 15	TAFII 105
+T2	Protein 65 74	hTAFII130
+T3	Protein 370 379	hTAFII105
+T4	Protein 435 444	hTAFII130
+T5	Protein 449 458	oTAFII110
+T6	Protein 553 561	TAFII105
+T7	Protein 674 683	hTAFII105
+T8	Protein 780 788	TAFII105
+T9	Transcription 545 552	express
+T10	Binding 623 633	associated
+T11	Positive_regulation 656 670	overexpression
+T12	Gene_expression 656 670	overexpression
+E1	Transcription:T9 Theme:T6
+E2	Binding:T10 Theme:T6
+E3	Positive_regulation:T11 Theme:E4
+E4	Gene_expression:T12 Theme:T7
+
+T13	Entity 824 829	TFIID
+R1	Subunit-Complex  Arg1:T8 Arg2:T13
+T14	Entity 40 45	TFIID
+R2	Subunit-Complex  Arg1:T1 Arg2:T14

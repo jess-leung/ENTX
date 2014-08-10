@@ -1,0 +1,26 @@
+T1	Protein 69 84	serum amyloid A
+T2	Protein 143 158	Serum amyloid A
+T3	Protein 160 163	SAA
+T4	Protein 478 481	SAA
+T5	Protein 652 655	SAA
+T6	Protein 778 781	SAA
+T7	Protein 1221 1224	SAA
+*	Equiv T3 T2
+T8	Regulation 0 11	Involvement
+T9	Positive_regulation 55 65	activation
+T10	Binding 174 180	linked
+T11	Binding 313 317	bind
+T12	Positive_regulation 455 464	induction
+T13	Positive_regulation 664 671	induced
+T14	Entity 782 799	promoter sequence
+T15	Regulation 837 851	responsiveness
+T16	Positive_regulation 1230 1239	induction
+E1	Regulation:T8 Theme:E2
+E2	Positive_regulation:T9 Theme:T1
+E3	Binding:T10 Theme:T3
+E4	Binding:T11 Theme:T3
+E5	Positive_regulation:T12 Theme:T4
+E6	Positive_regulation:T13 Theme:T5
+E7	Regulation:T15 Theme:T6 Site:T14
+E8	Positive_regulation:T16 Theme:T7
+M1	Speculation E5

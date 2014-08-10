@@ -1,0 +1,37 @@
+T1	Protein 16 27	IkappaBbeta
+T2	Protein 35 38	tax
+T3	Protein 322 334	IkappaBalpha
+T4	Protein 339 350	IkappaBbeta
+T5	Protein 385 397	IkappaBalpha
+T6	Protein 676 679	Tax
+T7	Protein 785 788	Tax
+T8	Protein 797 809	IkappaBalpha
+T9	Protein 1027 1039	IkappaBalpha
+T10	Protein 1041 1044	Tax
+T11	Protein 1072 1083	IkappaBbeta
+T12	Protein 1124 1136	IkappaBalpha
+T13	Protein 1138 1141	Tax
+T14	Protein 1164 1175	IkappaBbeta
+T15	Protein 1281 1292	IkappaBbeta
+T16	Protein 1393 1396	Tax
+T17	Protein 1401 1413	IkappaBalpha
+T18	Protein 1418 1429	IkappaBbeta
+T19	Protein 1452 1455	Tax
+T20	Protein 1519 1531	IkappaBalpha
+T21	Protein 1552 1563	IkappaBbeta
+T22	Protein 1666 1677	IkappaBbeta
+T23	Protein 1756 1759	Tax
+T24	Entity 138 147	NF-kappaB
+T25	Entity 201 210	NF-kappaB
+T26	Entity 460 474	26S proteasome
+T27	Entity 518 527	NF-kappaB
+T28	Entity 614 623	NF-kappaB
+T29	Entity 827 837	proteasome
+T30	Entity 941 950	NF-kappaB
+T31	Entity 1241 1251	proteasome
+T32	Entity 1300 1315	serine residues
+T33	Entity 1335 1352	N-terminal region
+T34	Entity 1479 1488	NF-kappaB
+T35	Entity 1743 1752	NF-kappaB
+R1	Protein-Component Arg1:T15 Arg2:T33
+R2	Protein-Component Arg1:T15 Arg2:T32

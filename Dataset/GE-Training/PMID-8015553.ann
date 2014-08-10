@@ -1,0 +1,104 @@
+T1	Protein 19 28	prolactin
+T2	Protein 66 71	Pit-1
+T3	Protein 169 172	PRL
+T4	Protein 174 178	hPRL
+T5	Protein 541 544	PRL
+T6	Protein 647 651	dPRL
+T7	Protein 727 732	Pit-1
+T8	Protein 758 781	glucocorticoid receptor
+T9	Protein 782 803	progesterone receptor
+T10	Protein 805 807	PR
+T11	Protein 856 861	Pit-1
+T12	Protein 869 871	PR
+T13	Protein 942 947	Pit-1
+T14	Protein 989 992	PRL
+T15	Protein 1133 1136	PRL
+T16	Protein 1250 1255	Pit-1
+T17	Protein 1293 1297	dPRL
+T18	Protein 1404 1406	PR
+T19	Protein 1461 1465	dPRL
+T20	Protein 1525 1529	dPRL
+T21	Protein 1542 1545	PRL
+T22	Protein 1739 1742	PRL
+T23	Protein 1836 1839	PRL
+T24	Protein 1972 1976	dPRL
+T25	Protein 2047 2050	PRL
+T26	Protein 2108 2111	PRL
+T27	Protein 2167 2171	dPRL
+T28	Protein 2409 2412	PRL
+*	Equiv T9 T10
+*	Equiv T4 T3
+T29	Transcription 34 47	transcription
+T30	Regulation 51 62	independent
+T31	Regulation 91 101	controlled
+T32	Gene_expression 145 155	Expression
+T33	Positive_regulation 319 327	directed
+T34	Regulation 517 524	control
+T35	Gene_expression 550 560	expression
+T36	Regulation 951 975	essential in the control
+T37	Gene_expression 993 1003	expression
+T38	Positive_regulation 1145 1154	activated
+T39	Positive_regulation 1394 1403	activated
+T40	Regulation 1416 1453	confer direct transcriptional control
+T41	Entity 1466 1474	promoter
+T42	Gene_expression 1546 1555	secreting
+T43	Gene_expression 1560 1572	nonsecreting
+T44	Positive_regulation 1677 1688	restricting
+T45	Gene_expression 1689 1699	expression
+T46	Gene_expression 1731 1738	produce
+T47	Positive_regulation 1921 1964	conferred strong transcriptional activation
+T48	Entity 1977 1985	promoter
+T49	Gene_expression 2037 2046	secreting
+T50	Positive_regulation 2064 2069	allow
+T51	Transcription 2070 2083	transcription
+T52	Gene_expression 2112 2121	secreting
+T53	Positive_regulation 2389 2396	inducer
+T54	Gene_expression 2418 2428	expression
+E1	Transcription:T29 Theme:T1
+E2	Regulation:T30 Theme:E1 Cause:T2
+E3	Regulation:T31 Theme:E1
+E4	Gene_expression:T32 Theme:T4
+E5	Positive_regulation:T33 Theme:E4
+E6	Regulation:T34 Theme:E7
+E7	Gene_expression:T35 Theme:T5
+E8	Regulation:T36 Theme:E9 Cause:T13
+E9	Gene_expression:T37 Theme:T14
+E10	Positive_regulation:T38 Theme:T15
+E11	Positive_regulation:T39 Theme:T18
+E12	Regulation:T40 Theme:T19 Cause:E11 Site:T41
+E13	Gene_expression:T42 Theme:T21
+E14	Gene_expression:T43 Theme:T21
+E15	Positive_regulation:T44 Theme:E16
+E16	Gene_expression:T45 Theme:T22
+E17	Gene_expression:T46 Theme:T22
+E18	Positive_regulation:T47 Theme:T24 Site:T48
+E19	Gene_expression:T49 Theme:T25
+E20	Positive_regulation:T50 Theme:E21
+E21	Transcription:T51 Theme:T26
+E22	Gene_expression:T52 Theme:T26
+E23	Positive_regulation:T53 Theme:E24
+E24	Gene_expression:T54 Theme:T28
+M1	Negation E2
+M2	Negation E12
+M3	Negation E14
+M4	Negation E20
+M5	Negation E22
+R1	Protein-Component Arg1:T24 Arg2:T48
+
+T55	Entity 1900 1920	3 kb 5'-flanking DNA
+R2	Protein-Component  Arg1:T24 Arg2:T55
+T56	Entity 334 354	alternative promoter
+R3	Protein-Component  Arg1:T3 Arg2:T56
+T57	Entity 1341 1361	3 kb 5'-flanking DNA
+R4	Protein-Component  Arg1:T17 Arg2:T57
+T58	Entity 651 661	) promoter
+R5	Protein-Component  Arg1:T6 Arg2:T58
+T59	Entity 591 611	3 kb 5'-flanking DNA
+R6	Protein-Component  Arg1:T6 Arg2:T59
+T60	Entity 386 411	6 kilobases (kb) upstream
+R7	Protein-Component  Arg1:T3 Arg2:T60
+R8	Protein-Component Arg1:T19 Arg2:T41
+T61	Entity 419 448	pituitary-specific start site
+R9	Protein-Component  Arg1:T3 Arg2:T61
+T62	Entity 1530 1538	promoter
+R10	Protein-Component  Arg1:T20 Arg2:T62

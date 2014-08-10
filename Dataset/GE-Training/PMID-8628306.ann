@@ -1,0 +1,31 @@
+T1	Protein 44 49	c-myb
+T2	Protein 131 136	c-Myb
+T3	Protein 172 177	c-myb
+T4	Protein 306 311	c-myb
+T5	Protein 348 353	c-myb
+T6	Protein 570 575	c-myb
+T7	Protein 849 854	c-myb
+T8	Protein 1659 1664	c-myb
+T9	Regulation 31 40	regulator
+T10	Gene_expression 50 60	expression
+T11	Gene_expression 104 111	express
+T12	Gene_expression 178 188	expression
+T13	Positive_regulation 192 199	induced
+T14	Positive_regulation 338 347	increased
+T15	Gene_expression 354 364	expression
+T16	Regulation 1645 1655	regulation
+T17	Gene_expression 1665 1675	expression
+E1	Regulation:T9 Theme:E2
+E2	Gene_expression:T10 Theme:T1
+E3	Gene_expression:T11 Theme:T2
+E4	Gene_expression:T12 Theme:T3
+E5	Positive_regulation:T13 Theme:E4
+E6	Positive_regulation:T14 Theme:E7
+E7	Gene_expression:T15 Theme:T5
+E8	Regulation:T16 Theme:E9
+E9	Gene_expression:T17 Theme:T8
+
+T18	Entity 312 332	5' flanking sequence
+R1	Protein-Component  Arg1:T4 Arg2:T18
+T19	Entity 576 596	5' flanking sequence
+R2	Protein-Component  Arg1:T6 Arg2:T19

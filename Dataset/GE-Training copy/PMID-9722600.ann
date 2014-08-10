@@ -1,0 +1,38 @@
+T1	Protein 79 82	Tax
+T2	Protein 96 99	p16
+T3	Protein 100 105	INK4A
+T4	Protein 322 325	Tax
+T5	Protein 453 456	p16
+T6	Protein 457 462	INK4A
+T7	Protein 479 482	Tax
+T8	Protein 665 668	Tax
+T9	Protein 731 734	p16
+T10	Protein 735 740	INK4A
+T11	Protein 756 759	Tax
+T12	Protein 784 789	E2F-1
+T13	Protein 852 855	p16
+T14	Protein 856 861	INK4A
+T15	Protein 1081 1084	Tax
+T16	Protein 1126 1131	E2F-1
+T17	Protein 1151 1154	Tax
+T18	Protein 1273 1278	E2F-1
+T19	Protein 1306 1309	Tax
+T20	Protein 1351 1355	E2F1
+T21	Protein 1425 1430	E2F-1
+T22	Gene_expression 107 115	negative
+T23	Binding 418 426	interact
+T24	Gene_expression 763 774	coexpressed
+T25	Positive_regulation 1090 1100	stimulates
+T26	Transcription 1105 1118	transcription
+T27	Positive_regulation 1176 1184	activate
+T28	Entity 1279 1287	promoter
+T29	Regulation 1320 1343	transcriptional control
+E1	Gene_expression:T22 Theme:T3
+E2	Binding:T23 Theme:T4 Theme2:T6
+E3	Gene_expression:T24 Theme:T11
+E4	Positive_regulation:T25 Theme:E5 Cause:T15
+E5	Transcription:T26 Theme:T16
+E6	Positive_regulation:T27 Theme:T18 Cause:T17 Site:T28
+E7	Regulation:T29 Theme:T20 Cause:T19
+M1	Negation E1
+M2	Negation E6

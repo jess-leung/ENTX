@@ -1,0 +1,42 @@
+T1	Protein 0 5	Tpl-2
+T2	Protein 14 18	IL-2
+T3	Protein 127 132	Tpl-2
+T4	Protein 209 213	IL-2
+T5	Protein 282 286	IL-2
+T6	Protein 299 304	Tpl-2
+T7	Protein 689 693	IL-2
+T8	Protein 706 711	Tpl-2
+T9	Protein 740 744	IL-2
+T10	Protein 836 840	Raf1
+T11	Protein 867 871	IL-2
+T12	Protein 901 906	Tpl-2
+T13	Protein 979 983	MEK1
+T14	Protein 984 988	MEK2
+T15	Protein 1112 1117	Tpl-2
+T16	Protein 1171 1175	MEK1
+T17	Protein 1180 1184	MEK2
+T18	Protein 1241 1245	IL-2
+T19	Protein 1464 1469	Tpl-2
+T20	Protein 1512 1516	IL-2
+T21	Protein 1565 1570	Tpl-2
+T22	Protein 1729 1734	Tpl-2
+T23	Protein 1885 1890	Bcl-2
+T24	Protein 1894 1902	Bcl-X(L)
+T25	Entity 111 120	NF-kappaB
+T26	Entity 287 295	promoter
+T27	Entity 694 702	promoter
+T28	Entity 745 753	promoter
+T29	Entity 761 789	NFAT-driven minimal promoter
+T30	Entity 872 880	promoter
+T31	Entity 1246 1254	promoter
+T32	Entity 1473 1482	NF-kappaB
+T33	Entity 1517 1525	promoter
+T34	Entity 1533 1561	NFAT-driven minimal promoter
+T35	Entity 1673 1684	calcineurin
+T36	Entity 1801 1812	calcineurin
+R1	Protein-Component Arg1:T5 Arg2:T26
+R2	Protein-Component Arg1:T7 Arg2:T27
+R3	Protein-Component Arg1:T9 Arg2:T28
+R4	Protein-Component Arg1:T11 Arg2:T30
+R5	Protein-Component Arg1:T18 Arg2:T31
+R6	Protein-Component Arg1:T20 Arg2:T33

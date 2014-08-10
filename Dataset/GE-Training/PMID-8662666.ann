@@ -1,0 +1,71 @@
+T1	Protein 43 91	granulocyte-macrophage colony-stimulating factor
+T2	Protein 127 175	Granulocyte-macrophage colony-stimulating factor
+T3	Protein 177 183	GM-CSF
+T4	Protein 314 320	GM-CSF
+T5	Protein 395 401	GM-CSF
+T6	Protein 551 557	GM-CSF
+T7	Protein 843 849	GM-CSF
+T8	Protein 946 952	GM-CSF
+T9	Protein 1037 1044	DNase I
+T10	Protein 1253 1259	GM-CSF
+T11	Protein 1348 1351	Tax
+T12	Protein 1435 1441	GM-CSF
+T13	Protein 1531 1537	GM-CSF
+T14	Protein 1609 1622	interleukin 3
+T15	Protein 1697 1703	GM-CSF
+T16	Protein 1786 1792	GM-CSF
+T17	Protein 1879 1885	GM-CSF
+*	Equiv T3 T2
+T18	Negative_regulation 34 42	inhibits
+T19	Gene_expression 97 107	expression
+T20	Gene_expression 224 233	expressed
+T21	Positive_regulation 377 391	overexpression
+T22	Gene_expression 377 391	overexpression
+T23	Negative_regulation 835 842	inhibit
+T24	Transcription 855 868	transcription
+T25	Binding 906 914	targeted
+T26	Entity 953 970	proximal promoter
+T27	Negative_regulation 1491 1498	reduced
+T28	Positive_regulation 1543 1550	induced
+T29	Regulation 1602 1608	affect
+T30	Entity 1675 1689	kappaB element
+T31	Positive_regulation 1721 1733	central role
+T32	Positive_regulation 1741 1767	transcriptional activation
+T33	Negative_regulation 1846 1871	transcriptional repressor
+T34	Positive_regulation 1962 1976	overexpression
+T35	Gene_expression 1962 1976	overexpression
+E1	Negative_regulation:T18 Theme:E2
+E2	Gene_expression:T19 Theme:T1
+E3	Gene_expression:T20 Theme:T3
+E4	Positive_regulation:T21 Theme:E5
+E5	Gene_expression:T22 Theme:T5
+E6	Negative_regulation:T23 Theme:E7
+E7	Transcription:T24 Theme:T7
+E8	Binding:T25 Theme:T8 Site:T26
+E9	Negative_regulation:T27 Theme:E10
+E10	Positive_regulation:T28 Theme:T13
+E11	Regulation:T29 Theme:T14
+E12	Positive_regulation:T31 Theme:E13 Cause:T15 CSite:T30
+E13	Positive_regulation:T32 Theme:T16
+E14	Negative_regulation:T33 Theme:T17
+E15	Positive_regulation:T34 Theme:E16
+E16	Gene_expression:T35 Theme:T17
+M1	Negation E11
+
+T36	Entity 558 566	promoter
+R1	Protein-Component  Arg1:T6 Arg2:T36
+R2	Protein-Component Arg1:T16 Arg2:T30
+T37	Entity 1442 1450	promoter
+R3	Protein-Component  Arg1:T12 Arg2:T37
+T38	Entity 579 593	kappaB element
+R4	Protein-Component  Arg1:T6 Arg2:T38
+R5	Protein-Component Arg1:T15 Arg2:T30
+T39	Entity 920 938	purine-rich region
+R6	Protein-Component  Arg1:T8 Arg2:T39
+T40	Entity 1704 1712	promoter
+R7	Protein-Component  Arg1:T15 Arg2:T40
+T41	Entity 513 539	NF-kappaB/Rel binding site
+R8	Protein-Component  Arg1:T6 Arg2:T41
+R9	Protein-Component Arg1:T8 Arg2:T26
+T42	Entity 991 1005	kappaB element
+R10	Protein-Component  Arg1:T8 Arg2:T42

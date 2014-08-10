@@ -1,0 +1,33 @@
+T1	Protein 65 71	GATA-1
+T2	Protein 146 152	GATA-1
+T3	Protein 246 252	GATA-1
+T4	Protein 446 452	GATA-1
+T5	Protein 564 570	GATA-1
+T6	Protein 790 796	GATA-1
+T7	Protein 831 837	GATA-1
+T8	Protein 1043 1049	GATA-1
+T9	Protein 1218 1224	GATA-1
+T10	Protein 1326 1332	GATA-1
+T11	Protein 1483 1489	GATA-1
+T12	Positive_regulation 0 19	Positive regulators
+T13	Binding 253 258	binds
+T14	Regulation 764 786	autoregulatory control
+T15	Transcription 797 810	transcription
+T16	Gene_expression 838 848	expression
+T17	Positive_regulation 894 904	maintained
+T18	Positive_regulation 1030 1038	activate
+T19	Positive_regulation 1188 1214	transcriptional activation
+T20	Negative_regulation 1248 1257	decreases
+T21	Positive_regulation 1470 1479	induction
+E1	Positive_regulation:T12 Theme:T1
+E2	Binding:T13 Theme:T3
+E3	Regulation:T14 Theme:E4
+E4	Transcription:T15 Theme:T6
+E5	Gene_expression:T16 Theme:T7
+E6	Positive_regulation:T17 Theme:E5
+E7	Positive_regulation:T18 Theme:T8
+E8	Positive_regulation:T19 Theme:T9
+E9	Negative_regulation:T20 Theme:E8
+E10	Positive_regulation:T21 Theme:T11
+M1	Speculation E6
+M2	Speculation E7

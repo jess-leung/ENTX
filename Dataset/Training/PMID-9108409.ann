@@ -1,0 +1,26 @@
+T1	Protein 25 38	interleukin-5
+T2	Protein 378 391	interleukin-5
+T3	Protein 393 397	IL-5
+T4	Protein 518 522	IL-5
+T5	Protein 637 641	IL-5
+T6	Protein 751 755	IL-5
+T7	Protein 838 842	IL-5
+T8	Protein 1062 1066	IL-5
+T9	Protein 1413 1417	IL-2
+T10	Protein 1470 1474	IL-5
+T11	Protein 1495 1498	CD4
+T12	Protein 1664 1668	IL-5
+*	Equiv T2 T3
+T13	Entity 715 728	IL-2 receptor
+T14	Entity 730 735	IL-2R
+T15	Entity 1067 1079	gene segment
+T16	Entity 1088 1099	5' upstream
+T17	Entity 1130 1168	activation-inducible enhancer elements
+T18	Entity 1151 1168	enhancer elements
+T19	Entity 1268 1272	AP-1
+T20	Entity 1277 1286	NF-kappaB
+T21	Entity 1369 1378	NF-kappaB
+R1	Protein-Component Arg1:T8 Arg2:T17
+R2	Protein-Component Arg1:T8 Arg2:T18
+R3	Protein-Component Arg1:T8 Arg2:T16
+R4	Protein-Component Arg1:T8 Arg2:T15

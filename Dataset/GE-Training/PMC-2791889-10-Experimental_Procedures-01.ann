@@ -1,0 +1,25 @@
+T1	Protein 83 86	OVA
+T2	Protein 124 128	Rag1
+T3	Protein 131 135	IL-4
+T4	Protein 137 146	IFN-gamma
+T5	Protein 149 154	STAT4
+T6	Protein 161 166	STAT6
+T7	Protein 904 913	ovalbumin
+T8	Protein 923 926	OVA
+T9	Protein 969 978	ovalbumin
+T10	Protein 1087 1090	MEK
+T11	Protein 1114 1117	p38
+T12	Protein 1143 1151	GSK3beta
+*	Equiv T7 T8
+T13	Negative_regulation 167 176	deficient
+T14	Negative_regulation 1091 1101	inhibitors
+T15	Negative_regulation 1118 1127	inhibitor
+T16	Negative_regulation 1152 1161	inhibitor
+E1	Negative_regulation:T13 Theme:T2
+E2	Negative_regulation:T13 Theme:T3
+E3	Negative_regulation:T13 Theme:T4
+E4	Negative_regulation:T13 Theme:T5
+E5	Negative_regulation:T13 Theme:T6
+E6	Negative_regulation:T14 Theme:T10
+E7	Negative_regulation:T15 Theme:T11
+E8	Negative_regulation:T16 Theme:T12

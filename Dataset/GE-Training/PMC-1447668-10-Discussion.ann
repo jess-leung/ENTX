@@ -1,0 +1,181 @@
+T1	Protein 46 51	Foxp3
+T2	Protein 359 364	Foxp3
+T3	Protein 613 618	Foxp3
+T4	Protein 1046 1051	Foxp3
+T5	Protein 1371 1376	Foxp3
+T6	Protein 1507 1512	Foxp3
+T7	Protein 1656 1661	Foxp3
+T8	Protein 1690 1695	Foxp3
+T9	Protein 1978 1983	Foxp3
+T10	Protein 2032 2037	Foxp3
+T11	Protein 2093 2096	CD4
+T12	Protein 2346 2349	Tax
+T13	Protein 2421 2426	Foxp3
+T14	Protein 2601 2606	Foxp3
+T15	Protein 2660 2665	Foxp3
+T16	Protein 2763 2768	Foxp3
+T17	Protein 2846 2851	Foxp3
+T18	Protein 2984 2987	CD4
+T19	Protein 2988 2992	CD25
+T20	Protein 3100 3105	Foxp3
+T21	Protein 3155 3158	Tax
+T22	Protein 3297 3300	Tax
+T23	Protein 3351 3354	Tax
+T24	Protein 3382 3385	Tax
+T25	Protein 3442 3445	Tax
+T26	Protein 3573 3576	Tax
+T27	Protein 3609 3612	CBP
+T28	Protein 3613 3617	p300
+T29	Protein 3746 3749	Tax
+T30	Protein 3797 3802	Foxp3
+T31	Protein 3812 3820	DeltaFKH
+T32	Protein 3932 3935	Tax
+T33	Protein 4031 4036	Foxp3
+T34	Protein 4048 4056	DeltaFKH
+T35	Protein 4084 4087	CD4
+T36	Protein 4119 4124	Foxp3
+T37	Protein 4168 4171	Tax
+T38	Protein 4184 4189	Foxp3
+T39	Protein 4238 4241	Tax
+T40	Protein 4378 4383	Foxp3
+T41	Protein 4562 4567	Foxp3
+T42	Protein 4598 4601	CD4
+T43	Protein 4602 4606	CD25
+T44	Protein 4705 4710	Foxp3
+T45	Protein 4828 4831	Tax
+T46	Protein 4892 4895	CD8
+T47	Protein 5018 5023	Foxp3
+T48	Protein 5106 5111	Foxp3
+T49	Protein 5337 5342	Foxp3
+T50	Protein 5380 5383	Tax
+T51	Protein 5508 5511	Tax
+T52	Protein 5538 5543	Foxp3
+T53	Protein 5781 5784	CBP
+T54	Protein 5785 5789	p300
+T55	Protein 5822 5827	Foxp3
+T56	Protein 5930 5934	p300
+T57	Protein 5992 5997	Foxp3
+T58	Protein 6070 6075	Foxp3
+T59	Protein 6080 6084	p300
+T60	Protein 6141 6146	Foxp3
+T61	Protein 6172 6175	Tax
+T62	Protein 6209 6217	DeltaFKH
+T63	Protein 6304 6307	Tax
+T64	Protein 6362 6370	DeltaFKH
+T65	Protein 6523 6528	Foxp3
+T66	Protein 6600 6605	Foxp3
+T67	Protein 6683 6686	CD4
+T68	Protein 6761 6764	CD4
+T69	Protein 6835 6840	Foxp3
+T70	Protein 7021 7026	Foxp3
+T71	Protein 7136 7141	Foxp3
+T72	Protein 7229 7233	JunD
+T73	Protein 7235 7240	c-Fos
+T74	Protein 7242 7282	signal transducer of activated T cells 3
+T75	Protein 7284 7289	STAT3
+T76	Protein 7311 7319	p15INK4b
+T77	Protein 7321 7329	cyclin A
+T78	Protein 7331 7340	cyclin D1
+T79	Protein 7372 7376	IL-2
+T80	Protein 7378 7382	IL-6
+T81	Protein 7559 7564	Foxp3
+T82	Protein 7606 7611	Foxp3
+T83	Protein 7751 7756	Foxp3
+T84	Protein 7977 7980	CD4
+T85	Protein 8197 8202	Foxp3
+T86	Protein 8522 8527	Foxp3
+T87	Protein 8594 8599	Foxp3
+*	Equiv T74 T75
+T88	Gene_expression 365 375	expression
+T89	Negative_regulation 597 609	inactivation
+T90	Binding 1317 1325	targeted
+T91	Entity 1333 1367	amino-terminal proline-rich region
+T92	Entity 1529 1550	leucine zipper domain
+T93	Regulation 1738 1749	play a role
+T94	Binding 1753 1768	dimer formation
+T95	Regulation 1775 1779	does
+T96	Regulation 1961 1974	dysregulation
+T97	Gene_expression 1984 1994	expression
+T98	Binding 3314 3325	interaction
+T99	Binding 3371 3378	Binding
+T100	Positive_regulation 3421 3429	promotes
+T101	Binding 3430 3438	assembly
+T102	Binding 3580 3587	recruit
+T103	Positive_regulation 3767 3781	overexpression
+T104	Gene_expression 3996 4010	overexpression
+T105	Positive_regulation 4544 4551	highest
+T106	Gene_expression 4576 4586	expression
+T107	Negative_regulation 4688 4694	lowest
+T108	Gene_expression 4719 4729	expression
+T109	Regulation 5207 5217	modulating
+T110	Gene_expression 5222 5232	expression
+T111	Gene_expression 5323 5333	expression
+T112	Negative_regulation 5355 5369	down-regulated
+T113	Binding 5766 5777	recruitment
+T114	Negative_regulation 5828 5838	interferes
+T115	Binding 5891 5902	recruitment
+T116	Negative_regulation 5981 5988	blocked
+T117	Positive_regulation 6015 6021	result
+T118	Binding 6038 6049	interaction
+T119	Negative_regulation 6613 6620	lacking
+T120	Entity 6625 6635	FKH domain
+T121	Regulation 7172 7180	regulate
+T122	Gene_expression 7612 7622	expression
+T123	Negative_regulation 8189 8196	inhibit
+T124	Gene_expression 8203 8213	expression
+T125	Binding 8508 8516	interact
+E1	Gene_expression:T88 Theme:T2
+E2	Negative_regulation:T89 Theme:T3
+E3	Binding:T90 Theme:T5 Site:T91
+E4	Regulation:T93 Theme:E5 Cause:T6 CSite:T92
+E5	Binding:T94 Theme:T8
+E6	Regulation:T95 Theme:E5 Cause:T6 CSite:T92
+E7	Regulation:T96 Theme:E8
+E8	Gene_expression:T97 Theme:T9
+E9	Binding:T98 Theme:T23
+E10	Binding:T99 Theme:T24
+E11	Positive_regulation:T100 Theme:E12 Cause:E10
+E12	Binding:T101 Theme:T25
+E13	Binding:T102 Theme:T26 Theme2:T27
+E14	Binding:T102 Theme:T26 Theme2:T28
+E15	Positive_regulation:T103 Theme:T30
+E16	Positive_regulation:T103 Theme:T31
+E17	Gene_expression:T104 Theme:T33
+E18	Gene_expression:T104 Theme:T34
+E19	Positive_regulation:T105 Theme:E20
+E20	Gene_expression:T106 Theme:T41
+E21	Negative_regulation:T107 Theme:E22
+E22	Gene_expression:T108 Theme:T44
+E23	Regulation:T109 Theme:E24
+E24	Gene_expression:T110 Theme:T48
+E25	Gene_expression:T111 Theme:T49
+E26	Negative_regulation:T112 Theme:E25 Cause:T50
+E27	Binding:T113 Theme:T53
+E28	Binding:T113 Theme:T54
+E29	Negative_regulation:T114 Theme:E27 Cause:T55
+E30	Negative_regulation:T114 Theme:E28 Cause:T55
+E31	Binding:T115 Theme:T56
+E32	Negative_regulation:T116 Theme:E31 Cause:T57
+E33	Positive_regulation:T117 Theme:E29 Cause:E34
+E35	Positive_regulation:T117 Theme:E30 Cause:E34
+E36	Positive_regulation:T117 Theme:E32 Cause:E34
+E34	Binding:T118 Theme:T58 Theme2:T59
+E37	Negative_regulation:T119 Theme:T66 Site:T120
+E38	Regulation:T121 Theme:T72
+E39	Regulation:T121 Theme:T73
+E40	Regulation:T121 Theme:T74
+E41	Regulation:T121 Theme:T76
+E42	Regulation:T121 Theme:T77
+E43	Regulation:T121 Theme:T78
+E44	Regulation:T121 Theme:T79
+E45	Regulation:T121 Theme:T80
+E46	Gene_expression:T122 Theme:T82
+E47	Negative_regulation:T123 Theme:E48
+E48	Gene_expression:T124 Theme:T85
+E49	Binding:T125 Theme:T86
+M1	Speculation E3
+M2	Speculation E4
+M3	Negation E7
+M4	Speculation E33
+M5	Speculation E35
+M6	Speculation E36

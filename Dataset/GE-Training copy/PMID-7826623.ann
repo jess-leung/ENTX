@@ -1,0 +1,30 @@
+T1	Protein 39 43	IL-3
+T2	Protein 74 87	interleukin-3
+T3	Protein 89 93	IL-3
+T4	Protein 305 322	phytohemaglutinin
+T5	Protein 324 327	PHA
+T6	Protein 401 405	IL-3
+T7	Protein 566 570	IL-3
+T8	Protein 711 715	IL-3
+T9	Protein 937 941	IL-3
+T10	Protein 942 946	CK-1
+T11	Protein 947 951	CK-2
+T12	Protein 1147 1150	PHA
+*	Equiv T3 T2
+*	Equiv T4 T5
+T13	Gene_expression 103 112	expressed
+T14	Gene_expression 158 168	expression
+T15	Regulation 172 181	regulated
+T16	Transcription 194 209	transcriptional
+T17	Positive_regulation 357 366	activated
+T18	Transcription 367 391	transcription initiation
+T19	Positive_regulation 446 454	required
+E1	Gene_expression:T13 Theme:T3
+E2	Gene_expression:T14 Theme:T3
+E3	Regulation:T15 Theme:E2
+E4	Regulation:T15 Theme:E5
+E5	Transcription:T16 Theme:T3
+E6	Positive_regulation:T17 Theme:E7
+E7	Transcription:T18 Theme:T6
+E8	Positive_regulation:T19 Theme:E6 Cause:T7
+M1	Speculation E8

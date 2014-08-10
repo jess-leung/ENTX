@@ -1,0 +1,40 @@
+T1	Protein 3 7	IL-2
+T2	Protein 38 63	IL-2 receptor alpha chain
+T3	Protein 107 112	Stat5
+T4	Protein 114 119	Elf-1
+T5	Protein 121 129	HMG-I(Y)
+T6	Protein 182 223	interleukin-2 (IL-2) receptor alpha chain
+T7	Protein 272 276	IL-2
+T8	Protein 331 335	IL-2
+T9	Protein 648 652	IL-2
+T10	Protein 715 719	IL-2
+T11	Protein 790 795	Stat5
+T12	Protein 797 802	Elf-1
+T13	Protein 804 812	HMG-I(Y)
+T14	Protein 850 854	IL-2
+T15	Protein 1093 1104	IL-2R alpha
+T16	Protein 1121 1125	IL-2
+T17	Protein 1134 1145	IL-2R alpha
+T18	Entity 8 24	response element
+T19	Entity 64 72	promoter
+T20	Entity 78 95	composite element
+T21	Entity 336 352	response element
+T22	Entity 400 410	GAS motifs
+T23	Entity 425 442	Ets binding sites
+T24	Entity 444 447	EBS
+T25	Entity 476 495	consensus GAS motif
+T26	Entity 503 513	GATA motif
+T27	Entity 534 557	non-consensus GAS motif
+T28	Entity 740 761	heterologous promoter
+T29	Entity 855 871	response element
+T30	Entity 1008 1011	EBS
+T31	Entity 1028 1047	consensus GAS motif
+T32	Entity 1105 1113	promoter
+T33	Entity 1146 1154	promoter
+T34	Entity 1175 1199	complex upstream element
+T35	Entity 1226 1239	binding sites
+R1	Protein-Component Arg1:T2 Arg2:T18
+R2	Protein-Component Arg1:T2 Arg2:T20
+R3	Protein-Component Arg1:T2 Arg2:T19
+R4	Protein-Component Arg1:T15 Arg2:T32
+R5	Protein-Component Arg1:T17 Arg2:T33

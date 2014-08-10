@@ -1,0 +1,26 @@
+T1	Protein 40 45	hLH-2
+T2	Protein 163 167	LH-2
+T3	Protein 308 313	hLH-2
+T4	Protein 429 434	hLH-2
+T5	Protein 539 542	BCR
+T6	Protein 543 546	ABL
+T7	Protein 614 619	hLH-2
+T8	Protein 696 701	c-ABL
+T9	Protein 720 725	hLH-2
+T10	Protein 863 868	hLH-2
+T11	Protein 1043 1048	hLH-2
+T12	Protein 1119 1124	hLH-2
+T13	Gene_expression 58 67	expressed
+T14	Positive_regulation 293 304	High levels
+T15	Gene_expression 314 324	expression
+T16	Positive_regulation 786 800	cis-activation
+T17	Gene_expression 869 879	expression
+T18	Gene_expression 901 911	expression
+E1	Gene_expression:T13 Theme:T1
+E2	Positive_regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T3
+E4	Positive_regulation:T16 Theme:T9
+E5	Gene_expression:T17 Theme:T10
+E6	Gene_expression:T18 Theme:T10
+M1	Speculation E4
+M2	Negation E6

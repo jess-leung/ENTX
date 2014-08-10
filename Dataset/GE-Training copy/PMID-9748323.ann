@@ -1,0 +1,25 @@
+T1	Protein 78 94	interferon-gamma
+T2	Protein 100 106	GM-CSF
+T3	Protein 364 373	FcgammaRI
+T4	Protein 1144 1152	TNFalpha
+T5	Protein 1223 1226	p50
+T6	Protein 1227 1231	RelA
+T7	Protein 1249 1257	IFNgamma
+T8	Protein 1282 1287	STAT1
+T9	Protein 1306 1314	IFNgamma
+T10	Protein 1338 1347	FcgammaRI
+T11	Protein 1411 1417	GM-CSF
+T12	Positive_regulation 0 10	Activation
+T13	Positive_regulation 199 206	induced
+T14	Transcription 219 229	transcribe
+T15	Binding 1176 1183	binding
+T16	Positive_regulation 1258 1266	promotes
+T17	Binding 1271 1278	binding
+E1	Positive_regulation:T12 Theme:T2
+E2	Positive_regulation:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E4
+E4	Transcription:T14 Theme:T3
+E5	Binding:T15 Theme:T5
+E6	Binding:T15 Theme:T6
+E7	Positive_regulation:T16 Theme:E8 Cause:T7
+E8	Binding:T17 Theme:T8

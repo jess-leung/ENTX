@@ -1,0 +1,68 @@
+T1	Protein 9 18	prolactin
+T2	Protein 80 110	interferon regulatory factor-1
+T3	Protein 122 152	interferon regulatory factor-1
+T4	Protein 154 159	IRF-1
+T5	Protein 240 243	PRL
+T6	Protein 307 310	PRL
+T7	Protein 348 353	IRF-1
+T8	Protein 373 378	IRF-1
+T9	Protein 419 424	IRF-1
+T10	Protein 493 498	IRF-1
+T11	Protein 527 561	chloramphenicol acetyl transferase
+T12	Protein 563 566	CAT
+T13	Protein 614 617	CAT
+T14	Protein 657 660	PRL
+T15	Protein 843 846	PRL
+T16	Protein 958 961	PRL
+T17	Protein 1016 1019	PRL
+T18	Protein 1110 1113	CAT
+T19	Protein 1144 1147	PRL
+T20	Protein 1209 1212	PRL
+T21	Protein 1230 1235	IRF-1
+T22	Protein 1269 1274	IRF-1
+T23	Protein 1349 1352	PRL
+T24	Protein 1463 1466	PRL
+T25	Protein 1524 1527	PRL
+T26	Protein 1563 1568	IRF-1
+T27	Protein 1611 1614	PRL
+T28	Protein 1672 1677	IRF-1
+*	Equiv T11 T12
+*	Equiv T4 T3
+T29	Positive_regulation 39 46	mediate
+T30	Gene_expression 62 72	expression
+T31	Positive_regulation 227 236	inducible
+T32	Regulation 311 320	regulates
+T33	Gene_expression 334 344	expression
+T34	Positive_regulation 582 590	mediated
+T35	Positive_regulation 601 610	induction
+T36	Regulation 1213 1222	responses
+T37	Positive_regulation 1528 1535	induced
+T38	Gene_expression 1545 1555	expression
+T39	Regulation 1588 1598	controlled
+T40	Entity 1678 1693	promoter region
+T41	Positive_regulation 1694 1697	act
+E1	Positive_regulation:T29 Theme:E2
+E2	Gene_expression:T30 Theme:T2
+E3	Positive_regulation:T31 Theme:T4 Cause:T5
+E4	Regulation:T32 Theme:E5 Cause:T6
+E5	Gene_expression:T33 Theme:T8
+E6	Positive_regulation:T34 Theme:E7
+E7	Positive_regulation:T35 Theme:T13 Cause:T14
+E8	Regulation:T36 Theme:T21 Cause:T20
+E9	Positive_regulation:T37 Theme:E10 Cause:T25
+E10	Gene_expression:T38 Theme:T26
+E11	Regulation:T39 Theme:E9 Cause:T28 CSite:T40
+E12	Regulation:T39 Theme:E9
+E13	Positive_regulation:T41 Theme:T28 Site:T40
+
+T42	Entity 499 514	5'-flanking DNA
+R1	Protein-Component  Arg1:T10 Arg2:T42
+T43	Entity 1300 1303	DNA
+R2	Protein-Component  Arg1:T22 Arg2:T43
+T44	Entity 425 433	promoter
+R3	Protein-Component  Arg1:T9 Arg2:T44
+T45	Entity 1244 1261	different regions
+R4	Protein-Component  Arg1:T22 Arg2:T45
+R5	Protein-Component Arg1:T28 Arg2:T40
+T46	Entity 1614 1634	-responsive elements
+R6	Protein-Component  Arg1:T28 Arg2:T46

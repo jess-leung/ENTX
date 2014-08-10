@@ -1,0 +1,19 @@
+T1	Protein 82 85	E2A
+T2	Protein 97 100	E2A
+T3	Protein 346 349	E2A
+T4	Protein 447 450	E2A
+T5	Protein 545 548	E2A
+T6	Protein 1029 1032	E2A
+T7	Protein 1087 1090	E2A
+T8	Protein 1350 1353	E2A
+T9	Protein 1521 1524	E2A
+T10	Entity 231 248	dimeric complexes
+T11	Entity 268 291	E box enhancer elements
+T12	Entity 878 883	E box
+T13	Entity 901 910	LEF1/BCF1
+T14	Entity 1213 1222	LEF1/BCF1
+T15	Entity 1322 1331	LEF1/BCF1
+T16	Entity 1337 1346	homodimer
+R1	Subunit-Complex Arg1:T2 Arg2:T10
+R2	Subunit-Complex Arg1:T8 Arg2:T15
+R3	Subunit-Complex Arg1:T8 Arg2:T16

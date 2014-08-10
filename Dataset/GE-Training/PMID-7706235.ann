@@ -1,0 +1,24 @@
+T1	Protein 55 61	p21ras
+T2	Protein 82 88	p21ras
+T3	Protein 273 279	p21ras
+T4	Protein 338 344	p21ras
+T5	Protein 386 392	p21ras
+T6	Protein 539 545	p21ras
+T7	Protein 748 754	p21ras
+T8	Protein 872 878	p21ras
+T9	Protein 920 926	p21ras
+T10	Protein 980 986	p21ras
+T11	Protein 1046 1052	p21ras
+T12	Positive_regulation 263 272	activates
+T13	Positive_regulation 316 324	increase
+T14	Positive_regulation 863 871	activate
+T15	Regulation 992 998	target
+T16	Positive_regulation 1036 1045	activates
+E1	Positive_regulation:T12 Theme:T3
+E2	Positive_regulation:T13 Theme:T4
+E3	Positive_regulation:T14 Theme:T8
+E4	Regulation:T15 Theme:T10
+E5	Positive_regulation:T16 Theme:T11
+
+T17	Entity 24 42	guanine nucleotide
+R1	Protein-Component  Arg1:T1 Arg2:T17

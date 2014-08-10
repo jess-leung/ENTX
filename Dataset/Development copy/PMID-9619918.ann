@@ -1,0 +1,31 @@
+T1	Protein 0 4	IL-2
+T2	Protein 101 120	IL-2 receptor alpha
+T3	Protein 149 162	interleukin-2
+T4	Protein 164 168	IL-2
+T5	Protein 287 320	IL-2 receptor (IL-2R) alpha chain
+T6	Protein 584 594	IL-2Ralpha
+T7	Protein 599 603	beta
+T8	Protein 677 687	IL-2Ralpha
+T9	Protein 726 730	IL-2
+T10	Protein 772 776	IL-2
+T11	Protein 799 803	IL-2
+T12	Protein 907 911	IL-2
+T13	Protein 1031 1035	IL-2
+T14	Protein 1103 1108	c-Rel
+T15	Protein 1113 1117	KBF1
+T16	Protein 1134 1138	IL-2
+T17	Protein 1174 1178	IL-2
+T18	Protein 1336 1340	IL-2
+*	Equiv T3 T4
+T19	Entity 23 26	CD8
+T20	Entity 77 86	NF-kappaB
+T21	Entity 234 255	nuclear factor kappaB
+T22	Entity 257 266	NF-kappaB
+T23	Entity 418 421	CD8
+T24	Entity 563 566	CD8
+T25	Entity 922 931	NF-kappaB
+T26	Entity 1082 1091	NF-kappaB
+T27	Entity 1390 1399	NF-kappaB
+T28	Entity 1411 1414	CD8
+R1	Subunit-Complex Arg1:T14 Arg2:T26
+R2	Subunit-Complex Arg1:T15 Arg2:T26

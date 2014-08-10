@@ -1,0 +1,3 @@
+T1	Protein 842 854	LDL receptor
+T2	Transcription 860 899	expression at the transcriptional level
+E1	Transcription:T2 Theme:T1

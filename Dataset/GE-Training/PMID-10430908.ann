@@ -1,0 +1,40 @@
+T1	Protein 36 41	Bcl-x
+T2	Protein 46 54	Bfl-1/A1
+T3	Protein 71 75	CD40
+T4	Protein 128 132	CD40
+T5	Protein 252 256	CD40
+T6	Protein 333 338	Bcl-x
+T7	Protein 348 352	CD40
+T8	Protein 435 443	A1/Bfl-1
+T9	Protein 450 454	CD40
+T10	Protein 579 583	CD40
+T11	Protein 618 623	Bfl-1
+T12	Protein 628 633	Bcl-x
+T13	Protein 675 679	CD40
+T14	Protein 690 693	Fas
+T15	Protein 753 758	Bcl-x
+T16	Protein 919 924	Bcl-x
+T17	Protein 948 951	Fas
+T18	Protein 1041 1045	CD40
+T19	Positive_regulation 19 32	up-regulation
+T20	Positive_regulation 114 124	Activation
+T21	Regulation 353 362	regulated
+T22	Positive_regulation 455 464	inducible
+T23	Negative_regulation 569 578	abolished
+T24	Positive_regulation 592 605	up-regulation
+T25	Gene_expression 881 891	expression
+E1	Positive_regulation:T19 Theme:T2
+E2	Positive_regulation:T19 Theme:T1
+E3	Positive_regulation:T20 Theme:T4
+E4	Regulation:T21 Theme:T6 Cause:T7
+E5	Positive_regulation:T22 Theme:T8 Cause:T9
+E6	Negative_regulation:T23 Theme:E9
+E7	Negative_regulation:T23 Theme:E8
+E8	Positive_regulation:T24 Theme:T11 Cause:T10
+E9	Positive_regulation:T24 Theme:T12 Cause:T10
+E10	Gene_expression:T25 Theme:T16
+
+T26	Entity 725 749	upstream promoter region
+R1	Protein-Component  Arg1:T15 Arg2:T26
+T27	Entity 772 798	NF-kappaB-binding sequence
+R2	Protein-Component  Arg1:T15 Arg2:T27

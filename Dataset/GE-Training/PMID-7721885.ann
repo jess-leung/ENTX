@@ -1,0 +1,56 @@
+T1	Protein 0 19	Interleukin (IL)-10
+T2	Protein 96 101	IL-10
+T3	Protein 106 110	IL-4
+T4	Protein 228 247	interleukin (IL)-10
+T5	Protein 331 340	IL-1 beta
+T6	Protein 342 346	IL-6
+T7	Protein 348 352	IL-8
+T8	Protein 358 391	tumor necrosis factor (TNF)-alpha
+T9	Protein 530 539	TNF alpha
+T10	Protein 541 546	IL-10
+T11	Protein 744 751	NF-IL-6
+T12	Protein 753 757	AP-1
+T13	Protein 759 763	AP-2
+T14	Protein 765 767	GR
+T15	Protein 769 773	CREB
+T16	Protein 775 780	Oct-1
+T17	Protein 786 790	Sp-1
+T18	Protein 811 816	IL-10
+T19	Protein 847 852	IL-10
+T20	Protein 949 954	IL-10
+T21	Protein 1383 1388	IL-10
+T22	Protein 1452 1456	IL-4
+T23	Protein 1640 1645	IL-10
+T24	Protein 1647 1651	IL-4
+T25	Protein 1754 1759	IL-10
+T26	Protein 1764 1768	IL-4
+T27	Negative_regulation 248 256	inhibits
+T28	Positive_regulation 282 292	stimulated
+T29	Gene_expression 293 303	production
+T30	Regulation 799 807	affected
+E1	Negative_regulation:T27 Theme:E5
+E2	Negative_regulation:T27 Theme:E8
+E3	Negative_regulation:T27 Theme:E6
+E4	Negative_regulation:T27 Theme:E7
+E5	Positive_regulation:T28 Theme:E12
+E6	Positive_regulation:T28 Theme:E9
+E7	Positive_regulation:T28 Theme:E10
+E8	Positive_regulation:T28 Theme:E11
+E9	Gene_expression:T29 Theme:T6
+E10	Gene_expression:T29 Theme:T7
+E11	Gene_expression:T29 Theme:T5
+E12	Gene_expression:T29 Theme:T8
+E13	Regulation:T30 Theme:T13 Cause:T18
+E14	Regulation:T30 Theme:T12 Cause:T18
+E15	Regulation:T30 Theme:T15 Cause:T18
+E16	Regulation:T30 Theme:T16 Cause:T18
+E17	Regulation:T30 Theme:T14 Cause:T18
+E18	Regulation:T30 Theme:T11 Cause:T18
+E19	Regulation:T30 Theme:T17 Cause:T18
+M1	Negation E13
+M2	Negation E14
+M3	Negation E15
+M4	Negation E16
+M5	Negation E17
+M6	Negation E18
+M7	Negation E19

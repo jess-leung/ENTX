@@ -1,0 +1,13 @@
+T1	Protein 198 214	beta-like globin
+T2	Protein 429 462	chloramphenicol acetyltransferase
+T3	Protein 464 467	CAT
+T4	Protein 725 728	CAT
+T5	Protein 1057 1060	CAT
+*	Equiv T2 T3
+T6	Regulation 152 161	regulates
+T7	Transcription 166 179	transcription
+E1	Regulation:T6 Theme:E2
+E2	Transcription:T7 Theme:T1
+
+T8	Entity 100 151	erythroid-specific hypersensitive site HS2 enhancer
+R1	Protein-Component  Arg1:T1 Arg2:T8

@@ -1,0 +1,53 @@
+T1	Protein 55 70	I kappa B-alpha
+T2	Protein 71 76	MAD-3
+T3	Protein 322 331	TNF-alpha
+T4	Protein 367 372	IL-2R
+T5	Protein 762 777	I kappa B-alpha
+T6	Protein 936 951	I kappa B-alpha
+T7	Protein 1207 1222	I kappa B-alpha
+T8	Protein 1506 1510	IL-8
+T9	Protein 1515 1524	IL-1 beta
+T10	Protein 1613 1623	tuberculin
+T11	Protein 1681 1696	I kappa B-alpha
+T12	Protein 1719 1734	I kappa B-alpha
+*	Equiv T1 T2
+T13	Regulation 0 10	Regulation
+T14	Positive_regulation 249 257	increase
+T15	Positive_regulation 265 275	stimulated
+T16	Localization 276 283	release
+T17	Gene_expression 341 363	spontaneous expression
+T18	Protein_catabolism 747 758	degradation
+T19	Protein_catabolism 1066 1072	intact
+T20	Gene_expression 1193 1203	expression
+T21	Positive_regulation 1252 1262	activation
+T22	Positive_regulation 1282 1294	up-regulated
+T23	Gene_expression 1444 1454	expression
+T24	Positive_regulation 1534 1546	up-regulated
+T25	Positive_regulation 1654 1661	induced
+T26	Protein_catabolism 1666 1677	degradation
+T27	Transcription 1705 1715	expression
+E1	Regulation:T13 Theme:T1
+E2	Positive_regulation:T14 Theme:E5
+E3	Positive_regulation:T14 Theme:E6
+E4	Positive_regulation:T15 Theme:E5
+E5	Localization:T16 Theme:T3
+E6	Gene_expression:T17 Theme:T4
+E7	Protein_catabolism:T18 Theme:T5
+E8	Protein_catabolism:T19 Theme:T6
+E9	Gene_expression:T20 Theme:T7
+E10	Positive_regulation:T21 Theme:E9
+E11	Positive_regulation:T22 Theme:E9
+E12	Gene_expression:T23 Theme:T9
+E13	Gene_expression:T23 Theme:T8
+E14	Positive_regulation:T24 Theme:E13
+E15	Positive_regulation:T24 Theme:E12
+E16	Positive_regulation:T25 Theme:E20 Cause:T10
+E17	Positive_regulation:T25 Theme:E21 Cause:T10
+E18	Positive_regulation:T25 Theme:E21
+E19	Positive_regulation:T25 Theme:E20
+E20	Protein_catabolism:T26 Theme:T11
+E21	Transcription:T27 Theme:T12
+M1	Negation E8
+M2	Negation E11
+M3	Negation E14
+M4	Negation E15

@@ -1,0 +1,25 @@
+T1	Protein 101 104	p50
+T2	Protein 673 677	CD14
+T3	Protein 1063 1066	p50
+T4	Protein 1067 1070	p65
+T5	Protein 1114 1117	p50
+T6	Protein 1161 1164	p50
+T7	Protein 1206 1210	p105
+T8	Protein 1266 1269	p50
+T9	Protein 1785 1789	CD14
+T10	Protein 1843 1846	p50
+T11	Localization 41 53	mobilization
+T12	Localization 1007 1016	mobilized
+T13	Entity 1020 1042	naive Mono Mac 6 cells
+T14	Positive_regulation 1149 1157	increase
+T15	Positive_regulation 1194 1202	increase
+T16	Positive_regulation 1233 1262	transcriptional up-regulation
+T17	Positive_regulation 1773 1784	up-regulate
+E1	Localization:T11 Theme:T1
+E2	Localization:T12 Theme:T3 AtLoc:T13
+E3	Localization:T12 Theme:T5
+E4	Localization:T12 Theme:T4 AtLoc:T13
+E5	Positive_regulation:T14 Theme:T6
+E6	Positive_regulation:T15 Theme:T7
+E7	Positive_regulation:T16 Theme:T8
+E8	Positive_regulation:T17 Theme:T9

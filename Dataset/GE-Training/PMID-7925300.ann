@@ -1,0 +1,59 @@
+T1	Protein 484 493	TNF-alpha
+T2	Protein 545 548	p50
+T3	Protein 549 552	p65
+T4	Protein 565 570	c-rel
+T5	Protein 603 618	I kappa B alpha
+T6	Protein 834 837	p65
+T7	Protein 842 857	I kappa B alpha
+T8	Protein 931 935	p100
+T9	Protein 940 944	p105
+T10	Protein 967 982	I kappa B alpha
+T11	Protein 1037 1041	p105
+T12	Protein 1120 1135	I kappa B alpha
+T13	Protein 1156 1159	p65
+T14	Protein 1169 1174	c-rel
+T15	Protein 1236 1245	TNF-alpha
+T16	Protein 1496 1499	p65
+T17	Protein 1847 1856	TNF-alpha
+T18	Positive_regulation 502 509	induced
+T19	Entity 510 517	nuclear
+T20	Localization 518 531	translocation
+T21	Phosphorylation 635 649	phosphorylated
+T22	Phosphorylation 819 833	phosphorylated
+T23	Protein_catabolism 952 963	degradation
+T24	Phosphorylation 1018 1033	phosphorylation
+T25	Negative_regulation 1042 1049	impedes
+T26	Binding 1065 1073	interact
+T27	Phosphorylation 1180 1194	phosphorylated
+T28	Positive_regulation 1201 1210	induction
+T29	Binding 1476 1492	binding activity
+T30	Positive_regulation 1526 1534	enhanced
+E1	Positive_regulation:T18 Theme:E4 Cause:T1
+E2	Positive_regulation:T18 Theme:E6 Cause:T1
+E3	Positive_regulation:T18 Theme:E5 Cause:T1
+E4	Localization:T20 Theme:T2 ToLoc:T19
+E5	Localization:T20 Theme:T4 ToLoc:T19
+E6	Localization:T20 Theme:T3 ToLoc:T19
+E7	Phosphorylation:T21 Theme:T5
+E8	Phosphorylation:T22 Theme:T7
+E9	Phosphorylation:T22 Theme:T6
+E10	Protein_catabolism:T23 Theme:T10
+E11	Phosphorylation:T24 Theme:T12
+E12	Phosphorylation:T24 Theme:T11
+E13	Negative_regulation:T25 Theme:E16 Cause:E12
+E14	Negative_regulation:T25 Theme:E15 Cause:E11
+E15	Binding:T26 Theme:T12
+E16	Binding:T26 Theme:T11
+E17	Phosphorylation:T27 Theme:T13
+E18	Phosphorylation:T27 Theme:T14
+E19	Positive_regulation:T28 Theme:T14
+E20	Positive_regulation:T28 Theme:T13
+E21	Binding:T29 Theme:T16
+E22	Positive_regulation:T30 Theme:E21
+M1	Negation E3
+
+T31	Entity 1499 1521	-containing NF-kappa B
+R1	Subunit-Complex  Arg1:T16 Arg2:T31
+T32	Entity 545 552	p50-p65
+R2	Subunit-Complex  Arg1:T2 Arg2:T32
+R3	Subunit-Complex Arg1:T3 Arg2:T32

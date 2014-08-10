@@ -1,0 +1,17 @@
+T1	Protein 70 77	p27Kip1
+T2	Protein 118 125	p27Kip1
+T3	Protein 188 195	p27Kip1
+T4	Protein 392 399	p27Kip1
+T5	Protein 521 528	p27Kip1
+T6	Protein 609 616	p27Kip1
+T7	Protein 926 929	Sp1
+T8	Protein 936 939	Myb
+T9	Protein 1068 1075	p27Kip1
+T10	Transcription 372 388	expression level
+T11	Negative_regulation 451 459	declined
+T12	Regulation 1056 1067	controlling
+T13	Gene_expression 1081 1091	expression
+E1	Transcription:T10 Theme:T4
+E2	Negative_regulation:T11 Theme:E1
+E3	Regulation:T12 Theme:E4
+E4	Gene_expression:T13 Theme:T9

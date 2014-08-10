@@ -1,0 +1,35 @@
+T1	Protein 76 81	ZEBRA
+T2	Protein 176 181	ZEBRA
+T3	Protein 301 306	ZEBRA
+T4	Protein 493 498	ZEBRA
+T5	Protein 685 690	ZEBRA
+T6	Protein 969 974	ZEBRA
+T7	Protein 1046 1051	ZEBRA
+T8	Protein 1181 1186	ZEBRA
+T9	Protein 1321 1326	ZEBRA
+T10	Protein 1395 1400	ZEBRA
+T11	Protein 1583 1588	ZEBRA
+T12	Entity 23 29	serine
+T13	Entity 37 49	basic domain
+T14	Entity 339 342	DNA
+T15	Entity 428 455	viral lytic cycle promoters
+T16	Entity 873 879	serine
+T17	Entity 883 890	alanine
+T18	Entity 911 929	DNA-binding domain
+T19	Entity 911 914	DNA
+T20	Entity 974 988	-binding sites
+T21	Entity 1051 1072	-responsive promoters
+T22	Entity 1270 1280	serine 186
+T23	Entity 1284 1291	alanine
+T24	Entity 1299 1317	DNA-binding domain
+T25	Entity 1299 1302	DNA
+T26	Entity 1565 1575	serine 186
+T27	Entity 1625 1628	DNA
+T28	Entity 1674 1695	lytic viral promoters
+T29	Entity 1701 1728	chromatinized viral episome
+R1	Protein-Component Arg1:T1 Arg2:T13
+R2	Protein-Component Arg1:T1 Arg2:T12
+R3	Protein-Component Arg1:T9 Arg2:T22
+R4	Protein-Component Arg1:T9 Arg2:T24
+R5	Protein-Component Arg1:T9 Arg2:T23
+R6	Protein-Component Arg1:T11 Arg2:T26

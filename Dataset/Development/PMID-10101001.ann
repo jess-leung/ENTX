@@ -1,0 +1,14 @@
+T1	Protein 763 790	tumor necrosis factor-alpha
+T2	Protein 792 801	TNF-alpha
+T3	Protein 826 859	macrophage inflammatory protein-2
+T4	Protein 955 988	intercellular adhesion molecule-1
+T5	Protein 1190 1199	TNF-alpha
+T6	Protein 1441 1450	TNF-alpha
+*	Equiv T1 T2
+T7	Entity 71 80	NF-kappaB
+T8	Entity 146 179	immunoglobulin G immune complexes
+T9	Entity 278 304	nuclear factor (NF)-kappaB
+T10	Entity 675 689	lung NF-kappaB
+T11	Entity 1250 1259	NF-kappaB
+T12	Entity 1370 1379	NF-kappaB
+T13	Entity 1465 1474	NF-kappaB

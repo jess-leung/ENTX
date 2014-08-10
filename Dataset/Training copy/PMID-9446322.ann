@@ -1,0 +1,8 @@
+T1	Protein 180 193	interleukin-2
+T2	Protein 195 199	IL-2
+T3	Protein 473 477	IL-2
+T4	Protein 515 519	IL-2
+T5	Protein 642 646	IL-2
+*	Equiv T1 T2
+T6	Entity 452 482	regulatory region of IL-2 gene
+R1	Protein-Component Arg1:T3 Arg2:T6

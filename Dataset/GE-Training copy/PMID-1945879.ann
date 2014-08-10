@@ -1,0 +1,21 @@
+T1	Protein 107 120	interleukin 2
+T2	Protein 193 206	Interleukin 2
+T3	Protein 208 212	Il-2
+T4	Protein 495 499	Il-2
+T5	Protein 619 624	TCF-1
+T6	Protein 626 641	T cell factor 1
+T7	Protein 700 705	TCF-1
+T8	Protein 881 886	TCF-1
+T9	Protein 1466 1470	Il-2
+*	Equiv T2 T3
+*	Equiv T5 T6
+T10	Localization 500 509	secreting
+T11	Binding 575 582	binding
+T12	Binding 887 892	binds
+T13	Regulation 1418 1425	control
+T14	Transcription 1445 1458	transcription
+E1	Localization:T10 Theme:T4
+E2	Binding:T11 Theme:T5
+E3	Binding:T12 Theme:T8
+E4	Regulation:T13 Theme:E5
+E5	Transcription:T14 Theme:T9

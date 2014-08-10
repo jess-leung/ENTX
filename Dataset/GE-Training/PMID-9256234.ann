@@ -1,0 +1,4 @@
+T1	Protein 788 792	RelA
+
+T2	Entity 810 828	multiple complexes
+R1	Subunit-Complex  Arg1:T1 Arg2:T2

@@ -1,0 +1,37 @@
+T1	Protein 24 28	IL-4
+T2	Protein 195 199	IL-4
+T3	Protein 225 229	IL-2
+T4	Protein 363 366	CD4
+T5	Protein 396 400	IL-4
+T6	Protein 424 428	IL-2
+T7	Protein 680 684	IL-4
+T8	Protein 754 758	IL-4
+T9	Protein 795 798	CD4
+T10	Protein 820 825	NFAT1
+T11	Protein 888 891	CD4
+T12	Protein 1047 1052	NFAT1
+T13	Protein 1077 1081	IL-4
+T14	Protein 1112 1115	CD4
+T15	Protein 1136 1141	NFAT1
+T16	Protein 1162 1166	IL-4
+T17	Protein 1235 1240	NFAT1
+T18	Protein 1279 1283	IL-4
+T19	Protein 1312 1315	CD4
+T20	Protein 1386 1390	IL-4
+T21	Protein 1428 1433	NFAT1
+T22	Protein 1529 1533	IL-4
+T23	Protein 1544 1547	CD4
+T24	Entity 641 643	P0
+T25	Entity 648 650	P1
+T26	Entity 651 672	NFAT-binding elements
+T27	Entity 685 693	promoter
+T28	Entity 710 728	proximal P element
+T29	Entity 759 767	promoter
+T30	Entity 907 926	activator protein 1
+T31	Entity 939 958	activator protein 1
+T32	Entity 1082 1090	promoter
+T33	Entity 1284 1292	promoter
+R1	Protein-Component Arg1:T7 Arg2:T27
+R2	Protein-Component Arg1:T8 Arg2:T29
+R3	Protein-Component Arg1:T13 Arg2:T32
+R4	Protein-Component Arg1:T18 Arg2:T33

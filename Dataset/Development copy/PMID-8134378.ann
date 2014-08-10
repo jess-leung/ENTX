@@ -1,0 +1,29 @@
+T1	Protein 18 31	interleukin 6
+T2	Protein 120 126	NF-IL6
+T3	Protein 590 603	interleukin 6
+T4	Protein 605 609	IL-6
+T5	Protein 894 898	IL-6
+T6	Protein 962 966	IL-6
+T7	Protein 1042 1046	IL-6
+T8	Protein 1146 1179	chloramphenicol acetyltransferase
+T9	Protein 1206 1212	NF-IL6
+T10	Protein 1419 1423	IL-6
+T11	Protein 1621 1625	IL-6
+T12	Protein 1686 1692	NF-IL6
+T13	Protein 1722 1726	IL-6
+*	Equiv T3 T4
+T14	Entity 131 141	NF-kappa B
+T15	Entity 1047 1055	promoter
+T16	Entity 1108 1119	-158 to -49
+T17	Entity 1214 1236	positions -153 to -145
+T18	Entity 1241 1251	-83 to -75
+T19	Entity 1261 1316	nuclear factor NF-kappa B (positions -72 to -63) motifs
+T20	Entity 1424 1432	promoter
+T21	Entity 1626 1634	promoter
+T22	Entity 1708 1713	sites
+T23	Entity 1807 1824	response elements
+R1	Protein-Component Arg1:T7 Arg2:T15
+R2	Protein-Component Arg1:T9 Arg2:T17
+R3	Protein-Component Arg1:T9 Arg2:T18
+R4	Protein-Component Arg1:T10 Arg2:T20
+R5	Protein-Component Arg1:T11 Arg2:T21

@@ -1,0 +1,38 @@
+T1	Protein 31 37	GATA-3
+T2	Protein 97 103	GATA-3
+T3	Protein 211 214	CD4
+T4	Protein 292 298	GATA-3
+T5	Protein 716 722	GATA-3
+T6	Protein 784 790	GATA-3
+T7	Protein 1022 1028	GATA-3
+T8	Protein 1137 1143	GATA-3
+T9	Protein 1359 1362	ZEB
+T10	Protein 1403 1406	E2A
+T11	Protein 1411 1414	HEB
+T12	Protein 1457 1460	ZEB
+T13	Protein 1465 1468	E2A
+T14	Protein 1469 1472	HEB
+T15	Gene_expression 7 17	expression
+T16	Regulation 46 55	regulated
+T17	Transcription 349 364	transcriptional
+T18	Positive_regulation 989 995	confer
+T19	Entity 1029 1037	promoter
+T20	Negative_regulation 1127 1136	inhibited
+T21	Entity 1144 1152	promoter
+T22	Positive_regulation 1251 1260	necessary
+T23	Binding 1315 1319	bind
+T24	Negative_regulation 1437 1448	competition
+T25	Regulation 1485 1493	involved
+E1	Gene_expression:T15 Theme:T1
+E2	Regulation:T16 Theme:E1
+E3	Transcription:T17 Theme:T4
+E4	Positive_regulation:T18 Theme:T7 Site:T19
+E5	Negative_regulation:T20 Theme:T8 Site:T21
+E6	Positive_regulation:T22 Theme:E5
+E7	Binding:T23 Theme:T10
+E8	Binding:T23 Theme:T11
+E9	Binding:T23 Theme:T9
+E10	Negative_regulation:T24 Theme:E8 Cause:T12
+E11	Negative_regulation:T24 Theme:E7 Cause:T12
+E12	Regulation:T25 Theme:E5 Cause:E10
+E13	Regulation:T25 Theme:E5 Cause:E11

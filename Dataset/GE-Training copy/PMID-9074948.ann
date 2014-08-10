@@ -1,0 +1,19 @@
+T1	Protein 541 568	tumor necrosis factor-alpha
+T2	Protein 570 588	interleukin 1-beta
+T3	Protein 590 638	granulocyte-macrophage colony-stimulating factor
+T4	Protein 643 656	interleukin-6
+T5	Protein 936 957	nitric oxide synthase
+T6	Gene_expression 527 537	Generation
+T7	Negative_regulation 720 729	decreased
+T8	Transcription 926 935	inducible
+T9	Negative_regulation 1024 1034	suppressed
+E1	Gene_expression:T6 Theme:T3
+E2	Gene_expression:T6 Theme:T4
+E3	Gene_expression:T6 Theme:T2
+E4	Gene_expression:T6 Theme:T1
+E5	Negative_regulation:T7 Theme:E3
+E6	Negative_regulation:T7 Theme:E1
+E7	Negative_regulation:T7 Theme:E2
+E8	Negative_regulation:T7 Theme:E4
+E9	Transcription:T8 Theme:T5
+E10	Negative_regulation:T9 Theme:E9

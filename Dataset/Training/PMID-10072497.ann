@@ -1,0 +1,22 @@
+T1	Protein 395 399	IL-4
+T2	Protein 404 430	granulocyte-macrophage CSF
+T3	Protein 683 687	CD86
+T4	Protein 689 693	B7-2
+T5	Protein 700 704	CD40
+T6	Protein 807 811	CD40
+T7	Protein 932 948	mannose receptor
+*	Equiv T3 T4
+T8	Entity 0 19	N-acetyl-L-cysteine
+T9	Entity 106 115	NF-kappaB
+T10	Entity 129 148	N-acetyl-L-cysteine
+T11	Entity 150 153	NAC
+T12	Entity 253 256	NAC
+T13	Entity 452 455	NAC
+T14	Entity 526 556	transcription factor NF-kappaB
+T15	Entity 571 574	NAC
+T16	Entity 764 767	NAC
+T17	Entity 850 853	NAC
+T18	Entity 987 990	NAC
+T19	Entity 1031 1034	NAC
+T20	Entity 1245 1248	NAC
+T21	Entity 1287 1290	NAC

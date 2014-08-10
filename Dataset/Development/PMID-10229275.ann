@@ -1,0 +1,17 @@
+T1	Protein 407 441	chloramphenicol acetyl transferase
+T2	Protein 443 446	CAT
+T3	Protein 682 685	CAT
+T4	Protein 816 820	B7.1
+*	Equiv T1 T2
+T5	Entity 64 92	NF-kappaB-regulated promoter
+T6	Entity 64 73	NF-kappaB
+T7	Entity 84 92	promoter
+T8	Entity 448 461	reporter gene
+T9	Entity 487 528	HIV-1 long terminal repeat (LTR) promoter
+T10	Entity 573 582	NF-kappaB
+T11	Entity 686 699	reporter gene
+T12	Entity 733 742	NF-kappaB
+T13	Entity 762 771	NF-kappaB
+T14	Entity 860 888	NF-kappaB-regulated promoter
+T15	Entity 860 869	NF-kappaB
+T16	Entity 880 888	promoter

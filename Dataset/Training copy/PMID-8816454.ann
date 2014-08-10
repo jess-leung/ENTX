@@ -1,0 +1,45 @@
+T1	Protein 153 170	small nuclear RNA
+T2	Protein 373 390	small nuclear RNA
+T3	Protein 392 397	snRNA
+T4	Protein 576 585	PTF gamma
+T5	Protein 590 604	delta subunits
+T6	Protein 671 679	PTF beta
+T7	Protein 722 730	PTF beta
+T8	Protein 750 758	PTF beta
+T9	Protein 886 894	PTF beta
+T10	Protein 930 938	PTF beta
+T11	Protein 988 993	snRNA
+T12	Protein 1110 1130	TATA-binding protein
+T13	Protein 1132 1135	TBP
+T14	Protein 1141 1149	TFIIIB90
+T15	Protein 1354 1363	PTF gamma
+T16	Protein 1364 1373	PTF delta
+T17	Protein 1378 1381	TBP
+T18	Protein 1405 1413	TFIIIB90
+T19	Protein 1448 1453	snRNA
+T20	Protein 1513 1516	TBP
+T21	Protein 1601 1606	snRNA
+*	Equiv T2 T3
+*	Equiv T12 T13
+T22	Entity 52 112	human proximal sequence element-binding transcription factor
+T23	Entity 52 83	human proximal sequence element
+T24	Entity 180 198	RNA polymerases II
+T25	Entity 203 206	III
+T26	Entity 213 273	proximal sequence element (PSE)-binding transcription factor
+T27	Entity 275 278	PTF
+T28	Entity 297 300	PSE
+T29	Entity 487 496	human PTF
+T30	Entity 657 661	cDNA
+T31	Entity 793 814	PTF-Oct-1-DNA complex
+T32	Entity 1176 1179	PTF
+T33	Entity 1354 1373	PTF gamma/PTF delta
+T34	Entity 1516 1535	-containing complex
+T35	Entity 1547 1553	TFIIIB
+T36	Entity 1657 1673	four-subunit PTF
+R1	Protein-Component Arg1:T2 Arg2:T28
+R2	Subunit-Complex Arg1:T4 Arg2:T29
+R3	Subunit-Complex Arg1:T5 Arg2:T29
+R4	Subunit-Complex Arg1:T8 Arg2:T31
+R5	Subunit-Complex Arg1:T15 Arg2:T33
+R6	Subunit-Complex Arg1:T16 Arg2:T33
+R7	Subunit-Complex Arg1:T20 Arg2:T34

@@ -1,0 +1,32 @@
+T1	Protein 6 9	Tat
+T2	Protein 185 188	Tat
+T3	Protein 424 427	Tat
+T4	Protein 623 626	Tat
+T5	Protein 773 776	Tat
+T6	Protein 874 877	Tat
+T7	Protein 907 940	Mn-dependent superoxide dismutase
+T8	Protein 942 948	Mn-SOD
+T9	Protein 1050 1056	Mn-SOD
+T10	Protein 1130 1133	Tat
+T11	Protein 1145 1151	Mn-SOD
+T12	Protein 1278 1281	Tat
+T13	Protein 1381 1387	Mn-SOD
+T14	Protein 1525 1528	Tat
+T15	Protein 1553 1559	Mn-SOD
+*	Equiv T7 T8
+T16	Entity 34 44	NF-kappa B
+T17	Entity 319 329	NF-kappa B
+T18	Entity 373 387	HIV-1 tat gene
+T19	Entity 476 486	NF-kappa B
+T20	Entity 663 673	NF-kappa B
+T21	Entity 1203 1214	glutathione
+T22	Entity 1253 1264	glutathione
+T23	Entity 1328 1354	HIV-1 long terminal repeat
+T24	Entity 1356 1359	LTR
+T25	Entity 1498 1528	C-terminal region of HIV-1 Tat
+T26	Entity 1498 1515	C-terminal region
+T27	Entity 1641 1652	glutathione
+T28	Entity 1654 1657	GSH
+T29	Entity 1680 1683	GSH
+T30	Entity 1685 1689	GSSG
+R1	Protein-Component Arg1:T14 Arg2:T25

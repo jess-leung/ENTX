@@ -1,0 +1,10 @@
+T1	Protein 652 657	OTF-1
+T2	Protein 682 687	OTF-2
+T3	Protein 1634 1639	OTF-2
+T4	Binding 623 630	binding
+T5	Regulation 1626 1633	utilize
+E1	Binding:T4 Theme:T2
+E2	Binding:T4 Theme:T1
+E3	Regulation:T5 Theme:T3
+M1	Negation E3
+M2	Speculation E3

@@ -1,0 +1,16 @@
+T1	Protein 11 14	Myc
+T2	Protein 15 18	Max
+T3	Protein 369 374	c-Myc
+T4	Protein 448 453	c-Myc
+T5	Protein 564 567	Max
+T6	Protein 674 677	Myc
+T7	Protein 745 748	Max
+T8	Protein 866 869	Myc
+T9	Protein 946 949	Max
+T10	Entity 19 30	heterodimer
+T11	Entity 327 353	antisense oligonucleotides
+T12	Entity 716 728	heterodimers
+R1	Subunit-Complex Arg1:T1 Arg2:T10
+R2	Subunit-Complex Arg1:T2 Arg2:T10
+R3	Subunit-Complex Arg1:T7 Arg2:T12
+R4	Subunit-Complex Arg1:T6 Arg2:T12

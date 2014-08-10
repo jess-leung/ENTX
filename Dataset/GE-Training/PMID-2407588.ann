@@ -1,0 +1,10 @@
+T1	Protein 539 544	Oct-1
+T2	Protein 607 613	Oct-2A
+T3	Protein 618 624	Oct-2B
+T4	Protein 932 937	Oct-1
+T5	Protein 942 947	Oct-2
+T6	Gene_expression 556 563	present
+T7	Gene_expression 629 634	found
+E1	Gene_expression:T6 Theme:T1
+E2	Gene_expression:T7 Theme:T3
+E3	Gene_expression:T7 Theme:T2

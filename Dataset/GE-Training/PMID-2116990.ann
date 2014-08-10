@@ -1,0 +1,29 @@
+T1	Protein 43 54	beta-globin
+T2	Protein 224 238	epsilon-globin
+T3	Protein 382 394	gamma-globin
+T4	Protein 404 414	luciferase
+T5	Positive_regulation 364 374	increasing
+T6	Gene_expression 420 430	expression
+T7	Positive_regulation 562 570	required
+E1	Positive_regulation:T5 Theme:E2
+E2	Gene_expression:T6 Theme:T4
+E3	Positive_regulation:T7 Theme:E1
+
+T8	Entity 255 271	dominant control
+R1	Protein-Component  Arg1:T2 Arg2:T8
+T9	Entity 176 193	18-bp DNA segment
+R2	Protein-Component  Arg1:T2 Arg2:T9
+T10	Entity 145 153	enhancer
+R3	Protein-Component  Arg1:T2 Arg2:T10
+T11	Entity 395 403	promoter
+R4	Protein-Component  Arg1:T3 Arg2:T11
+T12	Entity 0 25	Tandem AP-1-binding sites
+R5	Protein-Component  Arg1:T1 Arg2:T12
+T13	Entity 94 112	inducible enhancer
+R6	Protein-Component  Arg1:T1 Arg2:T13
+T14	Entity 305 313	enhancer
+R7	Protein-Component  Arg1:T3 Arg2:T14
+T15	Entity 55 78	dominant control region
+R8	Protein-Component  Arg1:T1 Arg2:T15
+T16	Entity 275 298	locus-activating region
+R9	Protein-Component  Arg1:T2 Arg2:T16

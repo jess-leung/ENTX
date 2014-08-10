@@ -1,0 +1,31 @@
+T1	Protein 34 47	interleukin-3
+T2	Protein 145 158	Interleukin-3
+T3	Protein 160 164	IL-3
+T4	Protein 309 313	IL-3
+T5	Protein 391 395	IL-3
+T6	Protein 845 849	IL-3
+*	Equiv T3 T2
+T7	Positive_regulation 57 80	activated cooperatively
+T8	Gene_expression 188 197	expressed
+T9	Positive_regulation 252 261	inducible
+T10	Entity 396 404	enhancer
+T11	Gene_expression 827 837	expression
+T12	Regulation 865 875	controlled
+T13	Regulation 876 883	through
+E1	Positive_regulation:T7 Theme:T1
+E2	Gene_expression:T8 Theme:T3
+E3	Positive_regulation:T9 Theme:T4
+E4	Gene_expression:T11 Theme:T6
+E5	Regulation:T12 Theme:E4
+E6	Regulation:T13 Theme:E5 Cause:T5 CSite:T10
+M1	Speculation E6
+
+T14	Entity 450 477	DNase I-hypersensitive site
+R1	Protein-Component  Arg1:T5 Arg2:T14
+T15	Entity 426 477	cyclosporin A-sensitive DNase I-hypersensitive site
+R2	Protein-Component  Arg1:T5 Arg2:T15
+T16	Entity 262 286	T cell-specific enhancer
+R3	Protein-Component  Arg1:T4 Arg2:T16
+R4	Protein-Component Arg1:T5 Arg2:T10
+T17	Entity 2 26	T cell-specific enhancer
+R5	Protein-Component  Arg1:T1 Arg2:T17

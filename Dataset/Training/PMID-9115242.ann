@@ -1,0 +1,28 @@
+T1	Protein 29 42	collagenase-1
+T2	Protein 125 135	C/EBP-beta
+T3	Protein 261 274	collagenase-1
+T4	Protein 309 342	Chloramphenicol acetyltransferase
+T5	Protein 397 410	collagenase-1
+T6	Protein 751 764	collagenase-1
+T7	Protein 1183 1196	collagenase-1
+T8	Protein 1300 1335	CCAAT/enhancer-binding protein-beta
+T9	Protein 1337 1347	C/EBP-beta
+T10	Protein 1417 1430	collagenase-1
+T11	Protein 1574 1587	collagenase-1
+T12	Protein 1661 1674	collagenase-1
+*	Equiv T8 T9
+T13	Entity 104 108	AP-1
+T14	Entity 136 140	site
+T15	Entity 183 192	AP-1 site
+T16	Entity 199 222	distal promoter element
+T17	Entity 411 419	promoter
+T18	Entity 689 708	mutant AP-1 element
+T19	Entity 765 773	promoter
+T20	Entity 784 788	AP-1
+T21	Entity 835 839	AP-1
+T22	Entity 1143 1168	distal promoter sequences
+T23	Entity 1349 1361	binding site
+T24	Entity 1370 1385	-2010 and -1954
+T25	Entity 1486 1505	regulatory elements
+R1	Protein-Component Arg1:T5 Arg2:T17
+R2	Protein-Component Arg1:T6 Arg2:T19

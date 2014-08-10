@@ -1,0 +1,32 @@
+T1	Protein 14 17	Nef
+T2	Protein 55 58	CD4
+T3	Protein 123 126	Nef
+T4	Protein 197 200	CD4
+T5	Protein 238 241	Nef
+T6	Protein 274 278	IL-2
+T7	Protein 283 292	TNF-alpha
+T8	Protein 372 375	Fos
+T9	Protein 376 379	Jun
+T10	Protein 431 440	TNF-alpha
+T11	Protein 529 532	Nef
+T12	Protein 655 658	Nef
+T13	Protein 715 718	Nef
+T14	Protein 1062 1065	Nef
+T15	Entity 327 330	DNA
+T16	Entity 351 361	NF-kappa B
+T17	Entity 380 388	 complex
+T18	Entity 471 474	CD3
+T19	Entity 637 640	LTR
+T20	Entity 738 744	Thr-15
+T21	Entity 748 751	GTP
+T22	Entity 790 804	critical sites
+T23	Entity 858 862	LTRs
+T24	Entity 892 895	LTR
+T25	Entity 932 942	NF-kappa B
+T26	Entity 972 1026	the region containing the negative responding elements
+T27	Entity 998 1026	negative responding elements
+T28	Entity 1028 1032	NREs
+T29	Entity 1080 1083	LTR
+R1	Subunit-Complex Arg1:T8 Arg2:T17
+R2	Subunit-Complex Arg1:T9 Arg2:T17
+R3	Protein-Component Arg1:T13 Arg2:T20

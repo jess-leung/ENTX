@@ -1,0 +1,18 @@
+T1	Protein 54 60	NFAT-1
+T2	Protein 278 284	NFAT-1
+T3	Protein 459 465	NFAT-1
+T4	Protein 559 565	NFAT-1
+T5	Protein 779 785	NFAT-1
+T6	Protein 917 923	NFAT-1
+T7	Protein 996 1002	NFAT-1
+T8	Protein 1038 1044	NFAT-1
+T9	Protein 1281 1287	NFAT-1
+T10	Protein 1535 1541	NFAT-1
+T11	Protein 1775 1781	NFAT-1
+T12	Protein 1856 1862	NFAT-1
+T13	Entity 566 579	binding motif
+T14	Entity 699 731	multimerized short binding motif
+T15	Entity 1598 1609	HIV-LTR/tat
+T16	Entity 1805 1825	functional sequences
+T17	Entity 1829 1836	HIV-LTR
+T18	Entity 1891 1898	HIV-LTR

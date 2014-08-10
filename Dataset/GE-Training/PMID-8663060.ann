@@ -1,0 +1,42 @@
+T1	Protein 137 143	gammac
+T2	Protein 195 213	interleukin (IL)-2
+T3	Protein 215 219	IL-4
+T4	Protein 221 225	IL-7
+T5	Protein 227 231	IL-9
+T6	Protein 237 242	IL-15
+T7	Protein 322 328	gammac
+T8	Protein 478 484	gammac
+T9	Protein 1079 1085	gammac
+T10	Protein 1311 1316	Elf-1
+T11	Protein 1442 1450	IL2Rbeta
+T12	Protein 1509 1515	gammac
+T13	Protein 1550 1554	GABP
+T14	Protein 1714 1720	gammac
+T15	Negative_regulation 312 318	defect
+T16	Binding 1250 1254	bind
+T17	Gene_expression 1555 1565	expression
+T18	Binding 1618 1629	interaction
+T19	Positive_regulation 1662 1672	contribute
+T20	Gene_expression 1696 1706	expression
+E1	Negative_regulation:T15 Theme:T7
+E2	Binding:T16 Theme:T10
+E3	Gene_expression:T17 Theme:T13
+E4	Binding:T18 Theme:T13
+E5	Positive_regulation:T19 Theme:E6 Cause:E4
+E6	Gene_expression:T20 Theme:T14
+M1	Speculation E5
+
+T21	Entity 485 493	promoter
+R1	Protein-Component  Arg1:T8 Arg2:T21
+T22	Entity 1037 1054	Ets binding sites
+R2	Protein-Component  Arg1:T9 Arg2:T22
+T23	Entity 509 548	minimal tissue-specific promoter region
+R3	Protein-Component  Arg1:T8 Arg2:T23
+T24	Entity 608 632	1053 base pairs upstream
+R4	Protein-Component  Arg1:T8 Arg2:T24
+T25	Entity 1451 1459	promoter
+R5	Protein-Component  Arg1:T11 Arg2:T25
+T26	Entity 640 670	major transcription start site
+R6	Protein-Component  Arg1:T8 Arg2:T26
+T27	Entity 1516 1530	basal promoter
+R7	Protein-Component  Arg1:T12 Arg2:T27

@@ -1,0 +1,30 @@
+T1	Protein 0 17	Estrogen receptor
+T2	Protein 63 69	GATA-1
+T3	Protein 103 120	estrogen receptor
+T4	Protein 122 124	ER
+T5	Protein 247 255	ER alpha
+T6	Protein 283 285	ER
+T7	Protein 429 439	histone H5
+T8	Protein 558 560	ER
+T9	Protein 755 758	Sp1
+T10	Protein 780 782	ER
+T11	Protein 795 797	ER
+T12	Protein 921 923	ER
+T13	Protein 964 970	GATA-1
+T14	Protein 1043 1045	ER
+T15	Protein 1061 1067	GATA-1
+T16	Protein 1244 1250	GATA-1
+T17	Protein 1308 1310	ER
+*	Equiv T3 T4
+T18	Entity 29 32	DNA
+T19	Entity 166 189	erythroid-specific gene
+T20	Entity 290 293	DNA
+T21	Entity 379 403	erythroid-specific genes
+T22	Entity 654 658	GATA
+T23	Entity 663 674	CACCC sites
+T24	Entity 682 693	H5 promoter
+T25	Entity 698 706	enhancer
+T26	Entity 804 829	estrogen response element
+T27	Entity 940 943	DNA
+T28	Entity 1156 1180	erythroid-specific genes
+T29	Entity 1218 1221	DNA

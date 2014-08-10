@@ -1,0 +1,37 @@
+T1	Protein 63 69	p95vav
+T2	Protein 263 269	p95vav
+T3	Protein 522 528	p95vav
+T4	Protein 614 620	p95vav
+T5	Protein 717 730	interleukin-2
+T6	Protein 756 762	p95vav
+T7	Protein 817 830	interleukin-2
+T8	Protein 937 943	p95vav
+T9	Protein 1078 1084	p95vav
+T10	Protein 1236 1242	p95vav
+T11	Protein 1393 1399	p95vav
+T12	Protein 1466 1477	calcineurin
+T13	Protein 1498 1504	p95vav
+T14	Protein 1688 1694	p95vav
+T15	Protein 1735 1741	p95vav
+T16	Protein 1896 1902	p95vav
+T17	Entity 100 123	T-cell antigen receptor
+T18	Entity 125 128	TCR
+T19	Entity 366 383	structural motifs
+T20	Entity 395 409	Src homology 2
+T21	Entity 411 425	Src homology 3
+T22	Entity 431 458	pleckstrin homology domains
+T23	Entity 465 508	putative guanine nucleotide exchange domain
+T24	Entity 532 535	TCR
+T25	Entity 779 782	TCR
+T26	Entity 1006 1009	TCR
+T27	Entity 1054 1084	first 67 amino acids of p95vav
+T28	Entity 1054 1074	first 67 amino acids
+T29	Entity 1520 1523	TCR
+T30	Entity 1583 1586	TCR
+T31	Entity 1609 1612	TCR
+T32	Entity 1650 1653	TCR
+T33	Entity 1771 1774	TCR
+T34	Entity 1791 1799	tyrosine
+T35	Entity 1975 1978	TCR
+R1	Protein-Component Arg1:T9 Arg2:T28
+R2	Protein-Component Arg1:T9 Arg2:T27

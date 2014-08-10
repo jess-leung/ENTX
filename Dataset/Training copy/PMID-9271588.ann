@@ -1,0 +1,10 @@
+T1	Protein 30 34	CD21
+T2	Protein 208 212	CD21
+T3	Protein 218 221	CR2
+T4	Protein 405 409	CD21
+T5	Entity 57 71	viral promoter
+T6	Entity 76 85	NF-kappaB
+T7	Entity 466 496	NF-kappaB transcription factor
+T8	Entity 566 568	Wp
+T9	Entity 582 608	viral latent gene promoter
+T10	Entity 684 693	NF-kappaB

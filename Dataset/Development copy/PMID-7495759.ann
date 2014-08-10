@@ -1,0 +1,10 @@
+T1	Protein 0 5	CIITA
+T2	Protein 294 321	MHC class II transactivator
+T3	Protein 323 328	CIITA
+T4	Protein 519 524	CIITA
+T5	Protein 713 718	CIITA
+T6	Protein 768 773	CIITA
+*	Equiv T2 T3
+T7	Entity 34 52	MHC class II genes
+T8	Entity 438 456	MHC class II genes
+T9	Entity 623 641	MHC class II genes

@@ -1,0 +1,61 @@
+T1	Protein 0 8	TNFalpha
+T2	Protein 822 830	TNFalpha
+T3	Protein 850 858	TNFalpha
+T4	Protein 862 870	IL-1beta
+T5	Protein 908 919	p24 antigen
+T6	Protein 1100 1108	TNFalpha
+T7	Protein 1149 1157	IL-1beta
+T8	Protein 1185 1193	TNFalpha
+T9	Protein 1198 1206	IL-1beta
+T10	Protein 1426 1434	TNFalpha
+T11	Protein 1446 1454	IL-1beta
+T12	Protein 1695 1703	TNFalpha
+T13	Entity 29 45	protein kinase A
+T14	Entity 82 91	HIV-1 LTR
+T15	Entity 110 152	downstream TRE-like cAMP response elements
+T16	Entity 130 134	cAMP
+T17	Entity 155 175	Activating protein-1
+T18	Entity 177 181	AP-1
+T19	Entity 191 214	TPA responsive elements
+T20	Entity 216 219	TRE
+T21	Entity 251 280	transcription initiation site
+T22	Entity 288 297	U5 region
+T23	Entity 305 331	HIV-1 long terminal repeat
+T24	Entity 333 336	LTR
+T25	Entity 345 373	downstream sequence elements
+T26	Entity 382 385	DSE
+T27	Entity 477 480	DSE
+T28	Entity 490 514	cAMP-responsive elements
+T29	Entity 490 494	cAMP
+T30	Entity 516 519	CRE
+T31	Entity 573 586	cholera toxin
+T32	Entity 588 591	Ctx
+T33	Entity 620 624	cAMP
+T34	Entity 635 651	protein kinase A
+T35	Entity 653 656	PKA
+T36	Entity 733 742	HIV-1 DSE
+T37	Entity 814 817	Ctx
+T38	Entity 832 835	Ctx
+T39	Entity 981 1004	LTR reporter constructs
+T40	Entity 1036 1045	DSE sites
+T41	Entity 1060 1063	LTR
+T42	Entity 1092 1095	Ctx
+T43	Entity 1141 1144	Ctx
+T44	Entity 1238 1242	cAMP
+T45	Entity 1243 1246	PKA
+T46	Entity 1318 1321	DSE
+T47	Entity 1331 1340	TRE sites
+T48	Entity 1396 1400	AP-1
+T49	Entity 1471 1474	Ctx
+T50	Entity 1514 1518	AP-1
+T51	Entity 1572 1606	TRE-like cAMP-responsive DSE sites
+T52	Entity 1581 1585	cAMP
+T53	Entity 1597 1606	DSE sites
+T54	Entity 1618 1640	5'-untranslated leader
+T55	Entity 1712 1716	cAMP
+T56	Entity 1716 1720	/PKA
+T57	Entity 1752 1757	sites
+T58	Entity 1770 1789	CREB/ATF homodimers
+T59	Entity 1833 1836	DSE
+T60	Entity 1842 1898	heterodimers composed of both AP-1 and CREB/ATF proteins
+T61	Entity 1842 1854	heterodimers

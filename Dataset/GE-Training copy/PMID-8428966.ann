@@ -1,0 +1,16 @@
+T1	Protein 900 905	Fra-1
+T2	Protein 1083 1087	cJun
+T3	Protein 1091 1095	JunD
+T4	Protein 1105 1109	JunB
+T5	Protein 1499 1503	JunB
+T6	Gene_expression 850 860	expression
+T7	Gene_expression 1065 1079	Overexpression
+T8	Positive_regulation 1065 1079	Overexpression
+T9	Gene_expression 1069 1079	expression
+E1	Gene_expression:T6 Theme:T1
+E2	Gene_expression:T7 Theme:T4
+E3	Positive_regulation:T8 Theme:E6
+E4	Positive_regulation:T8 Theme:E7
+E5	Positive_regulation:T8 Theme:E2
+E6	Gene_expression:T9 Theme:T3
+E7	Gene_expression:T9 Theme:T2

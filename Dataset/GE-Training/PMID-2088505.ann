@@ -1,0 +1,35 @@
+T1	Protein 88 101	interleukin-2
+T2	Protein 117 130	interleukin 2
+T3	Protein 132 136	IL-2
+T4	Protein 317 321	IL-2
+T5	Protein 521 526	TCF-1
+T6	Protein 532 547	T-Cell Factor-1
+T7	Protein 627 631	IL-2
+T8	Protein 745 750	TCF-1
+T9	Protein 806 811	TCF-1
+*	Equiv T2 T3
+T10	Binding 36 46	recognizes
+T11	Entity 49 80	phorbol ester-inducible element
+T12	Entity 143 151	promoter
+T13	Binding 155 165	recognized
+T14	Positive_regulation 306 313	leading
+T15	Gene_expression 322 332	production
+T16	Binding 556 566	recognizes
+T17	Positive_regulation 824 831	induced
+E1	Binding:T10 Theme:T1 Site:T11
+E2	Binding:T13 Theme:T2 Site:T12
+E3	Positive_regulation:T14 Theme:E4
+E4	Gene_expression:T15 Theme:T4
+E5	Binding:T16 Theme:T5
+E6	Positive_regulation:T17 Theme:T9
+R1	Protein-Component Arg1:T1 Arg2:T11
+
+T18	Entity 102 110	promoter
+R2	Protein-Component  Arg1:T1 Arg2:T18
+T19	Entity 569 601	T-cell-specific response element
+R3	Protein-Component  Arg1:T7 Arg2:T19
+T20	Entity 603 606	TCE
+R4	Protein-Component  Arg1:T7 Arg2:T20
+T21	Entity 632 640	promoter
+R5	Protein-Component  Arg1:T7 Arg2:T21
+R6	Protein-Component Arg1:T2 Arg2:T12

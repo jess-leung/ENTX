@@ -1,0 +1,23 @@
+T1	Protein 0 5	Tcf-1
+T2	Protein 69 95	glycogen synthase kinase-3
+T3	Protein 125 137	Beta-catenin
+T4	Protein 409 421	beta-catenin
+T5	Protein 438 450	beta-catenin
+T6	Protein 507 512	Tcf-1
+T7	Protein 576 588	beta-catenin
+T8	Protein 789 819	glycogen synthase kinase-3beta
+T9	Protein 821 830	GSK-3beta
+T10	Protein 866 878	beta-catenin
+T11	Protein 919 928	GSK-3beta
+T12	Protein 1000 1009	GSK-3beta
+T13	Protein 1083 1101	phytohemagglutinin
+T14	Protein 1116 1125	GSK-3beta
+T15	Protein 1196 1205	GSK-3beta
+T16	Protein 1340 1349	GSK-3beta
+T17	Protein 1362 1365	Tcf
+*	Equiv T8 T9
+T18	Entity 171 203	Drosophila segment polarity gene
+T19	Entity 204 213	Armadillo
+T20	Entity 1156 1174	Tcf reporter genes
+T21	Entity 1466 1486	Tcf-responsive genes
+T22	Entity 1532 1535	Wnt

@@ -1,0 +1,13 @@
+T1	Protein 1070 1078	IL-1beta
+T2	Protein 1080 1084	IL-6
+T3	Protein 1086 1095	TNF-alpha
+T4	Protein 1333 1341	IL-1beta
+T5	Protein 1344 1348	IL-6
+T6	Protein 1354 1363	TNF-alpha
+T7	Entity 1000 1008	tyrosine
+T8	Entity 1046 1055	NF-kappaB
+T9	Entity 1171 1179	tyrosine
+T10	Entity 1225 1242	NF-kappaB protein
+T11	Entity 1418 1426	tyrosine
+T12	Entity 1444 1453	NF-kappaB
+T13	Entity 1575 1584	NF-kappaB

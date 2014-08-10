@@ -1,0 +1,82 @@
+T1	Protein 281 284	IL2
+T2	Protein 286 289	IL3
+T3	Protein 291 294	IL4
+T4	Protein 300 303	IL5
+T5	Protein 318 332	interleukins 2
+T6	Protein 334 335	3
+T7	Protein 337 338	4
+T8	Protein 344 345	5
+T9	Protein 347 351	IL-2
+T10	Protein 353 355	-3
+T11	Protein 357 359	-4
+T12	Protein 365 367	-5
+T13	Protein 643 646	IL2
+T14	Protein 699 704	OCT-1
+T15	Protein 856 859	IL2
+T16	Protein 922 925	IL4
+T17	Protein 1146 1180	chloramphenicol acetyl transferase
+T18	Protein 1182 1185	CAT
+T19	Protein 1219 1222	IL2
+T20	Protein 1291 1294	CAT
+T21	Protein 1322 1325	IL2
+T22	Protein 1456 1459	CAT
+T23	Protein 1506 1511	OCT-1
+*	Equiv T18 T17
+T24	Transcription 226 239	transcription
+T25	Regulation 433 441	involved
+T26	Binding 584 588	bind
+T27	Entity 589 606	response elements
+T28	Binding 719 726	binding
+T29	Binding 766 773	binding
+T30	Entity 860 868	enhancer
+T31	Entity 926 934	enhancer
+T32	Gene_expression 1046 1057	transfected
+T33	Positive_regulation 1046 1057	transfected
+T34	Regulation 1187 1204	under the control
+T35	Gene_expression 1295 1305	expression
+T36	Regulation 1306 1314	directed
+T37	Negative_regulation 1400 1405	lower
+T38	Gene_expression 1465 1475	expression
+T39	Negative_regulation 1547 1557	equivalent
+E1	Transcription:T24 Theme:T1
+E2	Transcription:T24 Theme:T3
+E3	Transcription:T24 Theme:T4
+E4	Transcription:T24 Theme:T2
+E5	Regulation:T25 Theme:E4
+E6	Binding:T26 Theme:T13 Site:T27
+E7	Binding:T28 Theme:T13 Site:T27
+E8	Binding:T28 Theme:T13 Theme2:T14 Site:T27
+E9	Binding:T29 Theme:T15 Site:T30
+E10	Binding:T29 Theme:T16 Site:T31
+E11	Gene_expression:T32 Theme:T18
+E12	Positive_regulation:T33 Theme:E11
+E13	Regulation:T34 Theme:T18
+E14	Gene_expression:T35 Theme:T20
+E15	Regulation:T36 Theme:E14
+E16	Negative_regulation:T37 Theme:E14
+E17	Gene_expression:T38 Theme:T22
+E18	Negative_regulation:T39 Theme:E17
+M1	Negation E1
+M2	Negation E2
+M3	Negation E3
+M4	Negation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E11
+M8	Negation E18
+
+T40	Entity 622 639	regulatory region
+R1	Protein-Component  Arg1:T13 Arg2:T40
+R2	Protein-Component Arg1:T13 Arg2:T27
+R3	Protein-Component Arg1:T15 Arg2:T30
+T41	Entity 1512 1542	proximal (OCT-1p)-binding site
+R4	Protein-Component  Arg1:T23 Arg2:T41
+R5	Protein-Component Arg1:T16 Arg2:T31
+T42	Entity 1326 1343	regulatory region
+R6	Protein-Component  Arg1:T21 Arg2:T42
+T43	Entity 879 906	NF-AT-like response element
+R7	Protein-Component  Arg1:T16 Arg2:T43
+T44	Entity 832 848	response element
+R8	Protein-Component  Arg1:T15 Arg2:T44
+T45	Entity 1223 1240	regulatory region
+R9	Protein-Component  Arg1:T19 Arg2:T45

@@ -1,0 +1,21 @@
+T1	Protein 26 31	c-fos
+T2	Protein 36 41	c-jun
+T3	Protein 244 249	c-jun
+T4	Protein 254 259	c-fos
+T5	Protein 423 428	c-fos
+T6	Protein 485 490	c-jun
+T7	Protein 668 673	c-fos
+T8	Protein 754 759	c-fos
+T9	Protein 813 818	c-jun
+T10	Protein 890 895	c-fos
+T11	Protein 900 905	c-jun
+T12	Protein 1071 1076	c-fos
+T13	Protein 1097 1102	c-jun
+T14	Entity 65 69	AP-1
+T15	Entity 228 243	proto-oncogenes
+T16	Entity 349 361	AP-1 element
+T17	Entity 349 353	AP-1
+T18	Entity 1177 1189	AP-1 element
+T19	Entity 1177 1181	AP-1
+T20	Entity 1246 1250	AP-1
+T21	Entity 1450 1454	AP-1

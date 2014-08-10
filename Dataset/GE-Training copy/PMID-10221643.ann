@@ -1,0 +1,33 @@
+T1	Protein 0 5	Tcf-1
+T2	Protein 69 95	glycogen synthase kinase-3
+T3	Protein 125 137	Beta-catenin
+T4	Protein 409 421	beta-catenin
+T5	Protein 438 450	beta-catenin
+T6	Protein 507 512	Tcf-1
+T7	Protein 576 588	beta-catenin
+T8	Protein 789 819	glycogen synthase kinase-3beta
+T9	Protein 821 830	GSK-3beta
+T10	Protein 866 878	beta-catenin
+T11	Protein 919 928	GSK-3beta
+T12	Protein 1000 1009	GSK-3beta
+T13	Protein 1083 1101	phytohemagglutinin
+T14	Protein 1116 1125	GSK-3beta
+T15	Protein 1196 1205	GSK-3beta
+T16	Protein 1340 1349	GSK-3beta
+T17	Protein 1362 1365	Tcf
+*	Equiv T9 T8
+T18	Positive_regulation 518 550	becomes transcriptionally active
+T19	Binding 559 570	interaction
+T20	Negative_regulation 726 733	inhibit
+T21	Positive_regulation 846 862	increased levels
+T22	Negative_regulation 1108 1115	inhibit
+T23	Negative_regulation 1182 1192	inhibition
+T24	Negative_regulation 1328 1339	inactivates
+E1	Positive_regulation:T18 Theme:T6 Cause:E2
+E2	Binding:T19 Theme:T6 Theme2:T7
+E3	Negative_regulation:T20 Theme:T9
+E4	Positive_regulation:T21 Theme:T10 Cause:E3
+E5	Negative_regulation:T22 Theme:T14 Cause:T13
+E6	Negative_regulation:T22 Theme:T14
+E7	Negative_regulation:T23 Theme:T15
+E8	Negative_regulation:T24 Theme:T16

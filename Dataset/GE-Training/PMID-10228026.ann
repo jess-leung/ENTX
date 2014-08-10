@@ -1,0 +1,109 @@
+T1	Protein 0 8	Thrombin
+T2	Protein 17 20	p65
+T3	Protein 106 112	ICAM-1
+T4	Protein 216 224	thrombin
+T5	Protein 295 301	ICAM-1
+T6	Protein 303 307	CD54
+T7	Protein 368 376	thrombin
+T8	Protein 427 433	ICAM-1
+T9	Protein 474 480	ICAM-1
+T10	Protein 600 606	ICAM-1
+T11	Protein 774 782	thrombin
+T12	Protein 928 934	ICAM-1
+T13	Protein 1008 1016	thrombin
+T14	Protein 1240 1243	E1B
+T15	Protein 1285 1293	thrombin
+T16	Protein 1354 1362	thrombin
+T17	Protein 1413 1421	thrombin
+T18	Protein 1451 1454	p65
+T19	Protein 1456 1461	Rel A
+T20	Protein 1500 1506	ICAM-1
+T21	Protein 1517 1534	Thrombin receptor
+T22	Protein 1616 1652	proteolytically activated receptor-1
+T23	Protein 1663 1671	thrombin
+T24	Protein 1693 1699	ICAM-1
+T25	Protein 1737 1745	thrombin
+T26	Protein 1768 1774	ICAM-1
+T27	Protein 1840 1843	p65
+T28	Protein 1889 1895	ICAM-1
+T29	Protein 1911 1947	proteolytically activated receptor-1
+*	Equiv T5 T6
+*	Equiv T19 T18
+T30	Positive_regulation 9 16	induced
+T31	Binding 31 38	binding
+T32	Positive_regulation 85 93	mediates
+T33	Gene_expression 113 123	expression
+T34	Localization 226 234	released
+T35	Positive_regulation 287 294	induces
+T36	Gene_expression 309 319	expression
+T37	Positive_regulation 414 423	increases
+T38	Gene_expression 456 466	expression
+T39	Negative_regulation 900 909	prevented
+T40	Positive_regulation 914 924	activation
+T41	Entity 935 943	promoter
+T42	Positive_regulation 1422 1429	induced
+T43	Binding 1430 1437	binding
+T44	Entity 1466 1492	downstream NF-kappa B site
+T45	Positive_regulation 1684 1692	inducing
+T46	Gene_expression 1700 1710	expression
+T47	Positive_regulation 1746 1755	activates
+T48	Gene_expression 1775 1785	expression
+T49	Binding 1844 1851	binding
+T50	Entity 1896 1904	promoter
+T51	Positive_regulation 1905 1910	after
+T52	Positive_regulation 1948 1958	activation
+E1	Positive_regulation:T30 Theme:E2 Cause:T1
+E2	Binding:T31 Theme:T2
+E3	Positive_regulation:T32 Theme:E4 Cause:E1
+E4	Gene_expression:T33 Theme:T3
+E5	Localization:T34 Theme:T4
+E6	Positive_regulation:T35 Theme:E7 Cause:T4
+E7	Gene_expression:T36 Theme:T5
+E8	Positive_regulation:T37 Theme:E10
+E9	Positive_regulation:T37 Theme:T8
+E10	Gene_expression:T38 Theme:T8
+E11	Negative_regulation:T39 Theme:E12
+E12	Positive_regulation:T40 Theme:T12 Site:T41
+E13	Positive_regulation:T42 Theme:E14 Cause:T17
+E14	Binding:T43 Theme:T19 Theme2:T20 Site2:T44
+E15	Positive_regulation:T45 Theme:E17
+E16	Positive_regulation:T45 Theme:E17 Cause:T23
+E17	Gene_expression:T46 Theme:T24
+E18	Positive_regulation:T47 Theme:E19 Cause:T25
+E19	Gene_expression:T48 Theme:T26
+E20	Binding:T49 Theme:T27 Theme2:T28 Site2:T50
+E21	Positive_regulation:T51 Theme:E20 Cause:E22
+E22	Positive_regulation:T52 Theme:T29
+R1	Protein-Component Arg1:T20 Arg2:T44
+
+T53	Entity 733 755	translation start site
+R2	Protein-Component  Arg1:T12 Arg2:T53
+R3	Protein-Component Arg1:T10 Arg2:T53
+T54	Entity 1830 1840	NF-kappa B
+R4	Subunit-Complex  Arg1:T27 Arg2:T54
+T55	Entity 1557 1578	14-amino-acid peptide
+R5	Protein-Component  Arg1:T22 Arg2:T55
+T56	Entity 828 854	downstream NF-kappa B site
+R6	Protein-Component  Arg1:T12 Arg2:T56
+T57	Entity 1600 1612	NH2 terminus
+R7	Protein-Component  Arg1:T22 Arg2:T57
+T58	Entity 691 715	upstream NF-kappa B site
+R8	Protein-Component  Arg1:T12 Arg2:T58
+T59	Entity 1441 1451	NF-kappa B
+R9	Subunit-Complex  Arg1:T18 Arg2:T59
+T60	Entity 1859 1885	downstream NF-kappa B site
+R10	Protein-Component  Arg1:T28 Arg2:T60
+T61	Entity 1507 1515	promoter
+R11	Protein-Component  Arg1:T20 Arg2:T61
+T62	Entity 1535 1553	activation peptide
+R12	Protein-Component  Arg1:T22 Arg2:T62
+T63	Entity 607 615	promoter
+R13	Protein-Component  Arg1:T10 Arg2:T63
+R14	Protein-Component Arg1:T12 Arg2:T41
+T64	Entity 21 30	homodimer
+R15	Subunit-Complex  Arg1:T2 Arg2:T64
+R16	Protein-Component Arg1:T28 Arg2:T50
+T65	Entity 856 866	-223 bases
+R17	Protein-Component  Arg1:T12 Arg2:T65
+T66	Entity 876 898	translation start site
+R18	Protein-Component  Arg1:T12 Arg2:T66

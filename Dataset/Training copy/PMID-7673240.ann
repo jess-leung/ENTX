@@ -1,0 +1,44 @@
+T1	Protein 34 47	interleukin 2
+T2	Protein 109 112	Sp1
+T3	Protein 117 122	EGR-1
+T4	Protein 143 156	interleukin 2
+T5	Protein 158 162	IL-2
+T6	Protein 362 366	IL-2
+T7	Protein 460 464	IL-2
+T8	Protein 751 754	Sp1
+T9	Protein 803 808	EGR-1
+T10	Protein 853 857	IL-2
+T11	Protein 864 867	Sp1
+T12	Protein 910 914	IL-2
+T13	Protein 945 950	EGR-1
+T14	Protein 1043 1047	IL-2
+T15	Protein 1137 1141	IL-2
+T16	Protein 1219 1223	IL-2
+*	Equiv T4 T5
+T17	Entity 2 20	regulatory element
+T18	Entity 53 61	promoter
+T19	Entity 67 79	binding site
+T20	Entity 367 375	promoter
+T21	Entity 430 448	regulatory element
+T22	Entity 465 473	promoter
+T23	Entity 510 558	nuclear factor of activated T cell (NFAT) domain
+T24	Entity 584 618	zinc finger protein binding region
+T25	Entity 620 623	ZIP
+T26	Entity 1007 1015	ZIP site
+T27	Entity 1086 1089	ZIP
+T28	Entity 1094 1112	NFAT binding sites
+T29	Entity 1142 1150	promoter
+T30	Entity 1206 1214	ZIP site
+T31	Entity 1224 1232	promoter
+R1	Protein-Component Arg1:T1 Arg2:T19
+R2	Protein-Component Arg1:T1 Arg2:T17
+R3	Protein-Component Arg1:T1 Arg2:T18
+R4	Protein-Component Arg1:T6 Arg2:T20
+R5	Protein-Component Arg1:T7 Arg2:T21
+R6	Protein-Component Arg1:T7 Arg2:T22
+R7	Protein-Component Arg1:T15 Arg2:T28
+R8	Protein-Component Arg1:T15 Arg2:T27
+R9	Protein-Component Arg1:T14 Arg2:T26
+R10	Protein-Component Arg1:T15 Arg2:T29
+R11	Protein-Component Arg1:T16 Arg2:T30
+R12	Protein-Component Arg1:T16 Arg2:T31

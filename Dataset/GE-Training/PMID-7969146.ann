@@ -1,0 +1,34 @@
+T1	Protein 71 146	colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor
+T2	Protein 177 181	AML1
+T3	Protein 206 242	macrophage colony-stimulating factor
+T4	Protein 247 274	colony-stimulating factor 1
+T5	Protein 276 281	CSF-1
+T6	Protein 435 449	CSF-1 receptor
+T7	Protein 605 609	PU.1
+T8	Protein 859 863	PU.1
+T9	Protein 1396 1400	AML1
+T10	Protein 1859 1863	PU.1
+T11	Protein 1974 1988	CSF-1 receptor
+T12	Regulation 33 40	directs
+T13	Entity 147 155	promoter
+T14	Binding 160 165	binds
+T15	Gene_expression 417 427	expression
+T16	Regulation 453 462	regulated
+T17	Binding 1272 1280	contains
+T18	Regulation 1912 1934	in concert to regulate
+T19	Transcription 1953 1966	transcription
+E1	Regulation:T12 Theme:T1 Site:T13
+E2	Binding:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T6
+E4	Regulation:T16 Theme:E3
+E5	Binding:T17 Theme:T9
+E6	Regulation:T18 Theme:E7 Cause:T10
+E7	Transcription:T19 Theme:T11
+M1	Speculation E1
+M2	Speculation E2
+
+T20	Entity 1265 1271	Mono B
+R1	Subunit-Complex  Arg1:T9 Arg2:T20
+T21	Entity 498 522	tissue-specific promoter
+R2	Protein-Component  Arg1:T6 Arg2:T21
+R3	Protein-Component Arg1:T1 Arg2:T13

@@ -1,0 +1,36 @@
+T1	Protein 37 51	p70(S6)-kinase
+T2	Protein 66 71	IL-10
+T3	Protein 108 112	gp41
+T4	Protein 214 218	gp41
+T5	Protein 305 319	interleukin-10
+T6	Protein 321 326	IL-10
+T7	Protein 455 459	gp41
+T8	Protein 468 473	IL-10
+T9	Protein 583 587	gp41
+T10	Protein 729 733	gp41
+T11	Protein 742 747	IL-10
+T12	Protein 786 790	gp41
+T13	Protein 915 920	IL-10
+T14	Protein 948 952	gp41
+T15	Protein 1134 1139	IL-10
+T16	Protein 1154 1158	gp41
+T17	Protein 1337 1341	gp41
+T18	Protein 1350 1355	IL-10
+*	Equiv T5 T6
+T19	Entity 236 256	extracellular domain
+T20	Entity 554 558	cAMP
+T21	Entity 563 572	NF-kappaB
+T22	Entity 596 600	cAMP
+T23	Entity 681 698	adenylate cyclase
+T24	Entity 811 820	NF-kappaB
+T25	Entity 855 864	NF-kappaB
+T26	Entity 878 907	main NF-kappaB-binding site 2
+T27	Entity 883 892	NF-kappaB
+T28	Entity 921 929	promoter
+T29	Entity 1093 1108	pertussis toxin
+T30	Entity 1399 1408	NF-kappaB
+T31	Entity 1488 1505	adenylate cyclase
+T32	Entity 1510 1525	pertussis-toxin
+R1	Protein-Component Arg1:T4 Arg2:T19
+R2	Protein-Component Arg1:T13 Arg2:T26
+R3	Protein-Component Arg1:T13 Arg2:T28

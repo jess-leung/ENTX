@@ -1,0 +1,11 @@
+T1	Protein 41 45	CD34
+T2	Protein 360 364	CD34
+T3	Protein 460 464	CD34
+T4	Protein 605 632	tumor necrosis factor alpha
+T5	Protein 634 647	interleukin-3
+T6	Protein 653 701	granulocyte-macrophage colony-stimulating factor
+T7	Protein 772 776	CD34
+T8	Gene_expression 486 493	express
+E1	Gene_expression:T8 Theme:T4
+E2	Gene_expression:T8 Theme:T5
+E3	Gene_expression:T8 Theme:T6

@@ -1,0 +1,18 @@
+T1	Protein 533 536	p40
+T2	Protein 608 633	latent membrane protein 1
+T3	Protein 635 639	LMP1
+T4	Protein 673 676	p40
+T5	Protein 681 684	p35
+T6	Protein 757 760	p40
+T7	Protein 812 816	LMP1
+T8	Protein 884 887	p40
+T9	Protein 1058 1062	LMP1
+*	Equiv T2 T3
+T10	Entity 0 14	Interleukin-12
+T11	Entity 90 109	interleukin (IL)-12
+T12	Entity 231 236	IL-12
+T13	Entity 334 339	IL-12
+T14	Entity 396 401	IL-12
+T15	Entity 765 768	p70
+T16	Entity 904 930	nuclear factor (NF)-kappaB
+T17	Entity 1021 1026	IL-12

@@ -1,0 +1,40 @@
+T1	Protein 0 13	Interleukin 4
+T2	Protein 114 130	interferon-gamma
+T3	Protein 248 262	Janus kinase 3
+T4	Protein 267 280	interleukin-4
+T5	Protein 330 334	IL-4
+T6	Protein 379 388	IFN-gamma
+T7	Protein 521 525	IL-4
+T8	Protein 622 626	IL-4
+T9	Protein 632 636	IL-4
+T10	Protein 778 782	IL-4
+T11	Protein 1020 1029	IL-4 Stat
+T12	Protein 1045 1050	Stat6
+T13	Protein 1131 1135	IL-4
+T14	Protein 1199 1203	IL-4
+T15	Protein 1219 1233	Janus kinase 3
+T16	Protein 1235 1239	JAK3
+T17	Protein 1283 1287	JAK3
+T18	Protein 1293 1297	IL-4
+T19	Protein 1376 1385	IFN-gamma
+T20	Protein 1436 1440	IL-4
+T21	Protein 1510 1514	IL-4
+T22	Protein 1522 1526	IL-4
+T23	Protein 1555 1559	JAK3
+T24	Protein 1575 1579	IL-4
+*	Equiv T11 T12
+*	Equiv T16 T15
+T25	Positive_regulation 1204 1211	induced
+T26	Positive_regulation 1265 1279	Cotransfection
+T27	Gene_expression 1265 1279	Cotransfection
+T28	Binding 1420 1430	comigrated
+T29	Positive_regulation 1542 1551	activated
+T30	Positive_regulation 1560 1574	in response to
+E1	Positive_regulation:T25 Theme:T16 Cause:T14
+E2	Positive_regulation:T26 Theme:E5
+E3	Positive_regulation:T26 Theme:E4
+E4	Gene_expression:T27 Theme:T18
+E5	Gene_expression:T27 Theme:T17
+E6	Binding:T28 Theme:T20
+E7	Positive_regulation:T29 Theme:T21 Cause:T23
+E8	Positive_regulation:T30 Theme:E7

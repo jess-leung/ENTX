@@ -1,0 +1,34 @@
+T1	Protein 61 65	MAD3
+T2	Protein 100 113	interleukin-2
+T3	Protein 115 119	IL-2
+T4	Protein 492 496	IL-2
+T5	Protein 638 642	IL-2
+T6	Protein 692 695	OAP
+T7	Protein 700 705	Oct-1
+T8	Protein 930 934	MAD3
+*	Equiv T2 T3
+T9	Entity 0 11	Calcineurin
+T10	Entity 83 93	NF-kappa B
+T11	Entity 121 129	promoter
+T12	Entity 162 203	T cell receptor (TcR) responsive elements
+T13	Entity 222 231	promoters
+T14	Entity 346 357	Calcineurin
+T15	Entity 497 505	promoter
+T16	Entity 554 565	calcineurin
+T17	Entity 638 660	IL-2 promoter elements
+T18	Entity 661 666	IL-2A
+T19	Entity 711 716	IL-2E
+T20	Entity 815 843	NF-kappa B-dependent element
+T21	Entity 815 825	NF-kappa B
+T22	Entity 845 856	Calcineurin
+T23	Entity 872 890	NF-kappa B element
+T24	Entity 872 882	NF-kappa B
+T25	Entity 952 962	NF-kappa B
+T26	Entity 1005 1015	NF-kappa B
+T27	Entity 1305 1316	calcineurin
+R1	Protein-Component Arg1:T2 Arg2:T12
+R2	Protein-Component Arg1:T2 Arg2:T11
+R3	Protein-Component Arg1:T4 Arg2:T15
+R4	Protein-Component Arg1:T5 Arg2:T18
+R5	Protein-Component Arg1:T5 Arg2:T19
+R6	Protein-Component Arg1:T5 Arg2:T17

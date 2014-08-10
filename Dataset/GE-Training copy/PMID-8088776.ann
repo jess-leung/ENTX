@@ -1,0 +1,17 @@
+T1	Protein 38 43	GATA3
+T2	Protein 51 56	GATA3
+T3	Protein 249 254	GATA3
+T4	Protein 325 330	GATA3
+T5	Protein 360 365	GATA3
+T6	Protein 435 440	GATA3
+T7	Protein 519 524	GATA1
+T8	Protein 619 624	GATA3
+T9	Protein 921 926	GATA3
+T10	Gene_expression 14 24	expression
+T11	Gene_expression 105 114	expressed
+T12	Binding 213 220	binding
+T13	Regulation 260 270	regulation
+E1	Gene_expression:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T2
+E3	Binding:T12 Theme:T2
+E4	Regulation:T13 Theme:T3

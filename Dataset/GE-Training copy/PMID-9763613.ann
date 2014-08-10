@@ -1,0 +1,27 @@
+T1	Protein 23 57	p75 tumor necrosis factor receptor
+T2	Protein 59 67	p75TNF-R
+T3	Protein 111 128	lymphotoxin alpha
+T4	Protein 137 145	p55TNF-R
+T5	Protein 210 244	p75 tumor necrosis factor receptor
+T6	Protein 246 254	p75TNF-R
+T7	Protein 589 597	p75TNF-R
+T8	Protein 904 921	lymphotoxin alpha
+T9	Protein 930 938	p55TNF-R
+T10	Protein 1067 1075	p75TNF-R
+*	Equiv T1 T2
+*	Equiv T6 T5
+T11	Positive_regulation 183 191	enhanced
+T12	Gene_expression 192 202	production
+T13	Gene_expression 565 575	production
+T14	Regulation 859 879	evolve independently
+T15	Positive_regulation 1058 1066	enhanced
+T16	Gene_expression 1076 1086	production
+E1	Positive_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T6
+E3	Gene_expression:T13 Theme:T7
+E4	Regulation:T14 Theme:E3 Cause:T9
+E5	Regulation:T14 Theme:E3
+E6	Regulation:T14 Theme:E3 Cause:T8
+E7	Positive_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T10
+M1	Negation E5
